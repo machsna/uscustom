@@ -679,7 +679,7 @@
 			<key code="24" output="≠"/><!--⇪⌥=-->
 			<key code="25" action="⇪⌥9"/><!--⇪⌥9-->
 			<key code="26" output="¶"/><!--⇪⌥7-->
-			<key code="27" action="⇪⌥–"/><!--⇪⌥- -->
+			<key code="27" action="⇪⌥-"/><!--⇪⌥- -->
 			<key code="28" action="⇪⌥8"/><!--⇪⌥8-->
 			<key code="29" output="‚"/><!--⇪⌥0-->
 			<key code="30" action="⇪⌥]"/><!--⇪⌥]-->
