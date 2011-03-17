@@ -446,7 +446,7 @@
 			<key code="11" output="∫"/><!--⌥b-->
 			<key code="12" output="œ"/><!--⌥q-->
 			<key code="13" output="∑"/><!--⌥w-->
-			<key code="14" action="⌥e"/><!--⌥e-->
+			<key code="14" output="´"/><!--⌥e-->
 			<key code="15" output="®"/><!--⌥r-->
 			<key code="16" output="¥"/><!--⌥y-->
 			<key code="17" output="†"/><!--⌥t-->
@@ -464,9 +464,9 @@
 			<key code="29" output="º"/><!--⌥0-->
 			<key code="30" output="‘"/><!--⌥]-->
 			<key code="31" output="ø"/><!--⌥o-->
-			<key code="32" action="⌥u"/><!--⌥u-->
+			<key code="32" output="¨"/><!--⌥u-->
 			<key code="33" output="“"/><!--⌥[-->
-			<key code="34" action="⌥i"/><!--⌥i-->
+			<key code="34" output="ˆ"/><!--⌥i-->
 			<key code="35" output="π"/><!--⌥p-->
 			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
 			<key code="37" output="¬"/><!--⌥l-->
@@ -477,12 +477,12 @@
 			<key code="42" output="«"/><!--⌥\-->
 			<key code="43" output="≤"/><!--⌥,-->
 			<key code="44" output="÷"/><!--⌥/-->
-			<key code="45" action="⌥n"/><!--⌥n-->
+			<key code="45" output="˜"/><!--⌥n-->
 			<key code="46" output="µ"/><!--⌥m-->
 			<key code="47" output="≥"/><!--⌥.-->
 			<key code="48" output="&#x0009;"/><!--&#x0009; : HORIZONTAL TABULATION-->
 			<key code="49" output=" "/><!--⌥ -->
-			<key code="50" action="⌥`"/><!--⌥`-->
+			<key code="50" output="`"/><!--⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
 			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
