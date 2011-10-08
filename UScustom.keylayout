@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2010-08-20-->
-	<!--Copyright: Copyleft 2010 j. 'mach' wust-->
+	<!--U.S. custom keyboard layout, version 2011-10-08-->
+	<!--Copyright: Copyleft 2010-2011 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
 		published by the Free Software Foundation, either version 3 of
@@ -1930,6 +1930,7 @@
 		</action><!--क-->
 		<action id="⇪⌥r">
 			<when state="№" output="ɹ"/>
+			<when state="ʔ" output="ꝛ"/>
 			<when state="none" output="®"/>
 		</action><!--क-->
 		<action id="⇪⌥y">
@@ -1951,6 +1952,7 @@
 		</action><!--क-->
 		<action id="⇪⌥R">
 			<when state="№" output="ʁ"/>
+			<when state="ʔ" output="Ꝛ"/>
 			<when state="none" output="‰"/>
 		</action><!--क-->
 		<action id="⇪⌥Z">
@@ -4452,6 +4454,7 @@
 			<when state="№" output="Ʀ"/>
 			<when state="№;⇪⌥" output="ʁ"/>
 			<when state="ʔ" output="Ɽ"/>
+			<when state="ʔ;⇪⌥" output="Ꝛ"/>
 			<when state="⇪," output="Ŕ"/>
 			<when state="⇪⌥" output="‰"/>
 			<when state="mod²" output="ᵣ"/>
@@ -6694,6 +6697,7 @@
 			<when state="№" output="ʀ"/>
 			<when state="№;⇪⌥" output="ɹ"/>
 			<when state="ʔ" output="ɽ"/>
+			<when state="ʔ;⇪⌥" output="ꝛ"/>
 			<when state="⇪⌥" output="®"/>
 			<when state="mod¹" output="ͬ"/>
 			<when state="mod²" output="ʳ"/>
