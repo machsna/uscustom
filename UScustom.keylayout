@@ -53,7 +53,7 @@
 		the characters Ḉḉ had to be inserted manually afterwards, and also check if there were any
 		precomposed acute-characters-->
 	<!--It was built according to the specifications at "http://developer.apple.com/technotes/tn2002/tn2056.html"-->
-<keyboard group="0" id="16380" name="U.S. custom">
+<keyboard group="0" id="16002" name="U.S. custom">
 	<layouts>
 		<layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI"/>
 		<layout first="18" last="18" modifiers="commonModifiers" mapSet="JIS"/>
