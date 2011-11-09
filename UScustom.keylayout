@@ -4075,6 +4075,7 @@
 			<when state="№" output="Ŋ"/>
 			<when state="ʔ" output="Ɲ"/>
 			<when state="⌥n" output="Ñ"/>
+			<when state="⇪;" output="Ñ"/>
 			<when state="⇪⌥" output="̃"/>
 			<when state="mod³" next="N_ligature"/>
 		<!--क-->
@@ -6308,6 +6309,7 @@
 			<when state="№" output="ŋ"/>
 			<when state="ʔ" output="ɲ"/>
 			<when state="⌥n" output="ñ"/>
+			<when state="⇪;" output="ñ"/>
 			<when state="⇪⌥" next="tilde"/>
 			<when state="mod²" output="ⁿ"/>
 			<when state="mod³" next="n_ligature"/>
