@@ -3645,8 +3645,7 @@
 			<when state="№" output="Ƕ"/>
 			<when state="№;⇪⌥" output="Ⱶ"/>
 			<when state="ʔ;⇪⌥" output="Ⱨ"/>
-			<when state="⇪;" output="Ḫ"/>
-			<when state="⇪`" output="Ḫ"/>
+			<when state="⇪;" output="Ȟ"/>
 			<when state="⇪⌥" output="̱"/>
 		<!--क-->
 			<when state="none" output="H"/>
@@ -5864,8 +5863,7 @@
 			<when state="№;⇪⌥" output="ⱶ"/>
 			<when state="ʔ" output="ɦ"/>
 			<when state="ʔ;⇪⌥" output="ⱨ"/>
-			<when state="⇪;" output="ḫ"/>
-			<when state="⇪`" output="ḫ"/>
+			<when state="⇪;" output="ȟ"/>
 			<when state="⇪⌥" next="line_below"/>
 			<when state="mod¹" output="ͪ"/>
 			<when state="mod²" output="ʰ"/>
