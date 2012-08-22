@@ -1311,8 +1311,8 @@
 			<when state="№;⇪⌥" output="̩"/>
 			<when state="ʔ" next="ʔ;⇪⌥"/>
 			<when state="⇪⌥" next="mod²"/>
-			<when state="mod¹" output="§"/>
-			<when state="mod²" output="§"/>
+			<when state="mod²" next="mod²;⇪⌥"/>
+			<when state="mod²;⇪⌥" output="§"/>
 			<when state="mod³" output="§"/>
 			<when state="D_ligature" next="D_ligature;⇪⌥"/>
 			<when state="d_ligature" next="d_ligature;⇪⌥"/>
@@ -1387,10 +1387,12 @@
 		</action><!--क-->
 		<action id="⇪±">
 			<when state="⇪⌥" next="mod³"/>
-			<when state="none" next="mod¹"/>
+			<when state="⎄" output="±"/>
+			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="⇪⌥§">
 			<when state="№" output="̩"/>
+			<when state="mod²" output="§"/>
 			<when state="none" next="mod²"/>
 		</action><!--क-->
 		<action id="⇪⌥6">
@@ -1408,6 +1410,7 @@
 			<when state="macron" next="macron+grave"/>
 		</action><!--क-->
 		<action id="⇪⌥±">
+			<when state="mod³" output="±"/>
 			<when state="none" next="mod³"/>
 		</action><!--क-->
 		<action id="⇪⌥:">
@@ -1418,6 +1421,7 @@
 		</action><!--क-->
 		<action id="⇪⌥a">
 			<when state="№" output="ɑ"/>
+			<when state="mod²" output="ͣ"/>
 			<when state="none" next="macron"/>
 			<when state="diaeresis" next="diaeresis+macron"/>
 			<when state="dot" next="dot+macron"/>
@@ -1433,12 +1437,14 @@
 			<when state="dot_below" next="breve+dot_below"/>
 		</action><!--क-->
 		<action id="⇪⌥c">
+			<when state="mod²" output="ͨ"/>
 			<when state="none" next="cedilla"/>
 			<when state="acute" next="cedilla+acute"/>
 			<when state="breve" next="cedilla+breve"/>
 		</action><!--क-->
 		<action id="⇪⌥e">
 			<when state="№" output="ɛ"/>
+			<when state="mod²" output="ͤ"/>
 			<when state="none" next="acute"/>
 			<when state="acute" next="double_acute"/>
 			<when state="breve" next="breve+acute"/>
@@ -1453,9 +1459,11 @@
 		<action id="⇪⌥h">
 			<when state="№" output="ⱶ"/>
 			<when state="ʔ" output="ⱨ"/>
+			<when state="mod²" output="ͪ"/>
 			<when state="none" next="line_below"/>
 		</action><!--क-->
 		<action id="⇪⌥i">
+			<when state="mod²" output="ͥ"/>
 			<when state="none" next="horn"/>
 			<when state="dot_below" next="horn+dot_below"/>
 		</action><!--क-->
@@ -1471,6 +1479,7 @@
 			<when state="acute" next="stroke+acute"/>
 		</action><!--क-->
 		<action id="⇪⌥m">
+			<when state="mod²" output="ͫ"/>
 			<when state="none" next="ogonek"/>
 			<when state="macron" next="ogonek+macron"/>
 		</action><!--क-->
@@ -1484,6 +1493,7 @@
 			<when state="none" next="comma_below"/>
 		</action><!--क-->
 		<action id="⇪⌥u">
+			<when state="mod²" output="ͧ"/>
 			<when state="none" next="diaeresis"/>
 			<when state="acute" next="diaeresis+acute"/>
 			<when state="grave" next="diaeresis+grave"/>
@@ -1491,6 +1501,7 @@
 			<when state="tilde" next="tilde+diaeresis"/>
 		</action><!--क-->
 		<action id="⇪⌥v">
+			<when state="mod²" output="ͮ"/>
 			<when state="none" next="caron"/>
 			<when state="diaeresis" next="diaeresis+caron"/>
 		</action><!--क-->
@@ -1503,6 +1514,7 @@
 		</action><!--क-->
 		<action id="⇪⌥x">
 			<when state="№" output="χ"/>
+			<when state="mod²" output="ͯ"/>
 			<when state="none" next="dot_below"/>
 			<when state="breve" next="breve+dot_below"/>
 			<when state="circumflex" next="circumflex+dot_below"/>
@@ -1563,7 +1575,6 @@
 			<when state="№" output="⟩"/>
 			<when state="№;⇪⌥" output="ʻ"/>
 			<when state="⇪⌥" output="‘"/>
-			<when state="mod¹" output="‚"/>
 			<when state="mod²" output="‚"/>
 			<when state="none" next="⇪]"/>
 		</action><!--क-->
@@ -1589,15 +1600,13 @@
 			<when state="№" output="↖"/>
 			<when state="ʔ" output="☜"/>
 			<when state="⇪⌥" output="≤"/>
-			<when state="mod¹" output="←"/>
-			<when state="mod²" output="⇦"/>
+			<when state="mod²" output="←"/>
 			<when state="none" next="⇪,"/>
 		</action><!--क-->
 <!--poor output keys ('state="none" output=' and maybe 'state="some_state" next='); ख-->
 		<action id="1">
 			<when state="⌥" output="¡"/>
 			<when state="⇪⌥" output="¡"/>
-			<when state="mod¹" output="⅟"/>
 			<when state="mod²" output="¹"/>
 			<when state="none" output="1"/>
 		</action><!--क-->
@@ -1605,7 +1614,6 @@
 			<when state="⌥" output="™"/>
 			<when state="№" output="ƨ"/>
 			<when state="⇪⌥" output="™"/>
-			<when state="mod¹" output="½"/>
 			<when state="mod²" output="²"/>
 			<when state="none" output="2"/>
 			<when state="stroke" output="ƻ"/>
@@ -1615,7 +1623,6 @@
 			<when state="⌥" output="£"/>
 			<when state="№" output="ɛ"/>
 			<when state="⇪⌥" output="£"/>
-			<when state="mod¹" output="⅓"/>
 			<when state="mod²" output="³"/>
 			<when state="none" output="3"/>
 		<!--क-->
@@ -1623,7 +1630,6 @@
 		<action id="4">
 			<when state="⌥" output="¢"/>
 			<when state="⇪⌥" output="¢"/>
-			<when state="mod¹" output="¼"/>
 			<when state="mod²" output="⁴"/>
 			<when state="none" output="4"/>
 		</action><!--क-->
@@ -1631,9 +1637,7 @@
 			<when state="⌥" output="∞"/>
 			<when state="№" output="ƽ"/>
 			<when state="⇪⌥" output="§"/>
-			<when state="mod¹" output="⅕"/>
 			<when state="mod²" output="⁵"/>
-			<when state="mod³" output="⅗"/>
 			<when state="none" output="5"/>
 		<!--क-->
 		</action><!--क-->
@@ -1641,7 +1645,6 @@
 			<when state="⌥" output="§"/>
 			<when state="№" output="ƅ"/>
 			<when state="⇪⌥" next="circumflex"/>
-			<when state="mod¹" output="⅙"/>
 			<when state="mod²" output="⁶"/>
 			<when state="dot_below;⇪⌥" next="circumflex+dot_below"/>
 			<when state="none" output="6"/>
@@ -1660,9 +1663,7 @@
 			<when state="№" output="ȣ"/>
 			<when state="№;⇪⌥" output="̥"/>
 			<when state="⇪⌥" output="•"/>
-			<when state="mod¹" output="⅛"/>
 			<when state="mod²" output="⁸"/>
-			<when state="mod³" output="⅝"/>
 			<when state="none" output="8"/>
 		<!--क-->
 		</action><!--क-->
@@ -1676,7 +1677,6 @@
 		<action id="0">
 			<when state="⌥" output="º"/>
 			<when state="⇪⌥" output="º"/>
-			<when state="mod¹" output="%"/>
 			<when state="mod²" output="⁰"/>
 			<when state="none" output="0"/>
 		</action><!--क-->
@@ -1685,9 +1685,8 @@
 			<when state="№" output="­"/>
 			<when state="№;⇪⌥" output="‑"/>
 			<when state="⇪⌥" output="–"/>
-			<when state="mod¹" output="―"/>
 			<when state="mod²" output="‐"/>
-			<when state="mod³" output="͡"/>
+			<when state="mod³" output="―"/>
 			<when state="none" output="-"/>
 		</action><!--क-->
 		<action id="=">
@@ -1695,7 +1694,6 @@
 			<when state="№" output="&#x200C;"/><!--ZERO WIDTH NON-JOINER-->
 			<when state="№;⇪⌥" output="⸗"/>
 			<when state="⇪⌥" output="≠"/>
-			<when state="mod¹" output="&#x200C;"/><!--ZERO WIDTH NON-JOINER-->
 			<when state="none" output="="/>
 		</action><!--क-->
 		<action id="[">
@@ -1703,7 +1701,6 @@
 			<when state="№" output="⟨"/>
 			<when state="№;⇪⌥" output="ʽ"/>
 			<when state="⇪⌥" output="“"/>
-			<when state="mod¹" output="„"/>
 			<when state="mod²" output="„"/>
 			<when state="none" output="["/>
 		</action><!--क-->
@@ -1718,7 +1715,6 @@
 		<action id="\">
 			<when state="⌥" output="«"/>
 			<when state="⇪⌥" output="«"/>
-			<when state="mod¹" output="‹"/>
 			<when state="mod²" output="‹"/>
 			<when state="none" output="\"/>
 		</action><!--क-->
@@ -1737,15 +1733,13 @@
 			<when state="№" output="↘"/>
 			<when state="ʔ" output="☞"/>
 			<when state="⇪⌥" output="≥"/>
-			<when state="mod¹" output="→"/>
-			<when state="mod²" output="⇨"/>
+			<when state="mod²" output="→"/>
 			<when state="none" output="."/>
 		</action><!--क-->
 		<action id="/">
 			<when state="⌥" output="÷"/>
 			<when state="№" output="ɂ"/>
 			<when state="⇪⌥" output="÷"/>
-			<when state="mod¹" output="¿"/>
 			<when state="mod²" output="¿"/>
 			<when state="none" output="/"/>
 		</action><!--क-->
@@ -1756,7 +1750,6 @@
 		<action id="!"><!--⇧1-->
 			<when state="⌥" output="⁄"/>
 			<when state="⇪⌥" output="⁄"/>
-			<when state="mod¹" output="⁄"/>
 			<when state="mod²" output="₁"/>
 			<when state="none" output="!"/>
 		</action><!--क-->
@@ -1771,14 +1764,12 @@
 			<when state="⌥" output="‹"/>
 			<when state="№" output="Ɛ"/>
 			<when state="⇪⌥" output="‹"/>
-			<when state="mod¹" output="⅔"/>
 			<when state="mod²" output="₃"/>
 			<when state="none" output="#"/>
 		</action><!--क-->
 		<action id="$"><!--⇧4-->
 			<when state="⌥" output="›"/>
 			<when state="⇪⌥" output="›"/>
-			<when state="mod¹" output="¾"/>
 			<when state="mod²" output="₄"/>
 			<when state="none" output="$"/>
 		</action><!--क-->
@@ -1786,16 +1777,13 @@
 			<when state="⌥" output="ﬁ"/>
 			<when state="№" output="Ƽ"/>
 			<when state="⇪⌥" output="†"/>
-			<when state="mod¹" output="⅖"/>
 			<when state="mod²" output="₅"/>
-			<when state="mod³" output="⅘"/>
 			<when state="none" output="%"/>
 		</action><!--क-->
 		<action id="^"><!--⇧6-->
 			<when state="⌥" output="ﬂ"/>
 			<when state="№" output="Ƅ"/>
 			<when state="⇪⌥" output="̂"/>
-			<when state="mod¹" output="⅚"/>
 			<when state="mod²" output="₆"/>
 			<when state="none" output="^"/>
 		</action><!--क-->
@@ -1811,9 +1799,7 @@
 			<when state="№" output="Ȣ"/>
 			<when state="№;⇪⌥" output="̊"/>
 			<when state="⇪⌥" output="°"/>
-			<when state="mod¹" output="⅜"/>
 			<when state="mod²" output="₈"/>
-			<when state="mod³" output="⅞"/>
 			<when state="none" output="*"/>
 		</action><!--क-->
 		<action id="("><!--⇧9-->
@@ -1826,7 +1812,6 @@
 		<action id=")"><!--⇧0-->
 			<when state="⌥" output="‚"/>
 			<when state="⇪⌥" output="‚"/>
-			<when state="mod¹" output="‰"/>
 			<when state="mod²" output="₀"/>
 			<when state="none" output=")"/>
 		</action><!--क-->
@@ -1835,16 +1820,16 @@
 			<when state="№" output="‐"/>
 			<when state="№;⇪⌥" output="−"/>
 			<when state="⇪⌥" output="—"/>
-			<when state="mod¹" output="‒"/>
 			<when state="mod²" output="‑"/>
-			<when state="mod³" output="͜"/>
+			<when state="mod³" output="‒"/>
 			<when state="none" output="_"/>
 		</action><!--क-->
 		<action id="+"><!--⇧=-->
+			<when state="⎄" next="⎄;+"/>
+			<when state="⎄;+" output="#"/>
 			<when state="⌥" output="±"/>
 			<when state="№" output="&#x200D;"/><!--ZERO WIDTH JOINER-->
 			<when state="⇪⌥" output="±"/>
-			<when state="mod¹" output="&#x200D;"/><!--ZERO WIDTH JOINER-->
 			<when state="none" output="+"/>
 		</action><!--क-->
 		<action id="{"><!--⇧[-->
@@ -1868,7 +1853,6 @@
 			<when state="⌥" output="»"/>
 			<when state="№" output="¦"/>
 			<when state="⇪⌥" output="»"/>
-			<when state="mod¹" output="›"/>
 			<when state="mod²" output="›"/>
 			<when state="none" output="|"/>
 		</action><!--क-->
@@ -1884,8 +1868,7 @@
 			<when state="№" output="↙"/>
 			<when state="ʔ" output="☟"/>
 			<when state="⇪⌥" output="„"/>
-			<when state="mod¹" output="↓"/>
-			<when state="mod²" output="⇩"/>
+			<when state="mod²" output="↓"/>
 			<when state="none" output="&#x003c;"/>
 		</action><!--क-->
 		<action id="greater_than"><!--⇧.-->
@@ -1893,9 +1876,7 @@
 			<when state="№" output="↗"/>
 			<when state="ʔ" output="☝"/>
 			<when state="⇪⌥" next="ʔ"/>
-			<when state="mod¹" output="↑"/>
-			<when state="mod²" output="⇧"/>
-			<when state="mod³" output="⇪"/>
+			<when state="mod²" output="↑"/>
 			<when state="none" output="&#x003e;"/>
 		</action><!--क-->
 		<action id="?"><!--⇧/-->
@@ -1957,6 +1938,7 @@
 			<when state="none" output="©"/>
 		</action><!--क-->
 		<action id="⇪⌥r">
+			<when state="mod²" output="ͬ"/>
 			<when state="№" output="ɹ"/>
 			<when state="ʔ" output="ꝛ"/>
 			<when state="none" output="®"/>
@@ -1991,6 +1973,8 @@
 		</action><!--क-->
 <!--rich output keys [^A-Za-z] ('state="none" output=' and maybe 'state="some_state" next='); ख-->
 		<action id=" "><!--these will be combining diacritics if possible, unlike the terminators-->
+			<when state="⎄" next="⎄; "/>
+			<when state="⎄;'" output="'"/>
 			<when state="⌥" output=" "/>
 			<when state="№" output=" "/>
 			<when state="№;⇪⌥" output=" "/>
@@ -2068,7 +2052,6 @@
 			<when state="⌥i" output="ˆ"/>
 			<when state="⌥n" output="˜"/>
 			<when state="⌥u" output="¨"/>
-			<when state="mod¹" output="&#x200D;"/><!--ZERO WIDTH JOINER-->
 			<when state="none" output=" "/>
 			<when state="acute" output="´"/>
 			<when state="acute+dot" output="´̇"/>
@@ -2133,6 +2116,8 @@
 			<when state="tilde_below" output="˷"/>
 		</action><!--क-->
 		<action id="'">
+			<when state="⎄" next="⎄;'"/>
+			<when state="⎄; " output="'"/>
 			<when state="⌥" output="æ"/>
 			<when state="№" output="ʹ"/>
 			<when state="№;⇪⌥" output="ˈ"/>
@@ -2341,6 +2326,7 @@
 		</action><!--क-->
 		<action id="⇪⌥d">
 			<when state="ʔ" output="ɖ"/>
+			<when state="mod²" output="ͩ"/>
 			<when state="none" output="ð"/>
 			<when state="acute" output="ð́"/>
 			<when state="acute+dot" output="ð́̇"/>
@@ -2469,6 +2455,7 @@
 			<when state="tilde_below" output="ƒ̰"/>
 		</action><!--क-->
 		<action id="⇪⌥o">
+			<when state="mod²" output="ͦ"/>
 			<when state="⇪]" output="ǿ"/>
 			<when state="⇪;" output="ø̈"/>
 			<when state="⇪`" output="ø̀"/>
@@ -2672,6 +2659,7 @@
 		</action><!--क-->
 		<action id="⇪⌥t">
 			<when state="ʔ" output="ʈ"/>
+			<when state="mod²" output="ͭ"/>
 			<when state="none" output="þ"/>
 			<when state="acute" output="þ́"/>
 			<when state="acute+dot" output="þ́̇"/>
@@ -5206,8 +5194,8 @@
 			<when state="⇪`" output="à"/>
 			<when state="⇪," output="â"/>
 			<when state="⇪⌥" next="macron"/>
-			<when state="mod¹" output="ͣ"/>
 			<when state="mod²" output="ᵃ"/>
+			<when state="mod²;⇪⌥" output="ͣ"/>
 			<when state="diaeresis;⇪⌥" next="diaeresis+macron"/>
 			<when state="dot;⇪⌥" next="dot+macron"/>
 			<when state="dot_below;⇪⌥" next="macron+dot_below"/>
@@ -5359,8 +5347,8 @@
 			<when state="⇪;" output="č"/>
 			<when state="⇪`" output="č"/>
 			<when state="⇪⌥" next="cedilla"/>
-			<when state="mod¹" output="ͨ"/>
 			<when state="mod²" output="ᶜ"/>
+			<when state="mod²;⇪⌥" output="ͨ"/>
 			<when state="acute;⇪⌥" next="cedilla+acute"/>
 			<when state="cedilla;⇪⌥" next="cedilla+breve"/>
 		<!--क-->
@@ -5435,8 +5423,8 @@
 			<when state="⇪;" output="ð"/>
 			<when state="⇪`" output="ð"/>
 			<when state="⇪]" output="đ"/>
-			<when state="mod¹" output="ͩ"/>
 			<when state="mod²" output="ᵈ"/>
+			<when state="mod²;⇪⌥" output="ͩ"/>
 			<when state="mod³" next="d_ligature"/>
 				<when state="⇪⌥" output="ð"/>
 				<when state="acute;⇪⌥" output="ð́"/>
@@ -5577,8 +5565,8 @@
 			<when state="⇪`" output="è"/>
 			<when state="⇪," output="ê"/>
 			<when state="⇪⌥" next="acute"/>
-			<when state="mod¹" output="ͤ"/>
 			<when state="mod²" output="ᵉ"/>
+			<when state="mod²;⇪⌥" output="ͤ"/>
 			<when state="acute;⇪⌥" next="double_acute"/>
 			<when state="breve;⇪⌥" next="breve+acute"/>
 			<when state="cedilla;⇪⌥" next="cedilla+acute"/>
@@ -5865,8 +5853,8 @@
 			<when state="ʔ;⇪⌥" output="ⱨ"/>
 			<when state="⇪;" output="ȟ"/>
 			<when state="⇪⌥" next="line_below"/>
-			<when state="mod¹" output="ͪ"/>
 			<when state="mod²" output="ʰ"/>
+			<when state="mod²;⇪⌥" output="ͪ"/>
 		<!--क-->
 			<when state="none" output="h"/>
 			<when state="acute" output="h́"/>
@@ -5944,8 +5932,8 @@
 			<when state="⇪`" output="ì"/>
 			<when state="⇪," output="î"/>
 			<when state="⇪⌥" next="horn"/>
-			<when state="mod¹" output="ͥ"/>
 			<when state="mod²" output="ⁱ"/>
+			<when state="mod²;⇪⌥" output="ͥ"/>
 			<when state="mod³" next="i_ligature"/>
 			<when state="ﬀ_ligature" output="ﬃ"/>
 			<when state="f_ligature" output="ﬁ"/>
@@ -6235,8 +6223,8 @@
 			<when state="⌥" output="µ"/>
 			<when state="№" output="ɯ"/>
 			<when state="⇪⌥" next="ogonek"/>
-			<when state="mod¹" output="ͫ"/>
 			<when state="mod²" output="ᵐ"/>
+			<when state="mod²;⇪⌥" output="ͫ"/>
 			<when state="macron;⇪⌥" next="ogonek+macron"/>
 		<!--क-->
 			<when state="none" output="m"/>
@@ -6390,8 +6378,8 @@
 			<when state="⇪;" output="ö"/>
 			<when state="⇪`" output="ò"/>
 			<when state="⇪," output="ô"/>
-			<when state="mod¹" output="ͦ"/>
 			<when state="mod²" output="ᵒ"/>
+			<when state="mod²;⇪⌥" output="ͦ"/>
 				<when state="⇪⌥" output="ø"/>
 				<when state="acute;⇪⌥" output="ǿ"/>
 				<when state="acute+dot;⇪⌥" output="ǿ̇"/>
@@ -6727,8 +6715,8 @@
 			<when state="ʔ" output="ɽ"/>
 			<when state="ʔ;⇪⌥" output="ꝛ"/>
 			<when state="⇪⌥" output="®"/>
-			<when state="mod¹" output="ͬ"/>
 			<when state="mod²" output="ʳ"/>
+			<when state="mod²;⇪⌥" output="ͬ"/>
 		<!--क-->
 			<when state="none" output="r"/>
 			<when state="acute" output="ŕ"/>
@@ -6935,8 +6923,8 @@
 			<when state="ʔ;⇪⌥" output="ʈ"/>
 			<when state="⇪;" output="þ"/>
 			<when state="⇪`" output="þ"/>
-			<when state="mod¹" output="ͭ"/>
 			<when state="mod²" output="ᵗ"/>
+			<when state="mod²;⇪⌥" output="ͭ"/>
 			<when state="ſ_ligature" output="ﬅ"/>
 			<when state="s_ligature" output="ﬆ"/>
 				<when state="⇪⌥" output="þ"/>
@@ -7078,8 +7066,8 @@
 			<when state="⇪`" output="ù"/>
 			<when state="⇪," output="û"/>
 			<when state="⇪⌥" next="diaeresis"/>
-			<when state="mod¹" output="ͧ"/>
 			<when state="mod²" output="ᵘ"/>
+			<when state="mod²;⇪⌥" output="ͧ"/>
 			<when state="acute;⇪⌥" next="diaeresis+acute"/>
 			<when state="grave;⇪⌥" next="diaeresis+grave"/>
 			<when state="macron;⇪⌥" next="macron+diaeresis"/>
@@ -7153,8 +7141,8 @@
 			<when state="№" output="ʌ"/>
 			<when state="ʔ" output="ʋ"/>
 			<when state="⇪⌥" next="caron"/>
-			<when state="mod¹" output="ͮ"/>
 			<when state="mod²" output="ᵛ"/>
+			<when state="mod²;⇪⌥" output="ͮ"/>
 			<when state="diaeresis;⇪⌥" next="diaeresis+caron"/>
 		<!--क-->
 			<when state="none" output="v"/>
@@ -7301,8 +7289,8 @@
 			<when state="№;⇪⌥" output="χ"/>
 			<when state="ʔ" output="ɖ"/>
 			<when state="⇪⌥" next="dot_below"/>
-			<when state="mod¹" output="ͯ"/>
 			<when state="mod²" output="ˣ"/>
+			<when state="mod²;⇪⌥" output="ͯ"/>
 			<when state="breve;⇪⌥" next="breve+dot_below"/>
 			<when state="circumflex;⇪⌥" next="circumflex+dot_below"/>
 			<when state="dot;⇪⌥" next="dot+dot_below"/>
@@ -7538,8 +7526,12 @@
 		<when state="ʔ" output="ʔ"/>
 			<when state="ʔ;⇪⌥" output="ʔ⌥"/>
 		<when state="⇪⌥" output="⌥"/>
-		<when state="mod¹" output="¹"/>
+		<when state="⎄" output="⎄"/>
+			<when state="⎄;+" output="+"/>
+			<when state="⎄;'" output="'"/>
+			<when state="⎄; " output=" "/>
 		<when state="mod²" output="²"/>
+			<when state="mod²;⇪⌥" output="²⌥"/>
 		<when state="mod³" output="³"/>
 		<when state="⌥`" output="`"/>
 		<when state="⌥e" output="´"/>
