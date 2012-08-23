@@ -219,13 +219,9 @@
 <Multi_key> <asciicircum> <underscore> <a> 	: "ª"   ordfeminine # FEMININE ORDINAL INDICATOR
 <Multi_key> <asciicircum> <underbar> <a> 	: "ª"   ordfeminine # FEMININE ORDINAL INDICATOR
 <Multi_key> <asciicircum> <2>    	: "²"   twosuperior # SUPERSCRIPT TWO
-<Multi_key> <asciicircum> <KP_Space> 	: "²"   twosuperior # SUPERSCRIPT TWO
-<Multi_key> <asciicircum> <KP_2> 	: "²"   twosuperior # SUPERSCRIPT TWO
 <Multi_key> <asciicircum> <3>    	: "³"   threesuperior # SUPERSCRIPT THREE
-<Multi_key> <asciicircum> <KP_3> 	: "³"   threesuperior # SUPERSCRIPT THREE
 <Multi_key> <m> <u>              	: "µ"   mu # MICRO SIGN
 <Multi_key> <asciicircum> <1>    	: "¹"   onesuperior # SUPERSCRIPT ONE
-<Multi_key> <asciicircum> <KP_1> 	: "¹"   onesuperior # SUPERSCRIPT ONE
 <Multi_key> <asciicircum> <underscore> <o> 	: "º"   masculine # MASCULINE ORDINAL INDICATOR
 <Multi_key> <asciicircum> <underbar> <o> 	: "º"   masculine # MASCULINE ORDINAL INDICATOR
 <Multi_key> <1> <4>              	: "¼"   onequarter # VULGAR FRACTION ONE QUARTER
@@ -260,7 +256,6 @@
 <Multi_key> <quotedbl> <O>       	: "Ö"   Odiaeresis # LATIN CAPITAL LETTER O WITH DIAERESIS
 <Multi_key> <x> <x>              	: "×"   multiply # MULTIPLICATION SIGN
 <Multi_key> <slash> <O>          	: "Ø"   Oslash # LATIN CAPITAL LETTER O WITH STROKE
-<Multi_key> <KP_Divide> <O>      	: "Ø"   Oslash # LATIN CAPITAL LETTER O WITH STROKE
 <Multi_key> <grave> <U>          	: "Ù"   Ugrave # LATIN CAPITAL LETTER U WITH GRAVE
 <Multi_key> <acute> <U>          	: "Ú"   Uacute # LATIN CAPITAL LETTER U WITH ACUTE
 <Multi_key> <apostrophe> <U>     	: "Ú"   Uacute # LATIN CAPITAL LETTER U WITH ACUTE
@@ -299,7 +294,6 @@
 <Multi_key> <colon> <minus>      	: "÷"   division # DIVISION SIGN
 <Multi_key> <minus> <colon>      	: "÷"   division # DIVISION SIGN
 <Multi_key> <slash> <o>          	: "ø"   oslash # LATIN SMALL LETTER O WITH STROKE
-<Multi_key> <KP_Divide> <o>      	: "ø"   oslash # LATIN SMALL LETTER O WITH STROKE
 <Multi_key> <grave> <u>          	: "ù"   ugrave # LATIN SMALL LETTER U WITH GRAVE
 <Multi_key> <acute> <u>          	: "ú"   uacute # LATIN SMALL LETTER U WITH ACUTE
 <Multi_key> <apostrophe> <u>     	: "ú"   uacute # LATIN SMALL LETTER U WITH ACUTE
@@ -334,9 +328,7 @@
 <Multi_key> <c> <D>              	: "Ď"   U010E # LATIN CAPITAL LETTER D WITH CARON
 <Multi_key> <c> <d>              	: "ď"   U010F # LATIN SMALL LETTER D WITH CARON
 <Multi_key> <slash> <D>          	: "Đ"   U0110 # LATIN CAPITAL LETTER D WITH STROKE
-<Multi_key> <KP_Divide> <D>      	: "Đ"   U0110 # LATIN CAPITAL LETTER D WITH STROKE
 <Multi_key> <slash> <d>          	: "đ"   U0111 # LATIN SMALL LETTER D WITH STROKE
-<Multi_key> <KP_Divide> <d>      	: "đ"   U0111 # LATIN SMALL LETTER D WITH STROKE
 <Multi_key> <macron> <E>         	: "Ē"   U0112 # LATIN CAPITAL LETTER E WITH MACRON
 <Multi_key> <underscore> <E>     	: "Ē"   U0112 # LATIN CAPITAL LETTER E WITH MACRON
 <Multi_key> <macron> <e>         	: "ē"   U0113 # LATIN SMALL LETTER E WITH MACRON
@@ -368,9 +360,7 @@
 <Multi_key> <asciicircum> <H>    	: "Ĥ"   U0124 # LATIN CAPITAL LETTER H WITH CIRCUMFLEX
 <Multi_key> <asciicircum> <h>    	: "ĥ"   U0125 # LATIN SMALL LETTER H WITH CIRCUMFLEX
 <Multi_key> <slash> <H>          	: "Ħ"   U0126 # LATIN CAPITAL LETTER H WITH STROKE
-<Multi_key> <KP_Divide> <H>      	: "Ħ"   U0126 # LATIN CAPITAL LETTER H WITH STROKE
 <Multi_key> <slash> <h>          	: "ħ"   U0127 # LATIN SMALL LETTER H WITH STROKE
-<Multi_key> <KP_Divide> <h>      	: "ħ"   U0127 # LATIN SMALL LETTER H WITH STROKE
 <Multi_key> <asciitilde> <I>     	: "Ĩ"   U0128 # LATIN CAPITAL LETTER I WITH TILDE
 <Multi_key> <asciitilde> <i>     	: "ĩ"   U0129 # LATIN SMALL LETTER I WITH TILDE
 <Multi_key> <macron> <I>         	: "Ī"   U012A # LATIN CAPITAL LETTER I WITH MACRON
@@ -405,9 +395,7 @@
 <Multi_key> <c> <L>              	: "Ľ"   U013D # LATIN CAPITAL LETTER L WITH CARON
 <Multi_key> <c> <l>              	: "ľ"   U013E # LATIN SMALL LETTER L WITH CARON
 <Multi_key> <slash> <L>          	: "Ł"   U0141 # LATIN CAPITAL LETTER L WITH STROKE
-<Multi_key> <KP_Divide> <L>      	: "Ł"   U0141 # LATIN CAPITAL LETTER L WITH STROKE
 <Multi_key> <slash> <l>          	: "ł"   U0142 # LATIN SMALL LETTER L WITH STROKE
-<Multi_key> <KP_Divide> <l>      	: "ł"   U0142 # LATIN SMALL LETTER L WITH STROKE
 <Multi_key> <acute> <N>          	: "Ń"   U0143 # LATIN CAPITAL LETTER N WITH ACUTE
 <Multi_key> <apostrophe> <N>     	: "Ń"   U0143 # LATIN CAPITAL LETTER N WITH ACUTE
 <Multi_key> <acute> <n>          	: "ń"   U0144 # LATIN SMALL LETTER N WITH ACUTE
@@ -459,9 +447,7 @@
 <Multi_key> <c> <T>              	: "Ť"   U0164 # LATIN CAPITAL LETTER T WITH CARON
 <Multi_key> <c> <t>              	: "ť"   U0165 # LATIN SMALL LETTER T WITH CARON
 <Multi_key> <slash> <T>          	: "Ŧ"   U0166 # LATIN CAPITAL LETTER T WITH STROKE
-<Multi_key> <KP_Divide> <T>      	: "Ŧ"   U0166 # LATIN CAPITAL LETTER T WITH STROKE
 <Multi_key> <slash> <t>          	: "ŧ"   U0167 # LATIN SMALL LETTER T WITH STROKE
-<Multi_key> <KP_Divide> <t>      	: "ŧ"   U0167 # LATIN SMALL LETTER T WITH STROKE
 <Multi_key> <asciitilde> <U>     	: "Ũ"   U0168 # LATIN CAPITAL LETTER U WITH TILDE
 <Multi_key> <asciitilde> <u>     	: "ũ"   U0169 # LATIN SMALL LETTER U WITH TILDE
 <Multi_key> <macron> <U>         	: "Ū"   U016A # LATIN CAPITAL LETTER U WITH MACRON
@@ -495,17 +481,13 @@
 <Multi_key> <c> <Z>              	: "Ž"   U017D # LATIN CAPITAL LETTER Z WITH CARON
 <Multi_key> <c> <z>              	: "ž"   U017E # LATIN SMALL LETTER Z WITH CARON
 <Multi_key> <slash> <b>          	: "ƀ"   U0180 # LATIN SMALL LETTER B WITH STROKE
-<Multi_key> <KP_Divide> <b>      	: "ƀ"   U0180 # LATIN SMALL LETTER B WITH STROKE
 <Multi_key> <slash> <I>          	: "Ɨ"   U0197 # LATIN CAPITAL LETTER I WITH STROKE
-<Multi_key> <KP_Divide> <I>      	: "Ɨ"   U0197 # LATIN CAPITAL LETTER I WITH STROKE
 <Multi_key> <plus> <O>           	: "Ơ"   U01A0 # LATIN CAPITAL LETTER O WITH HORN
 <Multi_key> <plus> <o>           	: "ơ"   U01A1 # LATIN SMALL LETTER O WITH HORN
 <Multi_key> <plus> <U>           	: "Ư"   U01AF # LATIN CAPITAL LETTER U WITH HORN
 <Multi_key> <plus> <u>           	: "ư"   U01B0 # LATIN SMALL LETTER U WITH HORN
 <Multi_key> <slash> <Z>          	: "Ƶ"   U01B5 # LATIN CAPITAL LETTER Z WITH STROKE
-<Multi_key> <KP_Divide> <Z>      	: "Ƶ"   U01B5 # LATIN CAPITAL LETTER Z WITH STROKE
 <Multi_key> <slash> <z>          	: "ƶ"   U01B6 # LATIN SMALL LETTER Z WITH STROKE
-<Multi_key> <KP_Divide> <z>      	: "ƶ"   U01B6 # LATIN SMALL LETTER Z WITH STROKE
 <Multi_key> <c> <A>              	: "Ǎ"   U01CD # LATIN CAPITAL LETTER A WITH CARON
 <Multi_key> <c> <a>              	: "ǎ"   U01CE # LATIN SMALL LETTER A WITH CARON
 <Multi_key> <c> <I>              	: "Ǐ"   U01CF # LATIN CAPITAL LETTER I WITH CARON
@@ -559,9 +541,7 @@
 <Multi_key> <macron> <ae>        	: "ǣ"   U01E3 # LATIN SMALL LETTER AE WITH MACRON
 <Multi_key> <underscore> <ae>    	: "ǣ"   U01E3 # LATIN SMALL LETTER AE WITH MACRON
 <Multi_key> <slash> <G>          	: "Ǥ"   U01E4 # LATIN CAPITAL LETTER G WITH STROKE
-<Multi_key> <KP_Divide> <G>      	: "Ǥ"   U01E4 # LATIN CAPITAL LETTER G WITH STROKE
 <Multi_key> <slash> <g>          	: "ǥ"   U01E5 # LATIN SMALL LETTER G WITH STROKE
-<Multi_key> <KP_Divide> <g>      	: "ǥ"   U01E5 # LATIN SMALL LETTER G WITH STROKE
 <Multi_key> <c> <G>              	: "Ǧ"   U01E6 # LATIN CAPITAL LETTER G WITH CARON
 <Multi_key> <c> <g>              	: "ǧ"   U01E7 # LATIN SMALL LETTER G WITH CARON
 <Multi_key> <c> <K>              	: "Ǩ"   U01E8 # LATIN CAPITAL LETTER K WITH CARON
@@ -599,14 +579,10 @@
 <Multi_key> <apostrophe> <Ooblique> 	: "Ǿ"   U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <acute> <slash> <O>  	: "Ǿ"   U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <apostrophe> <slash> <O> 	: "Ǿ"   U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
-<Multi_key> <acute> <KP_Divide> <O> 	: "Ǿ"   U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
-<Multi_key> <apostrophe> <KP_Divide> <O> 	: "Ǿ"   U01FE # LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <acute> <oslash>     	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <apostrophe> <oslash> 	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <acute> <slash> <o>  	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <apostrophe> <slash> <o> 	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
-<Multi_key> <acute> <KP_Divide> <o> 	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
-<Multi_key> <apostrophe> <KP_Divide> <o> 	: "ǿ"   U01FF # LATIN SMALL LETTER O WITH STROKE AND ACUTE
 <Multi_key> <c> <H>              	: "Ȟ"   U021E # LATIN CAPITAL LETTER H WITH CARON
 <Multi_key> <c> <h>              	: "ȟ"   U021F # LATIN SMALL LETTER H WITH CARON
 <Multi_key> <period> <A>         	: "Ȧ"   U0226 # LATIN CAPITAL LETTER A WITH DOT ABOVE
@@ -645,9 +621,7 @@
 <Multi_key> <underscore> <y>     	: "ȳ"   U0233 # LATIN SMALL LETTER Y WITH MACRON
 <Multi_key> <e> <e>              	: "ə"   U0259 # LATIN SMALL LETTER SCHWA
 <Multi_key> <slash> <i>          	: "ɨ"   U0268 # LATIN SMALL LETTER I WITH STROKE
-<Multi_key> <KP_Divide> <i>      	: "ɨ"   U0268 # LATIN SMALL LETTER I WITH STROKE
 <Multi_key> <slash> <U0294>  	: "ʡ"   U02A1 # LATIN LETTER GLOTTAL STOP WITH STROKE
-<Multi_key> <KP_Divide> <U0294> 	: "ʡ"   U02A1 # LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <asciicircum> <underscore> <h> 	: "ʰ"   U02B0 # MODIFIER LETTER SMALL H
 <Multi_key> <asciicircum> <underbar> <h> 	: "ʰ"   U02B0 # MODIFIER LETTER SMALL H
 <Multi_key> <asciicircum> <underscore> <U0266> 	: "ʱ"   U02B1 # MODIFIER LETTER SMALL H WITH HOOK
@@ -1075,82 +1049,47 @@
 <Multi_key> <asciitilde> <Y>     	: "Ỹ"   U1EF8 # LATIN CAPITAL LETTER Y WITH TILDE
 <Multi_key> <asciitilde> <y>     	: "ỹ"   U1EF9 # LATIN SMALL LETTER Y WITH TILDE
 <Multi_key> <asciicircum> <0>    	: "⁰"   U2070 # SUPERSCRIPT ZERO
-<Multi_key> <asciicircum> <KP_0> 	: "⁰"   U2070 # SUPERSCRIPT ZERO
 <Multi_key> <asciicircum> <underscore> <i> 	: "ⁱ"   U2071 # SUPERSCRIPT LATIN SMALL LETTER I
 <Multi_key> <asciicircum> <underbar> <i> 	: "ⁱ"   U2071 # SUPERSCRIPT LATIN SMALL LETTER I
 <Multi_key> <asciicircum> <4>    	: "⁴"   U2074 # SUPERSCRIPT FOUR
-<Multi_key> <asciicircum> <KP_4> 	: "⁴"   U2074 # SUPERSCRIPT FOUR
 <Multi_key> <asciicircum> <5>    	: "⁵"   U2075 # SUPERSCRIPT FIVE
-<Multi_key> <asciicircum> <KP_5> 	: "⁵"   U2075 # SUPERSCRIPT FIVE
 <Multi_key> <asciicircum> <6>    	: "⁶"   U2076 # SUPERSCRIPT SIX
-<Multi_key> <asciicircum> <KP_6> 	: "⁶"   U2076 # SUPERSCRIPT SIX
 <Multi_key> <asciicircum> <7>    	: "⁷"   U2077 # SUPERSCRIPT SEVEN
-<Multi_key> <asciicircum> <KP_7> 	: "⁷"   U2077 # SUPERSCRIPT SEVEN
 <Multi_key> <asciicircum> <8>    	: "⁸"   U2078 # SUPERSCRIPT EIGHT
-<Multi_key> <asciicircum> <KP_8> 	: "⁸"   U2078 # SUPERSCRIPT EIGHT
 <Multi_key> <asciicircum> <9>    	: "⁹"   U2079 # SUPERSCRIPT NINE
-<Multi_key> <asciicircum> <KP_9> 	: "⁹"   U2079 # SUPERSCRIPT NINE
 <Multi_key> <asciicircum> <plus> 	: "⁺"   U207A # SUPERSCRIPT PLUS SIGN
-<Multi_key> <asciicircum> <KP_Add> 	: "⁺"   U207A # SUPERSCRIPT PLUS SIGN
 <Multi_key> <asciicircum> <U2212> 	: "⁻"   U207B # SUPERSCRIPT MINUS
 <Multi_key> <asciicircum> <equal> 	: "⁼"   U207C # SUPERSCRIPT EQUALS SIGN
-<Multi_key> <asciicircum> <KP_Equal> 	: "⁼"   U207C # SUPERSCRIPT EQUALS SIGN
 <Multi_key> <asciicircum> <parenleft> 	: "⁽"   U207D # SUPERSCRIPT LEFT PARENTHESIS
 <Multi_key> <asciicircum> <parenright> 	: "⁾"   U207E # SUPERSCRIPT RIGHT PARENTHESIS
 <Multi_key> <asciicircum> <underscore> <n> 	: "ⁿ"   U207F # SUPERSCRIPT LATIN SMALL LETTER N
 <Multi_key> <asciicircum> <underbar> <n> 	: "ⁿ"   U207F # SUPERSCRIPT LATIN SMALL LETTER N
 <Multi_key> <underscore> <0>     	: "₀"   U2080 # SUBSCRIPT ZERO
-<Multi_key> <underscore> <KP_0>  	: "₀"   U2080 # SUBSCRIPT ZERO
 <Multi_key> <underbar> <0>       	: "₀"   U2080 # SUBSCRIPT ZERO
-<Multi_key> <underbar> <KP_0>    	: "₀"   U2080 # SUBSCRIPT ZERO
 <Multi_key> <underscore> <1>     	: "₁"   U2081 # SUBSCRIPT ONE
-<Multi_key> <underscore> <KP_1>  	: "₁"   U2081 # SUBSCRIPT ONE
 <Multi_key> <underbar> <1>       	: "₁"   U2081 # SUBSCRIPT ONE
-<Multi_key> <underbar> <KP_1>    	: "₁"   U2081 # SUBSCRIPT ONE
 <Multi_key> <underscore> <2>     	: "₂"   U2082 # SUBSCRIPT TWO
-<Multi_key> <underscore> <KP_Space> 	: "₂"   U2082 # SUBSCRIPT TWO
-<Multi_key> <underscore> <KP_2>  	: "₂"   U2082 # SUBSCRIPT TWO
 <Multi_key> <underbar> <2>       	: "₂"   U2082 # SUBSCRIPT TWO
-<Multi_key> <underbar> <KP_Space> 	: "₂"   U2082 # SUBSCRIPT TWO
-<Multi_key> <underbar> <KP_2>    	: "₂"   U2082 # SUBSCRIPT TWO
 <Multi_key> <underscore> <3>     	: "₃"   U2083 # SUBSCRIPT THREE
-<Multi_key> <underscore> <KP_3>  	: "₃"   U2083 # SUBSCRIPT THREE
 <Multi_key> <underbar> <3>       	: "₃"   U2083 # SUBSCRIPT THREE
-<Multi_key> <underbar> <KP_3>    	: "₃"   U2083 # SUBSCRIPT THREE
 <Multi_key> <underscore> <4>     	: "₄"   U2084 # SUBSCRIPT FOUR
-<Multi_key> <underscore> <KP_4>  	: "₄"   U2084 # SUBSCRIPT FOUR
 <Multi_key> <underbar> <4>       	: "₄"   U2084 # SUBSCRIPT FOUR
-<Multi_key> <underbar> <KP_4>    	: "₄"   U2084 # SUBSCRIPT FOUR
 <Multi_key> <underscore> <5>     	: "₅"   U2085 # SUBSCRIPT FIVE
-<Multi_key> <underscore> <KP_5>  	: "₅"   U2085 # SUBSCRIPT FIVE
 <Multi_key> <underbar> <5>       	: "₅"   U2085 # SUBSCRIPT FIVE
-<Multi_key> <underbar> <KP_5>    	: "₅"   U2085 # SUBSCRIPT FIVE
 <Multi_key> <underscore> <6>     	: "₆"   U2086 # SUBSCRIPT SIX
-<Multi_key> <underscore> <KP_6>  	: "₆"   U2086 # SUBSCRIPT SIX
 <Multi_key> <underbar> <6>       	: "₆"   U2086 # SUBSCRIPT SIX
-<Multi_key> <underbar> <KP_6>    	: "₆"   U2086 # SUBSCRIPT SIX
 <Multi_key> <underscore> <7>     	: "₇"   U2087 # SUBSCRIPT SEVEN
-<Multi_key> <underscore> <KP_7>  	: "₇"   U2087 # SUBSCRIPT SEVEN
 <Multi_key> <underbar> <7>       	: "₇"   U2087 # SUBSCRIPT SEVEN
-<Multi_key> <underbar> <KP_7>    	: "₇"   U2087 # SUBSCRIPT SEVEN
 <Multi_key> <underscore> <8>     	: "₈"   U2088 # SUBSCRIPT EIGHT
-<Multi_key> <underscore> <KP_8>  	: "₈"   U2088 # SUBSCRIPT EIGHT
 <Multi_key> <underbar> <8>       	: "₈"   U2088 # SUBSCRIPT EIGHT
-<Multi_key> <underbar> <KP_8>    	: "₈"   U2088 # SUBSCRIPT EIGHT
 <Multi_key> <underscore> <9>     	: "₉"   U2089 # SUBSCRIPT NINE
-<Multi_key> <underscore> <KP_9>  	: "₉"   U2089 # SUBSCRIPT NINE
 <Multi_key> <underbar> <9>       	: "₉"   U2089 # SUBSCRIPT NINE
-<Multi_key> <underbar> <KP_9>    	: "₉"   U2089 # SUBSCRIPT NINE
 <Multi_key> <underscore> <plus>  	: "₊"   U208A # SUBSCRIPT PLUS SIGN
-<Multi_key> <underscore> <KP_Add> 	: "₊"   U208A # SUBSCRIPT PLUS SIGN
 <Multi_key> <underbar> <plus>    	: "₊"   U208A # SUBSCRIPT PLUS SIGN
-<Multi_key> <underbar> <KP_Add>  	: "₊"   U208A # SUBSCRIPT PLUS SIGN
 <Multi_key> <underscore> <U2212> 	: "₋"   U208B # SUBSCRIPT MINUS
 <Multi_key> <underbar> <U2212> 	: "₋"   U208B # SUBSCRIPT MINUS
 <Multi_key> <underscore> <equal> 	: "₌"   U208C # SUBSCRIPT EQUALS SIGN
-<Multi_key> <underscore> <KP_Equal> 	: "₌"   U208C # SUBSCRIPT EQUALS SIGN
 <Multi_key> <underbar> <equal>   	: "₌"   U208C # SUBSCRIPT EQUALS SIGN
-<Multi_key> <underbar> <KP_Equal> 	: "₌"   U208C # SUBSCRIPT EQUALS SIGN
 <Multi_key> <underscore> <parenleft> 	: "₍"   U208D # SUBSCRIPT LEFT PARENTHESIS
 <Multi_key> <underbar> <parenleft> 	: "₍"   U208D # SUBSCRIPT LEFT PARENTHESIS
 <Multi_key> <underscore> <parenright> 	: "₎"   U208E # SUBSCRIPT RIGHT PARENTHESIS
@@ -1180,11 +1119,8 @@
 <Multi_key> <7> <8>			: "⅞"	U215E # VULGAR FRACTION SEVEN EIGHTHS
 <Multi_key> <0> <3>			: "↉"	U2189 # VULGAR FRACTION ZERO THIRDS
 <Multi_key> <slash> <leftarrow>  	: "↚"   U219A # LEFTWARDS ARROW WITH STROKE
-<Multi_key> <KP_Divide> <leftarrow> 	: "↚"   U219A # LEFTWARDS ARROW WITH STROKE
 <Multi_key> <slash> <rightarrow> 	: "↛"   U219B # RIGHTWARDS ARROW WITH STROKE
-<Multi_key> <KP_Divide> <rightarrow> 	: "↛"   U219B # RIGHTWARDS ARROW WITH STROKE
 <Multi_key> <slash> <U2194>  	: "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
-<Multi_key> <KP_Divide> <U2194> 	: "↮"   U21AE # LEFT RIGHT ARROW WITH STROKE
 <Multi_key> <less> <minus> 	: "←" U2190 # LEFTWARDS ARROW
 <Multi_key> <minus> <greater> 	: "→" U2192 # RIGHTWARDS ARROW
 <Multi_key> <U2203> </> 	: "∄"   U2204 # THERE DOES NOT EXIST
@@ -1200,7 +1136,6 @@
 <Multi_key> <slash> <equal>  	: "≠"   U2260 # NOT EQUAL TO
 <Multi_key> <equal> <slash>  	: "≠"   U2260 # NOT EQUAL TO
 <Multi_key> <equal> </>  	: "≠"   U2260 # NOT EQUAL TO
-<Multi_key> <KP_Equal> </> 	: "≠"   U2260 # NOT EQUAL TO
 <Multi_key> <identical> </> 	: "≢"   U2262 # NOT IDENTICAL TO
 <Multi_key> <less> <equal> 	: "≤" U2264 # LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal> 	: "≥" U2265 # GREATER-THAN OR EQUAL TO
@@ -1237,72 +1172,25 @@
 <Multi_key> <U22B5> </> 	: "⋭"   U22ED # DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL
 <Multi_key> <d> <i>		: "⌀"   U2300 # DIAMETER SIGN
 <Multi_key> <parenleft> <1> <parenright> 	: "①"   U2460 # CIRCLED DIGIT ONE
-<Multi_key> <parenleft> <KP_1> <parenright> 	: "①"   U2460 # CIRCLED DIGIT ONE
 <Multi_key> <parenleft> <2> <parenright> 	: "②"   U2461 # CIRCLED DIGIT TWO
-<Multi_key> <parenleft> <KP_Space> <parenright> 	: "②"   U2461 # CIRCLED DIGIT TWO
-<Multi_key> <parenleft> <KP_2> <parenright> 	: "②"   U2461 # CIRCLED DIGIT TWO
 <Multi_key> <parenleft> <3> <parenright> 	: "③"   U2462 # CIRCLED DIGIT THREE
-<Multi_key> <parenleft> <KP_3> <parenright> 	: "③"   U2462 # CIRCLED DIGIT THREE
 <Multi_key> <parenleft> <4> <parenright> 	: "④"   U2463 # CIRCLED DIGIT FOUR
-<Multi_key> <parenleft> <KP_4> <parenright> 	: "④"   U2463 # CIRCLED DIGIT FOUR
 <Multi_key> <parenleft> <5> <parenright> 	: "⑤"   U2464 # CIRCLED DIGIT FIVE
-<Multi_key> <parenleft> <KP_5> <parenright> 	: "⑤"   U2464 # CIRCLED DIGIT FIVE
 <Multi_key> <parenleft> <6> <parenright> 	: "⑥"   U2465 # CIRCLED DIGIT SIX
-<Multi_key> <parenleft> <KP_6> <parenright> 	: "⑥"   U2465 # CIRCLED DIGIT SIX
 <Multi_key> <parenleft> <7> <parenright> 	: "⑦"   U2466 # CIRCLED DIGIT SEVEN
-<Multi_key> <parenleft> <KP_7> <parenright> 	: "⑦"   U2466 # CIRCLED DIGIT SEVEN
 <Multi_key> <parenleft> <8> <parenright> 	: "⑧"   U2467 # CIRCLED DIGIT EIGHT
-<Multi_key> <parenleft> <KP_8> <parenright> 	: "⑧"   U2467 # CIRCLED DIGIT EIGHT
 <Multi_key> <parenleft> <9> <parenright> 	: "⑨"   U2468 # CIRCLED DIGIT NINE
-<Multi_key> <parenleft> <KP_9> <parenright> 	: "⑨"   U2468 # CIRCLED DIGIT NINE
 <Multi_key> <parenleft> <1> <0> <parenright> 	: "⑩"   U2469 # CIRCLED NUMBER TEN
-<Multi_key> <parenleft> <1> <KP_0> <parenright> 	: "⑩"   U2469 # CIRCLED NUMBER TEN
-<Multi_key> <parenleft> <KP_1> <0> <parenright> 	: "⑩"   U2469 # CIRCLED NUMBER TEN
-<Multi_key> <parenleft> <KP_1> <KP_0> <parenright> 	: "⑩"   U2469 # CIRCLED NUMBER TEN
 <Multi_key> <parenleft> <1> <1> <parenright> 	: "⑪"   U246A # CIRCLED NUMBER ELEVEN
-<Multi_key> <parenleft> <1> <KP_1> <parenright> 	: "⑪"   U246A # CIRCLED NUMBER ELEVEN
-<Multi_key> <parenleft> <KP_1> <1> <parenright> 	: "⑪"   U246A # CIRCLED NUMBER ELEVEN
-<Multi_key> <parenleft> <KP_1> <KP_1> <parenright> 	: "⑪"   U246A # CIRCLED NUMBER ELEVEN
 <Multi_key> <parenleft> <1> <2> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
-<Multi_key> <parenleft> <1> <KP_Space> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
-<Multi_key> <parenleft> <1> <KP_2> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
-<Multi_key> <parenleft> <KP_1> <2> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
-<Multi_key> <parenleft> <KP_1> <KP_Space> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
-<Multi_key> <parenleft> <KP_1> <KP_2> <parenright> 	: "⑫"   U246B # CIRCLED NUMBER TWELVE
 <Multi_key> <parenleft> <1> <3> <parenright> 	: "⑬"   U246C # CIRCLED NUMBER THIRTEEN
-<Multi_key> <parenleft> <1> <KP_3> <parenright> 	: "⑬"   U246C # CIRCLED NUMBER THIRTEEN
-<Multi_key> <parenleft> <KP_1> <3> <parenright> 	: "⑬"   U246C # CIRCLED NUMBER THIRTEEN
-<Multi_key> <parenleft> <KP_1> <KP_3> <parenright> 	: "⑬"   U246C # CIRCLED NUMBER THIRTEEN
 <Multi_key> <parenleft> <1> <4> <parenright> 	: "⑭"   U246D # CIRCLED NUMBER FOURTEEN
-<Multi_key> <parenleft> <1> <KP_4> <parenright> 	: "⑭"   U246D # CIRCLED NUMBER FOURTEEN
-<Multi_key> <parenleft> <KP_1> <4> <parenright> 	: "⑭"   U246D # CIRCLED NUMBER FOURTEEN
-<Multi_key> <parenleft> <KP_1> <KP_4> <parenright> 	: "⑭"   U246D # CIRCLED NUMBER FOURTEEN
 <Multi_key> <parenleft> <1> <5> <parenright> 	: "⑮"   U246E # CIRCLED NUMBER FIFTEEN
-<Multi_key> <parenleft> <1> <KP_5> <parenright> 	: "⑮"   U246E # CIRCLED NUMBER FIFTEEN
-<Multi_key> <parenleft> <KP_1> <5> <parenright> 	: "⑮"   U246E # CIRCLED NUMBER FIFTEEN
-<Multi_key> <parenleft> <KP_1> <KP_5> <parenright> 	: "⑮"   U246E # CIRCLED NUMBER FIFTEEN
 <Multi_key> <parenleft> <1> <6> <parenright> 	: "⑯"   U246F # CIRCLED NUMBER SIXTEEN
-<Multi_key> <parenleft> <1> <KP_6> <parenright> 	: "⑯"   U246F # CIRCLED NUMBER SIXTEEN
-<Multi_key> <parenleft> <KP_1> <6> <parenright> 	: "⑯"   U246F # CIRCLED NUMBER SIXTEEN
-<Multi_key> <parenleft> <KP_1> <KP_6> <parenright> 	: "⑯"   U246F # CIRCLED NUMBER SIXTEEN
 <Multi_key> <parenleft> <1> <7> <parenright> 	: "⑰"   U2470 # CIRCLED NUMBER SEVENTEEN
-<Multi_key> <parenleft> <1> <KP_7> <parenright> 	: "⑰"   U2470 # CIRCLED NUMBER SEVENTEEN
-<Multi_key> <parenleft> <KP_1> <7> <parenright> 	: "⑰"   U2470 # CIRCLED NUMBER SEVENTEEN
-<Multi_key> <parenleft> <KP_1> <KP_7> <parenright> 	: "⑰"   U2470 # CIRCLED NUMBER SEVENTEEN
 <Multi_key> <parenleft> <1> <8> <parenright> 	: "⑱"   U2471 # CIRCLED NUMBER EIGHTEEN
-<Multi_key> <parenleft> <1> <KP_8> <parenright> 	: "⑱"   U2471 # CIRCLED NUMBER EIGHTEEN
-<Multi_key> <parenleft> <KP_1> <8> <parenright> 	: "⑱"   U2471 # CIRCLED NUMBER EIGHTEEN
-<Multi_key> <parenleft> <KP_1> <KP_8> <parenright> 	: "⑱"   U2471 # CIRCLED NUMBER EIGHTEEN
 <Multi_key> <parenleft> <1> <9> <parenright> 	: "⑲"   U2472 # CIRCLED NUMBER NINETEEN
-<Multi_key> <parenleft> <1> <KP_9> <parenright> 	: "⑲"   U2472 # CIRCLED NUMBER NINETEEN
-<Multi_key> <parenleft> <KP_1> <9> <parenright> 	: "⑲"   U2472 # CIRCLED NUMBER NINETEEN
-<Multi_key> <parenleft> <KP_1> <KP_9> <parenright> 	: "⑲"   U2472 # CIRCLED NUMBER NINETEEN
 <Multi_key> <parenleft> <2> <0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
-<Multi_key> <parenleft> <2> <KP_0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
-<Multi_key> <parenleft> <KP_Space> <0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
-<Multi_key> <parenleft> <KP_Space> <KP_0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
-<Multi_key> <parenleft> <KP_2> <0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
-<Multi_key> <parenleft> <KP_2> <KP_0> <parenright> 	: "⑳"   U2473 # CIRCLED NUMBER TWENTY
 <Multi_key> <parenleft> <A> <parenright> 	: "Ⓐ"   U24B6 # CIRCLED LATIN CAPITAL LETTER A
 <Multi_key> <parenleft> <B> <parenright> 	: "Ⓑ"   U24B7 # CIRCLED LATIN CAPITAL LETTER B
 <Multi_key> <parenleft> <C> <parenright> 	: "Ⓒ"   U24B8 # CIRCLED LATIN CAPITAL LETTER C
@@ -1356,153 +1244,37 @@
 <Multi_key> <parenleft> <y> <parenright> 	: "ⓨ"   U24E8 # CIRCLED LATIN SMALL LETTER Y
 <Multi_key> <parenleft> <z> <parenright> 	: "ⓩ"   U24E9 # CIRCLED LATIN SMALL LETTER Z
 <Multi_key> <parenleft> <0> <parenright> 	: "⓪"   U24EA # CIRCLED DIGIT ZERO
-<Multi_key> <parenleft> <KP_0> <parenright> 	: "⓪"   U24EA # CIRCLED DIGIT ZERO
 <Multi_key> <U2ADD> </> 	: "⫝̸"   U2ADC # FORKING
 <Multi_key> <parenleft> <2> <1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
-<Multi_key> <parenleft> <2> <KP_1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
-<Multi_key> <parenleft> <KP_Space> <1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
-<Multi_key> <parenleft> <KP_Space> <KP_1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
-<Multi_key> <parenleft> <KP_2> <1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
-<Multi_key> <parenleft> <KP_2> <KP_1> <parenright> 	: "㉑"   U3251 # CIRCLED NUMBER TWENTY ONE
 <Multi_key> <parenleft> <2> <2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <2> <KP_Space> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <2> <KP_2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_Space> <2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_Space> <KP_Space> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_Space> <KP_2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_2> <2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_2> <KP_Space> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
-<Multi_key> <parenleft> <KP_2> <KP_2> <parenright> 	: "㉒"   U3252 # CIRCLED NUMBER TWENTY TWO
 <Multi_key> <parenleft> <2> <3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
-<Multi_key> <parenleft> <2> <KP_3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
-<Multi_key> <parenleft> <KP_Space> <3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
-<Multi_key> <parenleft> <KP_Space> <KP_3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
-<Multi_key> <parenleft> <KP_2> <3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
-<Multi_key> <parenleft> <KP_2> <KP_3> <parenright> 	: "㉓"   U3253 # CIRCLED NUMBER TWENTY THREE
 <Multi_key> <parenleft> <2> <4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
-<Multi_key> <parenleft> <2> <KP_4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
-<Multi_key> <parenleft> <KP_Space> <4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
-<Multi_key> <parenleft> <KP_Space> <KP_4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
-<Multi_key> <parenleft> <KP_2> <4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
-<Multi_key> <parenleft> <KP_2> <KP_4> <parenright> 	: "㉔"   U3254 # CIRCLED NUMBER TWENTY FOUR
 <Multi_key> <parenleft> <2> <5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
-<Multi_key> <parenleft> <2> <KP_5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
-<Multi_key> <parenleft> <KP_Space> <5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
-<Multi_key> <parenleft> <KP_Space> <KP_5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
-<Multi_key> <parenleft> <KP_2> <5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
-<Multi_key> <parenleft> <KP_2> <KP_5> <parenright> 	: "㉕"   U3255 # CIRCLED NUMBER TWENTY FIVE
 <Multi_key> <parenleft> <2> <6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
-<Multi_key> <parenleft> <2> <KP_6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
-<Multi_key> <parenleft> <KP_Space> <6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
-<Multi_key> <parenleft> <KP_Space> <KP_6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
-<Multi_key> <parenleft> <KP_2> <6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
-<Multi_key> <parenleft> <KP_2> <KP_6> <parenright> 	: "㉖"   U3256 # CIRCLED NUMBER TWENTY SIX
 <Multi_key> <parenleft> <2> <7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
-<Multi_key> <parenleft> <2> <KP_7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
-<Multi_key> <parenleft> <KP_Space> <7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
-<Multi_key> <parenleft> <KP_Space> <KP_7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
-<Multi_key> <parenleft> <KP_2> <7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
-<Multi_key> <parenleft> <KP_2> <KP_7> <parenright> 	: "㉗"   U3257 # CIRCLED NUMBER TWENTY SEVEN
 <Multi_key> <parenleft> <2> <8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
-<Multi_key> <parenleft> <2> <KP_8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
-<Multi_key> <parenleft> <KP_Space> <8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
-<Multi_key> <parenleft> <KP_Space> <KP_8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
-<Multi_key> <parenleft> <KP_2> <8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
-<Multi_key> <parenleft> <KP_2> <KP_8> <parenright> 	: "㉘"   U3258 # CIRCLED NUMBER TWENTY EIGHT
 <Multi_key> <parenleft> <2> <9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
-<Multi_key> <parenleft> <2> <KP_9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
-<Multi_key> <parenleft> <KP_Space> <9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
-<Multi_key> <parenleft> <KP_Space> <KP_9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
-<Multi_key> <parenleft> <KP_2> <9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
-<Multi_key> <parenleft> <KP_2> <KP_9> <parenright> 	: "㉙"   U3259 # CIRCLED NUMBER TWENTY NINE
 <Multi_key> <parenleft> <3> <0> <parenright> 	: "㉚"   U325A # CIRCLED NUMBER THIRTY
-<Multi_key> <parenleft> <3> <KP_0> <parenright> 	: "㉚"   U325A # CIRCLED NUMBER THIRTY
-<Multi_key> <parenleft> <KP_3> <0> <parenright> 	: "㉚"   U325A # CIRCLED NUMBER THIRTY
-<Multi_key> <parenleft> <KP_3> <KP_0> <parenright> 	: "㉚"   U325A # CIRCLED NUMBER THIRTY
 <Multi_key> <parenleft> <3> <1> <parenright> 	: "㉛"   U325B # CIRCLED NUMBER THIRTY ONE
-<Multi_key> <parenleft> <3> <KP_1> <parenright> 	: "㉛"   U325B # CIRCLED NUMBER THIRTY ONE
-<Multi_key> <parenleft> <KP_3> <1> <parenright> 	: "㉛"   U325B # CIRCLED NUMBER THIRTY ONE
-<Multi_key> <parenleft> <KP_3> <KP_1> <parenright> 	: "㉛"   U325B # CIRCLED NUMBER THIRTY ONE
 <Multi_key> <parenleft> <3> <2> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
-<Multi_key> <parenleft> <3> <KP_Space> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
-<Multi_key> <parenleft> <3> <KP_2> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
-<Multi_key> <parenleft> <KP_3> <2> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
-<Multi_key> <parenleft> <KP_3> <KP_Space> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
-<Multi_key> <parenleft> <KP_3> <KP_2> <parenright> 	: "㉜"   U325C # CIRCLED NUMBER THIRTY TWO
 <Multi_key> <parenleft> <3> <3> <parenright> 	: "㉝"   U325D # CIRCLED NUMBER THIRTY THREE
-<Multi_key> <parenleft> <3> <KP_3> <parenright> 	: "㉝"   U325D # CIRCLED NUMBER THIRTY THREE
-<Multi_key> <parenleft> <KP_3> <3> <parenright> 	: "㉝"   U325D # CIRCLED NUMBER THIRTY THREE
-<Multi_key> <parenleft> <KP_3> <KP_3> <parenright> 	: "㉝"   U325D # CIRCLED NUMBER THIRTY THREE
 <Multi_key> <parenleft> <3> <4> <parenright> 	: "㉞"   U325E # CIRCLED NUMBER THIRTY FOUR
-<Multi_key> <parenleft> <3> <KP_4> <parenright> 	: "㉞"   U325E # CIRCLED NUMBER THIRTY FOUR
-<Multi_key> <parenleft> <KP_3> <4> <parenright> 	: "㉞"   U325E # CIRCLED NUMBER THIRTY FOUR
-<Multi_key> <parenleft> <KP_3> <KP_4> <parenright> 	: "㉞"   U325E # CIRCLED NUMBER THIRTY FOUR
 <Multi_key> <parenleft> <3> <5> <parenright> 	: "㉟"   U325F # CIRCLED NUMBER THIRTY FIVE
-<Multi_key> <parenleft> <3> <KP_5> <parenright> 	: "㉟"   U325F # CIRCLED NUMBER THIRTY FIVE
-<Multi_key> <parenleft> <KP_3> <5> <parenright> 	: "㉟"   U325F # CIRCLED NUMBER THIRTY FIVE
-<Multi_key> <parenleft> <KP_3> <KP_5> <parenright> 	: "㉟"   U325F # CIRCLED NUMBER THIRTY FIVE
 <Multi_key> <parenleft> <3> <6> <parenright> 	: "㊱"   U32B1 # CIRCLED NUMBER THIRTY SIX
-<Multi_key> <parenleft> <3> <KP_6> <parenright> 	: "㊱"   U32B1 # CIRCLED NUMBER THIRTY SIX
-<Multi_key> <parenleft> <KP_3> <6> <parenright> 	: "㊱"   U32B1 # CIRCLED NUMBER THIRTY SIX
-<Multi_key> <parenleft> <KP_3> <KP_6> <parenright> 	: "㊱"   U32B1 # CIRCLED NUMBER THIRTY SIX
 <Multi_key> <parenleft> <3> <7> <parenright> 	: "㊲"   U32B2 # CIRCLED NUMBER THIRTY SEVEN
-<Multi_key> <parenleft> <3> <KP_7> <parenright> 	: "㊲"   U32B2 # CIRCLED NUMBER THIRTY SEVEN
-<Multi_key> <parenleft> <KP_3> <7> <parenright> 	: "㊲"   U32B2 # CIRCLED NUMBER THIRTY SEVEN
-<Multi_key> <parenleft> <KP_3> <KP_7> <parenright> 	: "㊲"   U32B2 # CIRCLED NUMBER THIRTY SEVEN
 <Multi_key> <parenleft> <3> <8> <parenright> 	: "㊳"   U32B3 # CIRCLED NUMBER THIRTY EIGHT
-<Multi_key> <parenleft> <3> <KP_8> <parenright> 	: "㊳"   U32B3 # CIRCLED NUMBER THIRTY EIGHT
-<Multi_key> <parenleft> <KP_3> <8> <parenright> 	: "㊳"   U32B3 # CIRCLED NUMBER THIRTY EIGHT
-<Multi_key> <parenleft> <KP_3> <KP_8> <parenright> 	: "㊳"   U32B3 # CIRCLED NUMBER THIRTY EIGHT
 <Multi_key> <parenleft> <3> <9> <parenright> 	: "㊴"   U32B4 # CIRCLED NUMBER THIRTY NINE
-<Multi_key> <parenleft> <3> <KP_9> <parenright> 	: "㊴"   U32B4 # CIRCLED NUMBER THIRTY NINE
-<Multi_key> <parenleft> <KP_3> <9> <parenright> 	: "㊴"   U32B4 # CIRCLED NUMBER THIRTY NINE
-<Multi_key> <parenleft> <KP_3> <KP_9> <parenright> 	: "㊴"   U32B4 # CIRCLED NUMBER THIRTY NINE
 <Multi_key> <parenleft> <4> <0> <parenright> 	: "㊵"   U32B5 # CIRCLED NUMBER FORTY
-<Multi_key> <parenleft> <4> <KP_0> <parenright> 	: "㊵"   U32B5 # CIRCLED NUMBER FORTY
-<Multi_key> <parenleft> <KP_4> <0> <parenright> 	: "㊵"   U32B5 # CIRCLED NUMBER FORTY
-<Multi_key> <parenleft> <KP_4> <KP_0> <parenright> 	: "㊵"   U32B5 # CIRCLED NUMBER FORTY
 <Multi_key> <parenleft> <4> <1> <parenright> 	: "㊶"   U32B6 # CIRCLED NUMBER FORTY ONE
-<Multi_key> <parenleft> <4> <KP_1> <parenright> 	: "㊶"   U32B6 # CIRCLED NUMBER FORTY ONE
-<Multi_key> <parenleft> <KP_4> <1> <parenright> 	: "㊶"   U32B6 # CIRCLED NUMBER FORTY ONE
-<Multi_key> <parenleft> <KP_4> <KP_1> <parenright> 	: "㊶"   U32B6 # CIRCLED NUMBER FORTY ONE
 <Multi_key> <parenleft> <4> <2> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
-<Multi_key> <parenleft> <4> <KP_Space> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
-<Multi_key> <parenleft> <4> <KP_2> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
-<Multi_key> <parenleft> <KP_4> <2> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
-<Multi_key> <parenleft> <KP_4> <KP_Space> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
-<Multi_key> <parenleft> <KP_4> <KP_2> <parenright> 	: "㊷"   U32B7 # CIRCLED NUMBER FORTY TWO
 <Multi_key> <parenleft> <4> <3> <parenright> 	: "㊸"   U32B8 # CIRCLED NUMBER FORTY THREE
-<Multi_key> <parenleft> <4> <KP_3> <parenright> 	: "㊸"   U32B8 # CIRCLED NUMBER FORTY THREE
-<Multi_key> <parenleft> <KP_4> <3> <parenright> 	: "㊸"   U32B8 # CIRCLED NUMBER FORTY THREE
-<Multi_key> <parenleft> <KP_4> <KP_3> <parenright> 	: "㊸"   U32B8 # CIRCLED NUMBER FORTY THREE
 <Multi_key> <parenleft> <4> <4> <parenright> 	: "㊹"   U32B9 # CIRCLED NUMBER FORTY FOUR
-<Multi_key> <parenleft> <4> <KP_4> <parenright> 	: "㊹"   U32B9 # CIRCLED NUMBER FORTY FOUR
-<Multi_key> <parenleft> <KP_4> <4> <parenright> 	: "㊹"   U32B9 # CIRCLED NUMBER FORTY FOUR
-<Multi_key> <parenleft> <KP_4> <KP_4> <parenright> 	: "㊹"   U32B9 # CIRCLED NUMBER FORTY FOUR
 <Multi_key> <parenleft> <4> <5> <parenright> 	: "㊺"   U32BA # CIRCLED NUMBER FORTY FIVE
-<Multi_key> <parenleft> <4> <KP_5> <parenright> 	: "㊺"   U32BA # CIRCLED NUMBER FORTY FIVE
-<Multi_key> <parenleft> <KP_4> <5> <parenright> 	: "㊺"   U32BA # CIRCLED NUMBER FORTY FIVE
-<Multi_key> <parenleft> <KP_4> <KP_5> <parenright> 	: "㊺"   U32BA # CIRCLED NUMBER FORTY FIVE
 <Multi_key> <parenleft> <4> <6> <parenright> 	: "㊻"   U32BB # CIRCLED NUMBER FORTY SIX
-<Multi_key> <parenleft> <4> <KP_6> <parenright> 	: "㊻"   U32BB # CIRCLED NUMBER FORTY SIX
-<Multi_key> <parenleft> <KP_4> <6> <parenright> 	: "㊻"   U32BB # CIRCLED NUMBER FORTY SIX
-<Multi_key> <parenleft> <KP_4> <KP_6> <parenright> 	: "㊻"   U32BB # CIRCLED NUMBER FORTY SIX
 <Multi_key> <parenleft> <4> <7> <parenright> 	: "㊼"   U32BC # CIRCLED NUMBER FORTY SEVEN
-<Multi_key> <parenleft> <4> <KP_7> <parenright> 	: "㊼"   U32BC # CIRCLED NUMBER FORTY SEVEN
-<Multi_key> <parenleft> <KP_4> <7> <parenright> 	: "㊼"   U32BC # CIRCLED NUMBER FORTY SEVEN
-<Multi_key> <parenleft> <KP_4> <KP_7> <parenright> 	: "㊼"   U32BC # CIRCLED NUMBER FORTY SEVEN
 <Multi_key> <parenleft> <4> <8> <parenright> 	: "㊽"   U32BD # CIRCLED NUMBER FORTY EIGHT
-<Multi_key> <parenleft> <4> <KP_8> <parenright> 	: "㊽"   U32BD # CIRCLED NUMBER FORTY EIGHT
-<Multi_key> <parenleft> <KP_4> <8> <parenright> 	: "㊽"   U32BD # CIRCLED NUMBER FORTY EIGHT
-<Multi_key> <parenleft> <KP_4> <KP_8> <parenright> 	: "㊽"   U32BD # CIRCLED NUMBER FORTY EIGHT
 <Multi_key> <parenleft> <4> <9> <parenright> 	: "㊾"   U32BE # CIRCLED NUMBER FORTY NINE
-<Multi_key> <parenleft> <4> <KP_9> <parenright> 	: "㊾"   U32BE # CIRCLED NUMBER FORTY NINE
-<Multi_key> <parenleft> <KP_4> <9> <parenright> 	: "㊾"   U32BE # CIRCLED NUMBER FORTY NINE
-<Multi_key> <parenleft> <KP_4> <KP_9> <parenright> 	: "㊾"   U32BE # CIRCLED NUMBER FORTY NINE
 <Multi_key> <parenleft> <5> <0> <parenright> 	: "㊿"   U32BF # CIRCLED NUMBER FIFTY
-<Multi_key> <parenleft> <5> <KP_0> <parenright> 	: "㊿"   U32BF # CIRCLED NUMBER FIFTY
-<Multi_key> <parenleft> <KP_5> <0> <parenright> 	: "㊿"   U32BF # CIRCLED NUMBER FIFTY
-<Multi_key> <parenleft> <KP_5> <KP_0> <parenright> 	: "㊿"   U32BF # CIRCLED NUMBER FIFTY
 
 
 
