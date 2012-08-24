@@ -205,10 +205,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--shift; ख-->
 		<keyMap index="1">
@@ -315,10 +315,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⇧←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⇧→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⇧↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⇧↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock; ख-->
 		<keyMap index="2">
@@ -425,10 +425,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option; ख-->
 		<keyMap index="3">
@@ -535,10 +535,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⌥←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⌥→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⌥↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⌥↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option-shift; ख-->
 		<keyMap index="4">
@@ -645,10 +645,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⌥⇧←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⌥⇧→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⌥⇧↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⌥⇧↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock-option; ख-->
 		<keyMap index="5">
@@ -755,10 +755,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⌥←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⌥→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⌥↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⌥↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option-command; ख-->
 		<keyMap index="6">
@@ -1085,10 +1085,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⇧←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⇧→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⇧↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⇧↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock-option-shift; ख-->
 		<keyMap index="9">
@@ -1195,10 +1195,10 @@
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" action="⌥⇧←"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" action="⌥⇧→"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" action="⌥⇧↓"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" action="⌥⇧↑"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 	</keyMapSet>
 	<keyMapSet id="JIS">
@@ -1308,6 +1308,7 @@
 		<!--all possible deadkey states require one of these rich redirection physical deadkeys!-->
 		<action id="⇪§">
 			<when state="⎄;'" next="⎄;';⇪⌥"/>
+			<when state="⎄;_" next="⎄;_;⇪⌥"/>
 			<when state="№" next="№;⇪⌥"/>
 			<when state="№;⇪⌥" output="̩"/>
 			<when state="ʔ" next="ʔ;⇪⌥"/>
@@ -1370,7 +1371,7 @@
 			<when state="ogonek" next="ogonek;⇪⌥"/>
 			<when state="ogonek+macron" next="ogonek+macron;⇪⌥"/>
 			<when state="ring" next="ring;⇪⌥"/>
-			<when state="ring+macron" next="ring+macron;⇪⌥"/>
+			<when state="ring+acute" next="ring+acute;⇪⌥"/>
 			<when state="ring_below" next="ring_below;⇪⌥"/>
 			<when state="stroke" next="stroke;⇪⌥"/>
 			<when state="stroke+acute" next="stroke+acute;⇪⌥"/>
@@ -1383,12 +1384,18 @@
 <!--poor physical redirection deadkeys ('state="none" next=OTHER_KEY' and maybe 'output='); by <key ... />; ख
 		behaviour identical to some virtual deadkey, so no need for terminator-->
 		<!--state=DEADKEY1 next=DEADKEY2 in id=cap-opt-KEY requires matching state=mod-DEADKEY1 in id=KEY-->
-		<action id="§">
+		<action id="§"><!--for cap, see ⇪§ instead-->
+			<when state="⌥" output="§"/>
 			<when state="none" next="⌥"/>
 		</action><!--क-->
-		<action id="⇪±">
-			<when state="⇪⌥" next="mod³"/>
+		<action id="±"><!--⇧§; for cap, see ⇪± instead-->
 			<when state="⎄" output="±"/>
+			<when state="⌥" output="±"/>
+			<when state="none" next="⎄"/>
+		</action><!--क-->
+		<action id="⇪±">
+			<when state="⎄" output="±"/>
+			<when state="⇪⌥" next="mod³"/>
 			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="⇪⌥§">
@@ -1428,7 +1435,6 @@
 			<when state="dot" next="dot+macron"/>
 			<when state="dot_below" next="macron+dot_below"/>
 			<when state="ogonek" next="ogonek+macron"/>
-			<when state="ring" next="ring+macron"/>
 			<when state="tilde" next="tilde+macron"/>
 		</action><!--क-->
 		<action id="⇪⌥b">
@@ -1454,6 +1460,7 @@
 			<when state="diaeresis" next="diaeresis+acute"/>
 			<when state="horn" next="horn+acute"/>
 			<when state="macron" next="macron+acute"/>
+			<when state="ring" next="ring+acute"/>
 			<when state="stroke" next="stroke+acute"/>
 			<when state="tilde" next="tilde+acute"/>
 		</action><!--क-->
@@ -1581,6 +1588,7 @@
 		</action><!--क-->
 		<action id="⇪;">
 			<when state="⎄" next="⎄;;"/>
+			<when state="⎄;_" next="⎄;_;;"/>
 			<when state="⇪⌥" output="…"/>
 			<when state="⇪`" next="diaeresis+grave"/>
 			<when state="none" next="⇪;"/>
@@ -1603,8 +1611,11 @@
 		<action id="⇪,">
 			<when state="⎄" next="⎄;,"/>
 			<when state="⎄; " output="¸"/>
+			<when state="⎄;-" output="¬"/>
 			<when state="⎄;'" output="‚"/>
 			<when state="⎄;quot" output="„"/>
+			<when state="⎄;U" next="⎄;U;,"/>
+			<when state="⎄;b" next="⎄;b;,"/>
 			<when state="№" output="↖"/>
 			<when state="ʔ" output="☜"/>
 			<when state="⇪⌥" output="≤"/>
@@ -1615,6 +1626,13 @@
 		<action id="1">
 			<when state="⎄" next="⎄;1"/>
 			<when state="⎄;1" next="⎄;1;1"/>
+			<when state="⎄;^" output="¹"/>
+			<when state="⎄;(" next="⎄;(;1"/>
+				<when state="⎄;(;1" next="⎄;(;1;1"/>
+				<when state="⎄;(;2" next="⎄;(;2;1"/>
+				<when state="⎄;(;3" next="⎄;(;3;1"/>
+				<when state="⎄;(;4" next="⎄;(;4;1"/>
+			<when state="⎄;_" output="₁"/>
 			<when state="⌥" output="¡"/>
 			<when state="⇪⌥" output="¡"/>
 			<when state="mod²" output="¹"/>
@@ -1623,12 +1641,20 @@
 		<action id="2">
 			<when state="⎄" next="⎄;2"/>
 			<when state="⎄;1" output="½"/>
+			<when state="⎄;^" output="²"/>
+			<when state="⎄;(" next="⎄;(;2"/>
+				<when state="⎄;(;1" next="⎄;(;1;2"/>
+				<when state="⎄;(;2" next="⎄;(;2;2"/>
+				<when state="⎄;(;3" next="⎄;(;3;2"/>
+				<when state="⎄;(;4" next="⎄;(;4;2"/>
+			<when state="⎄;_" output="₂"/>
 			<when state="⌥" output="™"/>
 			<when state="№" output="ƨ"/>
 			<when state="⇪⌥" output="™"/>
 			<when state="mod²" output="²"/>
 			<when state="none" output="2"/>
 			<when state="stroke" output="ƻ"/>
+			<when state="⎄;/" output="ƻ"/>
 		<!--क-->
 		</action><!--क-->
 		<action id="3">
@@ -1636,6 +1662,13 @@
 			<when state="⎄;1" output="⅓"/>
 			<when state="⎄;2" output="⅔"/>
 			<when state="⎄;0" output="↉"/>
+			<when state="⎄;^" output="³"/>
+			<when state="⎄;(" next="⎄;(;3"/>
+				<when state="⎄;(;1" next="⎄;(;1;3"/>
+				<when state="⎄;(;2" next="⎄;(;2;3"/>
+				<when state="⎄;(;3" next="⎄;(;3;3"/>
+				<when state="⎄;(;4" next="⎄;(;4;3"/>
+			<when state="⎄;_" output="₃"/>
 			<when state="⎄;lt" output="♥"/>
 			<when state="⌥" output="£"/>
 			<when state="№" output="ɛ"/>
@@ -1648,6 +1681,13 @@
 			<when state="⎄" next="⎄;4"/>
 			<when state="⎄;1" output="¼"/>
 			<when state="⎄;3" output="¾"/>
+			<when state="⎄;^" output="⁴"/>
+			<when state="⎄;(" next="⎄;(;4"/>
+				<when state="⎄;(;1" next="⎄;(;1;4"/>
+				<when state="⎄;(;2" next="⎄;(;2;4"/>
+				<when state="⎄;(;3" next="⎄;(;3;4"/>
+				<when state="⎄;(;4" next="⎄;(;4;4"/>
+			<when state="⎄;_" output="₄"/>
 			<when state="⌥" output="¢"/>
 			<when state="⇪⌥" output="¢"/>
 			<when state="mod²" output="⁴"/>
@@ -1659,6 +1699,13 @@
 			<when state="⎄;2" output="⅖"/>
 			<when state="⎄;3" output="⅗"/>
 			<when state="⎄;4" output="⅘"/>
+			<when state="⎄;^" output="⁵"/>
+			<when state="⎄;(" next="⎄;(;5"/>
+				<when state="⎄;(;1" next="⎄;(;1;5"/>
+				<when state="⎄;(;2" next="⎄;(;2;5"/>
+				<when state="⎄;(;3" next="⎄;(;3;5"/>
+				<when state="⎄;(;4" next="⎄;(;4;5"/>
+			<when state="⎄;_" output="₅"/>
 			<when state="⌥" output="∞"/>
 			<when state="№" output="ƽ"/>
 			<when state="⇪⌥" output="§"/>
@@ -1670,6 +1717,13 @@
 			<when state="⌥" output="§"/>
 			<when state="⎄;1" output="⅙"/>
 			<when state="⎄;5" output="⅚"/>
+			<when state="⎄;^" output="⁶"/>
+			<when state="⎄;(" next="⎄;(;6"/>
+				<when state="⎄;(;1" next="⎄;(;1;6"/>
+				<when state="⎄;(;2" next="⎄;(;2;6"/>
+				<when state="⎄;(;3" next="⎄;(;3;6"/>
+				<when state="⎄;(;4" next="⎄;(;4;6"/>
+			<when state="⎄;_" output="₆"/>
 			<when state="№" output="ƅ"/>
 			<when state="⇪⌥" next="circumflex"/>
 			<when state="mod²" output="⁶"/>
@@ -1680,6 +1734,13 @@
 		<action id="7">
 			<when state="⎄" next="⎄;7"/>
 			<when state="⎄;1" output="⅐"/>
+			<when state="⎄;^" output="⁷"/>
+			<when state="⎄;(" next="⎄;(;7"/>
+				<when state="⎄;(;1" next="⎄;(;1;7"/>
+				<when state="⎄;(;2" next="⎄;(;2;7"/>
+				<when state="⎄;(;3" next="⎄;(;3;7"/>
+				<when state="⎄;(;4" next="⎄;(;4;7"/>
+			<when state="⎄;_" output="₇"/>
 			<when state="⌥" output="¶"/>
 			<when state="№" output="⁊"/>
 			<when state="⇪⌥" output="¶"/>
@@ -1692,6 +1753,13 @@
 			<when state="⎄;3" output="⅜"/>
 			<when state="⎄;5" output="⅝"/>
 			<when state="⎄;7" output="⅞"/>
+			<when state="⎄;^" output="⁸"/>
+			<when state="⎄;(" next="⎄;(;8"/>
+				<when state="⎄;(;1" next="⎄;(;1;8"/>
+				<when state="⎄;(;2" next="⎄;(;2;8"/>
+				<when state="⎄;(;3" next="⎄;(;3;8"/>
+				<when state="⎄;(;4" next="⎄;(;4;8"/>
+			<when state="⎄;_" output="₈"/>
 			<when state="⌥" output="•"/>
 			<when state="№" output="ȣ"/>
 			<when state="№;⇪⌥" output="̥"/>
@@ -1702,6 +1770,13 @@
 		</action><!--क-->
 		<action id="9">
 			<when state="⎄;1" output="⅑"/>
+			<when state="⎄;^" output="⁹"/>
+			<when state="⎄;(" next="⎄;(;9"/>
+				<when state="⎄;(;1" next="⎄;(;1;9"/>
+				<when state="⎄;(;2" next="⎄;(;2;9"/>
+				<when state="⎄;(;3" next="⎄;(;3;9"/>
+				<when state="⎄;(;4" next="⎄;(;4;9"/>
+			<when state="⎄;_" output="₉"/>
 			<when state="⌥" output="ª"/>
 			<when state="№;⇪⌥" output="̯"/>
 			<when state="⇪⌥" output="ª"/>
@@ -1711,6 +1786,14 @@
 		<action id="0">
 			<when state="⎄" next="⎄;0"/>
 				<when state="⎄;1;1" output="⅒"/>
+			<when state="⎄;^" output="⁰"/>
+			<when state="⎄;(" next="⎄;(;0"/>
+				<when state="⎄;(;1" next="⎄;(;1;0"/>
+				<when state="⎄;(;2" next="⎄;(;2;0"/>
+				<when state="⎄;(;3" next="⎄;(;3;0"/>
+				<when state="⎄;(;4" next="⎄;(;4;0"/>
+				<when state="⎄;(;5" next="⎄;(;5;0"/>
+			<when state="⎄;_" output="₀"/>
 			<when state="⌥" output="º"/>
 			<when state="⇪⌥" output="º"/>
 			<when state="mod²" output="⁰"/>
@@ -1721,13 +1804,16 @@
 			<when state="⎄; " output="~"/>
 			<when state="⎄;-" next="⎄;-;-"/>
 				<when state="⎄;-;-" output="—"/>
+			<when state="⎄;," output="¬"/>
 			<when state="⎄;." output="·"/>
 			<when state="⎄;(" output="{"/>
 			<when state="⎄;)" output="}"/>
 			<when state="⎄;+" output="±"/>
+			<when state="⎄;:" output="÷"/>
+			<when state="⎄;lt" output="←"/>
 			<when state="⎄;L" output="£"/>
-			<when state="⎄;l" output="£"/>
 			<when state="⎄;d" output="₫"/>
+			<when state="⎄;l" output="£"/>
 			<when state="⌥" output="–"/>
 			<when state="№" output="­"/>
 			<when state="№;⇪⌥" output="‑"/>
@@ -1739,6 +1825,11 @@
 		<action id="=">
 			<when state="⎄" next="⎄;="/>
 			<when state="⎄;." output="•"/>
+			<when state="⎄;/" output="≠"/>
+			<when state="⎄;^" output="⁼"/>
+			<when state="⎄;_" output="₌"/>
+			<when state="⎄;lt" output="≤"/>
+			<when state="⎄;gt" output="≥"/>
 			<when state="⎄;C" output="€"/>
 			<when state="⎄;E" output="€"/>
 			<when state="⎄;L" output="₤"/>
@@ -1768,10 +1859,12 @@
 		</action><!--क-->
 		<action id=";"><!--for cap, see ⇪; instead-->
 			<when state="⎄" next="⎄;;"/>
+			<when state="⎄;_" next="⎄;_;;"/>
 			<when state="⌥" output="…"/>
 			<when state="none" output=";"/>
 		</action><!--क-->
 		<action id="\">
+			<when state="⎄" next="⎄;\"/>
 			<when state="⎄;quot" output="〝"/>
 			<when state="⌥" output="«"/>
 			<when state="⇪⌥" output="«"/>
@@ -1789,8 +1882,11 @@
 		<action id=","><!--for cap, see ⇪, instead-->
 			<when state="⎄" next="⎄;,"/>
 			<when state="⎄; " output="¸"/>
+			<when state="⎄;-" output="¬"/>
 			<when state="⎄;'" output="‚"/>
 			<when state="⎄;quot" output="„"/>
+			<when state="⎄;U" next="⎄;U;,"/>
+			<when state="⎄;b" next="⎄;b;,"/>
 			<when state="⌥" output="≤"/>
 			<when state="none" output=","/>
 		</action><!--क-->
@@ -1799,6 +1895,11 @@
 			<when state="⎄; " output=" "/>
 				<when state="⎄;-;-" output="–"/>
 			<when state="⎄;." output="…"/>
+			<when state="⎄;_" next="⎄;_;."/>
+			<when state="⎄;L" output="Ŀ"/>
+			<when state="⎄;c" next="⎄;c;."/>
+			<when state="⎄;i" output="ı"/>
+			<when state="⎄;l" output="ŀ"/>
 			<when state="⌥" output="≥"/>
 			<when state="№" output="↘"/>
 			<when state="ʔ" output="☞"/>
@@ -1808,8 +1909,10 @@
 		</action><!--क-->
 		<action id="/">
 			<when state="⎄" next="⎄;/"/>
+			<when state="⎄;=" output="≠"/>
 			<when state="⎄;'" next="⎄;';/"/>
 			<when state="⎄;/" output="\"/>
+				<when state="⎄;\;o" output="🙌"/>
 			<when state="⎄;^" output="|"/>
 			<when state="⎄;quot" output="〞"/>
 			<when state="⎄;lt" output="\"/>
@@ -1822,15 +1925,40 @@
 			<when state="mod²" output="¿"/>
 			<when state="none" output="/"/>
 		</action><!--क-->
-		<action id="±"><!--⇧§; for cap, see ⇪± instead-->
-			<when state="⌥" output="±"/>
-			<when state="none" output="±"/>
+		<action id="←">
+			<when state="⎄;/" output="↚"/>
+			<when state="№" output="←"/>
+			<when state="№;⇪⌥" output="↤"/>
+			<when state="none" output="&#x001c;"/>
+		</action><!--क-->
+		<action id="→">
+			<when state="⎄;/" output="↛"/>
+			<when state="№" output="→"/>
+			<when state="№;⇪⌥" output="↦"/>
+			<when state="none" output="&#x001d;"/>
+		</action><!--क-->
+		<action id="↓">
+			<when state="⎄;/" output="⤈"/>
+			<when state="№" output="↓"/>
+			<when state="№;⇪⌥" output="↧"/>
+			<when state="none" output="&#x001f;"/>
+		</action><!--क-->
+		<action id="↑">
+			<when state="⎄;/" output="⤉"/>
+			<when state="№" output="↑"/>
+			<when state="№;⇪⌥" output="↥"/>
+			<when state="none" output="&#x001e;"/>
 		</action><!--क-->
 		<action id="!"><!--⇧1-->
 			<when state="⎄" next="⎄;!"/>
+			<when state="⎄;." next="⎄;.;!"/>
 			<when state="⎄;!" output="¡"/>
+			<when state="⎄;^" next="⎄;^;!"/>
+			<when state="⎄;_" next="⎄;_;!"/>
 			<when state="⎄;?" output="⸘"/>
 			<when state="⎄;P" output="¶"/>
+			<when state="⎄;U" next="⎄;U;!"/>
+			<when state="⎄;b" next="⎄;b;!"/>
 			<when state="⎄;p" output="¶"/>
 			<when state="⌥" output="⁄"/>
 			<when state="⇪⌥" output="⁄"/>
@@ -1871,8 +1999,11 @@
 			<when state="⎄" next="⎄;^"/>
 			<when state="⎄; " output="^"/>
 			<when state="⎄;'" next="⎄;';^"/>
+			<when state="⎄;`" next="⎄;`;^"/>
 			<when state="⎄;/" output="|"/>
 			<when state="⎄;!" output="¦"/>
+			<when state="⎄;~" next="⎄;~;^"/>
+			<when state="⎄;?" next="⎄;?;^"/>
 			<when state="⌥" output="ﬂ"/>
 			<when state="№" output="Ƅ"/>
 			<when state="⇪⌥" output="̂"/>
@@ -1897,7 +2028,9 @@
 		<action id="("><!--⇧9-->
 			<when state="⎄" next="⎄;("/>
 			<when state="⎄;-" output="{"/>
+			<when state="⎄;^" output="⁽"/>
 			<when state="⎄;(" output="["/>
+			<when state="⎄;_" output="₍"/>
 			<when state="⎄;:" output="☹"/>
 			<when state="⌥" output="·"/>
 			<when state="№;⇪⌥" output="̆"/>
@@ -1908,7 +2041,112 @@
 		<action id=")"><!--⇧0-->
 			<when state="⎄" next="⎄;)"/>
 			<when state="⎄;-" output="}"/>
+			<when state="⎄;^" output="⁾"/>
 			<when state="⎄;)" output="]"/>
+				<when state="⎄;(;1" output="①"/>
+					<when state="⎄;(;1;1" output="⑪"/>
+					<when state="⎄;(;1;2" output="⑫"/>
+					<when state="⎄;(;1;3" output="⑬"/>
+					<when state="⎄;(;1;4" output="⑭"/>
+					<when state="⎄;(;1;5" output="⑮"/>
+					<when state="⎄;(;1;6" output="⑯"/>
+					<when state="⎄;(;1;7" output="⑰"/>
+					<when state="⎄;(;1;8" output="⑱"/>
+					<when state="⎄;(;1;9" output="⑲"/>
+					<when state="⎄;(;1;0" output="⑩"/>
+				<when state="⎄;(;2" output="②"/>
+					<when state="⎄;(;2;1" output="㉑"/>
+					<when state="⎄;(;2;2" output="㉒"/>
+					<when state="⎄;(;2;3" output="㉓"/>
+					<when state="⎄;(;2;4" output="㉔"/>
+					<when state="⎄;(;2;5" output="㉕"/>
+					<when state="⎄;(;2;6" output="㉖"/>
+					<when state="⎄;(;2;7" output="㉗"/>
+					<when state="⎄;(;2;8" output="㉘"/>
+					<when state="⎄;(;2;9" output="㉙"/>
+					<when state="⎄;(;2;0" output="⑳"/>
+				<when state="⎄;(;3" output="③"/>
+					<when state="⎄;(;3;1" output="㉛"/>
+					<when state="⎄;(;3;2" output="㉜"/>
+					<when state="⎄;(;3;3" output="㉝"/>
+					<when state="⎄;(;3;4" output="㉞"/>
+					<when state="⎄;(;3;5" output="㉟"/>
+					<when state="⎄;(;3;6" output="㊱"/>
+					<when state="⎄;(;3;7" output="㊲"/>
+					<when state="⎄;(;3;8" output="㊳"/>
+					<when state="⎄;(;3;9" output="㊴"/>
+					<when state="⎄;(;3;0" output="㉚"/>
+				<when state="⎄;(;4" output="④"/>
+					<when state="⎄;(;4;1" output="㊶"/>
+					<when state="⎄;(;4;2" output="㊷"/>
+					<when state="⎄;(;4;3" output="㊸"/>
+					<when state="⎄;(;4;4" output="㊹"/>
+					<when state="⎄;(;4;5" output="㊺"/>
+					<when state="⎄;(;4;6" output="㊻"/>
+					<when state="⎄;(;4;7" output="㊼"/>
+					<when state="⎄;(;4;8" output="㊽"/>
+					<when state="⎄;(;4;9" output="㊾"/>
+					<when state="⎄;(;4;0" output="㊵"/>
+				<when state="⎄;(;5" output="⑤"/>
+					<when state="⎄;(;5;0" output="㊿"/>
+				<when state="⎄;(;6" output="⑥"/>
+				<when state="⎄;(;7" output="⑦"/>
+				<when state="⎄;(;8" output="⑧"/>
+				<when state="⎄;(;9" output="⑨"/>
+				<when state="⎄;(;0" output="⓪"/>
+				<when state="⎄;(;A" output="Ⓐ"/>
+				<when state="⎄;(;B" output="Ⓑ"/>
+				<when state="⎄;(;C" output="Ⓒ"/>
+				<when state="⎄;(;D" output="Ⓓ"/>
+				<when state="⎄;(;E" output="Ⓔ"/>
+				<when state="⎄;(;F" output="Ⓕ"/>
+				<when state="⎄;(;G" output="Ⓖ"/>
+				<when state="⎄;(;H" output="Ⓗ"/>
+				<when state="⎄;(;I" output="Ⓘ"/>
+				<when state="⎄;(;J" output="Ⓙ"/>
+				<when state="⎄;(;K" output="Ⓚ"/>
+				<when state="⎄;(;L" output="Ⓛ"/>
+				<when state="⎄;(;M" output="Ⓜ"/>
+				<when state="⎄;(;N" output="Ⓝ"/>
+				<when state="⎄;(;O" output="Ⓞ"/>
+				<when state="⎄;(;P" output="Ⓟ"/>
+				<when state="⎄;(;Q" output="Ⓠ"/>
+				<when state="⎄;(;R" output="Ⓡ"/>
+				<when state="⎄;(;S" output="Ⓢ"/>
+				<when state="⎄;(;T" output="Ⓣ"/>
+				<when state="⎄;(;U" output="Ⓤ"/>
+				<when state="⎄;(;V" output="Ⓥ"/>
+				<when state="⎄;(;W" output="Ⓦ"/>
+				<when state="⎄;(;X" output="Ⓧ"/>
+				<when state="⎄;(;Y" output="Ⓨ"/>
+				<when state="⎄;(;Z" output="Ⓩ"/>
+				<when state="⎄;(;a" output="ⓐ"/>
+				<when state="⎄;(;b" output="ⓑ"/>
+				<when state="⎄;(;c" output="ⓒ"/>
+				<when state="⎄;(;d" output="ⓓ"/>
+				<when state="⎄;(;e" output="ⓔ"/>
+				<when state="⎄;(;f" output="ⓕ"/>
+				<when state="⎄;(;g" output="ⓖ"/>
+				<when state="⎄;(;h" output="ⓗ"/>
+				<when state="⎄;(;i" output="ⓘ"/>
+				<when state="⎄;(;j" output="ⓙ"/>
+				<when state="⎄;(;k" output="ⓚ"/>
+				<when state="⎄;(;l" output="ⓛ"/>
+				<when state="⎄;(;m" output="ⓜ"/>
+				<when state="⎄;(;n" output="ⓝ"/>
+				<when state="⎄;(;o" output="ⓞ"/>
+				<when state="⎄;(;p" output="ⓟ"/>
+				<when state="⎄;(;q" output="ⓠ"/>
+				<when state="⎄;(;r" output="ⓡ"/>
+				<when state="⎄;(;s" output="ⓢ"/>
+				<when state="⎄;(;t" output="ⓣ"/>
+				<when state="⎄;(;u" output="ⓤ"/>
+				<when state="⎄;(;v" output="ⓥ"/>
+				<when state="⎄;(;w" output="ⓦ"/>
+				<when state="⎄;(;x" output="ⓧ"/>
+				<when state="⎄;(;y" output="ⓨ"/>
+				<when state="⎄;(;z" output="ⓩ"/>
+			<when state="⎄;_" output="₎"/>
 			<when state="⎄;:" output="☺"/>
 			<when state="⌥" output="‚"/>
 			<when state="⇪⌥" output="‚"/>
@@ -1916,8 +2154,11 @@
 			<when state="none" output=")"/>
 		</action><!--क-->
 		<action id="_"><!--⇧'-'-->
-			<when state="⎄;'" next="⎄;';_"/>
 			<when state="⎄" next="⎄;_"/>
+			<when state="⎄;'" next="⎄;';_"/>
+			<when state="⎄;`" next="⎄;`;_"/>
+			<when state="⎄;^" next="⎄;^;_"/>
+			<when state="⎄;quot" next="⎄;quot;_"/>
 			<when state="⌥" output="—"/>
 			<when state="№" output="‐"/>
 			<when state="№;⇪⌥" output="−"/>
@@ -1929,18 +2170,26 @@
 		<action id="+"><!--⇧=-->
 			<when state="⎄" next="⎄;+"/>
 			<when state="⎄;'" next="⎄;';+"/>
+			<when state="⎄;`" next="⎄;`;+"/>
+			<when state="⎄;!" next="⎄;!;+"/>
+			<when state="⎄;^" output="⁺"/>
+			<when state="⎄;_" output="₊"/>
 			<when state="⎄;+" output="#"/>
+			<when state="⎄;~" next="⎄;~;+"/>
+			<when state="⎄;?" next="⎄;?;+"/>
 			<when state="⌥" output="±"/>
 			<when state="№" output="&#x200D;"/><!--ZERO WIDTH JOINER-->
 			<when state="⇪⌥" output="±"/>
 			<when state="none" output="+"/>
 		</action><!--क-->
 		<action id="{"><!--⇧[-->
+			<when state="⎄" next="⎄;{"/>
 			<when state="⌥" output="”"/>
 			<when state="⇪⌥" output="”"/>
 			<when state="none" output="{"/>
 		</action><!--क-->
 		<action id="}"><!--⇧]-->
+			<when state="⎄;{" output="∅"/>
 			<when state="⌥" output="’"/>
 			<when state="№;⇪⌥" output="ʼ"/>
 			<when state="⇪⌥" output="’"/>
@@ -1948,6 +2197,7 @@
 		</action><!--क-->
 		<action id=":"><!--⇧;-->
 			<when state="⎄" next="⎄;:"/>
+			<when state="⎄;-" output="÷"/>
 			<when state="⌥" output="Ú"/>
 			<when state="№" output="ː"/>
 			<when state="⇪⌥" next="№"/>
@@ -1967,6 +2217,8 @@
 			<when state="⎄" next="⎄;~"/>
 			<when state="⎄; " output="~"/>
 			<when state="⎄;'" next="⎄;';~"/>
+			<when state="⎄;_" next="⎄;_;~"/>
+			<when state="⎄;quot" next="⎄;quot;~"/>
 			<when state="⌥" output="`"/>
 			<when state="⇪⌥" output="̀"/>
 			<when state="№" output="⁀"/>
@@ -1990,6 +2242,7 @@
 		<action id="gt"><!--⇧.-->
 			<when state="⎄" next="⎄;gt"/>
 			<when state="⎄; " output="^"/>
+			<when state="⎄;-" output="→"/>
 			<when state="⎄;'" output="’"/>
 			<when state="⎄;." output="›"/>
 			<when state="⎄;quot" output="”"/>
@@ -2009,6 +2262,52 @@
 			<when state="№" output="Ɂ"/>
 			<when state="⇪⌥" output="¿"/>
 			<when state="none" output="?"/>
+		</action><!--क-->
+		<action id="⇧←">
+			<when state="№" output="⇦"/>
+			<when state="none" output="&#x001c;"/>
+		</action><!--क-->
+		<action id="⇧→">
+			<when state="№" output="⇨"/>
+			<when state="none" output="&#x001d;"/>
+		</action><!--क-->
+		<action id="⇧↓">
+			<when state="№" output="⇩"/>
+			<when state="none" output="&#x001f;"/>
+		</action><!--क-->
+		<action id="⇧↑">
+			<when state="№" output="⇧"/>
+			<when state="№;⇪⌥" output="⇪"/>
+			<when state="none" output="&#x001e;"/>
+		</action><!--क-->
+		<action id="⌥←">
+			<when state="№" output="↤"/>
+			<when state="none" output="&#x001c;"/>
+		</action><!--क-->
+		<action id="⌥→">
+			<when state="№" output="↦"/>
+			<when state="none" output="&#x001d;"/>
+		</action><!--क-->
+		<action id="⌥↓">
+			<when state="№" output="↧"/>
+			<when state="none" output="&#x001f;"/>
+		</action><!--क-->
+		<action id="⌥↑">
+			<when state="№" output="↥"/>
+			<when state="none" output="&#x001e;"/>
+		</action><!--क-->
+		<action id="⌥⇧←">
+			<when state="none" output="&#x001c;"/>
+		</action><!--क-->
+		<action id="⌥⇧→">
+			<when state="none" output="&#x001d;"/>
+		</action><!--क-->
+		<action id="⌥⇧↓">
+			<when state="none" output="&#x001f;"/>
+		</action><!--क-->
+		<action id="⌥⇧↑">
+			<when state="№" output="⇪"/>
+			<when state="none" output="&#x001e;"/>
 		</action><!--क-->
 		<action id="⇪⌥8">
 			<when state="№" output="̥"/>
@@ -2168,7 +2467,7 @@
 			<when state="ogonek" output="̨"/>
 			<when state="ogonek+macron" output="̨̄"/>
 			<when state="ring" output="̊"/>
-			<when state="ring+macron" output="̊̄"/>
+			<when state="ring+acute" output="̊́"/>
 			<when state="ring_below" output="̥"/>
 			<when state="stroke" output="̵"/>
 			<when state="stroke+acute" output="̵́"/>
@@ -2237,7 +2536,7 @@
 			<when state="ogonek" output="˛"/>
 			<when state="ogonek+macron" output="˛̄"/>
 			<when state="ring" output="˚"/>
-			<when state="ring+macron" output="˚̄"/>
+			<when state="ring+acute" output="˚́"/>
 			<when state="ring_below" output="˳"/>
 			<when state="stroke" output="-"/>
 			<when state="stroke+acute" output="-́"/>
@@ -2251,8 +2550,10 @@
 			<when state="⎄" next="⎄;'"/>
 			<when state="⎄; " output="'"/>
 			<when state="⎄;," output="‚"/>
+			<when state="⎄;." next="⎄;.;'"/>
 			<when state="⎄;lt" output="‘"/>
 			<when state="⎄;gt" output="’"/>
+			<when state="⎄;o" next="⎄;o;'"/>
 			<when state="⌥" output="æ"/>
 			<when state="№" output="ʹ"/>
 			<when state="№;⇪⌥" output="ˈ"/>
@@ -2305,6 +2606,7 @@
 				<when state="inverted_breve;⇪⌥" output="æ̑"/>
 				<when state="line_below;⇪⌥" output="æ̱"/>
 				<when state="macron;⇪⌥" output="ǣ"/>
+				<when state="⎄;_;⇪⌥" output="ǣ"/>
 				<when state="macron+acute;⇪⌥" output="ǣ́"/>
 				<when state="macron+diaeresis;⇪⌥" output="ǣ̈"/>
 				<when state="macron+dot_below;⇪⌥" output="ǣ̣"/>
@@ -2312,7 +2614,7 @@
 				<when state="ogonek;⇪⌥" output="æ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="ǣ̨"/>
 				<when state="ring;⇪⌥" output="æ̊"/>
-				<when state="ring+macron;⇪⌥" output="æ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="æ̊́"/>
 				<when state="ring_below;⇪⌥" output="æ̥"/>
 				<when state="stroke;⇪⌥" output="æ̶"/>
 				<when state="stroke+acute;⇪⌥" output="ǽ̶"/>
@@ -2325,9 +2627,12 @@
 		<action id="quot"><!--⇧'-->
 			<when state="⎄" next="⎄;quot"/>
 			<when state="⎄;'" next="⎄;';quot"/>
+			<when state="⎄;`" next="⎄;`;quot"/>
 			<when state="⎄;," output="„"/>
+			<when state="⎄;_" next="⎄;_;quot"/>
 			<when state="⎄;lt" output="“"/>
 			<when state="⎄;gt" output="”"/>
+			<when state="⎄;c" next="⎄;c;quot"/>
 			<when state="⌥" output="Æ"/>
 			<when state="№" output="ʺ"/>
 			<when state="№;⇪⌥" output="ˌ"/>
@@ -2380,6 +2685,7 @@
 				<when state="inverted_breve;⇪⌥" output="Æ̑"/>
 				<when state="line_below;⇪⌥" output="Æ̱"/>
 				<when state="macron;⇪⌥" output="Ǣ"/>
+				<when state="⎄;_;⇪⌥" output="Ǣ"/>
 				<when state="macron+acute;⇪⌥" output="Ǣ́"/>
 				<when state="macron+diaeresis;⇪⌥" output="Ǣ̈"/>
 				<when state="macron+dot_below;⇪⌥" output="Ǣ̣"/>
@@ -2387,7 +2693,7 @@
 				<when state="ogonek;⇪⌥" output="Æ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="Ǣ̨"/>
 				<when state="ring;⇪⌥" output="Æ̊"/>
-				<when state="ring+macron;⇪⌥" output="Æ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="Æ̊́"/>
 				<when state="ring_below;⇪⌥" output="Æ̥"/>
 				<when state="stroke;⇪⌥" output="Æ̶"/>
 				<when state="stroke+acute;⇪⌥" output="Ǽ̶"/>
@@ -2398,7 +2704,6 @@
 				<when state="tilde_below;⇪⌥" output="Æ̰"/>
 		</action><!--क-->
 		<action id="⇪⌥'">
-			<when state="⎄;'" output="ǽ"/>
 			<when state="№" output="ˈ"/>
 			<when state="⇪]" output="ǽ"/>
 			<when state="⇪;" output="æ̈"/>
@@ -2406,6 +2711,7 @@
 			<when state="⇪," output="æ̂"/>
 			<when state="none" output="æ"/>
 			<when state="acute" output="ǽ"/>
+			<when state="⎄;'" output="ǽ"/>
 			<when state="acute+dot" output="ǽ̇"/>
 			<when state="breve" output="æ̆"/>
 			<when state="breve+acute" output="æ̆́"/>
@@ -2450,6 +2756,7 @@
 			<when state="inverted_breve" output="æ̑"/>
 			<when state="line_below" output="æ̱"/>
 			<when state="macron" output="ǣ"/>
+			<when state="⎄;_" output="ǣ"/>
 			<when state="macron+acute" output="ǣ́"/>
 			<when state="macron+diaeresis" output="ǣ̈"/>
 			<when state="macron+dot_below" output="ǣ̣"/>
@@ -2457,7 +2764,7 @@
 			<when state="ogonek" output="æ̨"/>
 			<when state="ogonek+macron" output="ǣ̨"/>
 			<when state="ring" output="æ̊"/>
-			<when state="ring+macron" output="æ̊̄"/>
+			<when state="ring+acute" output="æ̊́"/>
 			<when state="ring_below" output="æ̥"/>
 			<when state="stroke" output="æ̶"/>
 			<when state="stroke+acute" output="ǽ̶"/>
@@ -2523,7 +2830,7 @@
 			<when state="ogonek" output="ð̨"/>
 			<when state="ogonek+macron" output="ð̨̄"/>
 			<when state="ring" output="ð̊"/>
-			<when state="ring+macron" output="ð̊̄"/>
+			<when state="ring+acute" output="ð̊́"/>
 			<when state="ring_below" output="ð̥"/>
 			<when state="stroke" output="ð̸"/>
 			<when state="stroke+acute" output="ð̸́"/>
@@ -2587,7 +2894,7 @@
 			<when state="ogonek" output="ƒ̨"/>
 			<when state="ogonek+macron" output="ƒ̨̄"/>
 			<when state="ring" output="ƒ̊"/>
-			<when state="ring+macron" output="ƒ̊̄"/>
+			<when state="ring+acute" output="ƒ̊́"/>
 			<when state="ring_below" output="ƒ̥"/>
 			<when state="stroke" output="ƒ̸"/>
 			<when state="stroke+acute" output="ƒ̸́"/>
@@ -2598,7 +2905,6 @@
 			<when state="tilde_below" output="ƒ̰"/>
 		</action><!--क-->
 		<action id="⇪⌥o">
-			<when state="⎄;'" output="ǿ"/>
 			<when state="mod²" output="ͦ"/>
 			<when state="⇪]" output="ǿ"/>
 			<when state="⇪;" output="ø̈"/>
@@ -2606,6 +2912,7 @@
 			<when state="⇪," output="ø̂"/>
 			<when state="none" output="ø"/>
 			<when state="acute" output="ǿ"/>
+			<when state="⎄;'" output="ǿ"/>
 			<when state="acute+dot" output="ǿ̇"/>
 			<when state="breve" output="ø̆"/>
 			<when state="breve+acute" output="ø̆́"/>
@@ -2657,7 +2964,7 @@
 			<when state="ogonek" output="ø̨"/>
 			<when state="ogonek+macron" output="ø̨̄"/>
 			<when state="ring" output="ø̊"/>
-			<when state="ring+macron" output="ø̊̄"/>
+			<when state="ring+acute" output="ø̊́"/>
 			<when state="ring_below" output="ø̥"/>
 			<when state="stroke" output="ø̶"/>
 			<when state="stroke+acute" output="ǿ̶"/>
@@ -2726,7 +3033,7 @@
 			<when state="ogonek" output="œ̨"/>
 			<when state="ogonek+macron" output="œ̨̄"/>
 			<when state="ring" output="œ̊"/>
-			<when state="ring+macron" output="œ̊̄"/>
+			<when state="ring+acute" output="œ̊́"/>
 			<when state="ring_below" output="œ̥"/>
 			<when state="stroke" output="œ̶"/>
 			<when state="stroke+acute" output="œ̶́"/>
@@ -2791,7 +3098,7 @@
 			<when state="ogonek" output="ß̨"/>
 			<when state="ogonek+macron" output="ß̨̄"/>
 			<when state="ring" output="ß̊"/>
-			<when state="ring+macron" output="ß̊̄"/>
+			<when state="ring+acute" output="ß̊́"/>
 			<when state="ring_below" output="ß̥"/>
 			<when state="stroke" output="ß̸"/>
 			<when state="stroke+acute" output="ß̸́"/>
@@ -2857,7 +3164,7 @@
 			<when state="ogonek" output="þ̨"/>
 			<when state="ogonek+macron" output="þ̨̄"/>
 			<when state="ring" output="þ̊"/>
-			<when state="ring+macron" output="þ̊̄"/>
+			<when state="ring+acute" output="þ̊́"/>
 			<when state="ring_below" output="þ̥"/>
 			<when state="stroke" output="þ̸"/>
 			<when state="stroke+acute" output="þ̸́"/>
@@ -2868,7 +3175,6 @@
 			<when state="tilde_below" output="þ̰"/>
 		</action><!--क-->
 		<action id="⇪⌥quot">
-			<when state="⎄;'" output="Ǽ"/>
 			<when state="№" output="ˌ"/>
 			<when state="⇪]" output="Ǽ"/>
 			<when state="⇪;" output="Æ̈"/>
@@ -2876,6 +3182,7 @@
 			<when state="⇪," output="Æ̂"/>
 			<when state="none" output="Æ"/>
 			<when state="acute" output="Ǽ"/>
+			<when state="⎄;'" output="Ǽ"/>
 			<when state="acute+dot" output="Ǽ̇"/>
 			<when state="breve" output="Æ̆"/>
 			<when state="breve+acute" output="Æ̆́"/>
@@ -2920,6 +3227,7 @@
 			<when state="inverted_breve" output="Æ̑"/>
 			<when state="line_below" output="Æ̱"/>
 			<when state="macron" output="Ǣ"/>
+			<when state="⎄;_" output="Ǣ"/>
 			<when state="macron+acute" output="Ǣ́"/>
 			<when state="macron+diaeresis" output="Ǣ̈"/>
 			<when state="macron+dot_below" output="Ǣ̣"/>
@@ -2927,7 +3235,7 @@
 			<when state="ogonek" output="Æ̨"/>
 			<when state="ogonek+macron" output="Ǣ̨"/>
 			<when state="ring" output="Æ̊"/>
-			<when state="ring+macron" output="Æ̊̄"/>
+			<when state="ring+acute" output="Æ̊́"/>
 			<when state="ring_below" output="Æ̥"/>
 			<when state="stroke" output="Æ̶"/>
 			<when state="stroke+acute" output="Ǽ̶"/>
@@ -2991,7 +3299,7 @@
 			<when state="ogonek" output="Ð̨"/>
 			<when state="ogonek+macron" output="Ð̨̄"/>
 			<when state="ring" output="Ð̊"/>
-			<when state="ring+macron" output="Ð̊̄"/>
+			<when state="ring+acute" output="Ð̊́"/>
 			<when state="ring_below" output="Ð̥"/>
 			<when state="stroke" output="Ð̸"/>
 			<when state="stroke+acute" output="Ð̸́"/>
@@ -3002,13 +3310,13 @@
 			<when state="tilde_below" output="Ð̰"/>
 		</action><!--क-->
 		<action id="⇪⌥O">
-			<when state="⎄;'" output="Ǿ"/>
 			<when state="⇪]" output="Ǿ"/>
 			<when state="⇪;" output="Ø̈"/>
 			<when state="⇪`" output="Ø̀"/>
 			<when state="⇪," output="Ø̂"/>
 			<when state="none" output="Ø"/>
 			<when state="acute" output="Ǿ"/>
+			<when state="⎄;'" output="Ǿ"/>
 			<when state="acute+dot" output="Ǿ̇"/>
 			<when state="breve" output="Ø̆"/>
 			<when state="breve+acute" output="Ø̆́"/>
@@ -3060,7 +3368,7 @@
 			<when state="ogonek" output="Ø̨"/>
 			<when state="ogonek+macron" output="Ø̨̄"/>
 			<when state="ring" output="Ø̊"/>
-			<when state="ring+macron" output="Ø̊̄"/>
+			<when state="ring+acute" output="Ø̊́"/>
 			<when state="ring_below" output="Ø̥"/>
 			<when state="stroke" output="Ø̶"/>
 			<when state="stroke+acute" output="Ǿ̶"/>
@@ -3129,7 +3437,7 @@
 			<when state="ogonek" output="Œ̨"/>
 			<when state="ogonek+macron" output="Œ̨̄"/>
 			<when state="ring" output="Œ̊"/>
-			<when state="ring+macron" output="Œ̊̄"/>
+			<when state="ring+acute" output="Œ̊́"/>
 			<when state="ring_below" output="Œ̥"/>
 			<when state="stroke" output="Œ̶"/>
 			<when state="stroke+acute" output="Œ̶́"/>
@@ -3194,7 +3502,7 @@
 			<when state="ogonek" output="Þ̨"/>
 			<when state="ogonek+macron" output="Þ̨̄"/>
 			<when state="ring" output="Þ̊"/>
-			<when state="ring+macron" output="Þ̊̄"/>
+			<when state="ring+acute" output="Þ̊́"/>
 			<when state="ring_below" output="Þ̥"/>
 			<when state="stroke" output="Þ̸"/>
 			<when state="stroke+acute" output="Þ̸́"/>
@@ -3207,9 +3515,7 @@
 <!--rich output keys uppercase ('state="none" output=' and maybe 'state="some_state" next='); ख-->
 		<action id="A">
 			<when state="⎄" next="⎄;A"/>
-			<when state="⎄;'" output="Á"/>
-				<when state="⎄;';^" output="Ấ"/>
-				<when state="⎄;';b" output="Ắ"/>
+			<when state="⎄;(" next="⎄;(;A"/>
 			<when state="⎄;O" output="Ⓐ"/>
 			<when state="⌥" output="Å"/>
 			<when state="№" output="Ə"/>
@@ -3228,41 +3534,64 @@
 		<!--क-->
 			<when state="none" output="A"/>
 			<when state="acute" output="Á"/>
+			<when state="⎄;'" output="Á"/>
 			<when state="acute+dot" output="Á̇"/>
 			<when state="breve" output="Ă"/>
+			<when state="⎄;U" output="Ă"/>
+			<when state="⎄;b" output="Ă"/>
 			<when state="breve+acute" output="Ắ"/>
+			<when state="⎄;';b" output="Ắ"/>
 			<when state="breve+dot_below" output="Ặ"/>
+			<when state="⎄;U;!" output="Ặ"/>
+			<when state="⎄;b;!" output="Ặ"/>
 			<when state="breve+grave" output="Ằ"/>
+			<when state="⎄;`;b" output="Ằ"/>
 			<when state="breve+hook_above" output="Ẳ"/>
+			<when state="⎄;?;b" output="Ẳ"/>
 			<when state="breve+tilde" output="Ẵ"/>
+			<when state="⎄;~;b" output="Ẵ"/>
 			<when state="breve_below" output="A̮"/>
 			<when state="caron" output="Ǎ"/>
+			<when state="⎄;c" output="Ǎ"/>
 			<when state="caron+dot" output="Ǎ̇"/>
 			<when state="cedilla" output="A̧"/>
 			<when state="cedilla+acute" output="Á̧"/>
 			<when state="cedilla+breve" output="Ă̧"/>
 			<when state="circumflex" output="Â"/>
+			<when state="⎄;^" output="Â"/>
 			<when state="circumflex+acute" output="Ấ"/>
+			<when state="⎄;';^" output="Ấ"/>
 			<when state="circumflex+dot_below" output="Ậ"/>
+			<when state="⎄;^;!" output="Ậ"/>
 			<when state="circumflex+grave" output="Ầ"/>
+			<when state="⎄;`;^" output="Ầ"/>
 			<when state="circumflex+hook_above" output="Ẩ"/>
+			<when state="⎄;?;^" output="Ẩ"/>
 			<when state="circumflex+tilde" output="Ẫ"/>
+			<when state="⎄;~;^" output="Ẫ"/>
 			<when state="circumflex_below" output="A̭"/>
 			<when state="comma_below" output="A̦"/>
 			<when state="diaeresis" output="Ä"/>
+			<when state="⎄;quot" output="Ä"/>
 			<when state="diaeresis+acute" output="Ä́"/>
 			<when state="diaeresis+caron" output="Ä̌"/>
 			<when state="diaeresis+grave" output="Ä̀"/>
 			<when state="diaeresis+macron" output="Ǟ"/>
+			<when state="⎄;_;quot" output="Ǟ"/>
 			<when state="diaeresis_below" output="A̤"/>
 			<when state="dot" output="Ȧ"/>
+			<when state="⎄;." output="Ȧ"/>
 			<when state="dot+dot_below" output="Ạ̇"/>
 			<when state="dot+macron" output="Ǡ"/>
+			<when state="⎄;_;." output="Ǡ"/>
 			<when state="dot_below" output="Ạ"/>
+			<when state="⎄;!" output="Ạ"/>
 			<when state="double_acute" output="A̋"/>
 			<when state="double_grave" output="Ȁ"/>
 			<when state="grave" output="À"/>
+			<when state="⎄;`" output="À"/>
 			<when state="hook_above" output="Ả"/>
+			<when state="⎄;?" output="Ả"/>
 			<when state="horn" output="A̛"/>
 			<when state="horn+acute" output="Á̛"/>
 			<when state="horn+dot_below" output="Ạ̛"/>
@@ -3272,24 +3601,32 @@
 			<when state="inverted_breve" output="Ȃ"/>
 			<when state="line_below" output="A̱"/>
 			<when state="macron" output="Ā"/>
+			<when state="⎄;_" output="Ā"/>
 			<when state="macron+acute" output="Ā́"/>
 			<when state="macron+diaeresis" output="Ā̈"/>
 			<when state="macron+dot_below" output="Ạ̄"/>
 			<when state="macron+grave" output="Ā̀"/>
 			<when state="ogonek" output="Ą"/>
+			<when state="⎄;;" output="Ą"/>
+			<when state="⎄;," output="Ą"/>
 			<when state="ogonek+macron" output="Ą̄"/>
 			<when state="ring" output="Å"/>
-			<when state="ring+macron" output="Ǻ"/>
+			<when state="⎄;o" output="Å"/>
+			<when state="ring+acute" output="Ǻ"/>
+			<when state="⎄;o;'" output="Ǻ"/>
 			<when state="ring_below" output="Ḁ"/>
 			<when state="stroke" output="Ⱥ"/>
+			<when state="⎄;/" output="Ⱥ"/>
 			<when state="stroke+acute" output="Ⱥ́"/>
 			<when state="tilde" output="Ã"/>
+			<when state="⎄;~" output="Ã"/>
 			<when state="tilde+acute" output="Ã́"/>
 			<when state="tilde+diaeresis" output="Ã̈"/>
 			<when state="tilde+macron" output="Ã̄"/>
 			<when state="tilde_below" output="A̰"/>
 		</action><!--क-->
 		<action id="B">
+			<when state="⎄;(" next="⎄;(;B"/>
 			<when state="⌥" output="ı"/>
 			<when state="№" output="Ƃ"/>
 			<when state="ʔ" output="Ɓ"/>
@@ -3325,9 +3662,11 @@
 			<when state="diaeresis+macron" output="B̈̄"/>
 			<when state="diaeresis_below" output="B̤"/>
 			<when state="dot" output="Ḃ"/>
+			<when state="⎄;." output="Ḃ"/>
 			<when state="dot+dot_below" output="Ḅ̇"/>
 			<when state="dot+macron" output="Ḃ̄"/>
 			<when state="dot_below" output="Ḅ"/>
+			<when state="⎄;!" output="Ḅ"/>
 			<when state="double_acute" output="B̋"/>
 			<when state="double_grave" output="B̏"/>
 			<when state="grave" output="B̀"/>
@@ -3348,9 +3687,10 @@
 			<when state="ogonek" output="B̨"/>
 			<when state="ogonek+macron" output="B̨̄"/>
 			<when state="ring" output="B̊"/>
-			<when state="ring+macron" output="B̊̄"/>
+			<when state="ring+acute" output="B̊́"/>
 			<when state="ring_below" output="B̥"/>
 			<when state="stroke" output="Ƀ"/>
+			<when state="⎄;/" output="Ƀ"/>
 			<when state="stroke+acute" output="Ƀ́"/>
 			<when state="tilde" output="B̃"/>
 			<when state="tilde+acute" output="B̃́"/>
@@ -3361,8 +3701,8 @@
 		<action id="C">
 			<when state="⎄" next="⎄;C"/>
 			<when state="⎄;=" output="€"/>
-			<when state="⎄;'" output="Ć"/>
 			<when state="⎄;/" output="₡"/>
+			<when state="⎄;(" next="⎄;(;C"/>
 			<when state="⎄;|" output="¢"/>
 			<when state="⎄;C" next="⎄;C;C"/>
 				<when state="⎄;C;C" next="⎄;C;C;C"/>
@@ -3377,6 +3717,7 @@
 		<!--क-->
 			<when state="none" output="C"/>
 			<when state="acute" output="Ć"/>
+			<when state="⎄;'" output="Ć"/>
 			<when state="acute+dot" output="Ć̇"/>
 			<when state="breve" output="C̆"/>
 			<when state="breve+acute" output="C̆́"/>
@@ -3386,11 +3727,14 @@
 			<when state="breve+tilde" output="C̆̃"/>
 			<when state="breve_below" output="C̮"/>
 			<when state="caron" output="Č"/>
+			<when state="⎄;c" output="Č"/>
 			<when state="caron+dot" output="Č̇"/>
 			<when state="cedilla" output="Ç"/>
+			<when state="⎄;," output="Ç"/>
 			<when state="cedilla+acute" output="Ḉ"/>
 			<when state="cedilla+breve" output="Ç̆"/>
 			<when state="circumflex" output="Ĉ"/>
+			<when state="⎄;^" output="Ĉ"/>
 			<when state="circumflex+acute" output="Ĉ́"/>
 			<when state="circumflex+dot_below" output="Ĉ̣"/>
 			<when state="circumflex+grave" output="Ĉ̀"/>
@@ -3405,6 +3749,7 @@
 			<when state="diaeresis+macron" output="C̈̄"/>
 			<when state="diaeresis_below" output="C̤"/>
 			<when state="dot" output="Ċ"/>
+			<when state="⎄;." output="Ċ"/>
 			<when state="dot+dot_below" output="Ċ̣"/>
 			<when state="dot+macron" output="Ċ̄"/>
 			<when state="dot_below" output="C̣"/>
@@ -3428,7 +3773,7 @@
 			<when state="ogonek" output="C̨"/>
 			<when state="ogonek+macron" output="C̨̄"/>
 			<when state="ring" output="C̊"/>
-			<when state="ring+macron" output="C̊̄"/>
+			<when state="ring+acute" output="C̊́"/>
 			<when state="ring_below" output="C̥"/>
 			<when state="stroke" output="Ȼ"/>
 			<when state="stroke+acute" output="Ȼ́"/>
@@ -3441,6 +3786,7 @@
 		<action id="D">
 			<when state="⎄" next="⎄;D"/>
 			<when state="⎄;-" output="Đ"/>
+			<when state="⎄;(" next="⎄;(;D"/>
 			<when state="⌥" output="Î"/>
 			<when state="№" output="Ƌ"/>
 			<when state="ʔ" output="Ɗ"/>
@@ -3500,7 +3846,7 @@
 				<when state="ogonek;⇪⌥" output="Ð̨"/>
 				<when state="ogonek+macron;⇪⌥" output="Ð̨̄"/>
 				<when state="ring;⇪⌥" output="Ð̊"/>
-				<when state="ring+macron;⇪⌥" output="Ð̊̄"/>
+				<when state="ring+acute;⇪⌥" output="Ð̊́"/>
 				<when state="ring_below;⇪⌥" output="Ð̥"/>
 				<when state="stroke;⇪⌥" output="Ð̸"/>
 				<when state="stroke+acute;⇪⌥" output="Ð̸́"/>
@@ -3521,8 +3867,10 @@
 			<when state="breve+tilde" output="D̆̃"/>
 			<when state="breve_below" output="D̮"/>
 			<when state="caron" output="Ď"/>
+			<when state="⎄;c" output="Ď"/>
 			<when state="caron+dot" output="Ď̇"/>
 			<when state="cedilla" output="Ḑ"/>
+			<when state="⎄;," output="Ḑ"/>
 			<when state="cedilla+acute" output="Ḑ́"/>
 			<when state="cedilla+breve" output="Ḑ̆"/>
 			<when state="circumflex" output="D̂"/>
@@ -3540,9 +3888,11 @@
 			<when state="diaeresis+macron" output="D̈̄"/>
 			<when state="diaeresis_below" output="D̤"/>
 			<when state="dot" output="Ḋ"/>
+			<when state="⎄;." output="Ḋ"/>
 			<when state="dot+dot_below" output="Ḍ̇"/>
 			<when state="dot+macron" output="Ḋ̄"/>
 			<when state="dot_below" output="Ḍ"/>
+			<when state="⎄;!" output="Ḍ"/>
 			<when state="double_acute" output="D̋"/>
 			<when state="double_grave" output="D̏"/>
 			<when state="grave" output="D̀"/>
@@ -3563,9 +3913,10 @@
 			<when state="ogonek" output="D̨"/>
 			<when state="ogonek+macron" output="D̨̄"/>
 			<when state="ring" output="D̊"/>
-			<when state="ring+macron" output="D̊̄"/>
+			<when state="ring+acute" output="D̊́"/>
 			<when state="ring_below" output="D̥"/>
 			<when state="stroke" output="Đ"/>
+			<when state="⎄;/" output="Đ"/>
 			<when state="stroke+acute" output="Đ́"/>
 			<when state="tilde" output="D̃"/>
 			<when state="tilde+acute" output="D̃́"/>
@@ -3576,9 +3927,7 @@
 		<action id="E">
 			<when state="⎄" next="⎄;E"/>
 			<when state="⎄;=" output="€"/>
-			<when state="⎄;'" output="É"/>
-				<when state="⎄;';^" output="Ế"/>
-				<when state="⎄;';_" output="Ḗ"/>
+			<when state="⎄;(" next="⎄;(;E"/>
 			<when state="⎄;A" output="Æ"/>
 			<when state="⎄;C" output="₠"/>
 			<when state="⎄;O" output="Œ"/>
@@ -3598,8 +3947,11 @@
 		<!--क-->
 			<when state="none" output="E"/>
 			<when state="acute" output="É"/>
+			<when state="⎄;'" output="É"/>
 			<when state="acute+dot" output="É̇"/>
 			<when state="breve" output="Ĕ"/>
+			<when state="⎄;U" output="Ĕ"/>
+			<when state="⎄;b" output="Ĕ"/>
 			<when state="breve+acute" output="Ĕ́"/>
 			<when state="breve+dot_below" output="Ẹ̆"/>
 			<when state="breve+grave" output="Ĕ̀"/>
@@ -3607,32 +3959,46 @@
 			<when state="breve+tilde" output="Ĕ̃"/>
 			<when state="breve_below" output="E̮"/>
 			<when state="caron" output="Ě"/>
+			<when state="⎄;c" output="Ě"/>
 			<when state="caron+dot" output="Ě̇"/>
 			<when state="cedilla" output="Ȩ"/>
 			<when state="cedilla+acute" output="Ȩ́"/>
 			<when state="cedilla+breve" output="Ḝ"/>
+			<when state="⎄;U;," output="Ḝ"/>
+			<when state="⎄;b;," output="Ḝ"/>
 			<when state="circumflex" output="Ê"/>
+			<when state="⎄;^" output="Ê"/>
 			<when state="circumflex+acute" output="Ế"/>
+			<when state="⎄;';^" output="Ế"/>
 			<when state="circumflex+dot_below" output="Ệ"/>
+			<when state="⎄;^;!" output="Ệ"/>
 			<when state="circumflex+grave" output="Ề"/>
+			<when state="⎄;`;^" output="Ề"/>
 			<when state="circumflex+hook_above" output="Ể"/>
+			<when state="⎄;?;^" output="Ể"/>
 			<when state="circumflex+tilde" output="Ễ"/>
+			<when state="⎄;~;^" output="Ễ"/>
 			<when state="circumflex_below" output="Ḙ"/>
 			<when state="comma_below" output="E̦"/>
 			<when state="diaeresis" output="Ë"/>
+			<when state="⎄;quot" output="Ë"/>
 			<when state="diaeresis+acute" output="Ë́"/>
 			<when state="diaeresis+caron" output="Ë̌"/>
 			<when state="diaeresis+grave" output="Ë̀"/>
 			<when state="diaeresis+macron" output="Ë̄"/>
 			<when state="diaeresis_below" output="E̤"/>
 			<when state="dot" output="Ė"/>
+			<when state="⎄;." output="Ė"/>
 			<when state="dot+dot_below" output="Ẹ̇"/>
 			<when state="dot+macron" output="Ė̄"/>
 			<when state="dot_below" output="Ẹ"/>
+			<when state="⎄;!" output="Ẹ"/>
 			<when state="double_acute" output="E̋"/>
 			<when state="double_grave" output="Ȅ"/>
 			<when state="grave" output="È"/>
+			<when state="⎄;`" output="È"/>
 			<when state="hook_above" output="Ẻ"/>
+			<when state="⎄;?" output="Ẻ"/>
 			<when state="horn" output="E̛"/>
 			<when state="horn+acute" output="É̛"/>
 			<when state="horn+dot_below" output="Ẹ̛"/>
@@ -3642,18 +4008,25 @@
 			<when state="inverted_breve" output="Ȇ"/>
 			<when state="line_below" output="E̱"/>
 			<when state="macron" output="Ē"/>
+			<when state="⎄;_" output="Ē"/>
 			<when state="macron+acute" output="Ḗ"/>
+			<when state="⎄;';_" output="Ḗ"/>
 			<when state="macron+diaeresis" output="Ē̈"/>
 			<when state="macron+dot_below" output="Ẹ̄"/>
 			<when state="macron+grave" output="Ḕ"/>
+			<when state="⎄;`;_" output="Ḕ"/>
 			<when state="ogonek" output="Ę"/>
+			<when state="⎄;;" output="Ę"/>
+			<when state="⎄;," output="Ę"/>
 			<when state="ogonek+macron" output="Ę̄"/>
 			<when state="ring" output="E̊"/>
-			<when state="ring+macron" output="E̊̄"/>
+			<when state="ring+acute" output="E̊́"/>
 			<when state="ring_below" output="E̥"/>
 			<when state="stroke" output="Ɇ"/>
+			<when state="⎄;/" output="Ɇ"/>
 			<when state="stroke+acute" output="Ɇ́"/>
 			<when state="tilde" output="Ẽ"/>
+			<when state="⎄;~" output="Ẽ"/>
 			<when state="tilde+acute" output="Ẽ́"/>
 			<when state="tilde+diaeresis" output="Ẽ̈"/>
 			<when state="tilde+macron" output="Ẽ̄"/>
@@ -3661,6 +4034,7 @@
 		</action><!--क-->
 		<action id="F">
 			<when state="⎄" next="⎄;F"/>
+			<when state="⎄;(" next="⎄;(;F"/>
 			<when state="⌥" output="Ï"/>
 			<when state="ʔ" output="Ƒ"/>
 			<when state="⇪⌥" next="tilde_below"/>
@@ -3695,6 +4069,7 @@
 			<when state="diaeresis+macron" output="F̈̄"/>
 			<when state="diaeresis_below" output="F̤"/>
 			<when state="dot" output="Ḟ"/>
+			<when state="⎄;." output="Ḟ"/>
 			<when state="dot+dot_below" output="Ḟ̣"/>
 			<when state="dot+macron" output="Ḟ̄"/>
 			<when state="dot_below" output="F̣"/>
@@ -3718,7 +4093,7 @@
 			<when state="ogonek" output="F̨"/>
 			<when state="ogonek+macron" output="F̨̄"/>
 			<when state="ring" output="F̊"/>
-			<when state="ring+macron" output="F̊̄"/>
+			<when state="ring+acute" output="F̊́"/>
 			<when state="ring_below" output="F̥"/>
 			<when state="stroke" output="F̶"/>
 			<when state="stroke+acute" output="F̶́"/>
@@ -3729,7 +4104,8 @@
 			<when state="tilde_below" output="F̰"/>
 		</action><!--क-->
 		<action id="G">
-			<when state="⎄;'" output="Ǵ"/>
+			<when state="⎄;(" next="⎄;(;G"/>
+			<when state="⎄;N" output="Ŋ"/>
 			<when state="⌥" output="˝"/>
 			<when state="№" output="Ɣ"/>
 			<when state="ʔ" output="Ɠ"/>
@@ -3739,8 +4115,11 @@
 		<!--क-->
 			<when state="none" output="G"/>
 			<when state="acute" output="Ǵ"/>
+			<when state="⎄;'" output="Ǵ"/>
 			<when state="acute+dot" output="Ǵ̇"/>
 			<when state="breve" output="Ğ"/>
+			<when state="⎄;U" output="Ğ"/>
+			<when state="⎄;b" output="Ğ"/>
 			<when state="breve+acute" output="Ğ́"/>
 			<when state="breve+dot_below" output="Ğ̣"/>
 			<when state="breve+grave" output="Ğ̀"/>
@@ -3748,11 +4127,14 @@
 			<when state="breve+tilde" output="Ğ̃"/>
 			<when state="breve_below" output="G̮"/>
 			<when state="caron" output="Ǧ"/>
+			<when state="⎄;c" output="Ǧ"/>
 			<when state="caron+dot" output="Ǧ̇"/>
 			<when state="cedilla" output="Ģ"/>
+			<when state="⎄;," output="Ģ"/>
 			<when state="cedilla+acute" output="Ģ́"/>
 			<when state="cedilla+breve" output="Ģ̆"/>
 			<when state="circumflex" output="Ĝ"/>
+			<when state="⎄;^" output="Ĝ"/>
 			<when state="circumflex+acute" output="Ĝ́"/>
 			<when state="circumflex+dot_below" output="Ĝ̣"/>
 			<when state="circumflex+grave" output="Ĝ̀"/>
@@ -3767,6 +4149,7 @@
 			<when state="diaeresis+macron" output="G̈̄"/>
 			<when state="diaeresis_below" output="G̤"/>
 			<when state="dot" output="Ġ"/>
+			<when state="⎄;." output="Ġ"/>
 			<when state="dot+dot_below" output="Ġ̣"/>
 			<when state="dot+macron" output="Ġ̄"/>
 			<when state="dot_below" output="G̣"/>
@@ -3783,6 +4166,7 @@
 			<when state="inverted_breve" output="G̑"/>
 			<when state="line_below" output="G̱"/>
 			<when state="macron" output="Ḡ"/>
+			<when state="⎄;_" output="Ḡ"/>
 			<when state="macron+acute" output="Ḡ́"/>
 			<when state="macron+diaeresis" output="Ḡ̈"/>
 			<when state="macron+dot_below" output="Ḡ̣"/>
@@ -3790,9 +4174,10 @@
 			<when state="ogonek" output="G̨"/>
 			<when state="ogonek+macron" output="Ḡ̨"/>
 			<when state="ring" output="G̊"/>
-			<when state="ring+macron" output="G̊̄"/>
+			<when state="ring+acute" output="G̊́"/>
 			<when state="ring_below" output="G̥"/>
 			<when state="stroke" output="Ǥ"/>
+			<when state="⎄;/" output="Ǥ"/>
 			<when state="stroke+acute" output="Ǥ́"/>
 			<when state="tilde" output="G̃"/>
 			<when state="tilde+acute" output="G̃́"/>
@@ -3801,6 +4186,9 @@
 			<when state="tilde_below" output="G̰"/>
 		</action><!--क-->
 		<action id="H">
+			<when state="⎄;(" next="⎄;(;H"/>
+			<when state="⎄;D" output="Ð"/>
+			<when state="⎄;T" output="Þ"/>
 			<when state="⌥" output="Ó"/>
 			<when state="№" output="Ƕ"/>
 			<when state="№;⇪⌥" output="Ⱶ"/>
@@ -3819,11 +4207,14 @@
 			<when state="breve+tilde" output="H̆̃"/>
 			<when state="breve_below" output="Ḫ"/>
 			<when state="caron" output="Ȟ"/>
+			<when state="⎄;c" output="Ȟ"/>
 			<when state="caron+dot" output="Ȟ̇"/>
 			<when state="cedilla" output="Ḩ"/>
+			<when state="⎄;," output="Ḩ"/>
 			<when state="cedilla+acute" output="Ḩ́"/>
 			<when state="cedilla+breve" output="Ḩ̆"/>
 			<when state="circumflex" output="Ĥ"/>
+			<when state="⎄;^" output="Ĥ"/>
 			<when state="circumflex+acute" output="Ĥ́"/>
 			<when state="circumflex+dot_below" output="Ḥ̂"/>
 			<when state="circumflex+grave" output="Ĥ̀"/>
@@ -3832,15 +4223,18 @@
 			<when state="circumflex_below" output="H̭"/>
 			<when state="comma_below" output="H̦"/>
 			<when state="diaeresis" output="Ḧ"/>
+			<when state="⎄;quot" output="Ḧ"/>
 			<when state="diaeresis+acute" output="Ḧ́"/>
 			<when state="diaeresis+caron" output="Ḧ̌"/>
 			<when state="diaeresis+grave" output="Ḧ̀"/>
 			<when state="diaeresis+macron" output="Ḧ̄"/>
 			<when state="diaeresis_below" output="H̤"/>
 			<when state="dot" output="Ḣ"/>
+			<when state="⎄;." output="Ḣ"/>
 			<when state="dot+dot_below" output="Ḥ̇"/>
 			<when state="dot+macron" output="Ḣ̄"/>
 			<when state="dot_below" output="Ḥ"/>
+			<when state="⎄;!" output="Ḥ"/>
 			<when state="double_acute" output="H̋"/>
 			<when state="double_grave" output="H̏"/>
 			<when state="grave" output="H̀"/>
@@ -3861,9 +4255,10 @@
 			<when state="ogonek" output="H̨"/>
 			<when state="ogonek+macron" output="H̨̄"/>
 			<when state="ring" output="H̊"/>
-			<when state="ring+macron" output="H̊̄"/>
+			<when state="ring+acute" output="H̊́"/>
 			<when state="ring_below" output="H̥"/>
 			<when state="stroke" output="Ħ"/>
+			<when state="⎄;/" output="Ħ"/>
 			<when state="stroke+acute" output="Ħ́"/>
 			<when state="tilde" output="H̃"/>
 			<when state="tilde+acute" output="H̃́"/>
@@ -3873,8 +4268,7 @@
 		</action><!--क-->
 		<action id="I">
 			<when state="⎄" next="⎄;I"/>
-			<when state="⎄;'" output="Í"/>
-				<when state="⎄;';quot" output="Ḯ"/>
+			<when state="⎄;(" next="⎄;(;I"/>
 			<when state="⌥" output="ˆ"/>
 			<when state="ʔ" output="Ɩ"/>
 			<when state="⌥`" output="Ì"/>
@@ -3891,8 +4285,11 @@
 		<!--क-->
 			<when state="none" output="I"/>
 			<when state="acute" output="Í"/>
+			<when state="⎄;'" output="Í"/>
 			<when state="acute+dot" output="Í̇"/>
 			<when state="breve" output="Ĭ"/>
+			<when state="⎄;U" output="Ĭ"/>
+			<when state="⎄;b" output="Ĭ"/>
 			<when state="breve+acute" output="Ĭ́"/>
 			<when state="breve+dot_below" output="Ị̆"/>
 			<when state="breve+grave" output="Ĭ̀"/>
@@ -3900,11 +4297,13 @@
 			<when state="breve+tilde" output="Ĭ̃"/>
 			<when state="breve_below" output="I̮"/>
 			<when state="caron" output="Ǐ"/>
+			<when state="⎄;c" output="Ǐ"/>
 			<when state="caron+dot" output="Ǐ̇"/>
 			<when state="cedilla" output="I̧"/>
 			<when state="cedilla+acute" output="Í̧"/>
 			<when state="cedilla+breve" output="Ĭ̧"/>
 			<when state="circumflex" output="Î"/>
+			<when state="⎄;^" output="Î"/>
 			<when state="circumflex+acute" output="Î́"/>
 			<when state="circumflex+dot_below" output="Ị̂"/>
 			<when state="circumflex+grave" output="Î̀"/>
@@ -3913,19 +4312,25 @@
 			<when state="circumflex_below" output="I̭"/>
 			<when state="comma_below" output="I̦"/>
 			<when state="diaeresis" output="Ï"/>
+			<when state="⎄;quot" output="Ï"/>
 			<when state="diaeresis+acute" output="Ḯ"/>
+			<when state="⎄;';quot" output="Ḯ"/>
 			<when state="diaeresis+caron" output="Ï̌"/>
 			<when state="diaeresis+grave" output="Ï̀"/>
 			<when state="diaeresis+macron" output="Ï̄"/>
 			<when state="diaeresis_below" output="I̤"/>
 			<when state="dot" output="İ"/>
+			<when state="⎄;." output="İ"/>
 			<when state="dot+dot_below" output="Ị̇"/>
 			<when state="dot+macron" output="İ̄"/>
 			<when state="dot_below" output="Ị"/>
+			<when state="⎄;!" output="Ị"/>
 			<when state="double_acute" output="I̋"/>
 			<when state="double_grave" output="Ȉ"/>
 			<when state="grave" output="Ì"/>
+			<when state="⎄;`" output="Ì"/>
 			<when state="hook_above" output="Ỉ"/>
+			<when state="⎄;?" output="Ỉ"/>
 			<when state="horn" output="I̛"/>
 			<when state="horn+acute" output="Í̛"/>
 			<when state="horn+dot_below" output="Ị̛"/>
@@ -3935,24 +4340,30 @@
 			<when state="inverted_breve" output="Ȋ"/>
 			<when state="line_below" output="I̱"/>
 			<when state="macron" output="Ī"/>
+			<when state="⎄;_" output="Ī"/>
 			<when state="macron+acute" output="Ī́"/>
 			<when state="macron+diaeresis" output="Ī̈"/>
 			<when state="macron+dot_below" output="Ị̄"/>
 			<when state="macron+grave" output="Ī̀"/>
 			<when state="ogonek" output="Į"/>
+			<when state="⎄;;" output="Į"/>
+			<when state="⎄;," output="Į"/>
 			<when state="ogonek+macron" output="Į̄"/>
 			<when state="ring" output="I̊"/>
-			<when state="ring+macron" output="I̊̄"/>
+			<when state="ring+acute" output="I̊́"/>
 			<when state="ring_below" output="I̥"/>
 			<when state="stroke" output="Ɨ"/>
+			<when state="⎄;/" output="Ɨ"/>
 			<when state="stroke+acute" output="Ɨ́"/>
 			<when state="tilde" output="Ĩ"/>
+			<when state="⎄;~" output="Ĩ"/>
 			<when state="tilde+acute" output="Ĩ́"/>
 			<when state="tilde+diaeresis" output="Ĩ̈"/>
 			<when state="tilde+macron" output="Ĩ̄"/>
 			<when state="tilde_below" output="Ḭ"/>
 		</action><!--क-->
 		<action id="J">
+			<when state="⎄;(" next="⎄;(;J"/>
 			<when state="⎄;I" output="Ĳ"/>
 			<when state="⌥" output="Ô"/>
 			<when state="№" output="Ƞ"/>
@@ -3979,6 +4390,7 @@
 			<when state="cedilla+acute" output="J̧́"/>
 			<when state="cedilla+breve" output="J̧̆"/>
 			<when state="circumflex" output="Ĵ"/>
+			<when state="⎄;^" output="Ĵ"/>
 			<when state="circumflex+acute" output="Ĵ́"/>
 			<when state="circumflex+dot_below" output="Ĵ̣"/>
 			<when state="circumflex+grave" output="Ĵ̀"/>
@@ -4016,9 +4428,10 @@
 			<when state="ogonek" output="J̨"/>
 			<when state="ogonek+macron" output="J̨̄"/>
 			<when state="ring" output="J̊"/>
-			<when state="ring+macron" output="J̊̄"/>
+			<when state="ring+acute" output="J̊́"/>
 			<when state="ring_below" output="J̥"/>
 			<when state="stroke" output="Ɉ"/>
+			<when state="⎄;/" output="Ɉ"/>
 			<when state="stroke+acute" output="Ɉ́"/>
 			<when state="tilde" output="J̃"/>
 			<when state="tilde+acute" output="J̃́"/>
@@ -4027,7 +4440,7 @@
 			<when state="tilde_below" output="J̰"/>
 		</action><!--क-->
 		<action id="K">
-			<when state="⎄;'" output="Ḱ"/>
+			<when state="⎄;(" next="⎄;(;K"/>
 			<when state="⌥" output=""/>
 			<when state="№" output="K’"/>
 			<when state="ʔ" output="Ƙ"/>
@@ -4036,6 +4449,7 @@
 		<!--क-->
 			<when state="none" output="K"/>
 			<when state="acute" output="Ḱ"/>
+			<when state="⎄;'" output="Ḱ"/>
 			<when state="acute+dot" output="Ḱ̇"/>
 			<when state="breve" output="K̆"/>
 			<when state="breve+acute" output="K̆́"/>
@@ -4045,8 +4459,10 @@
 			<when state="breve+tilde" output="K̆̃"/>
 			<when state="breve_below" output="K̮"/>
 			<when state="caron" output="Ǩ"/>
+			<when state="⎄;c" output="Ǩ"/>
 			<when state="caron+dot" output="Ǩ̇"/>
 			<when state="cedilla" output="Ķ"/>
+			<when state="⎄;," output="Ķ"/>
 			<when state="cedilla+acute" output="Ķ́"/>
 			<when state="cedilla+breve" output="Ķ̆"/>
 			<when state="circumflex" output="K̂"/>
@@ -4067,6 +4483,7 @@
 			<when state="dot+dot_below" output="Ḳ̇"/>
 			<when state="dot+macron" output="K̇̄"/>
 			<when state="dot_below" output="Ḳ"/>
+			<when state="⎄;!" output="Ḳ"/>
 			<when state="double_acute" output="K̋"/>
 			<when state="double_grave" output="K̏"/>
 			<when state="grave" output="K̀"/>
@@ -4087,7 +4504,7 @@
 			<when state="ogonek" output="K̨"/>
 			<when state="ogonek+macron" output="K̨̄"/>
 			<when state="ring" output="K̊"/>
-			<when state="ring+macron" output="K̊̄"/>
+			<when state="ring+acute" output="K̊́"/>
 			<when state="ring_below" output="K̥"/>
 			<when state="stroke" output="K̶"/>
 			<when state="stroke+acute" output="Ḱ̶"/>
@@ -4101,7 +4518,7 @@
 			<when state="⎄" next="⎄;L"/>
 			<when state="⎄;-" output="£"/>
 			<when state="⎄;=" output="₤"/>
-			<when state="⎄;'" output="Ĺ"/>
+			<when state="⎄;(" next="⎄;(;L"/>
 			<when state="⎄;V" output="|"/>
 			<when state="⌥" output="Ò"/>
 			<when state="№" output="Ⱡ"/>
@@ -4110,6 +4527,7 @@
 		<!--क-->
 			<when state="none" output="L"/>
 			<when state="acute" output="Ĺ"/>
+			<when state="⎄;'" output="Ĺ"/>
 			<when state="acute+dot" output="Ĺ̇"/>
 			<when state="breve" output="L̆"/>
 			<when state="breve+acute" output="L̆́"/>
@@ -4119,8 +4537,10 @@
 			<when state="breve+tilde" output="L̆̃"/>
 			<when state="breve_below" output="L̮"/>
 			<when state="caron" output="Ľ"/>
+			<when state="⎄;c" output="Ľ"/>
 			<when state="caron+dot" output="Ľ̇"/>
 			<when state="cedilla" output="Ļ"/>
+			<when state="⎄;," output="Ļ"/>
 			<when state="cedilla+acute" output="Ļ́"/>
 			<when state="cedilla+breve" output="Ļ̆"/>
 			<when state="circumflex" output="L̂"/>
@@ -4138,9 +4558,11 @@
 			<when state="diaeresis+macron" output="L̈̄"/>
 			<when state="diaeresis_below" output="L̤"/>
 			<when state="dot" output="Ŀ"/>
+			<when state="⎄;." output="Ŀ"/>
 			<when state="dot+dot_below" output="Ŀ̣"/>
 			<when state="dot+macron" output="Ŀ̄"/>
 			<when state="dot_below" output="Ḷ"/>
+			<when state="⎄;!" output="Ḷ"/>
 			<when state="double_acute" output="L̋"/>
 			<when state="double_grave" output="L̏"/>
 			<when state="grave" output="L̀"/>
@@ -4157,13 +4579,15 @@
 			<when state="macron+acute" output="L̄́"/>
 			<when state="macron+diaeresis" output="L̄̈"/>
 			<when state="macron+dot_below" output="Ḹ"/>
+			<when state="⎄;_;!" output="Ḹ"/>
 			<when state="macron+grave" output="L̄̀"/>
 			<when state="ogonek" output="L̨"/>
 			<when state="ogonek+macron" output="L̨̄"/>
 			<when state="ring" output="L̊"/>
-			<when state="ring+macron" output="L̊̄"/>
+			<when state="ring+acute" output="L̊́"/>
 			<when state="ring_below" output="L̥"/>
 			<when state="stroke" output="Ł"/>
+			<when state="⎄;/" output="Ł"/>
 			<when state="stroke+acute" output="Ł́"/>
 			<when state="tilde" output="L̃"/>
 			<when state="tilde+acute" output="L̃́"/>
@@ -4172,13 +4596,18 @@
 			<when state="tilde_below" output="L̰"/>
 		</action><!--क-->
 		<action id="M">
-			<when state="⎄;'" output="Ḿ"/>
+			<when state="⎄;(" next="⎄;(;M"/>
+			<when state="⎄;S" output="℠"/>
+			<when state="⎄;T" output="™"/>
+			<when state="⎄;s" output="℠"/>
+			<when state="⎄;t" output="™"/>
 			<when state="⌥" output="Â"/>
 			<when state="№" output="Ɯ"/>
 			<when state="⇪⌥" output="̨"/>
 		<!--क-->
 			<when state="none" output="M"/>
 			<when state="acute" output="Ḿ"/>
+			<when state="⎄;'" output="Ḿ"/>
 			<when state="acute+dot" output="Ḿ̇"/>
 			<when state="breve" output="M̆"/>
 			<when state="breve+acute" output="M̆́"/>
@@ -4207,9 +4636,11 @@
 			<when state="diaeresis+macron" output="M̈̄"/>
 			<when state="diaeresis_below" output="M̤"/>
 			<when state="dot" output="Ṁ"/>
+			<when state="⎄;." output="Ṁ"/>
 			<when state="dot+dot_below" output="Ṃ̇"/>
 			<when state="dot+macron" output="Ṁ̄"/>
 			<when state="dot_below" output="Ṃ"/>
+			<when state="⎄;!" output="Ṃ"/>
 			<when state="double_acute" output="M̋"/>
 			<when state="double_grave" output="M̏"/>
 			<when state="grave" output="M̀"/>
@@ -4230,7 +4661,7 @@
 			<when state="ogonek" output="M̨"/>
 			<when state="ogonek+macron" output="M̨̄"/>
 			<when state="ring" output="M̊"/>
-			<when state="ring+macron" output="M̊̄"/>
+			<when state="ring+acute" output="M̊́"/>
 			<when state="ring_below" output="M̥"/>
 			<when state="stroke" output="M̶"/>
 			<when state="stroke+acute" output="Ḿ̶"/>
@@ -4243,7 +4674,7 @@
 		<action id="N">
 			<when state="⎄" next="⎄;N"/>
 			<when state="⎄;=" output="₦"/>
-			<when state="⎄;'" output="Ń"/>
+			<when state="⎄;(" next="⎄;(;N"/>
 			<when state="⌥" output="˜"/>
 			<when state="№" output="Ŋ"/>
 			<when state="ʔ" output="Ɲ"/>
@@ -4254,6 +4685,7 @@
 		<!--क-->
 			<when state="none" output="N"/>
 			<when state="acute" output="Ń"/>
+			<when state="⎄;'" output="Ń"/>
 			<when state="acute+dot" output="Ń̇"/>
 			<when state="breve" output="N̆"/>
 			<when state="breve+acute" output="N̆́"/>
@@ -4263,8 +4695,10 @@
 			<when state="breve+tilde" output="N̆̃"/>
 			<when state="breve_below" output="N̮"/>
 			<when state="caron" output="Ň"/>
+			<when state="⎄;c" output="Ň"/>
 			<when state="caron+dot" output="Ň̇"/>
 			<when state="cedilla" output="Ņ"/>
+			<when state="⎄;," output="Ņ"/>
 			<when state="cedilla+acute" output="Ņ́"/>
 			<when state="cedilla+breve" output="Ņ̆"/>
 			<when state="circumflex" output="N̂"/>
@@ -4282,12 +4716,15 @@
 			<when state="diaeresis+macron" output="N̈̄"/>
 			<when state="diaeresis_below" output="N̤"/>
 			<when state="dot" output="Ṅ"/>
+			<when state="⎄;." output="Ṅ"/>
 			<when state="dot+dot_below" output="Ṇ̇"/>
 			<when state="dot+macron" output="Ṅ̄"/>
 			<when state="dot_below" output="Ṇ"/>
+			<when state="⎄;!" output="Ṇ"/>
 			<when state="double_acute" output="N̋"/>
 			<when state="double_grave" output="N̏"/>
 			<when state="grave" output="Ǹ"/>
+			<when state="⎄;`" output="Ǹ"/>
 			<when state="hook_above" output="N̉"/>
 			<when state="horn" output="N̛"/>
 			<when state="horn+acute" output="Ń̛"/>
@@ -4305,11 +4742,12 @@
 			<when state="ogonek" output="N̨"/>
 			<when state="ogonek+macron" output="N̨̄"/>
 			<when state="ring" output="N̊"/>
-			<when state="ring+macron" output="N̊̄"/>
+			<when state="ring+acute" output="N̊́"/>
 			<when state="ring_below" output="N̥"/>
 			<when state="stroke" output="N̶"/>
 			<when state="stroke+acute" output="Ń̶"/>
 			<when state="tilde" output="Ñ"/>
+			<when state="⎄;~" output="Ñ"/>
 			<when state="tilde+acute" output="Ñ́"/>
 			<when state="tilde+diaeresis" output="Ñ̈"/>
 			<when state="tilde+macron" output="Ñ̄"/>
@@ -4317,12 +4755,9 @@
 		</action><!--क-->
 		<action id="O">
 			<when state="⎄" next="⎄;O"/>
-			<when state="⎄;'" output="Ó"/>
 				<when state="⎄;';/" output="Ǿ"/>
-				<when state="⎄;';^" output="Ố"/>
-				<when state="⎄;';_" output="Ṓ"/>
-				<when state="⎄;';+" output="Ớ"/>
-				<when state="⎄;';~" output="Ṍ"/>
+			<when state="⎄;/" output="Ø"/>
+			<when state="⎄;(" next="⎄;(;O"/>
 			<when state="⎄;N" output="№"/>
 			<when state="⌥" output="Ø"/>
 			<when state="⌥`" output="Ò"/>
@@ -4389,7 +4824,7 @@
 				<when state="ogonek;⇪⌥" output="Ø̨"/>
 				<when state="ogonek+macron;⇪⌥" output="Ø̨̄"/>
 				<when state="ring;⇪⌥" output="Ø̊"/>
-				<when state="ring+macron;⇪⌥" output="Ø̊̄"/>
+				<when state="ring+acute;⇪⌥" output="Ø̊́"/>
 				<when state="ring_below;⇪⌥" output="Ø̥"/>
 				<when state="stroke;⇪⌥" output="Ø̶"/>
 				<when state="stroke+acute;⇪⌥" output="Ǿ̶"/>
@@ -4401,8 +4836,11 @@
 		<!--क-->
 			<when state="none" output="O"/>
 			<when state="acute" output="Ó"/>
+			<when state="⎄;'" output="Ó"/>
 			<when state="acute+dot" output="Ó̇"/>
 			<when state="breve" output="Ŏ"/>
+			<when state="⎄;U" output="Ŏ"/>
+			<when state="⎄;b" output="Ŏ"/>
 			<when state="breve+acute" output="Ŏ́"/>
 			<when state="breve+dot_below" output="Ọ̆"/>
 			<when state="breve+grave" output="Ŏ̀"/>
@@ -4410,62 +4848,93 @@
 			<when state="breve+tilde" output="Ŏ̃"/>
 			<when state="breve_below" output="O̮"/>
 			<when state="caron" output="Ǒ"/>
+			<when state="⎄;c" output="Ǒ"/>
 			<when state="caron+dot" output="Ǒ̇"/>
 			<when state="cedilla" output="O̧"/>
 			<when state="cedilla+acute" output="Ó̧"/>
 			<when state="cedilla+breve" output="Ŏ̧"/>
 			<when state="circumflex" output="Ô"/>
+			<when state="⎄;^" output="Ô"/>
 			<when state="circumflex+acute" output="Ố"/>
+			<when state="⎄;';^" output="Ố"/>
 			<when state="circumflex+dot_below" output="Ộ"/>
+			<when state="⎄;^;!" output="Ộ"/>
 			<when state="circumflex+grave" output="Ồ"/>
+			<when state="⎄;`;^" output="Ồ"/>
 			<when state="circumflex+hook_above" output="Ổ"/>
+			<when state="⎄;?;^" output="Ổ"/>
 			<when state="circumflex+tilde" output="Ỗ"/>
+			<when state="⎄;~;^" output="Ỗ"/>
 			<when state="circumflex_below" output="O̭"/>
 			<when state="comma_below" output="O̦"/>
 			<when state="diaeresis" output="Ö"/>
+			<when state="⎄;quot" output="Ö"/>
 			<when state="diaeresis+acute" output="Ö́"/>
 			<when state="diaeresis+caron" output="Ö̌"/>
 			<when state="diaeresis+grave" output="Ö̀"/>
 			<when state="diaeresis+macron" output="Ȫ"/>
+			<when state="⎄;_;quot" output="Ȫ"/>
 			<when state="diaeresis_below" output="O̤"/>
 			<when state="dot" output="Ȯ"/>
+			<when state="⎄;." output="Ȯ"/>
 			<when state="dot+dot_below" output="Ọ̇"/>
 			<when state="dot+macron" output="Ȱ"/>
+			<when state="⎄;_;." output="Ȱ"/>
 			<when state="dot_below" output="Ọ"/>
+			<when state="⎄;!" output="Ọ"/>
 			<when state="double_acute" output="Ő"/>
+			<when state="⎄;=" output="Ő"/>
 			<when state="double_grave" output="Ȍ"/>
 			<when state="grave" output="Ò"/>
+			<when state="⎄;`" output="Ò"/>
 			<when state="hook_above" output="Ỏ"/>
+			<when state="⎄;?" output="Ỏ"/>
 			<when state="horn" output="Ơ"/>
+			<when state="⎄;+" output="Ơ"/>
 			<when state="horn+acute" output="Ớ"/>
+			<when state="⎄;';+" output="Ớ"/>
 			<when state="horn+dot_below" output="Ợ"/>
+			<when state="⎄;!;+" output="Ợ"/>
 			<when state="horn+grave" output="Ờ"/>
+			<when state="⎄;`;+" output="Ờ"/>
 			<when state="horn+hook_above" output="Ở"/>
+			<when state="⎄;?;+" output="Ở"/>
 			<when state="horn+tilde" output="Ỡ"/>
+			<when state="⎄;~;+" output="Ỡ"/>
 			<when state="inverted_breve" output="Ȏ"/>
 			<when state="line_below" output="O̱"/>
 			<when state="macron" output="Ō"/>
+			<when state="⎄;_" output="Ō"/>
 			<when state="macron+acute" output="Ṓ"/>
+			<when state="⎄;';_" output="Ṓ"/>
 			<when state="macron+diaeresis" output="Ō̈"/>
 			<when state="macron+dot_below" output="Ọ̄"/>
 			<when state="macron+grave" output="Ṑ"/>
+			<when state="⎄;`;_" output="Ṑ"/>
 			<when state="ogonek" output="Ǫ"/>
+			<when state="⎄;;" output="Ǫ"/>
+			<when state="⎄;," output="Ǫ"/>
 			<when state="ogonek+macron" output="Ǭ"/>
+			<when state="⎄;_;;" output="Ǭ"/>
 			<when state="ring" output="O̊"/>
-			<when state="ring+macron" output="O̊̄"/>
+			<when state="ring+acute" output="O̊́"/>
 			<when state="ring_below" output="O̥"/>
 			<when state="stroke" output="Ɵ"/>
 			<when state="stroke+acute" output="Ɵ́"/>
 			<when state="tilde" output="Õ"/>
+			<when state="⎄;~" output="Õ"/>
 			<when state="tilde+acute" output="Ṍ"/>
+			<when state="⎄;';~" output="Ṍ"/>
 			<when state="tilde+diaeresis" output="Ṏ"/>
+			<when state="⎄;quot;~" output="Ṏ"/>
 			<when state="tilde+macron" output="Ȭ"/>
+			<when state="⎄;_;~" output="Ȭ"/>
 			<when state="tilde_below" output="O̰"/>
 		</action><!--क-->
 		<action id="P">
 			<when state="⎄" next="⎄;P"/>
-			<when state="⎄;'" output="Ṕ"/>
 					<when state="⎄;C;C;C" output="☭"/>
+			<when state="⎄;(" next="⎄;(;P"/>
 			<when state="⎄;P" output="¶"/>
 			<when state="⌥" output="∏"/>
 			<when state="ʔ" output="Ƥ"/>
@@ -4473,6 +4942,7 @@
 		<!--क-->
 			<when state="none" output="P"/>
 			<when state="acute" output="Ṕ"/>
+			<when state="⎄;'" output="Ṕ"/>
 			<when state="acute+dot" output="Ṕ̇"/>
 			<when state="breve" output="P̆"/>
 			<when state="breve+acute" output="P̆́"/>
@@ -4501,6 +4971,7 @@
 			<when state="diaeresis+macron" output="P̈̄"/>
 			<when state="diaeresis_below" output="P̤"/>
 			<when state="dot" output="Ṗ"/>
+			<when state="⎄;." output="Ṗ"/>
 			<when state="dot+dot_below" output="Ṗ̣"/>
 			<when state="dot+macron" output="Ṗ̄"/>
 			<when state="dot_below" output="P̣"/>
@@ -4524,9 +4995,10 @@
 			<when state="ogonek" output="P̨"/>
 			<when state="ogonek+macron" output="P̨̄"/>
 			<when state="ring" output="P̊"/>
-			<when state="ring+macron" output="P̊̄"/>
+			<when state="ring+acute" output="P̊́"/>
 			<when state="ring_below" output="P̥"/>
 			<when state="stroke" output="Ᵽ"/>
+			<when state="⎄;/" output="Ᵽ"/>
 			<when state="stroke+acute" output="Ᵽ́"/>
 			<when state="tilde" output="P̃"/>
 			<when state="tilde+acute" output="P̃́"/>
@@ -4535,6 +5007,7 @@
 			<when state="tilde_below" output="P̰"/>
 		</action><!--क-->
 		<action id="Q">
+			<when state="⎄;(" next="⎄;(;Q"/>
 			<when state="⌥" output="Œ"/>
 			<when state="№" output="Ƣ"/>
 			<when state="ʔ;⇪⌥" output="Ɋ"/>
@@ -4591,7 +5064,7 @@
 				<when state="ogonek;⇪⌥" output="Œ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="Œ̨̄"/>
 				<when state="ring;⇪⌥" output="Œ̊"/>
-				<when state="ring+macron;⇪⌥" output="Œ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="Œ̊́"/>
 				<when state="ring_below;⇪⌥" output="Œ̥"/>
 				<when state="stroke;⇪⌥" output="Œ̶"/>
 				<when state="stroke+acute;⇪⌥" output="Œ̶́"/>
@@ -4654,7 +5127,7 @@
 			<when state="ogonek" output="Q̨"/>
 			<when state="ogonek+macron" output="Q̨̄"/>
 			<when state="ring" output="Q̊"/>
-			<when state="ring+macron" output="Q̊̄"/>
+			<when state="ring+acute" output="Q̊́"/>
 			<when state="ring_below" output="Q̥"/>
 			<when state="stroke" output="Q̸"/>
 			<when state="stroke+acute" output="Q̸́"/>
@@ -4666,7 +5139,7 @@
 		</action><!--क-->
 		<action id="R">
 			<when state="⎄" next="⎄;R"/>
-			<when state="⎄;'" output="Ŕ"/>
+			<when state="⎄;(" next="⎄;(;R"/>
 			<when state="⎄;O" output="®"/>
 			<when state="⎄;o" output="®"/>
 			<when state="⌥" output="‰"/>
@@ -4680,6 +5153,7 @@
 		<!--क-->
 			<when state="none" output="R"/>
 			<when state="acute" output="Ŕ"/>
+			<when state="⎄;'" output="Ŕ"/>
 			<when state="acute+dot" output="Ŕ̇"/>
 			<when state="breve" output="R̆"/>
 			<when state="breve+acute" output="R̆́"/>
@@ -4689,8 +5163,10 @@
 			<when state="breve+tilde" output="R̆̃"/>
 			<when state="breve_below" output="R̮"/>
 			<when state="caron" output="Ř"/>
+			<when state="⎄;c" output="Ř"/>
 			<when state="caron+dot" output="Ř̇"/>
 			<when state="cedilla" output="Ŗ"/>
+			<when state="⎄;," output="Ŗ"/>
 			<when state="cedilla+acute" output="Ŗ́"/>
 			<when state="cedilla+breve" output="Ŗ̆"/>
 			<when state="circumflex" output="R̂"/>
@@ -4708,9 +5184,11 @@
 			<when state="diaeresis+macron" output="R̈̄"/>
 			<when state="diaeresis_below" output="R̤"/>
 			<when state="dot" output="Ṙ"/>
+			<when state="⎄;." output="Ṙ"/>
 			<when state="dot+dot_below" output="Ṛ̇"/>
 			<when state="dot+macron" output="Ṙ̄"/>
 			<when state="dot_below" output="Ṛ"/>
+			<when state="⎄;!" output="Ṛ"/>
 			<when state="double_acute" output="R̋"/>
 			<when state="double_grave" output="Ȑ"/>
 			<when state="grave" output="R̀"/>
@@ -4727,13 +5205,15 @@
 			<when state="macron+acute" output="R̄́"/>
 			<when state="macron+diaeresis" output="R̄̈"/>
 			<when state="macron+dot_below" output="Ṝ"/>
+			<when state="⎄;_;!" output="Ṝ"/>
 			<when state="macron+grave" output="R̄̀"/>
 			<when state="ogonek" output="R̨"/>
 			<when state="ogonek+macron" output="R̨̄"/>
 			<when state="ring" output="R̊"/>
-			<when state="ring+macron" output="R̊̄"/>
+			<when state="ring+acute" output="R̊́"/>
 			<when state="ring_below" output="R̥"/>
 			<when state="stroke" output="Ɍ"/>
+			<when state="⎄;/" output="Ɍ"/>
 			<when state="stroke+acute" output="Ɍ́"/>
 			<when state="tilde" output="R̃"/>
 			<when state="tilde+acute" output="R̃́"/>
@@ -4743,7 +5223,7 @@
 		</action><!--क-->
 		<action id="S">
 			<when state="⎄" next="⎄;S"/>
-			<when state="⎄;'" output="Ś"/>
+			<when state="⎄;(" next="⎄;(;S"/>
 			<when state="⎄;S" output="ẞ"/>
 			<when state="⎄;f" output="ſ"/>
 			<when state="⌥" output="Í"/>
@@ -4756,7 +5236,9 @@
 		<!--क-->
 			<when state="none" output="S"/>
 			<when state="acute" output="Ś"/>
+			<when state="⎄;'" output="Ś"/>
 			<when state="acute+dot" output="Ṥ"/>
+			<when state="⎄;.;'" output="Ṥ"/>
 			<when state="breve" output="S̆"/>
 			<when state="breve+acute" output="S̆́"/>
 			<when state="breve+dot_below" output="Ṣ̆"/>
@@ -4765,11 +5247,15 @@
 			<when state="breve+tilde" output="S̆̃"/>
 			<when state="breve_below" output="S̮"/>
 			<when state="caron" output="Š"/>
+			<when state="⎄;c" output="Š"/>
 			<when state="caron+dot" output="Ṧ"/>
+			<when state="⎄;c;." output="Ṧ"/>
 			<when state="cedilla" output="Ş"/>
+			<when state="⎄;," output="Ş"/>
 			<when state="cedilla+acute" output="Ş́"/>
 			<when state="cedilla+breve" output="Ş̆"/>
 			<when state="circumflex" output="Ŝ"/>
+			<when state="⎄;^" output="Ŝ"/>
 			<when state="circumflex+acute" output="Ŝ́"/>
 			<when state="circumflex+dot_below" output="Ṣ̂"/>
 			<when state="circumflex+grave" output="Ŝ̀"/>
@@ -4784,9 +5270,12 @@
 			<when state="diaeresis+macron" output="S̈̄"/>
 			<when state="diaeresis_below" output="S̤"/>
 			<when state="dot" output="Ṡ"/>
+			<when state="⎄;." output="Ṡ"/>
 			<when state="dot+dot_below" output="Ṩ"/>
+			<when state="⎄;.;!" output="Ṩ"/>
 			<when state="dot+macron" output="Ṡ̄"/>
 			<when state="dot_below" output="Ṣ"/>
+			<when state="⎄;!" output="Ṣ"/>
 			<when state="double_acute" output="S̋"/>
 			<when state="double_grave" output="S̏"/>
 			<when state="grave" output="S̀"/>
@@ -4807,7 +5296,7 @@
 			<when state="ogonek" output="S̨"/>
 			<when state="ogonek+macron" output="S̨̄"/>
 			<when state="ring" output="S̊"/>
-			<when state="ring+macron" output="S̊̄"/>
+			<when state="ring+acute" output="S̊́"/>
 			<when state="ring_below" output="S̥"/>
 			<when state="stroke" output="S̶"/>
 			<when state="stroke+acute" output="Ś̶"/>
@@ -4819,6 +5308,7 @@
 		</action><!--क-->
 		<action id="T">
 			<when state="⎄" next="⎄;T"/>
+			<when state="⎄;(" next="⎄;(;T"/>
 			<when state="⎄;A" output="@"/>
 			<when state="⌥" output="ˇ"/>
 			<when state="№" output="θ"/>
@@ -4879,7 +5369,7 @@
 				<when state="ogonek;⇪⌥" output="Þ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="Þ̨̄"/>
 				<when state="ring;⇪⌥" output="Þ̊"/>
-				<when state="ring+macron;⇪⌥" output="Þ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="Þ̊́"/>
 				<when state="ring_below;⇪⌥" output="Þ̥"/>
 				<when state="stroke;⇪⌥" output="Þ̶"/>
 				<when state="stroke+acute;⇪⌥" output="Þ̶́"/>
@@ -4900,8 +5390,10 @@
 			<when state="breve+tilde" output="T̆̃"/>
 			<when state="breve_below" output="T̮"/>
 			<when state="caron" output="Ť"/>
+			<when state="⎄;c" output="Ť"/>
 			<when state="caron+dot" output="Ť̇"/>
 			<when state="cedilla" output="Ţ"/>
+			<when state="⎄;," output="Ţ"/>
 			<when state="cedilla+acute" output="Ţ́"/>
 			<when state="cedilla+breve" output="Ţ̆"/>
 			<when state="circumflex" output="T̂"/>
@@ -4919,9 +5411,11 @@
 			<when state="diaeresis+macron" output="T̈̄"/>
 			<when state="diaeresis_below" output="T̤"/>
 			<when state="dot" output="Ṫ"/>
+			<when state="⎄;." output="Ṫ"/>
 			<when state="dot+dot_below" output="Ṭ̇"/>
 			<when state="dot+macron" output="Ṫ̄"/>
 			<when state="dot_below" output="Ṭ"/>
+			<when state="⎄;!" output="Ṭ"/>
 			<when state="double_acute" output="T̋"/>
 			<when state="double_grave" output="T̏"/>
 			<when state="grave" output="T̀"/>
@@ -4942,9 +5436,10 @@
 			<when state="ogonek" output="T̨"/>
 			<when state="ogonek+macron" output="T̨̄"/>
 			<when state="ring" output="T̊"/>
-			<when state="ring+macron" output="T̊̄"/>
+			<when state="ring+acute" output="T̊́"/>
 			<when state="ring_below" output="T̥"/>
 			<when state="stroke" output="Ŧ"/>
+			<when state="⎄;/" output="Ŧ"/>
 			<when state="stroke+acute" output="Ŧ́"/>
 			<when state="tilde" output="T̃"/>
 			<when state="tilde+acute" output="T̃́"/>
@@ -4954,10 +5449,7 @@
 		</action><!--क-->
 		<action id="U">
 			<when state="⎄" next="⎄;U"/>
-			<when state="⎄;'" output="Ú"/>
-				<when state="⎄;';~" output="Ṹ"/>
-				<when state="⎄;';+" output="Ứ"/>
-				<when state="⎄;';quot" output="Ǘ"/>
+			<when state="⎄;(" next="⎄;(;U"/>
 			<when state="⌥" output="¨"/>
 			<when state="№" output="Ʊ"/>
 			<when state="ʔ" output="Ʋ"/>
@@ -4974,8 +5466,11 @@
 		<!--क-->
 			<when state="none" output="U"/>
 			<when state="acute" output="Ú"/>
+			<when state="⎄;'" output="Ú"/>
 			<when state="acute+dot" output="Ú̇"/>
 			<when state="breve" output="Ŭ"/>
+			<when state="⎄;U" output="Ŭ"/>
+			<when state="⎄;b" output="Ŭ"/>
 			<when state="breve+acute" output="Ŭ́"/>
 			<when state="breve+dot_below" output="Ụ̆"/>
 			<when state="breve+grave" output="Ŭ̀"/>
@@ -4983,11 +5478,13 @@
 			<when state="breve+tilde" output="Ŭ̃"/>
 			<when state="breve_below" output="U̮"/>
 			<when state="caron" output="Ǔ"/>
+			<when state="⎄;c" output="Ǔ"/>
 			<when state="caron+dot" output="Ǔ̇"/>
 			<when state="cedilla" output="U̧"/>
 			<when state="cedilla+acute" output="Ú̧"/>
 			<when state="cedilla+breve" output="Ŭ̧"/>
 			<when state="circumflex" output="Û"/>
+			<when state="⎄;^" output="Û"/>
 			<when state="circumflex+acute" output="Û́"/>
 			<when state="circumflex+dot_below" output="Ụ̂"/>
 			<when state="circumflex+grave" output="Û̀"/>
@@ -4996,47 +5493,71 @@
 			<when state="circumflex_below" output="Ṷ"/>
 			<when state="comma_below" output="U̦"/>
 			<when state="diaeresis" output="Ü"/>
+			<when state="⎄;quot" output="Ü"/>
 			<when state="diaeresis+acute" output="Ǘ"/>
+			<when state="⎄;';quot" output="Ǘ"/>
 			<when state="diaeresis+caron" output="Ǚ"/>
+			<when state="⎄;c;quot" output="Ǚ"/>
 			<when state="diaeresis+grave" output="Ǜ"/>
+			<when state="⎄;`;quot" output="Ǜ"/>
 			<when state="diaeresis+macron" output="Ǖ"/>
+			<when state="⎄;_;quot" output="Ǖ"/>
 			<when state="diaeresis_below" output="Ṳ"/>
 			<when state="dot" output="U̇"/>
 			<when state="dot+dot_below" output="Ụ̇"/>
 			<when state="dot+macron" output="U̇̄"/>
 			<when state="dot_below" output="Ụ"/>
+			<when state="⎄;!" output="Ụ"/>
 			<when state="double_acute" output="Ű"/>
+			<when state="⎄;=" output="Ű"/>
 			<when state="double_grave" output="Ȕ"/>
 			<when state="grave" output="Ù"/>
+			<when state="⎄;`" output="Ù"/>
 			<when state="hook_above" output="Ủ"/>
+			<when state="⎄;?" output="Ủ"/>
 			<when state="horn" output="Ư"/>
+			<when state="⎄;+" output="Ư"/>
 			<when state="horn+acute" output="Ứ"/>
+			<when state="⎄;';+" output="Ứ"/>
 			<when state="horn+dot_below" output="Ự"/>
+			<when state="⎄;!;+" output="Ự"/>
 			<when state="horn+grave" output="Ừ"/>
+			<when state="⎄;`;+" output="Ừ"/>
 			<when state="horn+hook_above" output="Ử"/>
+			<when state="⎄;?;+" output="Ử"/>
 			<when state="horn+tilde" output="Ữ"/>
+			<when state="⎄;~;+" output="Ữ"/>
 			<when state="inverted_breve" output="Ȗ"/>
 			<when state="line_below" output="U̱"/>
 			<when state="macron" output="Ū"/>
+			<when state="⎄;_" output="Ū"/>
 			<when state="macron+acute" output="Ū́"/>
 			<when state="macron+diaeresis" output="Ṻ"/>
+			<when state="⎄;quot;_" output="Ṻ"/>
 			<when state="macron+dot_below" output="Ụ̄"/>
 			<when state="macron+grave" output="Ū̀"/>
 			<when state="ogonek" output="Ų"/>
+			<when state="⎄;;" output="Ų"/>
+			<when state="⎄;," output="Ų"/>
 			<when state="ogonek+macron" output="Ų̄"/>
 			<when state="ring" output="Ů"/>
-			<when state="ring+macron" output="Ů̄"/>
+			<when state="⎄;o" output="Ů"/>
+			<when state="ring+acute" output="Ů́"/>
 			<when state="ring_below" output="U̥"/>
 			<when state="stroke" output="Ʉ"/>
+			<when state="⎄;/" output="Ʉ"/>
 			<when state="stroke+acute" output="Ʉ´"/>
 			<when state="tilde" output="Ũ"/>
+			<when state="⎄;~" output="Ũ"/>
 			<when state="tilde+acute" output="Ṹ"/>
+			<when state="⎄;';~" output="Ṹ"/>
 			<when state="tilde+diaeresis" output="Ũ̈"/>
 			<when state="tilde+macron" output="Ũ̄"/>
 			<when state="tilde_below" output="Ṵ"/>
 		</action><!--क-->
 		<action id="V">
 			<when state="⎄" next="⎄;V"/>
+			<when state="⎄;(" next="⎄;(;V"/>
 			<when state="⎄;L" output="|"/>
 			<when state="⌥" output="◊"/>
 			<when state="№" output="Ʌ"/>
@@ -5076,6 +5597,7 @@
 			<when state="dot+dot_below" output="Ṿ̇"/>
 			<when state="dot+macron" output="V̇̄"/>
 			<when state="dot_below" output="Ṿ"/>
+			<when state="⎄;!" output="Ṿ"/>
 			<when state="double_acute" output="V̋"/>
 			<when state="double_grave" output="V̏"/>
 			<when state="grave" output="V̀"/>
@@ -5096,11 +5618,12 @@
 			<when state="ogonek" output="V̨"/>
 			<when state="ogonek+macron" output="V̨̄"/>
 			<when state="ring" output="V̊"/>
-			<when state="ring+macron" output="V̊̄"/>
+			<when state="ring+acute" output="V̊́"/>
 			<when state="ring_below" output="V̥"/>
 			<when state="stroke" output="V̶"/>
 			<when state="stroke+acute" output="V̶́"/>
 			<when state="tilde" output="Ṽ"/>
+			<when state="⎄;~" output="Ṽ"/>
 			<when state="tilde+acute" output="Ṽ́"/>
 			<when state="tilde+diaeresis" output="Ṽ̈"/>
 			<when state="tilde+macron" output="Ṽ̄"/>
@@ -5109,7 +5632,7 @@
 		<action id="W">
 			<when state="⎄" next="⎄;W"/>
 			<when state="⎄;=" output="₩"/>
-			<when state="⎄;'" output="Ẃ"/>
+			<when state="⎄;(" next="⎄;(;W"/>
 			<when state="⌥" output="„"/>
 			<when state="№" output="Ƿ"/>
 			<when state="⇪;" output="Ƕ"/>
@@ -5118,6 +5641,7 @@
 		<!--क-->
 			<when state="none" output="W"/>
 			<when state="acute" output="Ẃ"/>
+			<when state="⎄;'" output="Ẃ"/>
 			<when state="acute+dot" output="Ẃ̇"/>
 			<when state="breve" output="W̆"/>
 			<when state="breve+acute" output="W̆́"/>
@@ -5132,6 +5656,7 @@
 			<when state="cedilla+acute" output="Ẃ̧"/>
 			<when state="cedilla+breve" output="W̧̆"/>
 			<when state="circumflex" output="Ŵ"/>
+			<when state="⎄;^" output="Ŵ"/>
 			<when state="circumflex+acute" output="Ŵ́"/>
 			<when state="circumflex+dot_below" output="Ẉ̂"/>
 			<when state="circumflex+grave" output="Ŵ̀"/>
@@ -5140,18 +5665,22 @@
 			<when state="circumflex_below" output="W̭"/>
 			<when state="comma_below" output="W̦"/>
 			<when state="diaeresis" output="Ẅ"/>
+			<when state="⎄;quot" output="Ẅ"/>
 			<when state="diaeresis+acute" output="Ẅ́"/>
 			<when state="diaeresis+caron" output="Ẅ̌"/>
 			<when state="diaeresis+grave" output="Ẅ̀"/>
 			<when state="diaeresis+macron" output="Ẅ̄"/>
 			<when state="diaeresis_below" output="W̤"/>
 			<when state="dot" output="Ẇ"/>
+			<when state="⎄;." output="Ẇ"/>
 			<when state="dot+dot_below" output="Ẉ̇"/>
 			<when state="dot+macron" output="Ẇ̄"/>
 			<when state="dot_below" output="Ẉ"/>
+			<when state="⎄;!" output="Ẉ"/>
 			<when state="double_acute" output="W̋"/>
 			<when state="double_grave" output="W̏"/>
 			<when state="grave" output="Ẁ"/>
+			<when state="⎄;`" output="Ẁ"/>
 			<when state="hook_above" output="W̉"/>
 			<when state="horn" output="W̛"/>
 			<when state="horn+acute" output="Ẃ̛"/>
@@ -5169,7 +5698,7 @@
 			<when state="ogonek" output="W̨"/>
 			<when state="ogonek+macron" output="W̨̄"/>
 			<when state="ring" output="W̊"/>
-			<when state="ring+macron" output="W̊̄"/>
+			<when state="ring+acute" output="W̊́"/>
 			<when state="ring_below" output="W̥"/>
 			<when state="stroke" output="W̶"/>
 			<when state="stroke+acute" output="Ẃ̶"/>
@@ -5180,6 +5709,7 @@
 			<when state="tilde_below" output="W̰"/>
 		</action><!--क-->
 		<action id="X">
+			<when state="⎄;(" next="⎄;(;X"/>
 			<when state="⌥" output="˛"/>
 			<when state="№" output="Ƹ"/>
 			<when state="ʔ" output="Ɖ"/>
@@ -5210,12 +5740,14 @@
 			<when state="circumflex_below" output="X̭"/>
 			<when state="comma_below" output="X̦"/>
 			<when state="diaeresis" output="Ẍ"/>
+			<when state="⎄;quot" output="Ẍ"/>
 			<when state="diaeresis+acute" output="Ẍ́"/>
 			<when state="diaeresis+caron" output="Ẍ̌"/>
 			<when state="diaeresis+grave" output="Ẍ̀"/>
 			<when state="diaeresis+macron" output="Ẍ̄"/>
 			<when state="diaeresis_below" output="X̤"/>
 			<when state="dot" output="Ẋ"/>
+			<when state="⎄;." output="Ẋ"/>
 			<when state="dot+dot_below" output="Ẋ̣"/>
 			<when state="dot+macron" output="Ẋ̄"/>
 			<when state="dot_below" output="X̣"/>
@@ -5239,7 +5771,7 @@
 			<when state="ogonek" output="X̨"/>
 			<when state="ogonek+macron" output="X̨̄"/>
 			<when state="ring" output="X̊"/>
-			<when state="ring+macron" output="X̊̄"/>
+			<when state="ring+acute" output="X̊́"/>
 			<when state="ring_below" output="X̥"/>
 			<when state="stroke" output="X̶"/>
 			<when state="stroke+acute" output="X̶́"/>
@@ -5252,7 +5784,7 @@
 		<action id="Y">
 			<when state="⎄" next="⎄;Y"/>
 			<when state="⎄;=" output="¥"/>
-			<when state="⎄;'" output="Ý"/>
+			<when state="⎄;(" next="⎄;(;Y"/>
 			<when state="⌥" output="Ý"/>
 			<when state="№" output="Ȝ"/>
 			<when state="ʔ" output="Ƴ"/>
@@ -5265,6 +5797,7 @@
 		<!--क-->
 			<when state="none" output="Y"/>
 			<when state="acute" output="Ý"/>
+			<when state="⎄;'" output="Ý"/>
 			<when state="acute+dot" output="Ý̇"/>
 			<when state="breve" output="Y̆"/>
 			<when state="breve+acute" output="Y̆́"/>
@@ -5279,6 +5812,7 @@
 			<when state="cedilla+acute" output="Ý̧"/>
 			<when state="cedilla+breve" output="Y̧̆"/>
 			<when state="circumflex" output="Ŷ"/>
+			<when state="⎄;^" output="Ŷ"/>
 			<when state="circumflex+acute" output="Ŷ́"/>
 			<when state="circumflex+dot_below" output="Ỵ̂"/>
 			<when state="circumflex+grave" output="Ŷ̀"/>
@@ -5287,19 +5821,24 @@
 			<when state="circumflex_below" output="Y̭"/>
 			<when state="comma_below" output="Y̦"/>
 			<when state="diaeresis" output="Ÿ"/>
+			<when state="⎄;quot" output="Ÿ"/>
 			<when state="diaeresis+acute" output="Ÿ́"/>
 			<when state="diaeresis+caron" output="Ÿ̌"/>
 			<when state="diaeresis+grave" output="Ÿ̀"/>
 			<when state="diaeresis+macron" output="Ÿ̄"/>
 			<when state="diaeresis_below" output="Y̤"/>
 			<when state="dot" output="Ẏ"/>
+			<when state="⎄;." output="Ẏ"/>
 			<when state="dot+dot_below" output="Ỵ̇"/>
 			<when state="dot+macron" output="Ẏ̄"/>
 			<when state="dot_below" output="Ỵ"/>
+			<when state="⎄;!" output="Ỵ"/>
 			<when state="double_acute" output="Y̋"/>
 			<when state="double_grave" output="Y̏"/>
 			<when state="grave" output="Ỳ"/>
+			<when state="⎄;`" output="Ỳ"/>
 			<when state="hook_above" output="Ỷ"/>
+			<when state="⎄;?" output="Ỷ"/>
 			<when state="horn" output="Y̛"/>
 			<when state="horn+acute" output="Ý̛"/>
 			<when state="horn+dot_below" output="Ỵ̛"/>
@@ -5309,6 +5848,7 @@
 			<when state="inverted_breve" output="Y̑"/>
 			<when state="line_below" output="Y̱"/>
 			<when state="macron" output="Ȳ"/>
+			<when state="⎄;_" output="Ȳ"/>
 			<when state="macron+acute" output="Ȳ́"/>
 			<when state="macron+diaeresis" output="Ȳ̈"/>
 			<when state="macron+dot_below" output="Ỵ̄"/>
@@ -5316,18 +5856,20 @@
 			<when state="ogonek" output="Y̨"/>
 			<when state="ogonek+macron" output="Ȳ̨"/>
 			<when state="ring" output="Y̊"/>
-			<when state="ring+macron" output="Y̊̄"/>
+			<when state="ring+acute" output="Y̊́"/>
 			<when state="ring_below" output="Y̥"/>
 			<when state="stroke" output="Ɏ"/>
+			<when state="⎄;/" output="Ɏ"/>
 			<when state="stroke+acute" output="Ɏ́"/>
 			<when state="tilde" output="Ỹ"/>
+			<when state="⎄;~" output="Ỹ"/>
 			<when state="tilde+acute" output="Ỹ́"/>
 			<when state="tilde+diaeresis" output="Ỹ̈"/>
 			<when state="tilde+macron" output="Ỹ̄"/>
 			<when state="tilde_below" output="Y̰"/>
 		</action><!--क-->
 		<action id="Z">
-			<when state="⎄;'" output="Ź"/>
+			<when state="⎄;(" next="⎄;(;Z"/>
 			<when state="⎄;S" output="ẞ"/>
 			<when state="⌥" output="¸"/>
 			<when state="№" output="Ʒ"/>
@@ -5342,6 +5884,7 @@
 		<!--क-->
 			<when state="none" output="Z"/>
 			<when state="acute" output="Ź"/>
+			<when state="⎄;'" output="Ź"/>
 			<when state="acute+dot" output="Ź̇"/>
 			<when state="breve" output="Z̆"/>
 			<when state="breve+acute" output="Z̆́"/>
@@ -5351,11 +5894,13 @@
 			<when state="breve+tilde" output="Z̆̃"/>
 			<when state="breve_below" output="Z̮"/>
 			<when state="caron" output="Ž"/>
+			<when state="⎄;c" output="Ž"/>
 			<when state="caron+dot" output="Ž̇"/>
 			<when state="cedilla" output="Z̧"/>
 			<when state="cedilla+acute" output="Ź̧"/>
 			<when state="cedilla+breve" output="Z̧̆"/>
 			<when state="circumflex" output="Ẑ"/>
+			<when state="⎄;^" output="Ẑ"/>
 			<when state="circumflex+acute" output="Ẑ́"/>
 			<when state="circumflex+dot_below" output="Ẓ̂"/>
 			<when state="circumflex+grave" output="Ẑ̀"/>
@@ -5370,9 +5915,11 @@
 			<when state="diaeresis+macron" output="Z̈̄"/>
 			<when state="diaeresis_below" output="Z̤"/>
 			<when state="dot" output="Ż"/>
+			<when state="⎄;." output="Ż"/>
 			<when state="dot+dot_below" output="Ẓ̇"/>
 			<when state="dot+macron" output="Ż̄"/>
 			<when state="dot_below" output="Ẓ"/>
+			<when state="⎄;!" output="Ẓ"/>
 			<when state="double_acute" output="Z̋"/>
 			<when state="double_grave" output="Z̏"/>
 			<when state="grave" output="Z̀"/>
@@ -5393,9 +5940,10 @@
 			<when state="ogonek" output="Z̨"/>
 			<when state="ogonek+macron" output="Z̨̄"/>
 			<when state="ring" output="Z̊"/>
-			<when state="ring+macron" output="Z̊̄"/>
+			<when state="ring+acute" output="Z̊́"/>
 			<when state="ring_below" output="Z̥"/>
 			<when state="stroke" output="Ƶ"/>
+			<when state="⎄;/" output="Ƶ"/>
 			<when state="stroke+acute" output="Ƶ́"/>
 			<when state="tilde" output="Z̃"/>
 			<when state="tilde+acute" output="Z̃́"/>
@@ -5406,9 +5954,8 @@
 <!--rich output keys lowercase ('state="none" output=' and maybe 'state="some_state" next='); ख-->
 		<action id="a">
 			<when state="⎄" next="⎄;a"/>
-			<when state="⎄;'" output="á"/>
-				<when state="⎄;';^" output="ấ"/>
-				<when state="⎄;';b" output="ắ"/>
+				<when state="⎄;^;_" output="ª"/>
+			<when state="⎄;(" next="⎄;(;a"/>
 			<when state="⌥" output="å"/>
 			<when state="№" output="ə"/>
 			<when state="№;⇪⌥" output="ɑ"/>
@@ -5428,46 +5975,68 @@
 			<when state="dot;⇪⌥" next="dot+macron"/>
 			<when state="dot_below;⇪⌥" next="macron+dot_below"/>
 			<when state="ogonek;⇪⌥" next="ogonek+macron"/>
-			<when state="ring;⇪⌥" next="ring+macron"/>
 			<when state="tilde;⇪⌥" next="tilde+macron"/>
 		<!--क-->
 			<when state="none" output="a"/>
 			<when state="acute" output="á"/>
+			<when state="⎄;'" output="á"/>
 			<when state="acute+dot" output="á̇"/>
 			<when state="breve" output="ă"/>
+			<when state="⎄;U" output="ă"/>
+			<when state="⎄;b" output="ă"/>
 			<when state="breve+acute" output="ắ"/>
+			<when state="⎄;';b" output="ắ"/>
 			<when state="breve+dot_below" output="ặ"/>
+			<when state="⎄;U;!" output="ặ"/>
+			<when state="⎄;b;!" output="ặ"/>
 			<when state="breve+grave" output="ằ"/>
+			<when state="⎄;`;b" output="ằ"/>
 			<when state="breve+hook_above" output="ẳ"/>
+			<when state="⎄;?;b" output="ẳ"/>
 			<when state="breve+tilde" output="ẵ"/>
+			<when state="⎄;~;b" output="ẵ"/>
 			<when state="breve_below" output="a̮"/>
 			<when state="caron" output="ǎ"/>
+			<when state="⎄;c" output="ǎ"/>
 			<when state="caron+dot" output="ǎ̇"/>
 			<when state="cedilla" output="a̧"/>
 			<when state="cedilla+acute" output="á̧"/>
 			<when state="cedilla+breve" output="ă̧"/>
 			<when state="circumflex" output="â"/>
+			<when state="⎄;^" output="â"/>
 			<when state="circumflex+acute" output="ấ"/>
+			<when state="⎄;';^" output="ấ"/>
 			<when state="circumflex+dot_below" output="ậ"/>
+			<when state="⎄;^;!" output="ậ"/>
 			<when state="circumflex+grave" output="ầ"/>
+			<when state="⎄;`;^" output="ầ"/>
 			<when state="circumflex+hook_above" output="ẩ"/>
+			<when state="⎄;?;^" output="ẩ"/>
 			<when state="circumflex+tilde" output="ẫ"/>
+			<when state="⎄;~;^" output="ẫ"/>
 			<when state="circumflex_below" output="a̭"/>
 			<when state="comma_below" output="a̦"/>
 			<when state="diaeresis" output="ä"/>
+			<when state="⎄;quot" output="ä"/>
 			<when state="diaeresis+acute" output="ä́"/>
 			<when state="diaeresis+caron" output="ä̌"/>
 			<when state="diaeresis+grave" output="ä̀"/>
 			<when state="diaeresis+macron" output="ǟ"/>
+			<when state="⎄;_;quot" output="ǟ"/>
 			<when state="diaeresis_below" output="a̤"/>
 			<when state="dot" output="ȧ"/>
+			<when state="⎄;." output="ȧ"/>
 			<when state="dot+dot_below" output="ạ̇"/>
 			<when state="dot+macron" output="ǡ"/>
+			<when state="⎄;_;." output="ǡ"/>
 			<when state="dot_below" output="ạ"/>
+			<when state="⎄;!" output="ạ"/>
 			<when state="double_acute" output="a̋"/>
 			<when state="double_grave" output="ȁ"/>
 			<when state="grave" output="à"/>
+			<when state="⎄;`" output="à"/>
 			<when state="hook_above" output="ả"/>
+			<when state="⎄;?" output="ả"/>
 			<when state="horn" output="a̛"/>
 			<when state="horn+acute" output="á̛"/>
 			<when state="horn+dot_below" output="ạ̛"/>
@@ -5477,18 +6046,25 @@
 			<when state="inverted_breve" output="ȃ"/>
 			<when state="line_below" output="a̱"/>
 			<when state="macron" output="ā"/>
+			<when state="⎄;_" output="ā"/>
 			<when state="macron+acute" output="ā́"/>
 			<when state="macron+diaeresis" output="ā̈"/>
 			<when state="macron+dot_below" output="ạ̄"/>
 			<when state="macron+grave" output="ā̀"/>
 			<when state="ogonek" output="ą"/>
+			<when state="⎄;;" output="ą"/>
+			<when state="⎄;," output="ą"/>
 			<when state="ogonek+macron" output="ą̄"/>
 			<when state="ring" output="å"/>
-			<when state="ring+macron" output="ǻ"/>
+			<when state="⎄;o" output="å"/>
+			<when state="ring+acute" output="ǻ"/>
+			<when state="⎄;o;'" output="ǻ"/>
 			<when state="ring_below" output="ḁ"/>
 			<when state="stroke" output="ⱥ"/>
+			<when state="⎄;/" output="ⱥ"/>
 			<when state="stroke+acute" output="ⱥ́"/>
 			<when state="tilde" output="ã"/>
+			<when state="⎄;~" output="ã"/>
 			<when state="tilde+acute" output="ã́"/>
 			<when state="tilde+diaeresis" output="ã̈"/>
 			<when state="tilde+macron" output="ã̄"/>
@@ -5497,7 +6073,11 @@
 		<action id="b">
 			<when state="⎄" next="⎄;b"/>
 			<when state="⎄;'" next="⎄;';b"/>
+			<when state="⎄;`" next="⎄;`;b"/>
 			<when state="⎄;#" output="♭"/>
+			<when state="⎄;(" next="⎄;(;b"/>
+			<when state="⎄;~" next="⎄;~;b"/>
+			<when state="⎄;?" next="⎄;?;b"/>
 			<when state="⌥" output="∫"/>
 			<when state="№" output="ƃ"/>
 			<when state="№;⇪⌥" output="β"/>
@@ -5538,9 +6118,11 @@
 			<when state="diaeresis+macron" output="b̈̄"/>
 			<when state="diaeresis_below" output="b̤"/>
 			<when state="dot" output="ḃ"/>
+			<when state="⎄;." output="ḃ"/>
 			<when state="dot+dot_below" output="ḅ̇"/>
 			<when state="dot+macron" output="ḃ̄"/>
 			<when state="dot_below" output="ḅ"/>
+			<when state="⎄;!" output="ḅ"/>
 			<when state="double_acute" output="b̋"/>
 			<when state="double_grave" output="b̏"/>
 			<when state="grave" output="b̀"/>
@@ -5561,9 +6143,10 @@
 			<when state="ogonek" output="b̨"/>
 			<when state="ogonek+macron" output="b̨̄"/>
 			<when state="ring" output="b̊"/>
-			<when state="ring+macron" output="b̊̄"/>
+			<when state="ring+acute" output="b̊́"/>
 			<when state="ring_below" output="b̥"/>
 			<when state="stroke" output="ƀ"/>
+			<when state="⎄;/" output="ƀ"/>
 			<when state="stroke+acute" output="ƀ́"/>
 			<when state="tilde" output="b̃"/>
 			<when state="tilde+acute" output="b̃́"/>
@@ -5574,8 +6157,8 @@
 		<action id="c">
 			<when state="⎄" next="⎄;c"/>
 			<when state="⎄;=" output="€"/>
-			<when state="⎄;'" output="ć"/>
 			<when state="⎄;/" output="¢"/>
+			<when state="⎄;(" next="⎄;(;c"/>
 			<when state="⎄;|" output="¢"/>
 			<when state="⎄;O" output="©"/>
 			<when state="⎄;o" output="©"/>
@@ -5592,6 +6175,7 @@
 		<!--क-->
 			<when state="none" output="c"/>
 			<when state="acute" output="ć"/>
+			<when state="⎄;'" output="ć"/>
 			<when state="acute+dot" output="ć̇"/>
 			<when state="breve" output="c̆"/>
 			<when state="breve+acute" output="c̆́"/>
@@ -5601,11 +6185,14 @@
 			<when state="breve+tilde" output="c̆̃"/>
 			<when state="breve_below" output="c̮"/>
 			<when state="caron" output="č"/>
+			<when state="⎄;c" output="č"/>
 			<when state="caron+dot" output="č̇"/>
 			<when state="cedilla" output="ç"/>
+			<when state="⎄;," output="ç"/>
 			<when state="cedilla+acute" output="ḉ"/>
 			<when state="cedilla+breve" output="ç̆"/>
 			<when state="circumflex" output="ĉ"/>
+			<when state="⎄;^" output="ĉ"/>
 			<when state="circumflex+acute" output="ĉ́"/>
 			<when state="circumflex+dot_below" output="ĉ̣"/>
 			<when state="circumflex+grave" output="ĉ̀"/>
@@ -5620,6 +6207,7 @@
 			<when state="diaeresis+macron" output="c̈̄"/>
 			<when state="diaeresis_below" output="c̤"/>
 			<when state="dot" output="ċ"/>
+			<when state="⎄;." output="ċ"/>
 			<when state="dot+dot_below" output="ċ̣"/>
 			<when state="dot+macron" output="ċ̄"/>
 			<when state="dot_below" output="c̣"/>
@@ -5643,7 +6231,7 @@
 			<when state="ogonek" output="c̨"/>
 			<when state="ogonek+macron" output="c̨̄"/>
 			<when state="ring" output="c̊"/>
-			<when state="ring+macron" output="c̊̄"/>
+			<when state="ring+acute" output="c̊́"/>
 			<when state="ring_below" output="c̥"/>
 			<when state="stroke" output="ȼ"/>
 			<when state="stroke+acute" output="ȼ́"/>
@@ -5656,6 +6244,7 @@
 		<action id="d">
 			<when state="⎄" next="⎄;d"/>
 			<when state="⎄;-" output="đ"/>
+			<when state="⎄;(" next="⎄;(;d"/>
 			<when state="⌥" output="∂"/>
 			<when state="№" output="ƌ"/>
 			<when state="ʔ" output="ɗ"/>
@@ -5719,7 +6308,7 @@
 				<when state="ogonek;⇪⌥" output="ð̨"/>
 				<when state="ogonek+macron;⇪⌥" output="ð̨̄"/>
 				<when state="ring;⇪⌥" output="ð̊"/>
-				<when state="ring+macron;⇪⌥" output="ð̊̄"/>
+				<when state="ring+acute;⇪⌥" output="ð̊́"/>
 				<when state="ring_below;⇪⌥" output="ð̥"/>
 				<when state="stroke;⇪⌥" output="ð̶"/>
 				<when state="stroke+acute;⇪⌥" output="ð̶́"/>
@@ -5740,8 +6329,10 @@
 			<when state="breve+tilde" output="d̆̃"/>
 			<when state="breve_below" output="d̮"/>
 			<when state="caron" output="ď"/>
+			<when state="⎄;c" output="ď"/>
 			<when state="caron+dot" output="ď̇"/>
 			<when state="cedilla" output="ḑ"/>
+			<when state="⎄;," output="ḑ"/>
 			<when state="cedilla+acute" output="ḑ́"/>
 			<when state="cedilla+breve" output="ḑ̆"/>
 			<when state="circumflex" output="d̂"/>
@@ -5759,9 +6350,11 @@
 			<when state="diaeresis+macron" output="d̈̄"/>
 			<when state="diaeresis_below" output="d̤"/>
 			<when state="dot" output="ḋ"/>
+			<when state="⎄;." output="ḋ"/>
 			<when state="dot+dot_below" output="ḍ̇"/>
 			<when state="dot+macron" output="ḋ̄"/>
 			<when state="dot_below" output="ḍ"/>
+			<when state="⎄;!" output="ḍ"/>
 			<when state="double_acute" output="d̋"/>
 			<when state="double_grave" output="d̏"/>
 			<when state="grave" output="d̀"/>
@@ -5782,9 +6375,10 @@
 			<when state="ogonek" output="d̨"/>
 			<when state="ogonek+macron" output="d̨̄"/>
 			<when state="ring" output="d̊"/>
-			<when state="ring+macron" output="d̊̄"/>
+			<when state="ring+acute" output="d̊́"/>
 			<when state="ring_below" output="d̥"/>
 			<when state="stroke" output="đ"/>
+			<when state="⎄;/" output="đ"/>
 			<when state="stroke+acute" output="đ́"/>
 			<when state="tilde" output="d̃"/>
 			<when state="tilde+acute" output="d̃́"/>
@@ -5795,10 +6389,9 @@
 		<action id="e">
 			<when state="⎄" next="⎄;e"/>
 			<when state="⎄;=" output="€"/>
-			<when state="⎄;'" output="é"/>
-				<when state="⎄;';^" output="ế"/>
-				<when state="⎄;';_" output="ḗ"/>
+			<when state="⎄;(" next="⎄;(;e"/>
 			<when state="⎄;a" output="æ"/>
+			<when state="⎄;e" output="ə"/>
 			<when state="⎄;o" output="œ"/>
 			<when state="⌥" next="⌥e"/>
 			<when state="№" output="ǝ"/>
@@ -5821,13 +6414,17 @@
 			<when state="diaeresis;⇪⌥" next="diaeresis+acute"/>
 			<when state="horn;⇪⌥" next="horn+acute"/>
 			<when state="macron;⇪⌥" next="macron+acute"/>
+			<when state="ring;⇪⌥" next="ring+acute"/>
 			<when state="stroke;⇪⌥" next="stroke+acute"/>
 			<when state="tilde;⇪⌥" next="tilde+acute"/>
 		<!--क-->
 			<when state="none" output="e"/>
 			<when state="acute" output="é"/>
+			<when state="⎄;'" output="é"/>
 			<when state="acute+dot" output="é̇"/>
 			<when state="breve" output="ĕ"/>
+			<when state="⎄;U" output="ĕ"/>
+			<when state="⎄;b" output="ĕ"/>
 			<when state="breve+acute" output="ĕ́"/>
 			<when state="breve+dot_below" output="ẹ̆"/>
 			<when state="breve+grave" output="ĕ̀"/>
@@ -5835,32 +6432,46 @@
 			<when state="breve+tilde" output="ĕ̃"/>
 			<when state="breve_below" output="e̮"/>
 			<when state="caron" output="ě"/>
+			<when state="⎄;c" output="ě"/>
 			<when state="caron+dot" output="ě̇"/>
 			<when state="cedilla" output="ȩ"/>
 			<when state="cedilla+acute" output="ȩ́"/>
 			<when state="cedilla+breve" output="ḝ"/>
+			<when state="⎄;U;," output="ḝ"/>
+			<when state="⎄;b;," output="ḝ"/>
 			<when state="circumflex" output="ê"/>
+			<when state="⎄;^" output="ê"/>
 			<when state="circumflex+acute" output="ế"/>
+			<when state="⎄;';^" output="ế"/>
 			<when state="circumflex+dot_below" output="ệ"/>
+			<when state="⎄;^;!" output="ệ"/>
 			<when state="circumflex+grave" output="ề"/>
+			<when state="⎄;`;^" output="ề"/>
 			<when state="circumflex+hook_above" output="ể"/>
+			<when state="⎄;?;^" output="ể"/>
 			<when state="circumflex+tilde" output="ễ"/>
+			<when state="⎄;~;^" output="ễ"/>
 			<when state="circumflex_below" output="ḙ"/>
 			<when state="comma_below" output="e̦"/>
 			<when state="diaeresis" output="ë"/>
+			<when state="⎄;quot" output="ë"/>
 			<when state="diaeresis+acute" output="ë́"/>
 			<when state="diaeresis+caron" output="ë̌"/>
 			<when state="diaeresis+grave" output="ë̀"/>
 			<when state="diaeresis+macron" output="ë̄"/>
 			<when state="diaeresis_below" output="e̤"/>
 			<when state="dot" output="ė"/>
+			<when state="⎄;." output="ė"/>
 			<when state="dot+dot_below" output="ẹ̇"/>
 			<when state="dot+macron" output="ė̄"/>
 			<when state="dot_below" output="ẹ"/>
+			<when state="⎄;!" output="ẹ"/>
 			<when state="double_acute" output="e̋"/>
 			<when state="double_grave" output="ȅ"/>
 			<when state="grave" output="è"/>
+			<when state="⎄;`" output="è"/>
 			<when state="hook_above" output="ẻ"/>
+			<when state="⎄;?" output="ẻ"/>
 			<when state="horn" output="e̛"/>
 			<when state="horn+acute" output="é̛"/>
 			<when state="horn+dot_below" output="ẹ̛"/>
@@ -5870,18 +6481,25 @@
 			<when state="inverted_breve" output="ȇ"/>
 			<when state="line_below" output="e̱"/>
 			<when state="macron" output="ē"/>
+			<when state="⎄;_" output="ē"/>
 			<when state="macron+acute" output="ḗ"/>
+			<when state="⎄;';_" output="ḗ"/>
 			<when state="macron+diaeresis" output="ē̈"/>
 			<when state="macron+dot_below" output="ẹ̄"/>
 			<when state="macron+grave" output="ḕ"/>
+			<when state="⎄;`;_" output="ḕ"/>
 			<when state="ogonek" output="ę"/>
+			<when state="⎄;;" output="ę"/>
+			<when state="⎄;," output="ę"/>
 			<when state="ogonek+macron" output="ę̄"/>
 			<when state="ring" output="e̊"/>
-			<when state="ring+macron" output="e̊̄"/>
+			<when state="ring+acute" output="e̊́"/>
 			<when state="ring_below" output="e̥"/>
 			<when state="stroke" output="ɇ"/>
+			<when state="⎄;/" output="ɇ"/>
 			<when state="stroke+acute" output="ɇ́"/>
 			<when state="tilde" output="ẽ"/>
+			<when state="⎄;~" output="ẽ"/>
 			<when state="tilde+acute" output="ẽ́"/>
 			<when state="tilde+diaeresis" output="ẽ̈"/>
 			<when state="tilde+macron" output="ẽ̄"/>
@@ -5890,6 +6508,7 @@
 		<action id="f">
 			<when state="⎄" next="⎄;f"/>
 			<when state="⎄;#" output="♮"/>
+			<when state="⎄;(" next="⎄;(;f"/>
 			<when state="⎄;f" output="ﬀ"/>
 			<when state="⌥" output="ƒ"/>
 			<when state="ʔ" output="ƒ"/>
@@ -5949,7 +6568,7 @@
 				<when state="ogonek;⇪⌥" output="ƒ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="ƒ̨̄"/>
 				<when state="ring;⇪⌥" output="ƒ̊"/>
-				<when state="ring+macron;⇪⌥" output="ƒ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="ƒ̊́"/>
 				<when state="ring_below;⇪⌥" output="ƒ̥"/>
 				<when state="stroke;⇪⌥" output="ƒ̶"/>
 				<when state="stroke+acute;⇪⌥" output="ƒ̶́"/>
@@ -5989,6 +6608,7 @@
 			<when state="diaeresis+macron" output="f̈̄"/>
 			<when state="diaeresis_below" output="f̤"/>
 			<when state="dot" output="ḟ"/>
+			<when state="⎄;." output="ḟ"/>
 			<when state="dot+dot_below" output="ḟ̣"/>
 			<when state="dot+macron" output="ḟ̄"/>
 			<when state="dot_below" output="f̣"/>
@@ -6012,7 +6632,7 @@
 			<when state="ogonek" output="f̨"/>
 			<when state="ogonek+macron" output="f̨̄"/>
 			<when state="ring" output="f̊"/>
-			<when state="ring+macron" output="f̊̄"/>
+			<when state="ring+acute" output="f̊́"/>
 			<when state="ring_below" output="f̥"/>
 			<when state="stroke" output="f̶"/>
 			<when state="stroke+acute" output="f̶́"/>
@@ -6023,7 +6643,8 @@
 			<when state="tilde_below" output="f̰"/>
 		</action><!--क-->
 		<action id="g">
-			<when state="⎄;'" output="ǵ"/>
+			<when state="⎄;(" next="⎄;(;g"/>
+			<when state="⎄;n" output="ŋ"/>
 			<when state="⌥" output="©"/>
 			<when state="№" output="ɣ"/>
 			<when state="№;⇪⌥" output="ɡ"/>
@@ -6035,8 +6656,11 @@
 		<!--क-->
 			<when state="none" output="g"/>
 			<when state="acute" output="ǵ"/>
+			<when state="⎄;'" output="ǵ"/>
 			<when state="acute+dot" output="ǵ̇"/>
 			<when state="breve" output="ğ"/>
+			<when state="⎄;U" output="ğ"/>
+			<when state="⎄;b" output="ğ"/>
 			<when state="breve+acute" output="ğ́"/>
 			<when state="breve+dot_below" output="ğ̣"/>
 			<when state="breve+grave" output="ğ̀"/>
@@ -6044,11 +6668,14 @@
 			<when state="breve+tilde" output="ğ̃"/>
 			<when state="breve_below" output="g̮"/>
 			<when state="caron" output="ǧ"/>
+			<when state="⎄;c" output="ǧ"/>
 			<when state="caron+dot" output="ǧ̇"/>
 			<when state="cedilla" output="ģ"/>
+			<when state="⎄;," output="ģ"/>
 			<when state="cedilla+acute" output="ģ́"/>
 			<when state="cedilla+breve" output="ģ̆"/>
 			<when state="circumflex" output="ĝ"/>
+			<when state="⎄;^" output="ĝ"/>
 			<when state="circumflex+acute" output="ĝ́"/>
 			<when state="circumflex+dot_below" output="ĝ̣"/>
 			<when state="circumflex+grave" output="ĝ̀"/>
@@ -6063,6 +6690,7 @@
 			<when state="diaeresis+macron" output="g̈̄"/>
 			<when state="diaeresis_below" output="g̤"/>
 			<when state="dot" output="ġ"/>
+			<when state="⎄;." output="ġ"/>
 			<when state="dot+dot_below" output="ġ̣"/>
 			<when state="dot+macron" output="ġ̄"/>
 			<when state="dot_below" output="g̣"/>
@@ -6079,6 +6707,7 @@
 			<when state="inverted_breve" output="g̑"/>
 			<when state="line_below" output="g̱"/>
 			<when state="macron" output="ḡ"/>
+			<when state="⎄;_" output="ḡ"/>
 			<when state="macron+acute" output="ḡ́"/>
 			<when state="macron+diaeresis" output="ḡ̈"/>
 			<when state="macron+dot_below" output="ḡ̣"/>
@@ -6086,9 +6715,10 @@
 			<when state="ogonek" output="g̨"/>
 			<when state="ogonek+macron" output="ḡ̨"/>
 			<when state="ring" output="g̊"/>
-			<when state="ring+macron" output="g̊̄"/>
+			<when state="ring+acute" output="g̊́"/>
 			<when state="ring_below" output="g̥"/>
 			<when state="stroke" output="ǥ"/>
+			<when state="⎄;/" output="ǥ"/>
 			<when state="stroke+acute" output="ǥ́"/>
 			<when state="tilde" output="g̃"/>
 			<when state="tilde+acute" output="g̃́"/>
@@ -6097,6 +6727,10 @@
 			<when state="tilde_below" output="g̰"/>
 		</action><!--क-->
 		<action id="h">
+				<when state="⎄;^;_" output="ʰ"/>
+			<when state="⎄;(" next="⎄;(;h"/>
+			<when state="⎄;d" output="ð"/>
+			<when state="⎄;t" output="þ"/>
 			<when state="⌥" output="˙"/>
 			<when state="№" output="ƕ"/>
 			<when state="№;⇪⌥" output="ⱶ"/>
@@ -6118,11 +6752,14 @@
 			<when state="breve+tilde" output="h̆̃"/>
 			<when state="breve_below" output="ḫ"/>
 			<when state="caron" output="ȟ"/>
+			<when state="⎄;c" output="ȟ"/>
 			<when state="caron+dot" output="ȟ̇"/>
 			<when state="cedilla" output="ḩ"/>
+			<when state="⎄;," output="ḩ"/>
 			<when state="cedilla+acute" output="ḩ́"/>
 			<when state="cedilla+breve" output="ḩ̆"/>
 			<when state="circumflex" output="ĥ"/>
+			<when state="⎄;^" output="ĥ"/>
 			<when state="circumflex+acute" output="ĥ́"/>
 			<when state="circumflex+dot_below" output="ḥ̂"/>
 			<when state="circumflex+grave" output="ĥ̀"/>
@@ -6131,15 +6768,18 @@
 			<when state="circumflex_below" output="h̭"/>
 			<when state="comma_below" output="h̦"/>
 			<when state="diaeresis" output="ḧ"/>
+			<when state="⎄;quot" output="ḧ"/>
 			<when state="diaeresis+acute" output="ḧ́"/>
 			<when state="diaeresis+caron" output="ḧ̌"/>
 			<when state="diaeresis+grave" output="ḧ̀"/>
 			<when state="diaeresis+macron" output="ḧ̄"/>
 			<when state="diaeresis_below" output="h̤"/>
 			<when state="dot" output="ḣ"/>
+			<when state="⎄;." output="ḣ"/>
 			<when state="dot+dot_below" output="ḥ̇"/>
 			<when state="dot+macron" output="ḣ̄"/>
 			<when state="dot_below" output="ḥ"/>
+			<when state="⎄;!" output="ḥ"/>
 			<when state="double_acute" output="h̋"/>
 			<when state="double_grave" output="h̏"/>
 			<when state="grave" output="h̀"/>
@@ -6160,9 +6800,10 @@
 			<when state="ogonek" output="h̨"/>
 			<when state="ogonek+macron" output="h̨̄"/>
 			<when state="ring" output="h̊"/>
-			<when state="ring+macron" output="h̊̄"/>
+			<when state="ring+acute" output="h̊́"/>
 			<when state="ring_below" output="h̥"/>
 			<when state="stroke" output="ħ"/>
+			<when state="⎄;/" output="ħ"/>
 			<when state="stroke+acute" output="ħ́"/>
 			<when state="tilde" output="h̃"/>
 			<when state="tilde+acute" output="h̃́"/>
@@ -6172,9 +6813,10 @@
 		</action><!--क-->
 		<action id="i">
 			<when state="⎄" next="⎄;i"/>
-			<when state="⎄;'" output="í"/>
-				<when state="⎄;';quot" output="ḯ"/>
+				<when state="⎄;^;_" output="ⁱ"/>
+			<when state="⎄;(" next="⎄;(;i"/>
 			<when state="⎄;F" output="ﬃ"/>
+			<when state="⎄;d" output="⌀"/>
 			<when state="⎄;f" output="ﬁ"/>
 			<when state="⌥" next="⌥i"/>
 			<when state="№" output="ɪ"/>
@@ -6197,8 +6839,11 @@
 		<!--क-->
 			<when state="none" output="i"/>
 			<when state="acute" output="í"/>
+			<when state="⎄;'" output="í"/>
 			<when state="acute+dot" output="í̇"/>
 			<when state="breve" output="ĭ"/>
+			<when state="⎄;U" output="ĭ"/>
+			<when state="⎄;b" output="ĭ"/>
 			<when state="breve+acute" output="ĭ́"/>
 			<when state="breve+dot_below" output="ị̆"/>
 			<when state="breve+grave" output="ĭ̀"/>
@@ -6206,11 +6851,13 @@
 			<when state="breve+tilde" output="ĭ̃"/>
 			<when state="breve_below" output="i̮"/>
 			<when state="caron" output="ǐ"/>
+			<when state="⎄;c" output="ǐ"/>
 			<when state="caron+dot" output="ǐ̇"/>
 			<when state="cedilla" output="i̧"/>
 			<when state="cedilla+acute" output="í̧"/>
 			<when state="cedilla+breve" output="ĭ̧"/>
 			<when state="circumflex" output="î"/>
+			<when state="⎄;^" output="î"/>
 			<when state="circumflex+acute" output="î́"/>
 			<when state="circumflex+dot_below" output="ị̂"/>
 			<when state="circumflex+grave" output="î̀"/>
@@ -6219,19 +6866,25 @@
 			<when state="circumflex_below" output="i̭"/>
 			<when state="comma_below" output="i̦"/>
 			<when state="diaeresis" output="ï"/>
+			<when state="⎄;quot" output="ï"/>
 			<when state="diaeresis+acute" output="ḯ"/>
+			<when state="⎄;';quot" output="ḯ"/>
 			<when state="diaeresis+caron" output="ï̌"/>
 			<when state="diaeresis+grave" output="ï̀"/>
 			<when state="diaeresis+macron" output="ï̄"/>
 			<when state="diaeresis_below" output="i̤"/>
 			<when state="dot" output="ı"/>
+			<when state="⎄;." output="ı"/>
 			<when state="dot+dot_below" output="ı̣"/>
 			<when state="dot+macron" output="ı̇̄"/>
 			<when state="dot_below" output="ị"/>
+			<when state="⎄;!" output="ị"/>
 			<when state="double_acute" output="ı̋"/>
 			<when state="double_grave" output="ȉ"/>
 			<when state="grave" output="ì"/>
+			<when state="⎄;`" output="ì"/>
 			<when state="hook_above" output="ỉ"/>
+			<when state="⎄;?" output="ỉ"/>
 			<when state="horn" output="ı̛"/>
 			<when state="horn+acute" output="ı̛́"/>
 			<when state="horn+dot_below" output="ı̛̣"/>
@@ -6241,24 +6894,31 @@
 			<when state="inverted_breve" output="ȋ"/>
 			<when state="line_below" output="i̱"/>
 			<when state="macron" output="ī"/>
+			<when state="⎄;_" output="ī"/>
 			<when state="macron+acute" output="ī́"/>
 			<when state="macron+diaeresis" output="ī̈"/>
 			<when state="macron+dot_below" output="ị̄"/>
 			<when state="macron+grave" output="ī̀"/>
 			<when state="ogonek" output="į"/>
+			<when state="⎄;;" output="į"/>
+			<when state="⎄;," output="į"/>
 			<when state="ogonek+macron" output="į̄"/>
 			<when state="ring" output="ı̊"/>
-			<when state="ring+macron" output="ı̊̄"/>
+			<when state="ring+acute" output="ı̊́"/>
 			<when state="ring_below" output="i̥"/>
 			<when state="stroke" output="ɨ"/>
+			<when state="⎄;/" output="ɨ"/>
 			<when state="stroke+acute" output="ɨ́"/>
 			<when state="tilde" output="ĩ"/>
+			<when state="⎄;~" output="ĩ"/>
 			<when state="tilde+acute" output="ĩ́"/>
 			<when state="tilde+diaeresis" output="ĩ̈"/>
 			<when state="tilde+macron" output="ĩ̄"/>
 			<when state="tilde_below" output="ḭ"/>
 		</action><!--क-->
 		<action id="j">
+				<when state="⎄;^;_" output="ʲ"/>
+			<when state="⎄;(" next="⎄;(;j"/>
 			<when state="⎄;I" output="Ĳ"/>
 			<when state="⎄;i" output="ĳ"/>
 			<when state="⌥" output="∆"/>
@@ -6282,11 +6942,13 @@
 			<when state="breve+tilde" output="ȷ̆̃"/>
 			<when state="breve_below" output="j̮"/>
 			<when state="caron" output="ǰ"/>
+			<when state="⎄;c" output="ǰ"/>
 			<when state="caron+dot" output="ǰ̇"/>
 			<when state="cedilla" output="j̧"/>
 			<when state="cedilla+acute" output="ȷ̧́"/>
 			<when state="cedilla+breve" output="ȷ̧̆"/>
 			<when state="circumflex" output="ĵ"/>
+			<when state="⎄;^" output="ĵ"/>
 			<when state="circumflex+acute" output="ĵ́"/>
 			<when state="circumflex+dot_below" output="ĵ̣"/>
 			<when state="circumflex+grave" output="ĵ̀"/>
@@ -6324,9 +6986,10 @@
 			<when state="ogonek" output="j̨"/>
 			<when state="ogonek+macron" output="ȷ̨̄"/>
 			<when state="ring" output="ȷ̊"/>
-			<when state="ring+macron" output="ȷ̊̄"/>
+			<when state="ring+acute" output="ȷ̊́"/>
 			<when state="ring_below" output="j̥"/>
 			<when state="stroke" output="ɉ"/>
+			<when state="⎄;/" output="ɉ"/>
 			<when state="stroke+acute" output="ɟ́"/>
 			<when state="tilde" output="ȷ̃"/>
 			<when state="tilde+acute" output="ȷ̃́"/>
@@ -6336,7 +6999,8 @@
 		</action><!--क-->
 		<action id="k">
 			<when state="⎄" next="⎄;k"/>
-			<when state="⎄;'" output="ḱ"/>
+			<when state="⎄;(" next="⎄;(;k"/>
+			<when state="⎄;k" output="ĸ"/>
 			<when state="⌥" output="˚"/>
 			<when state="№" output="ĸ"/>
 			<when state="ʔ" output="ƙ"/>
@@ -6346,6 +7010,7 @@
 		<!--क-->
 			<when state="none" output="k"/>
 			<when state="acute" output="ḱ"/>
+			<when state="⎄;'" output="ḱ"/>
 			<when state="acute+dot" output="ḱ̇"/>
 			<when state="breve" output="k̆"/>
 			<when state="breve+acute" output="k̆́"/>
@@ -6355,8 +7020,10 @@
 			<when state="breve+tilde" output="k̆̃"/>
 			<when state="breve_below" output="k̮"/>
 			<when state="caron" output="ǩ"/>
+			<when state="⎄;c" output="ǩ"/>
 			<when state="caron+dot" output="ǩ̇"/>
 			<when state="cedilla" output="ķ"/>
+			<when state="⎄;," output="ķ"/>
 			<when state="cedilla+acute" output="ķ́"/>
 			<when state="cedilla+breve" output="ķ̆"/>
 			<when state="circumflex" output="k̂"/>
@@ -6377,6 +7044,7 @@
 			<when state="dot+dot_below" output="ḳ̇"/>
 			<when state="dot+macron" output="k̇̄"/>
 			<when state="dot_below" output="ḳ"/>
+			<when state="⎄;!" output="ḳ"/>
 			<when state="double_acute" output="k̋"/>
 			<when state="double_grave" output="k̏"/>
 			<when state="grave" output="k̀"/>
@@ -6397,7 +7065,7 @@
 			<when state="ogonek" output="k̨"/>
 			<when state="ogonek+macron" output="k̨̄"/>
 			<when state="ring" output="k̊"/>
-			<when state="ring+macron" output="k̊̄"/>
+			<when state="ring+acute" output="k̊́"/>
 			<when state="ring_below" output="k̥"/>
 			<when state="stroke" output="k̶"/>
 			<when state="stroke+acute" output="ḱ̶"/>
@@ -6410,7 +7078,8 @@
 		<action id="l">
 			<when state="⎄" next="⎄;l"/>
 			<when state="⎄;-" output="£"/>
-			<when state="⎄;'" output="ĺ"/>
+				<when state="⎄;^;_" output="ˡ"/>
+			<when state="⎄;(" next="⎄;(;l"/>
 			<when state="⎄;F" output="ﬄ"/>
 			<when state="⎄;f" output="ﬂ"/>
 			<when state="⎄;v" output="|"/>
@@ -6424,6 +7093,7 @@
 			<when state="acute;⇪⌥" next="stroke+acute"/>
 			<when state="none" output="l"/>
 			<when state="acute" output="ĺ"/>
+			<when state="⎄;'" output="ĺ"/>
 			<when state="acute+dot" output="ĺ̇"/>
 			<when state="breve" output="l̆"/>
 			<when state="breve+acute" output="l̆́"/>
@@ -6433,8 +7103,10 @@
 			<when state="breve+tilde" output="l̆̃"/>
 			<when state="breve_below" output="l̮"/>
 			<when state="caron" output="ľ"/>
+			<when state="⎄;c" output="ľ"/>
 			<when state="caron+dot" output="ľ̇"/>
 			<when state="cedilla" output="ļ"/>
+			<when state="⎄;," output="ļ"/>
 			<when state="cedilla+acute" output="ļ́"/>
 			<when state="cedilla+breve" output="ļ̆"/>
 			<when state="circumflex" output="l̂"/>
@@ -6452,9 +7124,11 @@
 			<when state="diaeresis+macron" output="l̈̄"/>
 			<when state="diaeresis_below" output="l̤"/>
 			<when state="dot" output="ŀ"/>
+			<when state="⎄;." output="ŀ"/>
 			<when state="dot+dot_below" output="ŀ̣"/>
 			<when state="dot+macron" output="ŀ̄"/>
 			<when state="dot_below" output="ḷ"/>
+			<when state="⎄;!" output="ḷ"/>
 			<when state="double_acute" output="l̋"/>
 			<when state="double_grave" output="l̏"/>
 			<when state="grave" output="l̀"/>
@@ -6471,13 +7145,15 @@
 			<when state="macron+acute" output="l̄́"/>
 			<when state="macron+diaeresis" output="l̄̈"/>
 			<when state="macron+dot_below" output="ḹ"/>
+			<when state="⎄;_;!" output="ḹ"/>
 			<when state="macron+grave" output="l̄̀"/>
 			<when state="ogonek" output="l̨"/>
 			<when state="ogonek+macron" output="l̨̄"/>
 			<when state="ring" output="l̊"/>
-			<when state="ring+macron" output="l̊̄"/>
+			<when state="ring+acute" output="l̊́"/>
 			<when state="ring_below" output="l̥"/>
 			<when state="stroke" output="ł"/>
+			<when state="⎄;/" output="ł"/>
 			<when state="stroke+acute" output="ł́"/>
 			<when state="tilde" output="ɫ"/>
 			<when state="tilde+acute" output="ɫ́"/>
@@ -6487,8 +7163,12 @@
 		</action><!--क-->
 		<action id="m">
 			<when state="⎄" next="⎄;m"/>
-			<when state="⎄;'" output="ḿ"/>
 			<when state="⎄;/" output="₥"/>
+			<when state="⎄;(" next="⎄;(;m"/>
+			<when state="⎄;S" output="℠"/>
+			<when state="⎄;T" output="™"/>
+			<when state="⎄;s" output="℠"/>
+			<when state="⎄;t" output="™"/>
 			<when state="⌥" output="µ"/>
 			<when state="№" output="ɯ"/>
 			<when state="⇪⌥" next="ogonek"/>
@@ -6498,6 +7178,7 @@
 		<!--क-->
 			<when state="none" output="m"/>
 			<when state="acute" output="ḿ"/>
+			<when state="⎄;'" output="ḿ"/>
 			<when state="acute+dot" output="ḿ̇"/>
 			<when state="breve" output="m̆"/>
 			<when state="breve+acute" output="m̆́"/>
@@ -6526,9 +7207,11 @@
 			<when state="diaeresis+macron" output="m̈̄"/>
 			<when state="diaeresis_below" output="m̤"/>
 			<when state="dot" output="ṁ"/>
+			<when state="⎄;." output="ṁ"/>
 			<when state="dot+dot_below" output="ṃ̇"/>
 			<when state="dot+macron" output="ṁ̄"/>
 			<when state="dot_below" output="ṃ"/>
+			<when state="⎄;!" output="ṃ"/>
 			<when state="double_acute" output="m̋"/>
 			<when state="double_grave" output="m̏"/>
 			<when state="grave" output="m̀"/>
@@ -6549,7 +7232,7 @@
 			<when state="ogonek" output="m̨"/>
 			<when state="ogonek+macron" output="m̨̄"/>
 			<when state="ring" output="m̊"/>
-			<when state="ring+macron" output="m̊̄"/>
+			<when state="ring+acute" output="m̊́"/>
 			<when state="ring_below" output="m̥"/>
 			<when state="stroke" output="m̶"/>
 			<when state="stroke+acute" output="ḿ̶"/>
@@ -6561,7 +7244,8 @@
 		</action><!--क-->
 		<action id="n">
 			<when state="⎄" next="⎄;n"/>
-			<when state="⎄;'" output="ń"/>
+				<when state="⎄;^;_" output="ⁿ"/>
+			<when state="⎄;(" next="⎄;(;n"/>
 			<when state="⌥" next="⌥n"/>
 			<when state="№" output="ŋ"/>
 			<when state="ʔ" output="ɲ"/>
@@ -6576,6 +7260,7 @@
 		<!--क-->
 			<when state="none" output="n"/>
 			<when state="acute" output="ń"/>
+			<when state="⎄;'" output="ń"/>
 			<when state="acute+dot" output="ń̇"/>
 			<when state="breve" output="n̆"/>
 			<when state="breve+acute" output="n̆́"/>
@@ -6585,8 +7270,10 @@
 			<when state="breve+tilde" output="n̆̃"/>
 			<when state="breve_below" output="n̮"/>
 			<when state="caron" output="ň"/>
+			<when state="⎄;c" output="ň"/>
 			<when state="caron+dot" output="ň̇"/>
 			<when state="cedilla" output="ņ"/>
+			<when state="⎄;," output="ņ"/>
 			<when state="cedilla+acute" output="ņ́"/>
 			<when state="cedilla+breve" output="ņ̆"/>
 			<when state="circumflex" output="n̂"/>
@@ -6604,12 +7291,15 @@
 			<when state="diaeresis+macron" output="n̈̄"/>
 			<when state="diaeresis_below" output="n̤"/>
 			<when state="dot" output="ṅ"/>
+			<when state="⎄;." output="ṅ"/>
 			<when state="dot+dot_below" output="ṇ̇"/>
 			<when state="dot+macron" output="ṅ̄"/>
 			<when state="dot_below" output="ṇ"/>
+			<when state="⎄;!" output="ṇ"/>
 			<when state="double_acute" output="n̋"/>
 			<when state="double_grave" output="n̏"/>
 			<when state="grave" output="ǹ"/>
+			<when state="⎄;`" output="ǹ"/>
 			<when state="hook_above" output="n̉"/>
 			<when state="horn" output="n̛"/>
 			<when state="horn+acute" output="ń̛"/>
@@ -6627,11 +7317,12 @@
 			<when state="ogonek" output="n̨"/>
 			<when state="ogonek+macron" output="n̨̄"/>
 			<when state="ring" output="n̊"/>
-			<when state="ring+macron" output="n̊̄"/>
+			<when state="ring+acute" output="n̊́"/>
 			<when state="ring_below" output="n̥"/>
 			<when state="stroke" output="n̶"/>
 			<when state="stroke+acute" output="ń̶"/>
 			<when state="tilde" output="ñ"/>
+			<when state="⎄;~" output="ñ"/>
 			<when state="tilde+acute" output="ñ́"/>
 			<when state="tilde+diaeresis" output="ñ̈"/>
 			<when state="tilde+macron" output="ñ̄"/>
@@ -6639,13 +7330,12 @@
 		</action><!--क-->
 		<action id="o">
 			<when state="⎄" next="⎄;o"/>
-			<when state="⎄;'" output="ó"/>
 				<when state="⎄;';/" output="ǿ"/>
-				<when state="⎄;';~" output="ṍ"/>
-				<when state="⎄;';^" output="ố"/>
-				<when state="⎄;';_" output="ṓ"/>
-				<when state="⎄;';+" output="ớ"/>
+				<when state="⎄;^;_" output="º"/>
+			<when state="⎄;\" next="⎄;\;o"/>
+			<when state="⎄;/" output="ø"/>
 			<when state="⎄;%" output="‰"/>
+			<when state="⎄;(" next="⎄;(;o"/>
 			<when state="⎄;N" output="№"/>
 			<when state="⎄;o" output="°"/>
 			<when state="⎄;s" output="§"/>
@@ -6717,7 +7407,7 @@
 				<when state="ogonek;⇪⌥" output="ø̨"/>
 				<when state="ogonek+macron;⇪⌥" output="ø̨̄"/>
 				<when state="ring;⇪⌥" output="ø̊"/>
-				<when state="ring+macron;⇪⌥" output="ø̊̄"/>
+				<when state="ring+acute;⇪⌥" output="ø̊́"/>
 				<when state="ring_below;⇪⌥" output="ø̥"/>
 				<when state="stroke;⇪⌥" output="ø̶"/>
 				<when state="stroke+acute;⇪⌥" output="ǿ̶"/>
@@ -6729,8 +7419,11 @@
 		<!--क-->
 			<when state="none" output="o"/>
 			<when state="acute" output="ó"/>
+			<when state="⎄;'" output="ó"/>
 			<when state="acute+dot" output="ó̇"/>
 			<when state="breve" output="ŏ"/>
+			<when state="⎄;U" output="ŏ"/>
+			<when state="⎄;b" output="ŏ"/>
 			<when state="breve+acute" output="ŏ́"/>
 			<when state="breve+dot_below" output="ọ̆"/>
 			<when state="breve+grave" output="ŏ̀"/>
@@ -6738,61 +7431,92 @@
 			<when state="breve+tilde" output="ŏ̃"/>
 			<when state="breve_below" output="o̮"/>
 			<when state="caron" output="ǒ"/>
+			<when state="⎄;c" output="ǒ"/>
 			<when state="caron+dot" output="ǒ̇"/>
 			<when state="cedilla" output="o̧"/>
 			<when state="cedilla+acute" output="ó̧"/>
 			<when state="cedilla+breve" output="ŏ̧"/>
 			<when state="circumflex" output="ô"/>
+			<when state="⎄;^" output="ô"/>
 			<when state="circumflex+acute" output="ố"/>
+			<when state="⎄;';^" output="ố"/>
 			<when state="circumflex+dot_below" output="ộ"/>
+			<when state="⎄;^;!" output="ộ"/>
 			<when state="circumflex+grave" output="ồ"/>
+			<when state="⎄;`;^" output="ồ"/>
 			<when state="circumflex+hook_above" output="ổ"/>
+			<when state="⎄;?;^" output="ổ"/>
 			<when state="circumflex+tilde" output="ỗ"/>
+			<when state="⎄;~;^" output="ỗ"/>
 			<when state="circumflex_below" output="o̭"/>
 			<when state="comma_below" output="o̦"/>
 			<when state="diaeresis" output="ö"/>
+			<when state="⎄;quot" output="ö"/>
 			<when state="diaeresis+acute" output="ö́"/>
 			<when state="diaeresis+caron" output="ö̌"/>
 			<when state="diaeresis+grave" output="ö̀"/>
 			<when state="diaeresis+macron" output="ȫ"/>
+			<when state="⎄;_;quot" output="ȫ"/>
 			<when state="diaeresis_below" output="o̤"/>
 			<when state="dot" output="ȯ"/>
+			<when state="⎄;." output="ȯ"/>
 			<when state="dot+dot_below" output="ọ̇"/>
 			<when state="dot+macron" output="ȱ"/>
+			<when state="⎄;_;." output="ȱ"/>
 			<when state="dot_below" output="ọ"/>
+			<when state="⎄;!" output="ọ"/>
 			<when state="double_acute" output="ő"/>
+			<when state="⎄;=" output="ő"/>
 			<when state="double_grave" output="ȍ"/>
 			<when state="grave" output="ò"/>
+			<when state="⎄;`" output="ò"/>
 			<when state="hook_above" output="ỏ"/>
+			<when state="⎄;?" output="ỏ"/>
 			<when state="horn" output="ơ"/>
+			<when state="⎄;+" output="ơ"/>
 			<when state="horn+acute" output="ớ"/>
+			<when state="⎄;';+" output="ớ"/>
 			<when state="horn+dot_below" output="ợ"/>
+			<when state="⎄;!;+" output="ợ"/>
 			<when state="horn+grave" output="ờ"/>
+			<when state="⎄;`;+" output="ờ"/>
 			<when state="horn+hook_above" output="ở"/>
+			<when state="⎄;?;+" output="ở"/>
 			<when state="horn+tilde" output="ỡ"/>
+			<when state="⎄;~;+" output="ỡ"/>
 			<when state="inverted_breve" output="ȏ"/>
 			<when state="line_below" output="o̱"/>
 			<when state="macron" output="ō"/>
+			<when state="⎄;_" output="ō"/>
 			<when state="macron+acute" output="ṓ"/>
+			<when state="⎄;';_" output="ṓ"/>
 			<when state="macron+diaeresis" output="ō̈"/>
 			<when state="macron+dot_below" output="ọ̄"/>
 			<when state="macron+grave" output="ṑ"/>
+			<when state="⎄;`;_" output="ṑ"/>
 			<when state="ogonek" output="ǫ"/>
+			<when state="⎄;;" output="ǫ"/>
+			<when state="⎄;," output="ǫ"/>
 			<when state="ogonek+macron" output="ǭ"/>
+			<when state="⎄;_;;" output="ǭ"/>
 			<when state="ring" output="o̊"/>
-			<when state="ring+macron" output="o̊̄"/>
+			<when state="ring+acute" output="o̊́"/>
 			<when state="ring_below" output="o̥"/>
 			<when state="stroke" output="ɵ"/>
 			<when state="stroke+acute" output="ɵ́"/>
 			<when state="tilde" output="õ"/>
+			<when state="⎄;~" output="õ"/>
 			<when state="tilde+acute" output="ṍ"/>
+			<when state="⎄;';~" output="ṍ"/>
 			<when state="tilde+diaeresis" output="ṏ"/>
+			<when state="⎄;quot;~" output="ṏ"/>
 			<when state="tilde+macron" output="ȭ"/>
+			<when state="⎄;_;~" output="ȭ"/>
 			<when state="tilde_below" output="o̰"/>
 		</action><!--क-->
 		<action id="p">
 			<when state="⎄" next="⎄;P"/>
-			<when state="⎄;'" output="ṕ"/>
+			<when state="⎄;(" next="⎄;(;p"/>
 			<when state="⌥" output="π"/>
 			<when state="ʔ" output="ƥ"/>
 			<when state="⇪⌥" next="comma_below"/>
@@ -6801,6 +7525,7 @@
 		<!--क-->
 			<when state="none" output="p"/>
 			<when state="acute" output="ṕ"/>
+			<when state="⎄;'" output="ṕ"/>
 			<when state="acute+dot" output="ṕ̇"/>
 			<when state="breve" output="p̆"/>
 			<when state="breve+acute" output="p̆́"/>
@@ -6829,6 +7554,7 @@
 			<when state="diaeresis+macron" output="p̈̄"/>
 			<when state="diaeresis_below" output="p̤"/>
 			<when state="dot" output="ṗ"/>
+			<when state="⎄;." output="ṗ"/>
 			<when state="dot+dot_below" output="ṗ̣"/>
 			<when state="dot+macron" output="ṗ̄"/>
 			<when state="dot_below" output="p̣"/>
@@ -6852,9 +7578,10 @@
 			<when state="ogonek" output="p̨"/>
 			<when state="ogonek+macron" output="p̨̄"/>
 			<when state="ring" output="p̊"/>
-			<when state="ring+macron" output="p̊̄"/>
+			<when state="ring+acute" output="p̊́"/>
 			<when state="ring_below" output="p̥"/>
 			<when state="stroke" output="ᵽ"/>
+			<when state="⎄;/" output="ᵽ"/>
 			<when state="stroke+acute" output="ᵽ́"/>
 			<when state="tilde" output="p̃"/>
 			<when state="tilde+acute" output="p̃́"/>
@@ -6863,6 +7590,7 @@
 			<when state="tilde_below" output="p̰"/>
 		</action><!--क-->
 		<action id="q">
+			<when state="⎄;(" next="⎄;(;q"/>
 			<when state="⌥" output="œ"/>
 			<when state="№" output="ƣ"/>
 			<when state="ʔ" output="ʠ"/>
@@ -6921,7 +7649,7 @@
 				<when state="ogonek;⇪⌥" output="œ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="œ̨̄"/>
 				<when state="ring;⇪⌥" output="œ̊"/>
-				<when state="ring+macron;⇪⌥" output="œ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="œ̊́"/>
 				<when state="ring_below;⇪⌥" output="œ̥"/>
 				<when state="stroke;⇪⌥" output="œ̶"/>
 				<when state="stroke+acute;⇪⌥" output="œ̶́"/>
@@ -6984,7 +7712,7 @@
 			<when state="ogonek" output="q̨"/>
 			<when state="ogonek+macron" output="q̨̄"/>
 			<when state="ring" output="q̊"/>
-			<when state="ring+macron" output="q̊̄"/>
+			<when state="ring+acute" output="q̊́"/>
 			<when state="ring_below" output="q̥"/>
 			<when state="stroke" output="q̶"/>
 			<when state="stroke+acute" output="q̶́"/>
@@ -6995,7 +7723,8 @@
 			<when state="tilde_below" output="q̰"/>
 		</action><!--क-->
 		<action id="r">
-			<when state="⎄;'" output="ŕ"/>
+				<when state="⎄;^;_" output="ʳ"/>
+			<when state="⎄;(" next="⎄;(;r"/>
 			<when state="⎄;C" output="₢"/>
 			<when state="⎄;F" output="₣"/>
 			<when state="⎄;O" output="®"/>
@@ -7011,6 +7740,7 @@
 		<!--क-->
 			<when state="none" output="r"/>
 			<when state="acute" output="ŕ"/>
+			<when state="⎄;'" output="ŕ"/>
 			<when state="acute+dot" output="ŕ̇"/>
 			<when state="breve" output="r̆"/>
 			<when state="breve+acute" output="r̆́"/>
@@ -7020,8 +7750,10 @@
 			<when state="breve+tilde" output="r̆̃"/>
 			<when state="breve_below" output="r̮"/>
 			<when state="caron" output="ř"/>
+			<when state="⎄;c" output="ř"/>
 			<when state="caron+dot" output="ř̇"/>
 			<when state="cedilla" output="ŗ"/>
+			<when state="⎄;," output="ŗ"/>
 			<when state="cedilla+acute" output="ŗ́"/>
 			<when state="cedilla+breve" output="ŗ̆"/>
 			<when state="circumflex" output="r̂"/>
@@ -7039,9 +7771,11 @@
 			<when state="diaeresis+macron" output="r̈̄"/>
 			<when state="diaeresis_below" output="r̤"/>
 			<when state="dot" output="ṙ"/>
+			<when state="⎄;." output="ṙ"/>
 			<when state="dot+dot_below" output="ṛ̇"/>
 			<when state="dot+macron" output="ṙ̄"/>
 			<when state="dot_below" output="ṛ"/>
+			<when state="⎄;!" output="ṛ"/>
 			<when state="double_acute" output="r̋"/>
 			<when state="double_grave" output="ȑ"/>
 			<when state="grave" output="r̀"/>
@@ -7058,13 +7792,15 @@
 			<when state="macron+acute" output="r̄́"/>
 			<when state="macron+diaeresis" output="r̄̈"/>
 			<when state="macron+dot_below" output="ṝ"/>
+			<when state="⎄;_;!" output="ṝ"/>
 			<when state="macron+grave" output="r̄̀"/>
 			<when state="ogonek" output="r̨"/>
 			<when state="ogonek+macron" output="r̨̄"/>
 			<when state="ring" output="r̊"/>
-			<when state="ring+macron" output="r̊̄"/>
+			<when state="ring+acute" output="r̊́"/>
 			<when state="ring_below" output="r̥"/>
 			<when state="stroke" output="ɍ"/>
+			<when state="⎄;/" output="ɍ"/>
 			<when state="stroke+acute" output="ɍ́"/>
 			<when state="tilde" output="r̃"/>
 			<when state="tilde+acute" output="r̃́"/>
@@ -7074,7 +7810,8 @@
 		</action><!--क-->
 		<action id="s">
 			<when state="⎄" next="⎄;s"/>
-			<when state="⎄;'" output="ś"/>
+				<when state="⎄;^;_" output="ˢ"/>
+			<when state="⎄;(" next="⎄;(;s"/>
 			<when state="⎄;R" output="₨"/>
 			<when state="⎄;f" output="ſ"/>
 			<when state="⎄;o" output="§"/>
@@ -7140,7 +7877,7 @@
 				<when state="ogonek;⇪⌥" output="ß̨"/>
 				<when state="ogonek+macron;⇪⌥" output="ß̨̄"/>
 				<when state="ring;⇪⌥" output="ß̊"/>
-				<when state="ring+macron;⇪⌥" output="ß̊̄"/>
+				<when state="ring+acute;⇪⌥" output="ß̊́"/>
 				<when state="ring_below;⇪⌥" output="ß̥"/>
 				<when state="stroke;⇪⌥" output="ß̶"/>
 				<when state="stroke+acute;⇪⌥" output="ß̶́"/>
@@ -7152,7 +7889,9 @@
 		<!--क-->
 			<when state="none" output="s"/>
 			<when state="acute" output="ś"/>
+			<when state="⎄;'" output="ś"/>
 			<when state="acute+dot" output="ṥ"/>
+			<when state="⎄;.;'" output="ṥ"/>
 			<when state="breve" output="s̆"/>
 			<when state="breve+acute" output="s̆́"/>
 			<when state="breve+dot_below" output="ṣ̆"/>
@@ -7161,11 +7900,15 @@
 			<when state="breve+tilde" output="s̆̃"/>
 			<when state="breve_below" output="s̮"/>
 			<when state="caron" output="š"/>
+			<when state="⎄;c" output="š"/>
 			<when state="caron+dot" output="ṧ"/>
+			<when state="⎄;c;." output="ṧ"/>
 			<when state="cedilla" output="ş"/>
+			<when state="⎄;," output="ş"/>
 			<when state="cedilla+acute" output="ş́"/>
 			<when state="cedilla+breve" output="ş̆"/>
 			<when state="circumflex" output="ŝ"/>
+			<when state="⎄;^" output="ŝ"/>
 			<when state="circumflex+acute" output="ŝ́"/>
 			<when state="circumflex+dot_below" output="ṣ̂"/>
 			<when state="circumflex+grave" output="ŝ̀"/>
@@ -7180,9 +7923,12 @@
 			<when state="diaeresis+macron" output="s̈̄"/>
 			<when state="diaeresis_below" output="s̤"/>
 			<when state="dot" output="ṡ"/>
+			<when state="⎄;." output="ṡ"/>
 			<when state="dot+dot_below" output="ṩ"/>
+			<when state="⎄;.;!" output="ṩ"/>
 			<when state="dot+macron" output="ṡ̄"/>
 			<when state="dot_below" output="ṣ"/>
+			<when state="⎄;!" output="ṣ"/>
 			<when state="double_acute" output="s̋"/>
 			<when state="double_grave" output="s̏"/>
 			<when state="grave" output="s̀"/>
@@ -7203,7 +7949,7 @@
 			<when state="ogonek" output="s̨"/>
 			<when state="ogonek+macron" output="s̨̄"/>
 			<when state="ring" output="s̊"/>
-			<when state="ring+macron" output="s̊̄"/>
+			<when state="ring+acute" output="s̊́"/>
 			<when state="ring_below" output="s̥"/>
 			<when state="stroke" output="s̶"/>
 			<when state="stroke+acute" output="ś̶"/>
@@ -7215,6 +7961,7 @@
 		</action><!--क-->
 		<action id="t">
 			<when state="⎄" next="⎄;t"/>
+			<when state="⎄;(" next="⎄;(;t"/>
 			<when state="⎄;P" output="₧"/>
 			<when state="⌥" output="†"/>
 			<when state="№" output="ɾ"/>
@@ -7279,7 +8026,7 @@
 				<when state="ogonek;⇪⌥" output="þ̨"/>
 				<when state="ogonek+macron;⇪⌥" output="þ̨̄"/>
 				<when state="ring;⇪⌥" output="þ̊"/>
-				<when state="ring+macron;⇪⌥" output="þ̊̄"/>
+				<when state="ring+acute;⇪⌥" output="þ̊́"/>
 				<when state="ring_below;⇪⌥" output="þ̥"/>
 				<when state="stroke;⇪⌥" output="þ̶"/>
 				<when state="stroke+acute;⇪⌥" output="þ̶́"/>
@@ -7300,8 +8047,10 @@
 			<when state="breve+tilde" output="t̆̃"/>
 			<when state="breve_below" output="t̮"/>
 			<when state="caron" output="ť"/>
+			<when state="⎄;c" output="ť"/>
 			<when state="caron+dot" output="ť̇"/>
 			<when state="cedilla" output="ţ"/>
+			<when state="⎄;," output="ţ"/>
 			<when state="cedilla+acute" output="ţ́"/>
 			<when state="cedilla+breve" output="ţ̆"/>
 			<when state="circumflex" output="t̂"/>
@@ -7313,15 +8062,18 @@
 			<when state="circumflex_below" output="ṱ"/>
 			<when state="comma_below" output="ț"/>
 			<when state="diaeresis" output="ẗ"/>
+			<when state="⎄;quot" output="ẗ"/>
 			<when state="diaeresis+acute" output="ẗ́"/>
 			<when state="diaeresis+caron" output="ẗ̌"/>
 			<when state="diaeresis+grave" output="ẗ̀"/>
 			<when state="diaeresis+macron" output="ẗ̄"/>
 			<when state="diaeresis_below" output="t̤"/>
 			<when state="dot" output="ṫ"/>
+			<when state="⎄;." output="ṫ"/>
 			<when state="dot+dot_below" output="ṭ̇"/>
 			<when state="dot+macron" output="ṫ̄"/>
 			<when state="dot_below" output="ṭ"/>
+			<when state="⎄;!" output="ṭ"/>
 			<when state="double_acute" output="t̋"/>
 			<when state="double_grave" output="t̏"/>
 			<when state="grave" output="t̀"/>
@@ -7342,9 +8094,10 @@
 			<when state="ogonek" output="t̨"/>
 			<when state="ogonek+macron" output="t̨̄"/>
 			<when state="ring" output="t̊"/>
-			<when state="ring+macron" output="t̊̄"/>
+			<when state="ring+acute" output="t̊́"/>
 			<when state="ring_below" output="t̥"/>
 			<when state="stroke" output="ŧ"/>
+			<when state="⎄;/" output="ŧ"/>
 			<when state="stroke+acute" output="ŧ́"/>
 			<when state="tilde" output="t̃"/>
 			<when state="tilde+acute" output="t̃́"/>
@@ -7354,10 +8107,8 @@
 		</action><!--क-->
 		<action id="u">
 			<when state="⎄" next="⎄;u"/>
-			<when state="⎄;'" output="ú"/>
-				<when state="⎄;';~" output="ṹ"/>
-				<when state="⎄;';+" output="ứ"/>
-				<when state="⎄;';quot" output="ǘ"/>
+			<when state="⎄;(" next="⎄;(;u"/>
+			<when state="⎄;m" output="µ"/>
 			<when state="⌥" next="⌥u"/>
 			<when state="№" output="ʊ"/>
 			<when state="ʔ" output="ʋ"/>
@@ -7379,8 +8130,12 @@
 		<!--क-->
 			<when state="none" output="u"/>
 			<when state="acute" output="ú"/>
+			<when state="⎄;'" output="ú"/>
 			<when state="acute+dot" output="ú̇"/>
 			<when state="breve" output="ŭ"/>
+			<when state="⎄;U" output="ŭ"/>
+			<when state="⎄;b" output="ŭ"/>
+			<when state="⎄;u" output="ŭ"/>
 			<when state="breve+acute" output="ŭ́"/>
 			<when state="breve+dot_below" output="ụ̆"/>
 			<when state="breve+grave" output="ŭ̀"/>
@@ -7388,11 +8143,13 @@
 			<when state="breve+tilde" output="ŭ̃"/>
 			<when state="breve_below" output="u̮"/>
 			<when state="caron" output="ǔ"/>
+			<when state="⎄;c" output="ǔ"/>
 			<when state="caron+dot" output="ǔ̇"/>
 			<when state="cedilla" output="u̧"/>
 			<when state="cedilla+acute" output="ú̧"/>
 			<when state="cedilla+breve" output="ŭ̧"/>
 			<when state="circumflex" output="û"/>
+			<when state="⎄;^" output="û"/>
 			<when state="circumflex+acute" output="û́"/>
 			<when state="circumflex+dot_below" output="ụ̂"/>
 			<when state="circumflex+grave" output="û̀"/>
@@ -7401,47 +8158,71 @@
 			<when state="circumflex_below" output="ṷ"/>
 			<when state="comma_below" output="u̦"/>
 			<when state="diaeresis" output="ü"/>
+			<when state="⎄;quot" output="ü"/>
 			<when state="diaeresis+acute" output="ǘ"/>
+			<when state="⎄;';quot" output="ǘ"/>
 			<when state="diaeresis+caron" output="ǚ"/>
+			<when state="⎄;c;quot" output="ǚ"/>
 			<when state="diaeresis+grave" output="ǜ"/>
+			<when state="⎄;`;quot" output="ǜ"/>
 			<when state="diaeresis+macron" output="ǖ"/>
+			<when state="⎄;_;quot" output="ǖ"/>
 			<when state="diaeresis_below" output="ṳ"/>
 			<when state="dot" output="u̇"/>
 			<when state="dot+dot_below" output="ụ̇"/>
 			<when state="dot+macron" output="u̇̄"/>
 			<when state="dot_below" output="ụ"/>
+			<when state="⎄;!" output="ụ"/>
 			<when state="double_acute" output="ű"/>
+			<when state="⎄;=" output="ű"/>
 			<when state="double_grave" output="ȕ"/>
 			<when state="grave" output="ù"/>
+			<when state="⎄;`" output="ù"/>
 			<when state="hook_above" output="ủ"/>
+			<when state="⎄;?" output="ủ"/>
 			<when state="horn" output="ư"/>
+			<when state="⎄;+" output="ư"/>
 			<when state="horn+acute" output="ứ"/>
+			<when state="⎄;';+" output="ứ"/>
 			<when state="horn+dot_below" output="ự"/>
+			<when state="⎄;!;+" output="ự"/>
 			<when state="horn+grave" output="ừ"/>
+			<when state="⎄;`;+" output="ừ"/>
 			<when state="horn+hook_above" output="ử"/>
+			<when state="⎄;?;+" output="ử"/>
 			<when state="horn+tilde" output="ữ"/>
+			<when state="⎄;~;+" output="ữ"/>
 			<when state="inverted_breve" output="ȗ"/>
 			<when state="line_below" output="u̱"/>
 			<when state="macron" output="ū"/>
+			<when state="⎄;_" output="ū"/>
 			<when state="macron+acute" output="ū́"/>
 			<when state="macron+diaeresis" output="ṻ"/>
+			<when state="⎄;quot;_" output="ṻ"/>
 			<when state="macron+dot_below" output="ụ̄"/>
 			<when state="macron+grave" output="ū̀"/>
 			<when state="ogonek" output="ų"/>
+			<when state="⎄;;" output="ų"/>
+			<when state="⎄;," output="ų"/>
 			<when state="ogonek+macron" output="ų̄"/>
 			<when state="stroke" output="ʉ"/>
+			<when state="⎄;/" output="ʉ"/>
 			<when state="stroke+acute" output="ʉ́"/>
 			<when state="ring" output="ů"/>
-			<when state="ring+macron" output="ů̄"/>
+			<when state="⎄;o" output="ů"/>
+			<when state="ring+acute" output="ů́"/>
 			<when state="ring_below" output="u̥"/>
 			<when state="tilde" output="ũ"/>
+			<when state="⎄;~" output="ũ"/>
 			<when state="tilde+acute" output="ṹ"/>
+			<when state="⎄;';~" output="ṹ"/>
 			<when state="tilde+diaeresis" output="ũ̈"/>
 			<when state="tilde+macron" output="ũ̄"/>
 			<when state="tilde_below" output="ṵ"/>
 		</action><!--क-->
 		<action id="v">
 			<when state="⎄" next="⎄;v"/>
+			<when state="⎄;(" next="⎄;(;v"/>
 			<when state="⎄;l" output="|"/>
 			<when state="⌥" output="√"/>
 			<when state="№" output="ʌ"/>
@@ -7484,6 +8265,7 @@
 			<when state="dot+dot_below" output="ṿ̇"/>
 			<when state="dot+macron" output="v̇̄"/>
 			<when state="dot_below" output="ṿ"/>
+			<when state="⎄;!" output="ṿ"/>
 			<when state="double_acute" output="v̋"/>
 			<when state="double_grave" output="v̏"/>
 			<when state="grave" output="v̀"/>
@@ -7504,18 +8286,20 @@
 			<when state="ogonek" output="v̨"/>
 			<when state="ogonek+macron" output="v̨̄"/>
 			<when state="ring" output="v̊"/>
-			<when state="ring+macron" output="v̊̄"/>
+			<when state="ring+acute" output="v̊́"/>
 			<when state="ring_below" output="v̥"/>
 			<when state="stroke" output="v̶"/>
 			<when state="stroke+acute" output="v̶́"/>
 			<when state="tilde" output="ṽ"/>
+			<when state="⎄;~" output="ṽ"/>
 			<when state="tilde+acute" output="ṽ́"/>
 			<when state="tilde+diaeresis" output="ṽ̈"/>
 			<when state="tilde+macron" output="ṽ̄"/>
 			<when state="tilde_below" output="v̰"/>
 		</action><!--क-->
 		<action id="w">
-			<when state="⎄;'" output="ẃ"/>
+				<when state="⎄;^;_" output="ʷ"/>
+			<when state="⎄;(" next="⎄;(;w"/>
 			<when state="⌥" output="∑"/>
 			<when state="№" output="ƿ"/>
 			<when state="№;⇪⌥" output="ʍ"/>
@@ -7529,6 +8313,7 @@
 		<!--क-->
 			<when state="none" output="w"/>
 			<when state="acute" output="ẃ"/>
+			<when state="⎄;'" output="ẃ"/>
 			<when state="acute+dot" output="ẃ̇"/>
 			<when state="breve" output="w̆"/>
 			<when state="breve+acute" output="w̆́"/>
@@ -7543,6 +8328,7 @@
 			<when state="cedilla+acute" output="ẃ̧"/>
 			<when state="cedilla+breve" output="w̧̆"/>
 			<when state="circumflex" output="ŵ"/>
+			<when state="⎄;^" output="ŵ"/>
 			<when state="circumflex+acute" output="ŵ́"/>
 			<when state="circumflex+dot_below" output="ẉ̂"/>
 			<when state="circumflex+grave" output="ŵ̀"/>
@@ -7551,18 +8337,22 @@
 			<when state="circumflex_below" output="w̭"/>
 			<when state="comma_below" output="w̦"/>
 			<when state="diaeresis" output="ẅ"/>
+			<when state="⎄;quot" output="ẅ"/>
 			<when state="diaeresis+acute" output="ẅ́"/>
 			<when state="diaeresis+caron" output="ẅ̌"/>
 			<when state="diaeresis+grave" output="ẅ̀"/>
 			<when state="diaeresis+macron" output="ẅ̄"/>
 			<when state="diaeresis_below" output="w̤"/>
 			<when state="dot" output="ẇ"/>
+			<when state="⎄;." output="ẇ"/>
 			<when state="dot+dot_below" output="ẉ̇"/>
 			<when state="dot+macron" output="ẇ̄"/>
 			<when state="dot_below" output="ẉ"/>
+			<when state="⎄;!" output="ẉ"/>
 			<when state="double_acute" output="w̋"/>
 			<when state="double_grave" output="w̏"/>
 			<when state="grave" output="ẁ"/>
+			<when state="⎄;`" output="ẁ"/>
 			<when state="hook_above" output="w̉"/>
 			<when state="horn" output="w̛"/>
 			<when state="horn+acute" output="ẃ̛"/>
@@ -7580,7 +8370,8 @@
 			<when state="ogonek" output="w̨"/>
 			<when state="ogonek+macron" output="w̨̄"/>
 			<when state="ring" output="ẘ"/>
-			<when state="ring+macron" output="ẘ̄"/>
+			<when state="⎄;o" output="ẘ"/>
+			<when state="ring+acute" output="ẘ́"/>
 			<when state="ring_below" output="w̥"/>
 			<when state="stroke" output="w̶"/>
 			<when state="stroke+acute" output="ẃ̶"/>
@@ -7592,7 +8383,10 @@
 		</action><!--क-->
 		<action id="x">
 			<when state="⎄" next="⎄;x"/>
+				<when state="⎄;^;_" output="ˣ"/>
+			<when state="⎄;(" next="⎄;(;x"/>
 			<when state="⎄;o" output="¤"/>
+			<when state="⎄;x" output="×"/>
 			<when state="⌥" output="≈"/>
 			<when state="№" output="ƹ"/>
 			<when state="№;⇪⌥" output="χ"/>
@@ -7630,12 +8424,14 @@
 			<when state="circumflex_below" output="x̭"/>
 			<when state="comma_below" output="x̦"/>
 			<when state="diaeresis" output="ẍ"/>
+			<when state="⎄;quot" output="ẍ"/>
 			<when state="diaeresis+acute" output="ẍ́"/>
 			<when state="diaeresis+caron" output="ẍ̌"/>
 			<when state="diaeresis+grave" output="ẍ̀"/>
 			<when state="diaeresis+macron" output="ẍ̄"/>
 			<when state="diaeresis_below" output="x̤"/>
 			<when state="dot" output="ẋ"/>
+			<when state="⎄;." output="ẋ"/>
 			<when state="dot+dot_below" output="ẋ̣"/>
 			<when state="dot+macron" output="ẋ̄"/>
 			<when state="dot_below" output="x̣"/>
@@ -7659,7 +8455,7 @@
 			<when state="ogonek" output="x̨"/>
 			<when state="ogonek+macron" output="x̨̄"/>
 			<when state="ring" output="x̊"/>
-			<when state="ring+macron" output="x̊̄"/>
+			<when state="ring+acute" output="x̊́"/>
 			<when state="ring_below" output="x̥"/>
 			<when state="stroke" output="x̶"/>
 			<when state="stroke+acute" output="x̶́"/>
@@ -7672,7 +8468,8 @@
 		<action id="y">
 			<when state="⎄" next="⎄;y"/>
 			<when state="⎄;=" output="¥"/>
-			<when state="⎄;'" output="ý"/>
+				<when state="⎄;^;_" output="ʸ"/>
+			<when state="⎄;(" next="⎄;(;y"/>
 			<when state="⌥" output="¥"/>
 			<when state="№" output="ȝ"/>
 			<when state="№;⇪⌥" output="ʏ"/>
@@ -7687,6 +8484,7 @@
 		<!--क-->
 			<when state="none" output="y"/>
 			<when state="acute" output="ý"/>
+			<when state="⎄;'" output="ý"/>
 			<when state="acute+dot" output="ý̇"/>
 			<when state="breve" output="y̆"/>
 			<when state="breve+acute" output="y̆́"/>
@@ -7701,6 +8499,7 @@
 			<when state="cedilla+acute" output="ý̧"/>
 			<when state="cedilla+breve" output="y̧̆"/>
 			<when state="circumflex" output="ŷ"/>
+			<when state="⎄;^" output="ŷ"/>
 			<when state="circumflex+acute" output="ŷ́"/>
 			<when state="circumflex+dot_below" output="ỵ̂"/>
 			<when state="circumflex+grave" output="ŷ̀"/>
@@ -7709,19 +8508,24 @@
 			<when state="circumflex_below" output="y̭"/>
 			<when state="comma_below" output="y̦"/>
 			<when state="diaeresis" output="ÿ"/>
+			<when state="⎄;quot" output="ÿ"/>
 			<when state="diaeresis+acute" output="ÿ́"/>
 			<when state="diaeresis+caron" output="ÿ̌"/>
 			<when state="diaeresis+grave" output="ÿ̀"/>
 			<when state="diaeresis+macron" output="ÿ̄"/>
 			<when state="diaeresis_below" output="y̤"/>
 			<when state="dot" output="ẏ"/>
+			<when state="⎄;." output="ẏ"/>
 			<when state="dot+dot_below" output="ỵ̇"/>
 			<when state="dot+macron" output="ẏ̄"/>
 			<when state="dot_below" output="ỵ"/>
+			<when state="⎄;!" output="ỵ"/>
 			<when state="double_acute" output="y̋"/>
 			<when state="double_grave" output="y̏"/>
 			<when state="grave" output="ỳ"/>
+			<when state="⎄;`" output="ỳ"/>
 			<when state="hook_above" output="ỷ"/>
+			<when state="⎄;?" output="ỷ"/>
 			<when state="horn" output="y̛"/>
 			<when state="horn+acute" output="ý̛"/>
 			<when state="horn+dot_below" output="ỵ̛"/>
@@ -7731,6 +8535,7 @@
 			<when state="inverted_breve" output="y̑"/>
 			<when state="line_below" output="y̱"/>
 			<when state="macron" output="ȳ"/>
+			<when state="⎄;_" output="ȳ"/>
 			<when state="macron+acute" output="ȳ́"/>
 			<when state="macron+diaeresis" output="ȳ̈"/>
 			<when state="macron+dot_below" output="ỵ̄"/>
@@ -7738,18 +8543,21 @@
 			<when state="ogonek" output="y̨"/>
 			<when state="ogonek+macron" output="ȳ̨"/>
 			<when state="ring" output="ẙ"/>
-			<when state="ring+macron" output="ẙ̄"/>
+			<when state="⎄;o" output="ẙ"/>
+			<when state="ring+acute" output="ẙ́"/>
 			<when state="ring_below" output="y̥"/>
 			<when state="stroke" output="ɏ"/>
+			<when state="⎄;/" output="ɏ"/>
 			<when state="stroke+acute" output="ɏ́"/>
 			<when state="tilde" output="ỹ"/>
+			<when state="⎄;~" output="ỹ"/>
 			<when state="tilde+acute" output="ỹ́"/>
 			<when state="tilde+diaeresis" output="ỹ̈"/>
 			<when state="tilde+macron" output="ỹ̄"/>
 			<when state="tilde_below" output="y̰"/>
 		</action><!--क-->
 		<action id="z">
-			<when state="⎄;'" output="ź"/>
+			<when state="⎄;(" next="⎄;(;z"/>
 			<when state="⎄;s" output="ß"/>
 			<when state="⌥" output="Ω"/>
 			<when state="№" output="ʒ"/>
@@ -7770,6 +8578,7 @@
 		<!--क-->
 			<when state="none" output="z"/>
 			<when state="acute" output="ź"/>
+			<when state="⎄;'" output="ź"/>
 			<when state="acute+dot" output="ź̇"/>
 			<when state="breve" output="z̆"/>
 			<when state="breve+acute" output="z̆́"/>
@@ -7779,11 +8588,13 @@
 			<when state="breve+tilde" output="z̆̃"/>
 			<when state="breve_below" output="z̮"/>
 			<when state="caron" output="ž"/>
+			<when state="⎄;c" output="ž"/>
 			<when state="caron+dot" output="ž̇"/>
 			<when state="cedilla" output="z̧"/>
 			<when state="cedilla+acute" output="ź̧"/>
 			<when state="cedilla+breve" output="z̧̆"/>
 			<when state="circumflex" output="ẑ"/>
+			<when state="⎄;^" output="ẑ"/>
 			<when state="circumflex+acute" output="ẑ́"/>
 			<when state="circumflex+dot_below" output="ẓ̂"/>
 			<when state="circumflex+grave" output="ẑ̀"/>
@@ -7798,9 +8609,11 @@
 			<when state="diaeresis+macron" output="z̈̄"/>
 			<when state="diaeresis_below" output="z̤"/>
 			<when state="dot" output="ż"/>
+			<when state="⎄;." output="ż"/>
 			<when state="dot+dot_below" output="ẓ̇"/>
 			<when state="dot+macron" output="ż̄"/>
 			<when state="dot_below" output="ẓ"/>
+			<when state="⎄;!" output="ẓ"/>
 			<when state="double_acute" output="z̋"/>
 			<when state="double_grave" output="z̏"/>
 			<when state="grave" output="z̀"/>
@@ -7821,9 +8634,10 @@
 			<when state="ogonek" output="z̨"/>
 			<when state="ogonek+macron" output="z̨̄"/>
 			<when state="ring" output="z̊"/>
-			<when state="ring+macron" output="z̊̄"/>
+			<when state="ring+acute" output="z̊́"/>
 			<when state="ring_below" output="z̥"/>
 			<when state="stroke" output="ƶ"/>
+			<when state="⎄;/" output="ƶ"/>
 			<when state="stroke+acute" output="ƶ́"/>
 			<when state="tilde" output="z̃"/>
 			<when state="tilde+acute" output="z̃́"/>
@@ -7834,7 +8648,7 @@
 	</actions>
 <!--terminators; ख-->
 	<terminators><!--these will not be combining diacritics, unlike space action-->
-		<when state="⌥" output="§"/>
+		<when state="⌥" output="⌥"/>
 		<when state="№" output="№"/>
 			<when state="№;⇪⌥" output="№⌥"/>
 		<when state="ʔ" output="ʔ"/>
@@ -7863,25 +8677,155 @@
 				<when state="⎄;';quot" output="'&#x0022;"/>
 				<when state="⎄;';~" output="'~"/>
 				<when state="⎄;';b" output="'b"/>
+			<when state="⎄;\" output="\"/>
+				<when state="⎄;\;o" output="\o"/>
 			<when state="⎄;`" output="`"/>
+				<when state="⎄;`;^" output="`^"/>
+				<when state="⎄;`;_" output="`_"/>
+				<when state="⎄;`;+" output="`+"/>
+				<when state="⎄;`;quot" output="`&#x0022;"/>
+				<when state="⎄;`;b" output="`b"/>
 			<when state="⎄;," output=","/>
 			<when state="⎄;." output="."/>
+				<when state="⎄;.;'" output=".'"/>
+				<when state="⎄;.;!" output=".!"/>
 			<when state="⎄;/" output="/"/>
 			<when state="⎄;!" output="!"/>
+				<when state="⎄;!;+" output="!+"/>
 			<when state="⎄;#" output="#"/>
 			<when state="⎄;%" output="%"/>
 			<when state="⎄;^" output="^"/>
+				<when state="⎄;^;!" output="^!"/>
+				<when state="⎄;^;_" output="^_"/>
 			<when state="⎄;(" output="("/>
+				<when state="⎄;(;1" output="(1"/>
+					<when state="⎄;(;1;1" output="(11"/>
+					<when state="⎄;(;1;2" output="(12"/>
+					<when state="⎄;(;1;3" output="(13"/>
+					<when state="⎄;(;1;4" output="(14"/>
+					<when state="⎄;(;1;5" output="(15"/>
+					<when state="⎄;(;1;6" output="(16"/>
+					<when state="⎄;(;1;7" output="(17"/>
+					<when state="⎄;(;1;8" output="(18"/>
+					<when state="⎄;(;1;9" output="(19"/>
+					<when state="⎄;(;1;0" output="(10"/>
+				<when state="⎄;(;2" output="(2"/>
+					<when state="⎄;(;2;1" output="(21"/>
+					<when state="⎄;(;2;2" output="(22"/>
+					<when state="⎄;(;2;3" output="(23"/>
+					<when state="⎄;(;2;4" output="(24"/>
+					<when state="⎄;(;2;5" output="(25"/>
+					<when state="⎄;(;2;6" output="(26"/>
+					<when state="⎄;(;2;7" output="(27"/>
+					<when state="⎄;(;2;8" output="(28"/>
+					<when state="⎄;(;2;9" output="(29"/>
+					<when state="⎄;(;2;0" output="(20"/>
+				<when state="⎄;(;3" output="(3"/>
+					<when state="⎄;(;3;1" output="(31"/>
+					<when state="⎄;(;3;2" output="(32"/>
+					<when state="⎄;(;3;3" output="(33"/>
+					<when state="⎄;(;3;4" output="(34"/>
+					<when state="⎄;(;3;5" output="(35"/>
+					<when state="⎄;(;3;6" output="(36"/>
+					<when state="⎄;(;3;7" output="(37"/>
+					<when state="⎄;(;3;8" output="(38"/>
+					<when state="⎄;(;3;9" output="(39"/>
+					<when state="⎄;(;3;0" output="(30"/>
+				<when state="⎄;(;4" output="(4"/>
+					<when state="⎄;(;4;1" output="(41"/>
+					<when state="⎄;(;4;2" output="(42"/>
+					<when state="⎄;(;4;3" output="(43"/>
+					<when state="⎄;(;4;4" output="(44"/>
+					<when state="⎄;(;4;5" output="(45"/>
+					<when state="⎄;(;4;6" output="(46"/>
+					<when state="⎄;(;4;7" output="(47"/>
+					<when state="⎄;(;4;8" output="(48"/>
+					<when state="⎄;(;4;9" output="(49"/>
+					<when state="⎄;(;4;0" output="(40"/>
+				<when state="⎄;(;5" output="(5"/>
+					<when state="⎄;(;5;0" output="(50"/>
+				<when state="⎄;(;6" output="(6"/>
+				<when state="⎄;(;7" output="(7"/>
+				<when state="⎄;(;8" output="(8"/>
+				<when state="⎄;(;9" output="(9"/>
+				<when state="⎄;(;0" output="(0"/>
+				<when state="⎄;(;A" output="(A"/>
+				<when state="⎄;(;B" output="(B"/>
+				<when state="⎄;(;C" output="(C"/>
+				<when state="⎄;(;D" output="(D"/>
+				<when state="⎄;(;E" output="(E"/>
+				<when state="⎄;(;F" output="(F"/>
+				<when state="⎄;(;G" output="(G"/>
+				<when state="⎄;(;H" output="(H"/>
+				<when state="⎄;(;I" output="(I"/>
+				<when state="⎄;(;J" output="(J"/>
+				<when state="⎄;(;K" output="(K"/>
+				<when state="⎄;(;L" output="(L"/>
+				<when state="⎄;(;M" output="(M"/>
+				<when state="⎄;(;N" output="(N"/>
+				<when state="⎄;(;O" output="(O"/>
+				<when state="⎄;(;P" output="(P"/>
+				<when state="⎄;(;Q" output="(Q"/>
+				<when state="⎄;(;R" output="(R"/>
+				<when state="⎄;(;S" output="(S"/>
+				<when state="⎄;(;T" output="(T"/>
+				<when state="⎄;(;U" output="(U"/>
+				<when state="⎄;(;V" output="(V"/>
+				<when state="⎄;(;W" output="(W"/>
+				<when state="⎄;(;X" output="(X"/>
+				<when state="⎄;(;Y" output="(Y"/>
+				<when state="⎄;(;Z" output="(Z"/>
+				<when state="⎄;(;a" output="(a"/>
+				<when state="⎄;(;b" output="(b"/>
+				<when state="⎄;(;c" output="(c"/>
+				<when state="⎄;(;d" output="(d"/>
+				<when state="⎄;(;e" output="(e"/>
+				<when state="⎄;(;f" output="(f"/>
+				<when state="⎄;(;g" output="(g"/>
+				<when state="⎄;(;h" output="(h"/>
+				<when state="⎄;(;i" output="(i"/>
+				<when state="⎄;(;j" output="(j"/>
+				<when state="⎄;(;k" output="(k"/>
+				<when state="⎄;(;l" output="(l"/>
+				<when state="⎄;(;m" output="(m"/>
+				<when state="⎄;(;n" output="(n"/>
+				<when state="⎄;(;o" output="(o"/>
+				<when state="⎄;(;p" output="(p"/>
+				<when state="⎄;(;q" output="(q"/>
+				<when state="⎄;(;r" output="(r"/>
+				<when state="⎄;(;s" output="(s"/>
+				<when state="⎄;(;t" output="(t"/>
+				<when state="⎄;(;u" output="(u"/>
+				<when state="⎄;(;v" output="(v"/>
+				<when state="⎄;(;w" output="(w"/>
+				<when state="⎄;(;x" output="(x"/>
+				<when state="⎄;(;y" output="(y"/>
+				<when state="⎄;(;z" output="(z"/>
 			<when state="⎄;)" output=")"/>
 			<when state="⎄;_" output="_"/>
+				<when state="⎄;_;⇪⌥" output="_⌥"/>
+				<when state="⎄;_;;" output="_;"/>
+				<when state="⎄;_;." output="_."/>
+				<when state="⎄;_;!" output="_!"/>
+				<when state="⎄;_;~" output="_~"/>
+				<when state="⎄;_;quot" output="_&#x0022;"/>
 			<when state="⎄;+" output="+"/>
+			<when state="⎄;{" output="{"/>
 			<when state="⎄;:" output=":"/>
 			<when state="⎄;quot" output="&#x0022;"/>
+				<when state="⎄;quot;_" output="&#x0022;_"/>
+				<when state="⎄;quot;~" output="&#x0022;~"/>
 			<when state="⎄;|" output="|"/>
 			<when state="⎄;~" output="~"/>
+				<when state="⎄;~;^" output="~^"/>
+				<when state="⎄;~;+" output="~+"/>
+				<when state="⎄;~;b" output="~b"/>
 			<when state="⎄;lt" output="&#x003c;"/>
 			<when state="⎄;gt" output="&#x003e;"/>
 			<when state="⎄;?" output="?"/>
+				<when state="⎄;?;^" output="?^"/>
+				<when state="⎄;?;+" output="?+"/>
+				<when state="⎄;?;b" output="?b"/>
 			<when state="⎄;A" output="A"/>
 			<when state="⎄;C" output="C"/>
 				<when state="⎄;C;C" output="CC"/>
@@ -7898,12 +8842,18 @@
 			<when state="⎄;S" output="S"/>
 			<when state="⎄;T" output="T"/>
 			<when state="⎄;U" output="U"/>
+				<when state="⎄;U;," output="U,"/>
+				<when state="⎄;U;!" output="U!"/>
 			<when state="⎄;V" output="V"/>
 			<when state="⎄;W" output="W"/>
 			<when state="⎄;Y" output="Y"/>
 			<when state="⎄;a" output="a"/>
 			<when state="⎄;b" output="b"/>
+				<when state="⎄;b;," output="b,"/>
+				<when state="⎄;b;!" output="b!"/>
 			<when state="⎄;c" output="c"/>
+				<when state="⎄;c;." output="c."/>
+				<when state="⎄;c;quot" output="c&#x0022;"/>
 			<when state="⎄;d" output="d"/>
 			<when state="⎄;e" output="e"/>
 			<when state="⎄;f" output="f"/>
@@ -7913,6 +8863,7 @@
 			<when state="⎄;m" output="m"/>
 			<when state="⎄;n" output="n"/>
 			<when state="⎄;o" output="o"/>
+				<when state="⎄;o;'" output="o'"/>
 			<when state="⎄;p" output="p"/>
 			<when state="⎄;s" output="s"/>
 			<when state="⎄;t" output="t"/>
@@ -8051,8 +9002,8 @@
 			<when state="ogonek+macron;⇪⌥" output="⌥̨̄"/>
 		<when state="ring" output="˚"/>
 			<when state="ring;⇪⌥" output="⌥̊"/>
-		<when state="ring+macron" output="˚̄"/>
-			<when state="ring+macron;⇪⌥" output="⌥̊̄"/>
+		<when state="ring+acute" output="˚́"/>
+			<when state="ring+acute;⇪⌥" output="⌥̊́"/>
 		<when state="ring_below" output="˳"/>
 			<when state="ring_below;⇪⌥" output="⌥̥"/>
 		<when state="stroke" output="-"/>
