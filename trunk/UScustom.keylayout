@@ -1315,7 +1315,7 @@
 			<when state="⇪⌥" next="mod²"/>
 			<when state="mod²" next="mod²;⇪⌥"/>
 			<when state="mod²;⇪⌥" output="§"/>
-			<when state="mod³" output="§"/>
+			<when state="mod³" next="mod³;⇪⌥"/>
 			<when state="none" next="⇪⌥"/>
 			<when state="acute" next="acute;⇪⌥"/>
 			<when state="acute+dot" next="acute+dot;⇪⌥"/>
@@ -4366,7 +4366,7 @@
 			<when state="⎄;(" next="⎄;(;K"/>
 			<when state="⌥" output=""/>
 			<when state="№" output="K’"/>
-			<when state="№;⇪⌥" output="⇪"/>
+			<when state="mod³;⇪⌥" output="⇪"/>
 			<when state="ʔ" output="Ƙ"/>
 			<when state="ʔ;⇪⌥" output="Ⱪ"/>
 			<when state="⇪⌥" next="ring_below"/>
@@ -8812,6 +8812,7 @@
 		<when state="mod²" output="²"/>
 			<when state="mod²;⇪⌥" output="²⌥"/>
 		<when state="mod³" output="³"/>
+			<when state="mod³;⇪⌥" output="³⌥"/>
 		<when state="⌥`" output="`"/>
 		<when state="⌥e" output="´"/>
 		<when state="⌥i" output="ˆ"/>
