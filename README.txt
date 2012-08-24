@@ -1,17 +1,45 @@
 U.S. custom keyboard layout README.txt
 ======================================
 
+About
+=====
+
+This is a keyboard layout for Mac computers with a physical ISO
+keyboard. It has two main purposes:
+
+* It allows accessing the option key combos even if the physical
+  option key is used for something else (e.g. for a meta key in a
+  terminal).
+
+* It provides a compose key.
+
+This keyboard layout has been written by j. 'mach' wust. For more
+information, see: http://uscustom.sf.net/
+
+
 Installation
 ============
 
 1. Drag the files UScustom.keylayout and UScustom.icns to either one
 of /Library/Keyboard Layouts/ or to ~/Library/Keyboard Layouts/.
 
-2. Log out and log in again to complete the installation.
+2. Log out and log in again to complete the installation (it may work
+right away).
 
 3. In the International section of the System Preferences, you can
 now select "U.S. custom" for the Input Menu. It is now available from
 in the menu bar at the top right margin of the screen.
+
+
+Requirements
+============
+
+This is a Mac keyboard layout. It works only on a Mac.
+
+This keyboard layout works best on a physical ISO keyboard. These are
+the ones where the enter key is shaped like a turned capital letter
+L. The reason why it works best on an ISO keyboard is that it relies
+heavily on the additional key the ISO keyboards provide.
 
 
 Editing the keyboard layout
@@ -23,9 +51,8 @@ Bones Software: <http://www.barebones.com/products/textwrangler/>
 
 You may use Ukelele, the free SIL Mac OS X Keyboard Layout Editor,
 for viewing the U.S. custom keyboard layout and for pre-validating
-any changes you have made. Do not use Ukelele for editing; it will
-mess up the keyboard layout. I guess that is because this keyboard
-layout is too complex for Ukelele.
+any changes you have made. Previous versions of Ukelele would mess up
+this keyboard layout.
 
 
 License
