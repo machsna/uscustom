@@ -155,13 +155,13 @@
 			<key code="50" action="`"/><!--`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" action="⎋"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" action="⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -375,13 +375,13 @@
 			<key code="50" action="⇪`"/><!--⇪`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" action="⇪⎋"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" action="⇪⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -485,13 +485,13 @@
 			<key code="50" action="⌥`"/><!--⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" action="⌥⎋"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" action="⌥⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -705,13 +705,13 @@
 			<key code="50" action="⇪⌥`"/><!--⇪⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" action="⇪⌥⎋"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" action="⇪⌥⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -1389,6 +1389,22 @@
 		<action id="±"><!--⇧§; for cap, see ⇪± instead-->
 			<when state="⎄" output="±"/>
 			<when state="⌥" output="±"/>
+			<when state="none" next="⎄"/>
+		</action><!--क-->
+		<action id="⎋">
+			<when state="№" output="⎋"/>
+			<when state="⇪⌥" next="⎄"/>
+			<when state="none" output="&#x001b;"/>
+		</action><!--क-->
+		<action id="⌥⎋">
+			<when state="none" next="⎄"/>
+		</action><!--क-->
+		<action id="⇪⎋">
+			<when state="№" output="⎋"/>
+			<when state="⇪⌥" next="⎄"/>
+			<when state="none" output="&#x001b;"/>
+		</action><!--क-->
+		<action id="⇪⌥⎋">
 			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="⇪±">
@@ -5789,7 +5805,7 @@
 		<action id="Z">
 			<when state="⎄;(" next="⎄;(;Z"/>
 			<when state="⎄;D" output="Ǳ"/>
-			<when state="⎄;D;v" output="Ǆ"/>
+			<when state="⎄;D;c" output="Ǆ"/>
 			<when state="⎄;S" output="ẞ"/>
 			<when state="⌥" output="¸"/>
 			<when state="№" output="Ʒ"/>
@@ -6082,7 +6098,9 @@
 				<when state="⎄;^;^" output="ᶜ"/>
 			<when state="⎄;(" next="⎄;(;c"/>
 			<when state="⎄;|" output="¢"/>
+			<when state="⎄;D" next="⎄;D;c"/>
 			<when state="⎄;O" output="©"/>
+			<when state="⎄;d" next="⎄;d;c"/>
 			<when state="⎄;o" output="©"/>
 			<when state="⌥" output="ç"/>
 			<when state="№" output="ɔ"/>
@@ -8153,8 +8171,6 @@
 				<when state="⎄;^;^" output="ᵛ"/>
 			<when state="⎄;(" next="⎄;(;v"/>
 				<when state="⎄;_;_" output="ᵥ"/>
-			<when state="⎄;D" next="⎄;D;v"/>
-			<when state="⎄;d" next="⎄;d;v"/>
 			<when state="⎄;l" output="|"/>
 			<when state="⌥" output="√"/>
 			<when state="№" output="ʌ"/>
@@ -8493,9 +8509,9 @@
 				<when state="⎄;^;^" output="ᶻ"/>
 			<when state="⎄;(" next="⎄;(;z"/>
 			<when state="⎄;D" output="ǲ"/>
-			<when state="⎄;D;v" output="ǅ"/>
+			<when state="⎄;D;c" output="ǅ"/>
 			<when state="⎄;d" output="ǳ"/>
-			<when state="⎄;d;v" output="ǆ"/>
+			<when state="⎄;d;c" output="ǆ"/>
 			<when state="⎄;s" output="ß"/>
 			<when state="⌥" output="Ω"/>
 			<when state="№" output="ʒ"/>
@@ -8766,7 +8782,7 @@
 				<when state="⎄;C;C" output="CC"/>
 					<when state="⎄;C;C;C" output="CCC"/>
 			<when state="⎄;D" output="D"/>
-				<when state="⎄;D;v" output="Dv"/>
+				<when state="⎄;D;c" output="Dc"/>
 			<when state="⎄;E" output="E"/>
 			<when state="⎄;F" output="F"/>
 			<when state="⎄;I" output="I"/>
@@ -8791,7 +8807,7 @@
 				<when state="⎄;c;." output="c."/>
 				<when state="⎄;c;quot" output="c&#x0022;"/>
 			<when state="⎄;d" output="d"/>
-				<when state="⎄;d;v" output="dv"/>
+				<when state="⎄;d;c" output="dc"/>
 			<when state="⎄;e" output="e"/>
 			<when state="⎄;f" output="f"/>
 			<when state="⎄;i" output="i"/>
