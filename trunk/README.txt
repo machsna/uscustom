@@ -11,7 +11,8 @@ keyboard. It has two main purposes:
   option key is used for something else (e.g. for a meta key in a
   terminal).
 
-* It provides a compose key.
+* It provides a compose key. The compose key is mapped to several
+  keys on the keyboard: ± (⇧§ on an ISO keyboard), ⌥ESCAPE, ⇧^F13.
 
 This keyboard layout has been written by j. 'mach' wust. For more
 information, see: http://uscustom.sf.net/
