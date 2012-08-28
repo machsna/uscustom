@@ -957,7 +957,7 @@
 			<key code="102" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="103" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="104" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="105" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
+			<key code="105" action="^F13"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="106" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="107" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="108" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
@@ -1405,6 +1405,9 @@
 			<when state="none" output="&#x001b;"/>
 		</action><!--क-->
 		<action id="⇪⌥⎋">
+			<when state="none" next="⎄"/>
+		</action><!--क-->
+		<action id="^F13">
 			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="⇪±">
