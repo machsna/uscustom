@@ -155,13 +155,13 @@
 			<key code="50" action="`"/><!--`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" action="⎋"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" action="⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -375,13 +375,13 @@
 			<key code="50" action="⇪`"/><!--⇪`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" action="⇪⎋"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" action="⇪⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -485,13 +485,13 @@
 			<key code="50" action="⌥`"/><!--⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" action="⌥⎋"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" action="⌥⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -705,13 +705,13 @@
 			<key code="50" action="⇪⌥`"/><!--⇪⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" action="⇪⌥⎋"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" action="⇪⌥⎋"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
@@ -1389,22 +1389,6 @@
 		<action id="±"><!--⇧§; for cap, see ⇪± instead-->
 			<when state="⎄" output="±"/>
 			<when state="⌥" output="±"/>
-			<when state="none" next="⎄"/>
-		</action><!--क-->
-		<action id="⎋">
-			<when state="№" output="⎋"/>
-			<when state="⇪⌥" next="⎄"/>
-			<when state="none" output="&#x001b;"/>
-		</action><!--क-->
-		<action id="⌥⎋">
-			<when state="none" next="⎄"/>
-		</action><!--क-->
-		<action id="⇪⎋">
-			<when state="№" output="⎋"/>
-			<when state="⇪⌥" next="⎄"/>
-			<when state="none" output="&#x001b;"/>
-		</action><!--क-->
-		<action id="⇪⌥⎋">
 			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="^F13">
