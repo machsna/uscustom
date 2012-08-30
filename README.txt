@@ -4,15 +4,15 @@ U.S. custom keyboard layout README.txt
 About
 =====
 
-This is a keyboard layout for Mac computers with a physical ISO
-keyboard. It has two main purposes:
+This is a keyboard layout for Mac computers. It has two main
+purposes:
+
+* It provides a compose key. The compose key is mapped to two keys on
+  the keyboard: § (on an ISO keyboard), ⇧^F13.
 
 * It allows accessing the option key combos even if the physical
   option key is used for something else (e.g. for a meta key in a
   terminal).
-
-* It provides a compose key. The compose key is mapped to several
-  keys on the keyboard: ± (⇧§ on an ISO keyboard), ⌥ESCAPE, ⇧^F13.
 
 This keyboard layout has been written by j. 'mach' wust. For more
 information, see: http://uscustom.sf.net/
