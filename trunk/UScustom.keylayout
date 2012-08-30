@@ -1306,7 +1306,7 @@
 		behaviour identical to some virtual deadkey, so no need for terminator-->
 		<!--state=DEADKEY1 next=DEADKEY2 in id=cap-opt-KEY requires matching state=mod-DEADKEY1 in id=KEY-->
 		<!--all possible deadkey states require one of these rich redirection physical deadkeys!-->
-		<action id="⇪§">
+		<action id="⇪±">
 			<when state="⎄;'" next="⎄;';⇪⌥"/>
 			<when state="⎄;_" next="⎄;_;⇪⌥"/>
 			<when state="№" next="№;⇪⌥"/>
@@ -1314,7 +1314,7 @@
 			<when state="ʔ" next="ʔ;⇪⌥"/>
 			<when state="⇪⌥" next="mod²"/>
 			<when state="mod²" next="mod²;⇪⌥"/>
-			<when state="mod²;⇪⌥" output="§"/>
+			<when state="mod²;⇪⌥" output="±"/>
 			<when state="mod³" next="mod³;⇪⌥"/>
 			<when state="none" next="⇪⌥"/>
 			<when state="acute" next="acute;⇪⌥"/>
@@ -1383,19 +1383,20 @@
 		behaviour identical to some virtual deadkey, so no need for terminator-->
 		<!--state=DEADKEY1 next=DEADKEY2 in id=cap-opt-KEY requires matching state=mod-DEADKEY1 in id=KEY-->
 		<action id="§"><!--for cap, see ⇪§ instead-->
+			<when state="⎄" output="§"/>
 			<when state="⌥" output="§"/>
-			<when state="none" next="⌥"/>
+			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="±"><!--⇧§; for cap, see ⇪± instead-->
-			<when state="⎄" output="±"/>
 			<when state="⌥" output="±"/>
-			<when state="none" next="⎄"/>
+			<when state="none" next="⌥"/>
 		</action><!--क-->
 		<action id="^F13">
 			<when state="none" next="⎄"/>
 		</action><!--क-->
-		<action id="⇪±">
-			<when state="⎄" output="±"/>
+		<action id="⇪§">
+			<when state="⎄" output="§"/>
+			<when state="⌥" output="§"/>
 			<when state="⇪⌥" next="mod³"/>
 			<when state="none" next="⎄"/>
 		</action><!--क-->
@@ -2407,7 +2408,12 @@
 			<when state="tilde+macron" output="̃̄"/>
 			<when state="tilde_below" output="̰"/>
 		</action><!--क-->
-		<action id="⇧ "><!--these will be spacing diacritics, like the terminators-->
+		<action id="⇧ "><!--these will be spacing, like the terminators-->
+			<when state="⎄" output="⎄"/>
+			<when state="⌥" output=" "/>
+			<when state="⇪⌥" output="⌥"/>
+			<when state="№" output="№"/>
+			<when state="ʔ" output="ʔ"/>
 			<when state="⌥`" output="`"/>
 			<when state="⌥e" output="´"/>
 			<when state="⌥i" output="ˆ"/>
