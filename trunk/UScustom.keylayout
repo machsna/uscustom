@@ -1312,9 +1312,9 @@
 			<when state="№" next="№;⇪⌥"/>
 			<when state="№;⇪⌥" output="̩"/>
 			<when state="ʔ" next="ʔ;⇪⌥"/>
-			<when state="⇪⌥" next="mod²"/>
+			<when state="⇪⌥" next="mod³"/>
 			<when state="mod²" next="mod²;⇪⌥"/>
-			<when state="mod²;⇪⌥" output="±"/>
+			<when state="mod³;⇪⌥" output="±"/>
 			<when state="mod³" next="mod³;⇪⌥"/>
 			<when state="none" next="⇪⌥"/>
 			<when state="acute" next="acute;⇪⌥"/>
@@ -1397,7 +1397,7 @@
 		<action id="⇪§">
 			<when state="⎄" output="§"/>
 			<when state="⌥" output="§"/>
-			<when state="⇪⌥" next="mod³"/>
+			<when state="⇪⌥" next="mod²"/>
 			<when state="none" next="⎄"/>
 		</action><!--क-->
 		<action id="⇪⌥§">
