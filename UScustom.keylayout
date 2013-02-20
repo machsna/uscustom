@@ -2019,6 +2019,7 @@
 		<action id=")"><!--⇧0-->
 			<when state="⎄" next="⎄;)"/>
 			<when state="⎄;-" output="}"/>
+			<when state="⎄;;" output="😉"/>
 			<when state="⎄;^" output="⁾"/>
 				<when state="⎄;^;^" output="⁾"/>
 			<when state="⎄;)" output="]"/>
@@ -2187,6 +2188,7 @@
 		</action><!--क-->
 		<action id="|"><!--⇧\-->
 			<when state="⎄" next="⎄;|"/>
+			<when state="⎄;:" output="😐"/>
 			<when state="⎄;C" output="¢"/>
 			<when state="⎄;c" output="¢"/>
 			<when state="⌥" output="»"/>
@@ -3722,6 +3724,7 @@
 			<when state="⎄" next="⎄;D"/>
 			<when state="⎄;-" output="Đ"/>
 			<when state="⎄;(" next="⎄;(;D"/>
+			<when state="⎄;:" output="😃"/>
 			<when state="⌥" output="Î"/>
 			<when state="№" output="Ƌ"/>
 			<when state="ʔ" output="Ɗ"/>
@@ -4865,8 +4868,10 @@
 		</action><!--क-->
 		<action id="P">
 			<when state="⎄" next="⎄;P"/>
+			<when state="⎄;;" output="😜"/>
 					<when state="⎄;C;C;C" output="☭"/>
 			<when state="⎄;(" next="⎄;(;P"/>
+			<when state="⎄;:" output="😝"/>
 			<when state="⎄;P" output="¶"/>
 			<when state="⌥" output="∏"/>
 			<when state="ʔ" output="Ƥ"/>
