@@ -1430,7 +1430,7 @@
 			<when state="none" next="ʔ"/>
 		</action><!--क-->
 		<action id="⇪⌥a">
-			<when state="№" output="ɑ"/>
+			<when state="№" output="ɐ"/>
 			<when state="mod²" output="ͣ"/>
 			<when state="none" next="macron"/>
 			<when state="diaeresis" next="diaeresis+macron"/>
@@ -2306,7 +2306,7 @@
 			<when state="none" output="¥"/>
 		</action><!--क-->
 		<action id="⇪⌥A">
-			<when state="№" output="ɐ"/>
+			<when state="№" output="Ɐ"/>
 			<when state="none" output="̄"/>
 		</action><!--क-->
 		<action id="⇪⌥E">
@@ -3458,7 +3458,8 @@
 			<when state="⎄;O" output="Ⓐ"/>
 			<when state="⌥" output="Å"/>
 			<when state="№" output="Ə"/>
-			<when state="№;⇪⌥" output="ɐ"/>
+			<when state="№;⇪⌥" output="Ɐ"/>
+			<when state="ʔ" output="Ɑ"/>
 			<when state="⌥`" output="À"/>
 			<when state="⌥e" output="Á"/>
 			<when state="⌥i" output="Â"/>
@@ -4703,6 +4704,7 @@
 			<when state="⎄;(" next="⎄;(;O"/>
 			<when state="⎄;A" output="Ꜵ"/>
 			<when state="⎄;N" output="№"/>
+			<when state="№" output="Ɒ"/>
 			<when state="⌥" output="Ø"/>
 			<when state="⌥`" output="Ò"/>
 			<when state="⌥e" output="Ó"/>
@@ -5905,7 +5907,8 @@
 			<when state="⎄;a" output="ꜳ"/>
 			<when state="⌥" output="å"/>
 			<when state="№" output="ə"/>
-			<when state="№;⇪⌥" output="ɑ"/>
+			<when state="№;⇪⌥" output="ɐ"/>
+			<when state="ʔ" output="ɑ"/>
 			<when state="⌥`" output="à"/>
 			<when state="⌥e" output="á"/>
 			<when state="⌥i" output="â"/>
