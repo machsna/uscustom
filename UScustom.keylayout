@@ -4546,6 +4546,7 @@
 			<when state="⎄;t" output="™"/>
 			<when state="⌥" output="Â"/>
 			<when state="№" output="Ɯ"/>
+			<when state="ʔ" output="Ɱ"/>
 			<when state="⇪⌥" output="̨"/>
 		<!--क-->
 			<when state="none" output="M"/>
@@ -7127,6 +7128,7 @@
 			<when state="⎄;t" output="™"/>
 			<when state="⌥" output="µ"/>
 			<when state="№" output="ɯ"/>
+			<when state="ʔ" output="ɱ"/>
 			<when state="⇪⌥" next="ogonek"/>
 			<when state="mod²;⇪⌥" output="ͫ"/>
 			<when state="macron;⇪⌥" next="ogonek+macron"/>
