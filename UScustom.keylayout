@@ -1428,6 +1428,7 @@
 		</action><!--क-->
 		<action id="⇪⌥lt">
 			<when state="none" next="ʔ"/>
+			<when state="ʔ" output="Ɂ"/>
 		</action><!--क-->
 		<action id="⇪⌥a">
 			<when state="№" output="ɐ"/>
@@ -2231,6 +2232,7 @@
 			<when state="⎄;gt" output="»"/>
 			<when state="⌥" output="˘"/>
 			<when state="ʔ" output="☝"/>
+			<when state="ʔ;⇪⌥" output="Ɂ"/>
 			<when state="⇪⌥" next="ʔ"/>
 			<when state="none" output="&#x003e;"/>
 		</action><!--क-->
