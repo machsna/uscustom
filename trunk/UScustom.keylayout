@@ -1756,6 +1756,7 @@
 		<!--क-->
 		</action><!--क-->
 		<action id="8">
+			<when state="⎄" next="⎄;8"/>
 			<when state="⎄;1" output="⅛"/>
 			<when state="⎄;3" output="⅜"/>
 			<when state="⎄;5" output="⅝"/>
@@ -4701,6 +4702,7 @@
 		</action><!--क-->
 		<action id="O">
 			<when state="⎄" next="⎄;O"/>
+			<when state="⎄;8" output="Ꝏ"/>
 				<when state="⎄;';/" output="Ǿ"/>
 			<when state="⎄;/" output="Ø"/>
 			<when state="⎄;(" next="⎄;(;O"/>
@@ -7291,6 +7293,7 @@
 		</action><!--क-->
 		<action id="o">
 			<when state="⎄" next="⎄;o"/>
+			<when state="⎄;8" output="ꝏ"/>
 				<when state="⎄;';/" output="ǿ"/>
 			<when state="⎄;\" next="⎄;\;o"/>
 			<when state="⎄;/" output="ø"/>
@@ -8638,6 +8641,7 @@
 			<when state="⎄;4" output="4"/>
 			<when state="⎄;5" output="5"/>
 			<when state="⎄;7" output="7"/>
+			<when state="⎄;8" output="8"/>
 			<when state="⎄;0" output="0"/>
 			<when state="⎄;-" output="-"/>
 				<when state="⎄;-;-" output="--"/>
