@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 	<!--U.S. custom keyboard layout, version 2011-11-09-->
 	<!--Copyright: Copyleft 2010-2011 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
@@ -53,7 +53,7 @@
 		the characters Ḉḉ had to be inserted manually afterwards, and also check if there were any
 		precomposed acute-characters-->
 	<!--It was built according to the specifications at "http://developer.apple.com/technotes/tn2002/tn2056.html"-->
-<keyboard group="0" id="1" name="U.S. custom">
+<keyboard group="0" id="1" name="U.S. custom" maxout="3">
 	<layouts>
 		<layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI"/>
 		<layout first="18" last="18" modifiers="commonModifiers" mapSet="JIS"/>
@@ -64,41 +64,41 @@
 		<layout first="200" last="201" modifiers="commonModifiers" mapSet="JIS"/>
 		<layout first="206" last="207" modifiers="commonModifiers" mapSet="JIS"/>
 	</layouts>
-	<modifierMap id="commonModifiers" defaultIndex="7">
-		<keyMapSelect mapIndex="0">
-			<modifier keys=""/>
-			<modifier keys="command anyShift? caps?"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="1">
-			<modifier keys="anyShift"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="2">
-			<modifier keys="caps"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="3">
-			<modifier keys="anyOption"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="4">
-			<modifier keys="anyShift anyOption command?"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="5">
-			<modifier keys="anyOption caps"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="6">
-			<modifier keys="command anyOption caps?"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="7">
-			<modifier keys="control command? shift? caps? option?"/>
-			<modifier keys="control command? shift? caps? option? rightShift"/>
-			<modifier keys="control command? shift? caps? option? rightOption"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="8">
-			<modifier keys="anyShift caps"/>
-		</keyMapSelect>
-		<keyMapSelect mapIndex="9">
-			<modifier keys="anyShift anyOption command? caps"/>
-		</keyMapSelect>
-	</modifierMap>
+    <modifierMap id="commonModifiers" defaultIndex="7">
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+            <modifier keys="anyShift? caps? command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift anyOption command?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="caps? anyOption command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="7">
+            <modifier keys="shift? caps? option? command? control"/>
+            <modifier keys="shift? rightShift caps? option? command? control"/>
+            <modifier keys="shift? caps? option? rightOption command? control"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="8">
+            <modifier keys="anyShift caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="9">
+            <modifier keys="anyShift caps anyOption command?"/>
+        </keyMapSelect>
+    </modifierMap>
 	<keyMapSet id="ANSI">
 <!--no modifiers; ख-->
 		<keyMap index="0">
@@ -138,10 +138,10 @@
 			<key code="33" action="["/><!--[-->
 			<key code="34" action="i"/><!--i-->
 			<key code="35" action="p"/><!--p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" action="l"/><!--l-->
 			<key code="38" action="j"/><!--j-->
-			<key code="39" action="'"/><!--'-->
+			<key code="39" action="&#x0027;"/><!--'-->
 			<key code="40" action="k"/><!--k-->
 			<key code="41" action=";"/><!--;-->
 			<key code="42" action="\"/><!--\-->
@@ -155,18 +155,21 @@
 			<key code="50" action="`"/><!--`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -198,17 +201,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--shift; ख-->
 		<keyMap index="1">
@@ -248,7 +251,7 @@
 			<key code="33" action="{"/><!--⇧[-->
 			<key code="34" action="I"/><!--⇧i-->
 			<key code="35" action="P"/><!--⇧p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" action="L"/><!--⇧l-->
 			<key code="38" action="J"/><!--⇧j-->
 			<key code="39" action="quot"/><!--⇧'-->
@@ -265,18 +268,21 @@
 			<key code="50" action="~"/><!--⇧`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="*"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="+"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="="/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
 			<key code="77" output="/"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -308,17 +314,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock; ख-->
 		<keyMap index="2">
@@ -358,10 +364,10 @@
 			<key code="33" action="["/><!--⇪[-->
 			<key code="34" action="i"/><!--⇪i-->
 			<key code="35" action="p"/><!--⇪p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" action="l"/><!--⇪l-->
 			<key code="38" action="j"/><!--⇪j-->
-			<key code="39" action="'"/><!--⇪'-->
+			<key code="39" action="&#x0027;"/><!--⇪'-->
 			<key code="40" action="k"/><!--⇪k-->
 			<key code="41" action="⇪;"/><!--⇪;-->
 			<key code="42" action="\"/><!--⇪\-->
@@ -375,18 +381,21 @@
 			<key code="50" action="⇪`"/><!--⇪`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT (the key on the right of the right ⌘key)-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -418,17 +427,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option; ख-->
 		<keyMap index="3">
@@ -468,7 +477,7 @@
 			<key code="33" output="“"/><!--⌥[-->
 			<key code="34" action="⌥i"/><!--⌥i-->
 			<key code="35" output="π"/><!--⌥p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" output="¬"/><!--⌥l-->
 			<key code="38" output="∆"/><!--⌥j-->
 			<key code="39" output="æ"/><!--⌥'-->
@@ -485,18 +494,21 @@
 			<key code="50" action="⌥`"/><!--⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -528,17 +540,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option-shift; ख-->
 		<keyMap index="4">
@@ -578,7 +590,7 @@
 			<key code="33" output="”"/><!--⌥⇧[-->
 			<key code="34" output="ˆ"/><!--⌥⇧i-->
 			<key code="35" output="∏"/><!--⌥⇧p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" output="Ò"/><!--⌥⇧l-->
 			<key code="38" output="Ô"/><!--⌥⇧j-->
 			<key code="39" output="Æ"/><!--⌥⇧'-->
@@ -595,18 +607,21 @@
 			<key code="50" output="`"/><!--⌥⇧`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="*"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="+"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="="/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
 			<key code="77" output="/"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -638,17 +653,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock-option; ख-->
 		<keyMap index="5">
@@ -688,10 +703,10 @@
 			<key code="33" action="⇪⌥["/><!--⇪⌥[-->
 			<key code="34" action="⇪⌥i"/><!--⇪⌥i-->
 			<key code="35" action="⇪⌥p"/><!--⇪⌥p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" action="⇪⌥l"/><!--⇪⌥l-->
 			<key code="38" action="⇪⌥j"/><!--⇪⌥j-->
-			<key code="39" action="⇪⌥'"/><!--⇪⌥'-->
+			<key code="39" action="⇪⌥&#x0027;"/><!--⇪⌥'-->
 			<key code="40" action="⇪⌥k"/><!--⇪⌥k-->
 			<key code="41" output="…"/><!--⇪⌥;-->
 			<key code="42" output="«"/><!--⇪⌥\-->
@@ -705,18 +720,21 @@
 			<key code="50" action="⇪⌥`"/><!--⇪⌥`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -748,17 +766,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--option-command; ख-->
 		<keyMap index="6">
@@ -798,7 +816,7 @@
 			<key code="33" output="“"/><!--⌥⌘[-->
 			<key code="34" output="^"/><!--⌥⌘i-->
 			<key code="35" output="π"/><!--⌥⌘p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" output="¬"/><!--⌥⌘l-->
 			<key code="38" output="∆"/><!--⌥⌘j-->
 			<key code="39" output="æ"/><!--⌥⌘'-->
@@ -815,18 +833,21 @@
 			<key code="50" output="`"/><!--⌥⌘`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -858,17 +879,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--control; ख-->
 		<keyMap index="7">
@@ -878,7 +899,7 @@
 			<key code="3" output="&#x0006;"/><!--⌃f-->
 			<key code="4" output="&#x0008;"/><!--⌃h-->
 			<key code="5" output="&#x0007;"/><!--⌃g-->
-			<key code="6" output="&#x001a;"/><!--⌃z-->
+			<key code="6" output="&#x001A;"/><!--⌃z-->
 			<key code="7" output="&#x0018;"/><!--⌃x-->
 			<key code="8" output="&#x0003;"/><!--⌃c-->
 			<key code="9" output="&#x0016;"/><!--⌃v-->
@@ -899,44 +920,47 @@
 			<key code="24" output="="/><!--⌃=-->
 			<key code="25" output="9"/><!--⌃9-->
 			<key code="26" output="7"/><!--⌃7-->
-			<key code="27" output="&#x001f;"/><!--⌃- -->
+			<key code="27" output="&#x001F;"/><!--⌃- -->
 			<key code="28" output="8"/><!--⌃8-->
 			<key code="29" output="0"/><!--⌃0-->
-			<key code="30" output="&#x001d;"/><!--⌃]-->
-			<key code="31" output="&#x000f;"/><!--⌃o-->
+			<key code="30" output="&#x001D;"/><!--⌃]-->
+			<key code="31" output="&#x000F;"/><!--⌃o-->
 			<key code="32" output="&#x0015;"/><!--⌃u-->
-			<key code="33" output="&#x001b;"/><!--⌃[-->
+			<key code="33" output="&#x001B;"/><!--⌃[-->
 			<key code="34" output="&#x0009;"/><!--⌃i-->
 			<key code="35" output="&#x0010;"/><!--⌃p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
-			<key code="37" output="&#x000c;"/><!--⌃l-->
-			<key code="38" output="&#x000a;"/><!--⌃j-->
-			<key code="39" output="'"/><!--⌃'-->
-			<key code="40" output="&#x000b;"/><!--⌃k-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
+			<key code="37" output="&#x000C;"/><!--⌃l-->
+			<key code="38" output="&#x000A;"/><!--⌃j-->
+			<key code="39" output="&#x0027;"/><!--⌃'-->
+			<key code="40" output="&#x000B;"/><!--⌃k-->
 			<key code="41" output=";"/><!--⌃;-->
-			<key code="42" output="&#x001c;"/><!--⌃\-->
+			<key code="42" output="&#x001C;"/><!--⌃\-->
 			<key code="43" output=","/><!--⌃,-->
 			<key code="44" output="/"/><!--⌃/-->
-			<key code="45" output="&#x000e;"/><!--⌃n-->
-			<key code="46" output="&#x000d;"/><!--⌃m-->
+			<key code="45" output="&#x000E;"/><!--⌃n-->
+			<key code="46" output="&#x000D;"/><!--⌃m-->
 			<key code="47" output="."/><!--⌃.-->
 			<key code="48" output="&#x0009;"/><!--&#x0009; : HORIZONTAL TABULATION-->
 			<key code="49" output=" "/><!--⌃ -->
 			<key code="50" output="`"/><!--⌃`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
-			<key code="66" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="66" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
-			<key code="70" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
-			<key code="72" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="70" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="72" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="77" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="77" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -968,17 +992,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock-shift; ख-->
 		<keyMap index="8">
@@ -1018,7 +1042,7 @@
 			<key code="33" action="{"/><!--⇪⇧[-->
 			<key code="34" action="I"/><!--⇪⇧i-->
 			<key code="35" action="P"/><!--⇪⇧p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" action="L"/><!--⇪⇧l-->
 			<key code="38" action="J"/><!--⇪⇧j-->
 			<key code="39" action="quot"/><!--⇪⇧'-->
@@ -1035,18 +1059,21 @@
 			<key code="50" action="~"/><!--⇪⇧`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="*"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="+"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="="/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
 			<key code="77" output="/"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -1078,17 +1105,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 <!--capslock-option-shift; ख-->
 		<keyMap index="9">
@@ -1128,7 +1155,7 @@
 			<key code="33" output="”"/><!--⇪⌥⇧[-->
 			<key code="34" output="̛"/><!--⇪⌥⇧i-->
 			<key code="35" output="̦"/><!--⇪⌥⇧p-->
-			<key code="36" output="&#x000d;"/><!--&#x000d; : CARRIAGE RETURN-->
+			<key code="36" output="&#x000D;"/><!--&#x000D; : CARRIAGE RETURN-->
 			<key code="37" output="̵"/><!--⇪⌥⇧l-->
 			<key code="38" output="̋"/><!--⇪⌥⇧j-->
 			<key code="39" action="⇪⌥quot"/><!--⇪⌥⇧'-->
@@ -1145,18 +1172,21 @@
 			<key code="50" action="⇪⌥~"/><!--⇪⌥⇧`-->
 			<key code="51" output="&#x0008;"/><!--&#x0008; : BACKSPACE-->
 			<key code="52" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
-			<key code="53" output="&#x001b;"/><!--&#x001B; : ESCAPE-->
+			<key code="53" output="&#x001B;"/><!--&#x001B; : ESCAPE-->
+			<key code="64" output="&#x0010;"/>
 			<key code="65" output="."/><!--numpad-->
 			<key code="66" output="*"/><!--&#x001D; : GROUP SEPARATOR-->
 			<key code="67" output="*"/><!--numpad-->
 			<key code="69" output="+"/><!--numpad-->
 			<key code="70" output="+"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="71" output="&#x001b;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
+			<key code="71" output="&#x001B;"/><!--&#x001B; : ESCAPE (not the one on the upper right)-->
 			<key code="72" output="="/><!--&#x001F; : UNIT SEPARATOR-->
 			<key code="75" output="/"/><!--numpad-->
 			<key code="76" output="&#x0003;"/><!--&#x0003; : END OF TEXT-->
 			<key code="77" output="/"/><!--&#x001E; : RECORD SEPARATOR-->
 			<key code="78" output="-"/><!--numpad-->
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
 			<key code="81" output="="/><!--numpad-->
 			<key code="82" output="0"/><!--numpad-->
 			<key code="83" output="1"/><!--numpad-->
@@ -1188,17 +1218,17 @@
 			<key code="113" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="114" output="&#x0005;"/><!--&#x0005; : ENQUIRY-->
 			<key code="115" output="&#x0001;"/><!--&#x0001; : START OF HEADING-->
-			<key code="116" output="&#x000b;"/><!--&#x000B; : VERTICAL TABULATION-->
-			<key code="117" output=""/><!-- : DELETE-->
+			<key code="116" output="&#x000B;"/><!--&#x000B; : VERTICAL TABULATION-->
+			<key code="117" output="&#x007F;"/><!-- : DELETE-->
 			<key code="118" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
 			<key code="119" output="&#x0004;"/><!--&#x0004; : END OF TRANSMISSION-->
 			<key code="120" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="121" output="&#x000c;"/><!--&#x000C; : FORM FEED-->
+			<key code="121" output="&#x000C;"/><!--&#x000C; : FORM FEED-->
 			<key code="122" output="&#x0010;"/><!--&#x0010; : DATA LINK ESCAPE-->
-			<key code="123" output="&#x001c;"/><!--&#x001C; : FILE SEPARATOR-->
-			<key code="124" output="&#x001d;"/><!--&#x001D; : GROUP SEPARATOR-->
-			<key code="125" output="&#x001f;"/><!--&#x001F; : UNIT SEPARATOR-->
-			<key code="126" output="&#x001e;"/><!--&#x001E; : RECORD SEPARATOR-->
+			<key code="123" output="&#x001C;"/><!--&#x001C; : FILE SEPARATOR-->
+			<key code="124" output="&#x001D;"/><!--&#x001D; : GROUP SEPARATOR-->
+			<key code="125" output="&#x001F;"/><!--&#x001F; : UNIT SEPARATOR-->
+			<key code="126" output="&#x001E;"/><!--&#x001E; : RECORD SEPARATOR-->
 		</keyMap>
 	</keyMapSet>
 	<keyMapSet id="JIS">
@@ -1219,7 +1249,7 @@
 			<key code="22" output="&#x0026;"/>
 			<key code="24" output="~"/>
 			<key code="25" output=")"/>
-			<key code="26" output="'"/>
+			<key code="26" output="&#x0027;"/>
 			<key code="27" output="="/>
 			<key code="28" output="("/>
 			<key code="29" output="0"/>
@@ -1307,7 +1337,7 @@
 		<!--state=DEADKEY1 next=DEADKEY2 in id=cap-opt-KEY requires matching state=mod-DEADKEY1 in id=KEY-->
 		<!--all possible deadkey states require one of these rich redirection physical deadkeys!-->
 		<action id="⇪±">
-			<when state="⎄;'" next="⎄;';⇪⌥"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;⇪⌥"/>
 			<when state="⎄;_" next="⎄;_;⇪⌥"/>
 			<when state="№" next="№;⇪⌥"/>
 			<when state="№;⇪⌥" output="̩"/>
@@ -1614,7 +1644,7 @@
 			<when state="⎄" next="⎄;,"/>
 			<when state="⎄; " output="¸"/>
 			<when state="⎄;-" output="¬"/>
-			<when state="⎄;'" output="‚"/>
+			<when state="⎄;&#x0027;" output="‚"/>
 			<when state="⎄;quot" output="„"/>
 			<when state="⎄;U" next="⎄;U;,"/>
 			<when state="⎄;b" next="⎄;b;,"/>
@@ -1853,7 +1883,7 @@
 			<when state="⎄;e" output="€"/>
 			<when state="⎄;y" output="¥"/>
 			<when state="⌥" output="≠"/>
-			<when state="№" output="&#x200C;"/><!--ZERO WIDTH NON-JOINER-->
+			<when state="№" output="‌"/><!--&#x200C; ZERO WIDTH NON-JOINER-->
 			<when state="№;⇪⌥" output="⸗"/>
 			<when state="⇪⌥" output="≠"/>
 			<when state="none" output="="/>
@@ -1896,7 +1926,7 @@
 			<when state="⎄" next="⎄;,"/>
 			<when state="⎄; " output="¸"/>
 			<when state="⎄;-" output="¬"/>
-			<when state="⎄;'" output="‚"/>
+			<when state="⎄;&#x0027;" output="‚"/>
 			<when state="⎄;quot" output="„"/>
 			<when state="⎄;U" next="⎄;U;,"/>
 			<when state="⎄;b" next="⎄;b;,"/>
@@ -1921,9 +1951,9 @@
 		<action id="/">
 			<when state="⎄" next="⎄;/"/>
 			<when state="⎄;=" output="≠"/>
-			<when state="⎄;'" next="⎄;';/"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;/"/>
 			<when state="⎄;/" output="\"/>
-				<when state="⎄;\;o" output="🙌"/>
+				<when state="⎄;\;o" output="&#x1F64C;"/><!--PERSON RAISING BOTH HANDS IN CELEBRATION-->
 			<when state="⎄;^" output="|"/>
 			<when state="⎄;quot" output="〞"/>
 			<when state="⎄;lt" output="\"/>
@@ -1979,7 +2009,7 @@
 		<action id="^"><!--⇧6-->
 			<when state="⎄" next="⎄;^"/>
 			<when state="⎄; " output="^"/>
-			<when state="⎄;'" next="⎄;';^"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;^"/>
 			<when state="⎄;`" next="⎄;`;^"/>
 			<when state="⎄;/" output="|"/>
 			<when state="⎄;!" output="¦"/>
@@ -2021,7 +2051,7 @@
 		<action id=")"><!--⇧0-->
 			<when state="⎄" next="⎄;)"/>
 			<when state="⎄;-" output="}"/>
-			<when state="⎄;;" output="😉"/>
+			<when state="⎄;;" output="&#x1F609;"/><!--WINKING FACE-->
 			<when state="⎄;^" output="⁾"/>
 				<when state="⎄;^;^" output="⁾"/>
 			<when state="⎄;)" output="]"/>
@@ -2137,7 +2167,7 @@
 		</action><!--क-->
 		<action id="_"><!--⇧'-'-->
 			<when state="⎄" next="⎄;_"/>
-			<when state="⎄;'" next="⎄;';_"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;_"/>
 			<when state="⎄;`" next="⎄;`;_"/>
 			<when state="⎄;^" next="⎄;^;_"/>
 			<when state="⎄;_" next="⎄;_;_"/>
@@ -2152,7 +2182,7 @@
 		</action><!--क-->
 		<action id="+"><!--⇧=-->
 			<when state="⎄" next="⎄;+"/>
-			<when state="⎄;'" next="⎄;';+"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;+"/>
 			<when state="⎄;`" next="⎄;`;+"/>
 			<when state="⎄;!" next="⎄;!;+"/>
 			<when state="⎄;^" output="⁺"/>
@@ -2163,7 +2193,7 @@
 			<when state="⎄;~" next="⎄;~;+"/>
 			<when state="⎄;?" next="⎄;?;+"/>
 			<when state="⌥" output="±"/>
-			<when state="№" output="&#x200D;"/><!--ZERO WIDTH JOINER-->
+			<when state="№" output="‍"/><!--&#x200D; ZERO WIDTH JOINER-->
 			<when state="⇪⌥" output="±"/>
 			<when state="none" output="+"/>
 		</action><!--क-->
@@ -2190,7 +2220,7 @@
 		</action><!--क-->
 		<action id="|"><!--⇧\-->
 			<when state="⎄" next="⎄;|"/>
-			<when state="⎄;:" output="😐"/>
+			<when state="⎄;:" output="&#x1F610;"/><!--NEUTRAL FACE-->
 			<when state="⎄;C" output="¢"/>
 			<when state="⎄;c" output="¢"/>
 			<when state="⌥" output="»"/>
@@ -2202,7 +2232,7 @@
 		<action id="~"><!--⇧`-->
 			<when state="⎄" next="⎄;~"/>
 			<when state="⎄; " output="~"/>
-			<when state="⎄;'" next="⎄;';~"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;~"/>
 			<when state="⎄;_" next="⎄;_;~"/>
 			<when state="⎄;quot" next="⎄;quot;~"/>
 			<when state="⌥" output="`"/>
@@ -2213,7 +2243,7 @@
 		</action><!--क-->
 		<action id="lt"><!--⇧,-->
 			<when state="⎄" next="⎄;lt"/>
-			<when state="⎄;'" output="‘"/>
+			<when state="⎄;&#x0027;" output="‘"/>
 			<when state="⎄;." output="‹"/>
 			<when state="⎄;/" output="\"/>
 			<when state="⎄;quot" output="“"/>
@@ -2221,13 +2251,13 @@
 			<when state="⌥" output="¯"/>
 			<when state="ʔ" output="☟"/>
 			<when state="⇪⌥" output="„"/>
-			<when state="none" output="&#x003c;"/>
+			<when state="none" output="&#x003C;"/>
 		</action><!--क-->
 		<action id="gt"><!--⇧.-->
 			<when state="⎄" next="⎄;gt"/>
 			<when state="⎄; " output="^"/>
 			<when state="⎄;-" output="→"/>
-			<when state="⎄;'" output="’"/>
+			<when state="⎄;&#x0027;" output="’"/>
 			<when state="⎄;." output="›"/>
 			<when state="⎄;quot" output="”"/>
 			<when state="⎄;gt" output="»"/>
@@ -2235,7 +2265,7 @@
 			<when state="ʔ" output="☝"/>
 			<when state="ʔ;⇪⌥" output="Ɂ"/>
 			<when state="⇪⌥" next="ʔ"/>
-			<when state="none" output="&#x003e;"/>
+			<when state="none" output="&#x003E;"/>
 		</action><!--क-->
 		<action id="?"><!--⇧/-->
 			<when state="⎄" next="⎄;?"/>
@@ -2336,7 +2366,7 @@
 			<when state="⎄" next="⎄; "/>
 			<when state="⎄; " output=" "/>
 			<when state="⎄;-" output="~"/>
-			<when state="⎄;'" output="'"/>
+			<when state="⎄;&#x0027;" output="&#x0027;"/>
 			<when state="⎄;`" output="`"/>
 			<when state="⎄;," output="¸"/>
 			<when state="⎄;^" output="^"/>
@@ -2487,20 +2517,20 @@
 			<when state="tilde+macron" output="˜̄"/>
 			<when state="tilde_below" output="˷"/>
 		</action><!--क-->
-		<action id="'">
-			<when state="⎄" next="⎄;'"/>
-			<when state="⎄; " output="'"/>
+		<action id="&#x0027;">
+			<when state="⎄" next="⎄;&#x0027;"/>
+			<when state="⎄; " output="&#x0027;"/>
 			<when state="⎄;," output="‚"/>
-			<when state="⎄;." next="⎄;.;'"/>
+			<when state="⎄;." next="⎄;.;&#x0027;"/>
 			<when state="⎄;lt" output="‘"/>
 			<when state="⎄;gt" output="’"/>
-			<when state="⎄;o" next="⎄;o;'"/>
+			<when state="⎄;o" next="⎄;o;&#x0027;"/>
 			<when state="⌥" output="æ"/>
 			<when state="№" output="ʹ"/>
 			<when state="№;⇪⌥" output="ˈ"/>
-			<when state="none" output="'"/>
+			<when state="none" output="&#x0027;"/>
 		<!--क-->
-				<when state="⎄;';⇪⌥" output="ǽ"/>
+				<when state="⎄;&#x0027;;⇪⌥" output="ǽ"/>
 				<when state="⇪⌥" output="æ"/>
 				<when state="acute;⇪⌥" output="ǽ"/>
 				<when state="acute+dot;⇪⌥" output="ǽ̇"/>
@@ -2567,7 +2597,7 @@
 		</action><!--क-->
 		<action id="quot"><!--⇧'-->
 			<when state="⎄" next="⎄;quot"/>
-			<when state="⎄;'" next="⎄;';quot"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;quot"/>
 			<when state="⎄;`" next="⎄;`;quot"/>
 			<when state="⎄;," output="„"/>
 			<when state="⎄;_" next="⎄;_;quot"/>
@@ -2579,7 +2609,7 @@
 			<when state="№;⇪⌥" output="ˌ"/>
 			<when state="none" output="&#x0022;"/>
 		<!--क-->
-				<when state="⎄;';⇪⌥" output="Ǽ"/>
+				<when state="⎄;&#x0027;;⇪⌥" output="Ǽ"/>
 				<when state="⇪⌥" output="Æ"/>
 				<when state="acute;⇪⌥" output="Ǽ"/>
 				<when state="acute+dot;⇪⌥" output="Ǽ̇"/>
@@ -2644,7 +2674,7 @@
 				<when state="tilde+macron;⇪⌥" output="Æ̃̄"/>
 				<when state="tilde_below;⇪⌥" output="Æ̰"/>
 		</action><!--क-->
-		<action id="⇪⌥'">
+		<action id="⇪⌥&#x0027;">
 			<when state="№" output="ˈ"/>
 			<when state="⇪]" output="ǽ"/>
 			<when state="⇪;" output="æ̈"/>
@@ -2652,7 +2682,7 @@
 			<when state="⇪," output="æ̂"/>
 			<when state="none" output="æ"/>
 			<when state="acute" output="ǽ"/>
-			<when state="⎄;'" output="ǽ"/>
+			<when state="⎄;&#x0027;" output="ǽ"/>
 			<when state="acute+dot" output="ǽ̇"/>
 			<when state="breve" output="æ̆"/>
 			<when state="breve+acute" output="æ̆́"/>
@@ -2853,7 +2883,7 @@
 			<when state="⇪," output="ø̂"/>
 			<when state="none" output="ø"/>
 			<when state="acute" output="ǿ"/>
-			<when state="⎄;'" output="ǿ"/>
+			<when state="⎄;&#x0027;" output="ǿ"/>
 			<when state="acute+dot" output="ǿ̇"/>
 			<when state="breve" output="ø̆"/>
 			<when state="breve+acute" output="ø̆́"/>
@@ -3123,7 +3153,7 @@
 			<when state="⇪," output="Æ̂"/>
 			<when state="none" output="Æ"/>
 			<when state="acute" output="Ǽ"/>
-			<when state="⎄;'" output="Ǽ"/>
+			<when state="⎄;&#x0027;" output="Ǽ"/>
 			<when state="acute+dot" output="Ǽ̇"/>
 			<when state="breve" output="Æ̆"/>
 			<when state="breve+acute" output="Æ̆́"/>
@@ -3257,7 +3287,7 @@
 			<when state="⇪," output="Ø̂"/>
 			<when state="none" output="Ø"/>
 			<when state="acute" output="Ǿ"/>
-			<when state="⎄;'" output="Ǿ"/>
+			<when state="⎄;&#x0027;" output="Ǿ"/>
 			<when state="acute+dot" output="Ǿ̇"/>
 			<when state="breve" output="Ø̆"/>
 			<when state="breve+acute" output="Ø̆́"/>
@@ -3476,13 +3506,13 @@
 		<!--क-->
 			<when state="none" output="A"/>
 			<when state="acute" output="Á"/>
-			<when state="⎄;'" output="Á"/>
+			<when state="⎄;&#x0027;" output="Á"/>
 			<when state="acute+dot" output="Á̇"/>
 			<when state="breve" output="Ă"/>
 			<when state="⎄;U" output="Ă"/>
 			<when state="⎄;b" output="Ă"/>
 			<when state="breve+acute" output="Ắ"/>
-			<when state="⎄;';b" output="Ắ"/>
+			<when state="⎄;&#x0027;;b" output="Ắ"/>
 			<when state="breve+dot_below" output="Ặ"/>
 			<when state="⎄;U;!" output="Ặ"/>
 			<when state="⎄;b;!" output="Ặ"/>
@@ -3502,7 +3532,7 @@
 			<when state="circumflex" output="Â"/>
 			<when state="⎄;^" output="Â"/>
 			<when state="circumflex+acute" output="Ấ"/>
-			<when state="⎄;';^" output="Ấ"/>
+			<when state="⎄;&#x0027;;^" output="Ấ"/>
 			<when state="circumflex+dot_below" output="Ậ"/>
 			<when state="⎄;^;!" output="Ậ"/>
 			<when state="circumflex+grave" output="Ầ"/>
@@ -3555,7 +3585,7 @@
 			<when state="ring" output="Å"/>
 			<when state="⎄;o" output="Å"/>
 			<when state="ring+acute" output="Ǻ"/>
-			<when state="⎄;o;'" output="Ǻ"/>
+			<when state="⎄;o;&#x0027;" output="Ǻ"/>
 			<when state="ring_below" output="Ḁ"/>
 			<when state="stroke" output="Ⱥ"/>
 			<when state="⎄;/" output="Ⱥ"/>
@@ -3659,7 +3689,7 @@
 		<!--क-->
 			<when state="none" output="C"/>
 			<when state="acute" output="Ć"/>
-			<when state="⎄;'" output="Ć"/>
+			<when state="⎄;&#x0027;" output="Ć"/>
 			<when state="acute+dot" output="Ć̇"/>
 			<when state="breve" output="C̆"/>
 			<when state="breve+acute" output="C̆́"/>
@@ -3729,7 +3759,7 @@
 			<when state="⎄" next="⎄;D"/>
 			<when state="⎄;-" output="Đ"/>
 			<when state="⎄;(" next="⎄;(;D"/>
-			<when state="⎄;:" output="😃"/>
+			<when state="⎄;:" output="&#x1F603;"/><!--SMILING FACE WITH OPEN MOUTH-->
 			<when state="⌥" output="Î"/>
 			<when state="№" output="Ƌ"/>
 			<when state="ʔ" output="Ɗ"/>
@@ -3888,7 +3918,7 @@
 		<!--क-->
 			<when state="none" output="E"/>
 			<when state="acute" output="É"/>
-			<when state="⎄;'" output="É"/>
+			<when state="⎄;&#x0027;" output="É"/>
 			<when state="acute+dot" output="É̇"/>
 			<when state="breve" output="Ĕ"/>
 			<when state="⎄;U" output="Ĕ"/>
@@ -3910,7 +3940,7 @@
 			<when state="circumflex" output="Ê"/>
 			<when state="⎄;^" output="Ê"/>
 			<when state="circumflex+acute" output="Ế"/>
-			<when state="⎄;';^" output="Ế"/>
+			<when state="⎄;&#x0027;;^" output="Ế"/>
 			<when state="circumflex+dot_below" output="Ệ"/>
 			<when state="⎄;^;!" output="Ệ"/>
 			<when state="circumflex+grave" output="Ề"/>
@@ -3951,7 +3981,7 @@
 			<when state="macron" output="Ē"/>
 			<when state="⎄;_" output="Ē"/>
 			<when state="macron+acute" output="Ḗ"/>
-			<when state="⎄;';_" output="Ḗ"/>
+			<when state="⎄;&#x0027;;_" output="Ḗ"/>
 			<when state="macron+diaeresis" output="Ē̈"/>
 			<when state="macron+dot_below" output="Ẹ̄"/>
 			<when state="macron+grave" output="Ḕ"/>
@@ -4057,7 +4087,7 @@
 		<!--क-->
 			<when state="none" output="G"/>
 			<when state="acute" output="Ǵ"/>
-			<when state="⎄;'" output="Ǵ"/>
+			<when state="⎄;&#x0027;" output="Ǵ"/>
 			<when state="acute+dot" output="Ǵ̇"/>
 			<when state="breve" output="Ğ"/>
 			<when state="⎄;U" output="Ğ"/>
@@ -4229,7 +4259,7 @@
 		<!--क-->
 			<when state="none" output="I"/>
 			<when state="acute" output="Í"/>
-			<when state="⎄;'" output="Í"/>
+			<when state="⎄;&#x0027;" output="Í"/>
 			<when state="acute+dot" output="Í̇"/>
 			<when state="breve" output="Ĭ"/>
 			<when state="⎄;U" output="Ĭ"/>
@@ -4258,7 +4288,7 @@
 			<when state="diaeresis" output="Ï"/>
 			<when state="⎄;quot" output="Ï"/>
 			<when state="diaeresis+acute" output="Ḯ"/>
-			<when state="⎄;';quot" output="Ḯ"/>
+			<when state="⎄;&#x0027;;quot" output="Ḯ"/>
 			<when state="diaeresis+caron" output="Ï̌"/>
 			<when state="diaeresis+grave" output="Ï̀"/>
 			<when state="diaeresis+macron" output="Ï̄"/>
@@ -4395,7 +4425,7 @@
 		<!--क-->
 			<when state="none" output="K"/>
 			<when state="acute" output="Ḱ"/>
-			<when state="⎄;'" output="Ḱ"/>
+			<when state="⎄;&#x0027;" output="Ḱ"/>
 			<when state="acute+dot" output="Ḱ̇"/>
 			<when state="breve" output="K̆"/>
 			<when state="breve+acute" output="K̆́"/>
@@ -4474,7 +4504,7 @@
 		<!--क-->
 			<when state="none" output="L"/>
 			<when state="acute" output="Ĺ"/>
-			<when state="⎄;'" output="Ĺ"/>
+			<when state="⎄;&#x0027;" output="Ĺ"/>
 			<when state="acute+dot" output="Ĺ̇"/>
 			<when state="breve" output="L̆"/>
 			<when state="breve+acute" output="L̆́"/>
@@ -4555,7 +4585,7 @@
 		<!--क-->
 			<when state="none" output="M"/>
 			<when state="acute" output="Ḿ"/>
-			<when state="⎄;'" output="Ḿ"/>
+			<when state="⎄;&#x0027;" output="Ḿ"/>
 			<when state="acute+dot" output="Ḿ̇"/>
 			<when state="breve" output="M̆"/>
 			<when state="breve+acute" output="M̆́"/>
@@ -4632,7 +4662,7 @@
 		<!--क-->
 			<when state="none" output="N"/>
 			<when state="acute" output="Ń"/>
-			<when state="⎄;'" output="Ń"/>
+			<when state="⎄;&#x0027;" output="Ń"/>
 			<when state="acute+dot" output="Ń̇"/>
 			<when state="breve" output="N̆"/>
 			<when state="breve+acute" output="N̆́"/>
@@ -4703,7 +4733,7 @@
 		<action id="O">
 			<when state="⎄" next="⎄;O"/>
 			<when state="⎄;8" output="Ꝏ"/>
-				<when state="⎄;';/" output="Ǿ"/>
+				<when state="⎄;&#x0027;;/" output="Ǿ"/>
 			<when state="⎄;/" output="Ø"/>
 			<when state="⎄;(" next="⎄;(;O"/>
 			<when state="⎄;A" output="Ꜵ"/>
@@ -4719,7 +4749,7 @@
 			<when state="⇪;" output="Ö"/>
 			<when state="⇪`" output="Ò"/>
 			<when state="⇪," output="Ô"/>
-				<when state="⎄;';⇪⌥" output="Ǿ"/>
+				<when state="⎄;&#x0027;;⇪⌥" output="Ǿ"/>
 				<when state="⇪⌥" output="Ø"/>
 				<when state="acute;⇪⌥" output="Ǿ"/>
 				<when state="acute+dot;⇪⌥" output="Ǿ̇"/>
@@ -4785,7 +4815,7 @@
 		<!--क-->
 			<when state="none" output="O"/>
 			<when state="acute" output="Ó"/>
-			<when state="⎄;'" output="Ó"/>
+			<when state="⎄;&#x0027;" output="Ó"/>
 			<when state="acute+dot" output="Ó̇"/>
 			<when state="breve" output="Ŏ"/>
 			<when state="⎄;U" output="Ŏ"/>
@@ -4805,7 +4835,7 @@
 			<when state="circumflex" output="Ô"/>
 			<when state="⎄;^" output="Ô"/>
 			<when state="circumflex+acute" output="Ố"/>
-			<when state="⎄;';^" output="Ố"/>
+			<when state="⎄;&#x0027;;^" output="Ố"/>
 			<when state="circumflex+dot_below" output="Ộ"/>
 			<when state="⎄;^;!" output="Ộ"/>
 			<when state="circumflex+grave" output="Ồ"/>
@@ -4841,7 +4871,7 @@
 			<when state="horn" output="Ơ"/>
 			<when state="⎄;+" output="Ơ"/>
 			<when state="horn+acute" output="Ớ"/>
-			<when state="⎄;';+" output="Ớ"/>
+			<when state="⎄;&#x0027;;+" output="Ớ"/>
 			<when state="horn+dot_below" output="Ợ"/>
 			<when state="⎄;!;+" output="Ợ"/>
 			<when state="horn+grave" output="Ờ"/>
@@ -4855,7 +4885,7 @@
 			<when state="macron" output="Ō"/>
 			<when state="⎄;_" output="Ō"/>
 			<when state="macron+acute" output="Ṓ"/>
-			<when state="⎄;';_" output="Ṓ"/>
+			<when state="⎄;&#x0027;;_" output="Ṓ"/>
 			<when state="macron+diaeresis" output="Ō̈"/>
 			<when state="macron+dot_below" output="Ọ̄"/>
 			<when state="macron+grave" output="Ṑ"/>
@@ -4873,7 +4903,7 @@
 			<when state="tilde" output="Õ"/>
 			<when state="⎄;~" output="Õ"/>
 			<when state="tilde+acute" output="Ṍ"/>
-			<when state="⎄;';~" output="Ṍ"/>
+			<when state="⎄;&#x0027;;~" output="Ṍ"/>
 			<when state="tilde+diaeresis" output="Ṏ"/>
 			<when state="⎄;quot;~" output="Ṏ"/>
 			<when state="tilde+macron" output="Ȭ"/>
@@ -4882,10 +4912,10 @@
 		</action><!--क-->
 		<action id="P">
 			<when state="⎄" next="⎄;P"/>
-			<when state="⎄;;" output="😜"/>
+			<when state="⎄;;" output="&#x1F61C;"/><!--FACE WITH STUCK-OUT TONGUE AND WINKING EYE-->
 					<when state="⎄;C;C;C" output="☭"/>
 			<when state="⎄;(" next="⎄;(;P"/>
-			<when state="⎄;:" output="😝"/>
+			<when state="⎄;:" output="&#x1F61D;"/><!--FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES-->
 			<when state="⎄;P" output="¶"/>
 			<when state="⌥" output="∏"/>
 			<when state="ʔ" output="Ƥ"/>
@@ -4893,7 +4923,7 @@
 		<!--क-->
 			<when state="none" output="P"/>
 			<when state="acute" output="Ṕ"/>
-			<when state="⎄;'" output="Ṕ"/>
+			<when state="⎄;&#x0027;" output="Ṕ"/>
 			<when state="acute+dot" output="Ṕ̇"/>
 			<when state="breve" output="P̆"/>
 			<when state="breve+acute" output="P̆́"/>
@@ -5103,7 +5133,7 @@
 		<!--क-->
 			<when state="none" output="R"/>
 			<when state="acute" output="Ŕ"/>
-			<when state="⎄;'" output="Ŕ"/>
+			<when state="⎄;&#x0027;" output="Ŕ"/>
 			<when state="acute+dot" output="Ŕ̇"/>
 			<when state="breve" output="R̆"/>
 			<when state="breve+acute" output="R̆́"/>
@@ -5185,9 +5215,9 @@
 		<!--क-->
 			<when state="none" output="S"/>
 			<when state="acute" output="Ś"/>
-			<when state="⎄;'" output="Ś"/>
+			<when state="⎄;&#x0027;" output="Ś"/>
 			<when state="acute+dot" output="Ṥ"/>
-			<when state="⎄;.;'" output="Ṥ"/>
+			<when state="⎄;.;&#x0027;" output="Ṥ"/>
 			<when state="breve" output="S̆"/>
 			<when state="breve+acute" output="S̆́"/>
 			<when state="breve+dot_below" output="Ṣ̆"/>
@@ -5415,7 +5445,7 @@
 		<!--क-->
 			<when state="none" output="U"/>
 			<when state="acute" output="Ú"/>
-			<when state="⎄;'" output="Ú"/>
+			<when state="⎄;&#x0027;" output="Ú"/>
 			<when state="acute+dot" output="Ú̇"/>
 			<when state="breve" output="Ŭ"/>
 			<when state="⎄;U" output="Ŭ"/>
@@ -5444,7 +5474,7 @@
 			<when state="diaeresis" output="Ü"/>
 			<when state="⎄;quot" output="Ü"/>
 			<when state="diaeresis+acute" output="Ǘ"/>
-			<when state="⎄;';quot" output="Ǘ"/>
+			<when state="⎄;&#x0027;;quot" output="Ǘ"/>
 			<when state="diaeresis+caron" output="Ǚ"/>
 			<when state="⎄;c;quot" output="Ǚ"/>
 			<when state="diaeresis+grave" output="Ǜ"/>
@@ -5467,7 +5497,7 @@
 			<when state="horn" output="Ư"/>
 			<when state="⎄;+" output="Ư"/>
 			<when state="horn+acute" output="Ứ"/>
-			<when state="⎄;';+" output="Ứ"/>
+			<when state="⎄;&#x0027;;+" output="Ứ"/>
 			<when state="horn+dot_below" output="Ự"/>
 			<when state="⎄;!;+" output="Ự"/>
 			<when state="horn+grave" output="Ừ"/>
@@ -5499,7 +5529,7 @@
 			<when state="tilde" output="Ũ"/>
 			<when state="⎄;~" output="Ũ"/>
 			<when state="tilde+acute" output="Ṹ"/>
-			<when state="⎄;';~" output="Ṹ"/>
+			<when state="⎄;&#x0027;;~" output="Ṹ"/>
 			<when state="tilde+diaeresis" output="Ũ̈"/>
 			<when state="tilde+macron" output="Ũ̄"/>
 			<when state="tilde_below" output="Ṵ"/>
@@ -5590,7 +5620,7 @@
 		<!--क-->
 			<when state="none" output="W"/>
 			<when state="acute" output="Ẃ"/>
-			<when state="⎄;'" output="Ẃ"/>
+			<when state="⎄;&#x0027;" output="Ẃ"/>
 			<when state="acute+dot" output="Ẃ̇"/>
 			<when state="breve" output="W̆"/>
 			<when state="breve+acute" output="W̆́"/>
@@ -5746,7 +5776,7 @@
 		<!--क-->
 			<when state="none" output="Y"/>
 			<when state="acute" output="Ý"/>
-			<when state="⎄;'" output="Ý"/>
+			<when state="⎄;&#x0027;" output="Ý"/>
 			<when state="acute+dot" output="Ý̇"/>
 			<when state="breve" output="Y̆"/>
 			<when state="breve+acute" output="Y̆́"/>
@@ -5834,7 +5864,7 @@
 		<!--क-->
 			<when state="none" output="Z"/>
 			<when state="acute" output="Ź"/>
-			<when state="⎄;'" output="Ź"/>
+			<when state="⎄;&#x0027;" output="Ź"/>
 			<when state="acute+dot" output="Ź̇"/>
 			<when state="breve" output="Z̆"/>
 			<when state="breve+acute" output="Z̆́"/>
@@ -5932,13 +5962,13 @@
 		<!--क-->
 			<when state="none" output="a"/>
 			<when state="acute" output="á"/>
-			<when state="⎄;'" output="á"/>
+			<when state="⎄;&#x0027;" output="á"/>
 			<when state="acute+dot" output="á̇"/>
 			<when state="breve" output="ă"/>
 			<when state="⎄;U" output="ă"/>
 			<when state="⎄;b" output="ă"/>
 			<when state="breve+acute" output="ắ"/>
-			<when state="⎄;';b" output="ắ"/>
+			<when state="⎄;&#x0027;;b" output="ắ"/>
 			<when state="breve+dot_below" output="ặ"/>
 			<when state="⎄;U;!" output="ặ"/>
 			<when state="⎄;b;!" output="ặ"/>
@@ -5958,7 +5988,7 @@
 			<when state="circumflex" output="â"/>
 			<when state="⎄;^" output="â"/>
 			<when state="circumflex+acute" output="ấ"/>
-			<when state="⎄;';^" output="ấ"/>
+			<when state="⎄;&#x0027;;^" output="ấ"/>
 			<when state="circumflex+dot_below" output="ậ"/>
 			<when state="⎄;^;!" output="ậ"/>
 			<when state="circumflex+grave" output="ầ"/>
@@ -6011,7 +6041,7 @@
 			<when state="ring" output="å"/>
 			<when state="⎄;o" output="å"/>
 			<when state="ring+acute" output="ǻ"/>
-			<when state="⎄;o;'" output="ǻ"/>
+			<when state="⎄;o;&#x0027;" output="ǻ"/>
 			<when state="ring_below" output="ḁ"/>
 			<when state="stroke" output="ⱥ"/>
 			<when state="⎄;/" output="ⱥ"/>
@@ -6025,7 +6055,7 @@
 		</action><!--क-->
 		<action id="b">
 			<when state="⎄" next="⎄;b"/>
-			<when state="⎄;'" next="⎄;';b"/>
+			<when state="⎄;&#x0027;" next="⎄;&#x0027;;b"/>
 			<when state="⎄;`" next="⎄;`;b"/>
 			<when state="⎄;#" output="♭"/>
 				<when state="⎄;^;_" output="ᵇ"/>
@@ -6132,7 +6162,7 @@
 		<!--क-->
 			<when state="none" output="c"/>
 			<when state="acute" output="ć"/>
-			<when state="⎄;'" output="ć"/>
+			<when state="⎄;&#x0027;" output="ć"/>
 			<when state="acute+dot" output="ć̇"/>
 			<when state="breve" output="c̆"/>
 			<when state="breve+acute" output="c̆́"/>
@@ -6379,7 +6409,7 @@
 		<!--क-->
 			<when state="none" output="e"/>
 			<when state="acute" output="é"/>
-			<when state="⎄;'" output="é"/>
+			<when state="⎄;&#x0027;" output="é"/>
 			<when state="acute+dot" output="é̇"/>
 			<when state="breve" output="ĕ"/>
 			<when state="⎄;U" output="ĕ"/>
@@ -6401,7 +6431,7 @@
 			<when state="circumflex" output="ê"/>
 			<when state="⎄;^" output="ê"/>
 			<when state="circumflex+acute" output="ế"/>
-			<when state="⎄;';^" output="ế"/>
+			<when state="⎄;&#x0027;;^" output="ế"/>
 			<when state="circumflex+dot_below" output="ệ"/>
 			<when state="⎄;^;!" output="ệ"/>
 			<when state="circumflex+grave" output="ề"/>
@@ -6442,7 +6472,7 @@
 			<when state="macron" output="ē"/>
 			<when state="⎄;_" output="ē"/>
 			<when state="macron+acute" output="ḗ"/>
-			<when state="⎄;';_" output="ḗ"/>
+			<when state="⎄;&#x0027;;_" output="ḗ"/>
 			<when state="macron+diaeresis" output="ē̈"/>
 			<when state="macron+dot_below" output="ẹ̄"/>
 			<when state="macron+grave" output="ḕ"/>
@@ -6616,7 +6646,7 @@
 		<!--क-->
 			<when state="none" output="g"/>
 			<when state="acute" output="ǵ"/>
-			<when state="⎄;'" output="ǵ"/>
+			<when state="⎄;&#x0027;" output="ǵ"/>
 			<when state="acute+dot" output="ǵ̇"/>
 			<when state="breve" output="ğ"/>
 			<when state="⎄;U" output="ğ"/>
@@ -6800,7 +6830,7 @@
 		<!--क-->
 			<when state="none" output="i"/>
 			<when state="acute" output="í"/>
-			<when state="⎄;'" output="í"/>
+			<when state="⎄;&#x0027;" output="í"/>
 			<when state="acute+dot" output="í̇"/>
 			<when state="breve" output="ĭ"/>
 			<when state="⎄;U" output="ĭ"/>
@@ -6829,7 +6859,7 @@
 			<when state="diaeresis" output="ï"/>
 			<when state="⎄;quot" output="ï"/>
 			<when state="diaeresis+acute" output="ḯ"/>
-			<when state="⎄;';quot" output="ḯ"/>
+			<when state="⎄;&#x0027;;quot" output="ḯ"/>
 			<when state="diaeresis+caron" output="ï̌"/>
 			<when state="diaeresis+grave" output="ï̀"/>
 			<when state="diaeresis+macron" output="ï̄"/>
@@ -6973,7 +7003,7 @@
 		<!--क-->
 			<when state="none" output="k"/>
 			<when state="acute" output="ḱ"/>
-			<when state="⎄;'" output="ḱ"/>
+			<when state="⎄;&#x0027;" output="ḱ"/>
 			<when state="acute+dot" output="ḱ̇"/>
 			<when state="breve" output="k̆"/>
 			<when state="breve+acute" output="k̆́"/>
@@ -7055,7 +7085,7 @@
 			<when state="acute;⇪⌥" next="stroke+acute"/>
 			<when state="none" output="l"/>
 			<when state="acute" output="ĺ"/>
-			<when state="⎄;'" output="ĺ"/>
+			<when state="⎄;&#x0027;" output="ĺ"/>
 			<when state="acute+dot" output="ĺ̇"/>
 			<when state="breve" output="l̆"/>
 			<when state="breve+acute" output="l̆́"/>
@@ -7142,7 +7172,7 @@
 		<!--क-->
 			<when state="none" output="m"/>
 			<when state="acute" output="ḿ"/>
-			<when state="⎄;'" output="ḿ"/>
+			<when state="⎄;&#x0027;" output="ḿ"/>
 			<when state="acute+dot" output="ḿ̇"/>
 			<when state="breve" output="m̆"/>
 			<when state="breve+acute" output="m̆́"/>
@@ -7223,7 +7253,7 @@
 		<!--क-->
 			<when state="none" output="n"/>
 			<when state="acute" output="ń"/>
-			<when state="⎄;'" output="ń"/>
+			<when state="⎄;&#x0027;" output="ń"/>
 			<when state="acute+dot" output="ń̇"/>
 			<when state="breve" output="n̆"/>
 			<when state="breve+acute" output="n̆́"/>
@@ -7294,7 +7324,7 @@
 		<action id="o">
 			<when state="⎄" next="⎄;o"/>
 			<when state="⎄;8" output="ꝏ"/>
-				<when state="⎄;';/" output="ǿ"/>
+				<when state="⎄;&#x0027;;/" output="ǿ"/>
 			<when state="⎄;\" next="⎄;\;o"/>
 			<when state="⎄;/" output="ø"/>
 			<when state="⎄;%" output="‰"/>
@@ -7319,7 +7349,7 @@
 			<when state="⇪`" output="ò"/>
 			<when state="⇪," output="ô"/>
 			<when state="mod²;⇪⌥" output="ͦ"/>
-				<when state="⎄;';⇪⌥" output="ǿ"/>
+				<when state="⎄;&#x0027;;⇪⌥" output="ǿ"/>
 				<when state="⇪⌥" output="ø"/>
 				<when state="acute;⇪⌥" output="ǿ"/>
 				<when state="acute+dot;⇪⌥" output="ǿ̇"/>
@@ -7385,7 +7415,7 @@
 		<!--क-->
 			<when state="none" output="o"/>
 			<when state="acute" output="ó"/>
-			<when state="⎄;'" output="ó"/>
+			<when state="⎄;&#x0027;" output="ó"/>
 			<when state="acute+dot" output="ó̇"/>
 			<when state="breve" output="ŏ"/>
 			<when state="⎄;U" output="ŏ"/>
@@ -7405,7 +7435,7 @@
 			<when state="circumflex" output="ô"/>
 			<when state="⎄;^" output="ô"/>
 			<when state="circumflex+acute" output="ố"/>
-			<when state="⎄;';^" output="ố"/>
+			<when state="⎄;&#x0027;;^" output="ố"/>
 			<when state="circumflex+dot_below" output="ộ"/>
 			<when state="⎄;^;!" output="ộ"/>
 			<when state="circumflex+grave" output="ồ"/>
@@ -7441,7 +7471,7 @@
 			<when state="horn" output="ơ"/>
 			<when state="⎄;+" output="ơ"/>
 			<when state="horn+acute" output="ớ"/>
-			<when state="⎄;';+" output="ớ"/>
+			<when state="⎄;&#x0027;;+" output="ớ"/>
 			<when state="horn+dot_below" output="ợ"/>
 			<when state="⎄;!;+" output="ợ"/>
 			<when state="horn+grave" output="ờ"/>
@@ -7455,7 +7485,7 @@
 			<when state="macron" output="ō"/>
 			<when state="⎄;_" output="ō"/>
 			<when state="macron+acute" output="ṓ"/>
-			<when state="⎄;';_" output="ṓ"/>
+			<when state="⎄;&#x0027;;_" output="ṓ"/>
 			<when state="macron+diaeresis" output="ō̈"/>
 			<when state="macron+dot_below" output="ọ̄"/>
 			<when state="macron+grave" output="ṑ"/>
@@ -7473,7 +7503,7 @@
 			<when state="tilde" output="õ"/>
 			<when state="⎄;~" output="õ"/>
 			<when state="tilde+acute" output="ṍ"/>
-			<when state="⎄;';~" output="ṍ"/>
+			<when state="⎄;&#x0027;;~" output="ṍ"/>
 			<when state="tilde+diaeresis" output="ṏ"/>
 			<when state="⎄;quot;~" output="ṏ"/>
 			<when state="tilde+macron" output="ȭ"/>
@@ -7492,7 +7522,7 @@
 		<!--क-->
 			<when state="none" output="p"/>
 			<when state="acute" output="ṕ"/>
-			<when state="⎄;'" output="ṕ"/>
+			<when state="⎄;&#x0027;" output="ṕ"/>
 			<when state="acute+dot" output="ṕ̇"/>
 			<when state="breve" output="p̆"/>
 			<when state="breve+acute" output="p̆́"/>
@@ -7708,7 +7738,7 @@
 		<!--क-->
 			<when state="none" output="r"/>
 			<when state="acute" output="ŕ"/>
-			<when state="⎄;'" output="ŕ"/>
+			<when state="⎄;&#x0027;" output="ŕ"/>
 			<when state="acute+dot" output="ŕ̇"/>
 			<when state="breve" output="r̆"/>
 			<when state="breve+acute" output="r̆́"/>
@@ -7856,9 +7886,9 @@
 		<!--क-->
 			<when state="none" output="s"/>
 			<when state="acute" output="ś"/>
-			<when state="⎄;'" output="ś"/>
+			<when state="⎄;&#x0027;" output="ś"/>
 			<when state="acute+dot" output="ṥ"/>
-			<when state="⎄;.;'" output="ṥ"/>
+			<when state="⎄;.;&#x0027;" output="ṥ"/>
 			<when state="breve" output="s̆"/>
 			<when state="breve+acute" output="s̆́"/>
 			<when state="breve+dot_below" output="ṣ̆"/>
@@ -8101,7 +8131,7 @@
 		<!--क-->
 			<when state="none" output="u"/>
 			<when state="acute" output="ú"/>
-			<when state="⎄;'" output="ú"/>
+			<when state="⎄;&#x0027;" output="ú"/>
 			<when state="acute+dot" output="ú̇"/>
 			<when state="breve" output="ŭ"/>
 			<when state="⎄;U" output="ŭ"/>
@@ -8131,7 +8161,7 @@
 			<when state="diaeresis" output="ü"/>
 			<when state="⎄;quot" output="ü"/>
 			<when state="diaeresis+acute" output="ǘ"/>
-			<when state="⎄;';quot" output="ǘ"/>
+			<when state="⎄;&#x0027;;quot" output="ǘ"/>
 			<when state="diaeresis+caron" output="ǚ"/>
 			<when state="⎄;c;quot" output="ǚ"/>
 			<when state="diaeresis+grave" output="ǜ"/>
@@ -8154,7 +8184,7 @@
 			<when state="horn" output="ư"/>
 			<when state="⎄;+" output="ư"/>
 			<when state="horn+acute" output="ứ"/>
-			<when state="⎄;';+" output="ứ"/>
+			<when state="⎄;&#x0027;;+" output="ứ"/>
 			<when state="horn+dot_below" output="ự"/>
 			<when state="⎄;!;+" output="ự"/>
 			<when state="horn+grave" output="ừ"/>
@@ -8186,7 +8216,7 @@
 			<when state="tilde" output="ũ"/>
 			<when state="⎄;~" output="ũ"/>
 			<when state="tilde+acute" output="ṹ"/>
-			<when state="⎄;';~" output="ṹ"/>
+			<when state="⎄;&#x0027;;~" output="ṹ"/>
 			<when state="tilde+diaeresis" output="ũ̈"/>
 			<when state="tilde+macron" output="ũ̄"/>
 			<when state="tilde_below" output="ṵ"/>
@@ -8287,7 +8317,7 @@
 		<!--क-->
 			<when state="none" output="w"/>
 			<when state="acute" output="ẃ"/>
-			<when state="⎄;'" output="ẃ"/>
+			<when state="⎄;&#x0027;" output="ẃ"/>
 			<when state="acute+dot" output="ẃ̇"/>
 			<when state="breve" output="w̆"/>
 			<when state="breve+acute" output="w̆́"/>
@@ -8460,7 +8490,7 @@
 		<!--क-->
 			<when state="none" output="y"/>
 			<when state="acute" output="ý"/>
-			<when state="⎄;'" output="ý"/>
+			<when state="⎄;&#x0027;" output="ý"/>
 			<when state="acute+dot" output="ý̇"/>
 			<when state="breve" output="y̆"/>
 			<when state="breve+acute" output="y̆́"/>
@@ -8556,7 +8586,7 @@
 		<!--क-->
 			<when state="none" output="z"/>
 			<when state="acute" output="ź"/>
-			<when state="⎄;'" output="ź"/>
+			<when state="⎄;&#x0027;" output="ź"/>
 			<when state="acute+dot" output="ź̇"/>
 			<when state="breve" output="z̆"/>
 			<when state="breve+acute" output="z̆́"/>
@@ -8647,15 +8677,15 @@
 				<when state="⎄;-;-" output="--"/>
 			<when state="⎄;=" output="="/>
 			<when state="⎄;;" output=";"/>
-			<when state="⎄;'" output="'"/>
-				<when state="⎄;';⇪⌥" output="'⌥"/>
-				<when state="⎄;';/" output="'/"/>
-				<when state="⎄;';^" output="'^"/>
-				<when state="⎄;';_" output="'_"/>
-				<when state="⎄;';+" output="'+"/>
-				<when state="⎄;';quot" output="'&#x0022;"/>
-				<when state="⎄;';~" output="'~"/>
-				<when state="⎄;';b" output="'b"/>
+			<when state="⎄;&#x0027;" output="&#x0027;"/>
+				<when state="⎄;&#x0027;;⇪⌥" output="&#x0027;⌥"/>
+				<when state="⎄;&#x0027;;/" output="&#x0027;/"/>
+				<when state="⎄;&#x0027;;^" output="&#x0027;^"/>
+				<when state="⎄;&#x0027;;_" output="&#x0027;_"/>
+				<when state="⎄;&#x0027;;+" output="&#x0027;+"/>
+				<when state="⎄;&#x0027;;quot" output="&#x0027;&#x0022;"/>
+				<when state="⎄;&#x0027;;~" output="&#x0027;~"/>
+				<when state="⎄;&#x0027;;b" output="&#x0027;b"/>
 			<when state="⎄;\" output="\"/>
 				<when state="⎄;\;o" output="\o"/>
 			<when state="⎄;`" output="`"/>
@@ -8666,7 +8696,7 @@
 				<when state="⎄;`;b" output="`b"/>
 			<when state="⎄;," output=","/>
 			<when state="⎄;." output="."/>
-				<when state="⎄;.;'" output=".'"/>
+				<when state="⎄;.;&#x0027;" output=".&#x0027;"/>
 				<when state="⎄;.;!" output=".!"/>
 			<when state="⎄;/" output="/"/>
 			<when state="⎄;!" output="!"/>
@@ -8801,8 +8831,8 @@
 				<when state="⎄;~;^" output="~^"/>
 				<when state="⎄;~;+" output="~+"/>
 				<when state="⎄;~;b" output="~b"/>
-			<when state="⎄;lt" output="&#x003c;"/>
-			<when state="⎄;gt" output="&#x003e;"/>
+			<when state="⎄;lt" output="&#x003C;"/>
+			<when state="⎄;gt" output="&#x003E;"/>
 			<when state="⎄;?" output="?"/>
 				<when state="⎄;?;^" output="?^"/>
 				<when state="⎄;?;+" output="?+"/>
@@ -8848,7 +8878,7 @@
 			<when state="⎄;m" output="m"/>
 			<when state="⎄;n" output="n"/>
 			<when state="⎄;o" output="o"/>
-				<when state="⎄;o;'" output="o'"/>
+				<when state="⎄;o;&#x0027;" output="o&#x0027;"/>
 			<when state="⎄;p" output="p"/>
 			<when state="⎄;q" output="q"/>
 			<when state="⎄;s" output="s"/>
