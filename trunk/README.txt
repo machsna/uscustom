@@ -61,6 +61,28 @@ any changes you have made. Previous versions of Ukelele would mess up
 this keyboard layout.
 
 
+Versions
+========
+
+2015-06-29
+    New release, now as a keylayout bundle that will show up as an
+    English keyboard layout in System Preferences. Also, numerous
+    additional characters.
+
+2012-08-30
+    New release, swapped compose (now §) and option deadkey (now ±,
+    that is, ⇧+§).
+
+2012-08-28
+    New release, with compose key now additionally mapped to ⇧+^+F13.
+
+2012-08-24
+    New release, now with a compose key.
+
+2010-08-20
+    Initial release.
+
+
 License
 =======
 
