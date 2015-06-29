@@ -4,7 +4,7 @@ U.S. custom keyboard layout README.txt
 About
 =====
 
-This is a keyboard layout for Mac computers. It has two main
+This is a keyboard layout for Mac computers. It has three main
 purposes:
 
 * It provides a compose key. The compose key is mapped to two keys on
@@ -14,6 +14,11 @@ purposes:
   option key is used for something else (e.g. for a meta key in a
   terminal).
 
+* In capslock state, the keyboard does not produce capslock letters.
+  Instead, it enters a deadkey mode reminiscent of (but much more
+  powerful than) Apple’s U.S. Extended keyboard layout that allows
+  for a more convenient input of special characters.
+
 This keyboard layout has been written by j. 'mach' wust. For more
 information, see: http://uscustom.sf.net/
 
@@ -21,8 +26,8 @@ information, see: http://uscustom.sf.net/
 Installation
 ============
 
-1. Drag the files UScustom.keylayout and UScustom.icns to either one
-of /Library/Keyboard Layouts/ or to ~/Library/Keyboard Layouts/.
+1. Drag "U.S. custom.bundle" to either one of
+/Library/Keyboard Layouts/ or ~/Library/Keyboard Layouts/.
 
 2. Log out and log in again to complete the installation (it may work
 right away).
