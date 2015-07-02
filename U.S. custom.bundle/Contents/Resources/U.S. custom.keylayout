@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2015-06-29-->
+	<!--U.S. custom keyboard layout, version 2015-07-02-->
 	<!--Copyright: Copyleft 2010-2015 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
@@ -1953,6 +1953,7 @@
 			<when state="⎄;=" output="≠"/>
 			<when state="⎄;&#x0027;" next="⎄;&#x0027;;/"/>
 			<when state="⎄;/" output="\"/>
+				<when state="⎄;\;m" output="&#x1F918;"/><!--SIGN OF THE HORNS-->
 				<when state="⎄;\;o" output="&#x1F64C;"/><!--PERSON RAISING BOTH HANDS IN CELEBRATION-->
 			<when state="⎄;^" output="|"/>
 			<when state="⎄;quot" output="〞"/>
@@ -6064,6 +6065,7 @@
 			<when state="⎄;~" next="⎄;~;b"/>
 			<when state="⎄;?" next="⎄;?;b"/>
 			<when state="⎄;d" output="ȸ"/>
+					<when state="⎄;r;o" next="⎄;r;o;b"/>
 			<when state="⌥" output="∫"/>
 			<when state="№" output="ƃ"/>
 			<when state="№;⇪⌥" output="β"/>
@@ -7160,6 +7162,7 @@
 				<when state="⎄;^;_" output="ᵐ"/>
 				<when state="⎄;^;^" output="ᵐ"/>
 			<when state="⎄;(" next="⎄;(;m"/>
+			<when state="⎄;\" next="⎄;\;m"/>
 			<when state="⎄;S" output="℠"/>
 			<when state="⎄;T" output="™"/>
 			<when state="⎄;c" next="⎄;c;m"/>
@@ -7337,6 +7340,8 @@
 			<when state="⎄;N" output="№"/>
 			<when state="⎄;a" output="ꜵ"/>
 			<when state="⎄;o" output="°"/>
+			<when state="⎄;r" next="⎄;r;o"/>
+							<when state="⎄;r;o;b" next="⎄;r;o;b;o"/>
 			<when state="⎄;s" output="§"/>
 			<when state="⎄;x" output="¤"/>
 			<when state="⌥" output="ø"/>
@@ -7722,6 +7727,7 @@
 			<when state="tilde_below" output="q̰"/>
 		</action><!--क-->
 		<action id="r">
+			<when state="⎄" next="⎄;r"/>
 				<when state="⎄;^;_" output="ʳ"/>
 				<when state="⎄;^;^" output="ʳ"/>
 			<when state="⎄;(" next="⎄;(;r"/>
@@ -7965,6 +7971,7 @@
 			<when state="⎄;(" next="⎄;(;t"/>
 			<when state="⎄;P" output="₧"/>
 			<when state="⎄;S" output="ﬅ"/>
+								<when state="⎄;r;o;b;o" output="&#x1F916;"/><!--ROBOT FACE-->
 			<when state="⎄;s" output="ﬆ"/>
 			<when state="⌥" output="†"/>
 			<when state="№" output="ɾ"/>
@@ -8689,6 +8696,7 @@
 				<when state="⎄;&#x0027;;~" output="&#x0027;~"/>
 				<when state="⎄;&#x0027;;b" output="&#x0027;b"/>
 			<when state="⎄;\" output="\"/>
+				<when state="⎄;\;m" output="\m"/>
 				<when state="⎄;\;o" output="\o"/>
 			<when state="⎄;`" output="`"/>
 				<when state="⎄;`;^" output="`^"/>
@@ -8884,6 +8892,10 @@
 				<when state="⎄;o;&#x0027;" output="o&#x0027;"/>
 			<when state="⎄;p" output="p"/>
 			<when state="⎄;q" output="q"/>
+			<when state="⎄;r" output="r"/>
+				<when state="⎄;r;o" output="ro"/>
+					<when state="⎄;r;o;b" output="rob"/>
+						<when state="⎄;r;o;b;o" output="robo"/>
 			<when state="⎄;s" output="s"/>
 			<when state="⎄;t" output="t"/>
 			<when state="⎄;u" output="u"/>
