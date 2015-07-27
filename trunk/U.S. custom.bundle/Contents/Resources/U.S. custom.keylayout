@@ -1525,6 +1525,7 @@
 			<when state="macron" next="ogonek+macron"/>
 		</action><!--क-->
 		<action id="⇪⌥n">
+			<when state="№" output="ꬻ"/>
 			<when state="none" next="tilde"/>
 			<when state="breve" next="breve+tilde"/>
 			<when state="circumflex" next="circumflex+tilde"/>
@@ -1572,6 +1573,7 @@
 			<when state="horn" next="horn+hook_above"/>
 		</action><!--क-->
 		<action id="⇪⌥B">
+			<when state="№" output="̯"/>
 			<when state="none" next="breve_below"/>
 		</action><!--क-->
 		<action id="⇪⌥F">
@@ -3218,6 +3220,7 @@
 			<when state="tilde_below" output="Æ̰"/>
 		</action><!--क-->
 		<action id="⇪⌥D">
+			<when state="ʔ" output="Ɖ"/>
 			<when state="none" output="Ð"/>
 			<when state="acute" output="Ð́"/>
 			<when state="acute+dot" output="Ð́̇"/>
@@ -3602,6 +3605,7 @@
 			<when state="⎄;(" next="⎄;(;B"/>
 			<when state="⌥" output="ı"/>
 			<when state="№" output="Ƃ"/>
+			<when state="№;⇪⌥" output="̯"/>
 			<when state="ʔ" output="Ɓ"/>
 			<when state="⇪⌥" next="breve_below"/>
 		<!--क-->
@@ -3764,6 +3768,7 @@
 			<when state="⌥" output="Î"/>
 			<when state="№" output="Ƌ"/>
 			<when state="ʔ" output="Ɗ"/>
+			<when state="ʔ;⇪⌥" output="Ɖ"/>
 			<when state="⇪;" output="Ð"/>
 			<when state="⇪`" output="Ð"/>
 				<when state="⇪⌥" output="Ð"/>
@@ -5692,7 +5697,7 @@
 			<when state="⎄;(" next="⎄;(;X"/>
 			<when state="⌥" output="˛"/>
 			<when state="№" output="Ƹ"/>
-			<when state="ʔ" output="Ɖ"/>
+			<when state="ʔ" output="Ꭓ"/>
 			<when state="⇪⌥" output="̣"/>
 		<!--क-->
 			<when state="none" output="X"/>
@@ -7248,6 +7253,7 @@
 			<when state="⎄;(" next="⎄;(;n"/>
 			<when state="⌥" next="⌥n"/>
 			<when state="№" output="ŋ"/>
+			<when state="№;⇪⌥" output="ꬻ"/>
 			<when state="ʔ" output="ɲ"/>
 			<when state="⌥n" output="ñ"/>
 			<when state="⇪;" output="ñ"/>
@@ -7339,6 +7345,7 @@
 				<when state="⎄;_;_" output="ₒ"/>
 			<when state="⎄;N" output="№"/>
 			<when state="⎄;a" output="ꜵ"/>
+			<when state="⎄;d" next="⎄;d;o"/>
 			<when state="⎄;o" output="°"/>
 			<when state="⎄;r" next="⎄;r;o"/>
 							<when state="⎄;r;o;b" next="⎄;r;o;b;o"/>
@@ -7346,6 +7353,7 @@
 			<when state="⎄;x" output="¤"/>
 			<when state="⌥" output="ø"/>
 			<when state="№" output="ɒ"/>
+			<when state="ʔ" output="◌"/>
 			<when state="⌥`" output="ò"/>
 			<when state="⌥e" output="ó"/>
 			<when state="⌥i" output="ô"/>
@@ -7972,6 +7980,7 @@
 			<when state="⎄;P" output="₧"/>
 			<when state="⎄;S" output="ﬅ"/>
 								<when state="⎄;r;o;b;o" output="&#x1F916;"/><!--ROBOT FACE-->
+				<when state="⎄;d;o" output="◌"/>
 			<when state="⎄;s" output="ﬆ"/>
 			<when state="⌥" output="†"/>
 			<when state="№" output="ɾ"/>
@@ -8405,7 +8414,7 @@
 			<when state="⌥" output="≈"/>
 			<when state="№" output="ƹ"/>
 			<when state="№;⇪⌥" output="χ"/>
-			<when state="ʔ" output="ɖ"/>
+			<when state="ʔ" output="ꭓ"/>
 			<when state="⇪⌥" next="dot_below"/>
 			<when state="mod²;⇪⌥" output="ͯ"/>
 			<when state="breve;⇪⌥" next="breve+dot_below"/>
@@ -8880,6 +8889,7 @@
 				<when state="⎄;c;m" output="cm"/>
 			<when state="⎄;d" output="d"/>
 				<when state="⎄;d;c" output="dc"/>
+				<when state="⎄;d;o" output="do"/>
 			<when state="⎄;e" output="e"/>
 			<when state="⎄;f" output="f"/>
 			<when state="⎄;h" output="h"/>
