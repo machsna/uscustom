@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2015-07-27-->
+	<!--U.S. custom keyboard layout, version 2015-11-13-->
 	<!--Copyright: Copyleft 2010-2015 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
@@ -1455,6 +1455,7 @@
 		</action><!--क-->
 		<action id="⇪⌥:">
 			<when state="none" next="№"/>
+			<when state="stroke" next="stroke;№"/>
 		</action><!--क-->
 		<action id="⇪⌥lt">
 			<when state="none" next="ʔ"/>
@@ -2220,6 +2221,7 @@
 			<when state="№" output="ː"/>
 			<when state="⇪⌥" next="№"/>
 			<when state="none" output=":"/>
+			<when state="stroke;⇪⌥" next="stroke;№"/>
 		</action><!--क-->
 		<action id="|"><!--⇧\-->
 			<when state="⎄" next="⎄;|"/>
@@ -6907,6 +6909,7 @@
 			<when state="ring_below" output="i̥"/>
 			<when state="stroke" output="ɨ"/>
 			<when state="⎄;/" output="ɨ"/>
+			<when state="stroke;№" output="ᵻ"/>
 			<when state="stroke+acute" output="ɨ́"/>
 			<when state="tilde" output="ĩ"/>
 			<when state="⎄;~" output="ĩ"/>
@@ -8226,6 +8229,7 @@
 			<when state="ogonek+macron" output="ų̄"/>
 			<when state="stroke" output="ʉ"/>
 			<when state="⎄;/" output="ʉ"/>
+			<when state="stroke;№" output="ᵿ"/>
 			<when state="stroke+acute" output="ʉ́"/>
 			<when state="ring" output="ů"/>
 			<when state="⎄;o" output="ů"/>
@@ -9034,6 +9038,7 @@
 		<when state="ring_below" output="˳"/>
 			<when state="ring_below;⇪⌥" output="⌥̥"/>
 		<when state="stroke" output="-"/>
+			<when state="stroke;№" output="№̶"/>
 			<when state="stroke;⇪⌥" output="⌥̵"/>
 		<when state="stroke+acute" output="-́"/>
 			<when state="stroke+acute;⇪⌥" output="⌥̵́"/>
