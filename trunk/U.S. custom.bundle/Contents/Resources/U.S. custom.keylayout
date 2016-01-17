@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2015-11-13-->
-	<!--Copyright: Copyleft 2010-2015 j. 'mach' wust-->
+	<!--U.S. custom keyboard layout, version 2016-01-17-->
+	<!--Copyright: Copyleft 2010-2016 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
 		published by the Free Software Foundation, either version 3 of
@@ -53,7 +53,7 @@
 		the characters Ḉḉ had to be inserted manually afterwards, and also check if there were any
 		precomposed acute-characters-->
 	<!--It was built according to the specifications at "http://developer.apple.com/technotes/tn2002/tn2056.html"-->
-<keyboard group="0" id="1" name="U.S. custom" maxout="3">
+<keyboard group="126" id="-27" name="U.S. custom" maxout="3">
 	<layouts>
 		<layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI"/>
 		<layout first="18" last="18" modifiers="commonModifiers" mapSet="JIS"/>
@@ -1708,7 +1708,7 @@
 				<when state="⎄;_;_" output="₃"/>
 			<when state="⎄;lt" output="♥"/>
 			<when state="⌥" output="£"/>
-			<when state="№" output="ɛ"/>
+			<when state="№" output="ɜ"/>
 			<when state="⇪⌥" output="£"/>
 			<when state="none" output="3"/>
 		<!--क-->
@@ -1994,7 +1994,7 @@
 			<when state="⎄" next="⎄;#"/>
 			<when state="⎄;#" output="♯"/>
 			<when state="⌥" output="‹"/>
-			<when state="№" output="Ɛ"/>
+			<when state="№" output="Ɜ"/>
 			<when state="⇪⌥" output="‹"/>
 			<when state="none" output="#"/>
 		</action><!--क-->
@@ -2348,7 +2348,7 @@
 			<when state="none" output="̄"/>
 		</action><!--क-->
 		<action id="⇪⌥E">
-			<when state="№" output="Ɛ"/>
+			<when state="№" output="Ǝ"/>
 			<when state="none" output="́"/>
 		</action><!--क-->
 		<action id="⇪⌥H">
@@ -2452,6 +2452,10 @@
 			<when state="⎄" output="⎄"/>
 			<when state="⌥" output=" "/>
 			<when state="⇪⌥" output="⌥"/>
+			<when state="⇪]" output="]"/>
+			<when state="⇪;" output=";"/>
+			<when state="⇪," output=","/>
+			<when state="⇪`" output="`"/>
 			<when state="№" output="№"/>
 			<when state="ʔ" output="ʔ"/>
 			<when state="⌥`" output="`"/>
@@ -3912,8 +3916,8 @@
 			<when state="⎄;C" output="₠"/>
 			<when state="⎄;O" output="Œ"/>
 			<when state="⌥" output="´"/>
-			<when state="№" output="Ǝ"/>
-			<when state="№;⇪⌥" output="Ɛ"/>
+			<when state="№" output="Ɛ"/>
+			<when state="№;⇪⌥" output="Ǝ"/>
 			<when state="⌥`" output="È"/>
 			<when state="⌥e" output="É"/>
 			<when state="⌥i" output="Ê"/>
@@ -6394,8 +6398,8 @@
 			<when state="⎄;e" output="ə"/>
 			<when state="⎄;o" output="œ"/>
 			<when state="⌥" next="⌥e"/>
-			<when state="№" output="ǝ"/>
-			<when state="№;⇪⌥" output="ɛ"/>
+			<when state="№" output="ɛ"/>
+			<when state="№;⇪⌥" output="ǝ"/>
 			<when state="⌥`" output="è"/>
 			<when state="⌥e" output="é"/>
 			<when state="⌥i" output="ê"/>
