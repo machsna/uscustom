@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2016-01-17-->
+	<!--U.S. custom keyboard layout, version 2016-03-10-->
 	<!--Copyright: Copyleft 2010-2016 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
@@ -1484,7 +1484,7 @@
 			<when state="breve" next="cedilla+breve"/>
 		</action><!--क-->
 		<action id="⇪⌥e">
-			<when state="№" output="ɛ"/>
+			<when state="№" output="ǝ"/>
 			<when state="mod²" output="ͤ"/>
 			<when state="none" next="acute"/>
 			<when state="acute" next="double_acute"/>
@@ -3089,6 +3089,7 @@
 			<when state="tilde_below" output="ß̰"/>
 		</action><!--क-->
 		<action id="⇪⌥t">
+			<when state="№" output="ɾ"/>
 			<when state="ʔ" output="ʈ"/>
 			<when state="mod²" output="ͭ"/>
 			<when state="none" output="þ"/>
@@ -5302,7 +5303,7 @@
 			<when state="⎄;(" next="⎄;(;T"/>
 			<when state="⎄;A" output="@"/>
 			<when state="⌥" output="ˇ"/>
-			<when state="№" output="θ"/>
+			<when state="№" output="Θ"/>
 			<when state="ʔ" output="Ƭ"/>
 			<when state="ʔ;⇪⌥" output="Ʈ"/>
 			<when state="⇪;" output="Þ"/>
@@ -7990,7 +7991,8 @@
 				<when state="⎄;d;o" output="◌"/>
 			<when state="⎄;s" output="ﬆ"/>
 			<when state="⌥" output="†"/>
-			<when state="№" output="ɾ"/>
+			<when state="№" output="θ"/>
+			<when state="№;⇪⌥" output="ɾ"/>
 			<when state="ʔ" output="ƭ"/>
 			<when state="ʔ;⇪⌥" output="ʈ"/>
 			<when state="⇪;" output="þ"/>
