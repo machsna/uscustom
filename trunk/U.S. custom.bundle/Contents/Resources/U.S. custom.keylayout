@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-	<!--U.S. custom keyboard layout, version 2016-03-10-->
-	<!--Copyright: Copyleft 2010-2016 j. 'mach' wust-->
+	<!--U.S. custom keyboard layout, version 2017-02-26-->
+	<!--Copyright: Copyleft 2010-2017 j. 'mach' wust-->
 	<!--This is free software: you can redistribute it and/or
 		modify it under the terms of the GNU General Public License as
 		published by the Free Software Foundation, either version 3 of
@@ -2378,6 +2378,7 @@
 			<when state="⎄;~" output="~"/>
 			<when state="⎄;gt" output="^"/>
 			<when state="⌥" output=" "/>
+			<when state="⇪⌥" output=" "/>
 			<when state="№" output=" "/>
 			<when state="№;⇪⌥" output=" "/>
 			<when state="⌥`" output="`"/>
@@ -2450,7 +2451,7 @@
 		</action><!--क-->
 		<action id="⇧ "><!--these will be spacing, like the terminators-->
 			<when state="⎄" output="⎄"/>
-			<when state="⌥" output=" "/>
+			<when state="⌥" output="⌥"/>
 			<when state="⇪⌥" output="⌥"/>
 			<when state="⇪]" output="]"/>
 			<when state="⇪;" output=";"/>
