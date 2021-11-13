@@ -934,7 +934,7 @@
 			<key code="38" output="&#x000A;"/><!--⌃j-->
 			<key code="39" output="&#x0027;"/><!--⌃'-->
 			<key code="40" output="&#x000B;"/><!--⌃k-->
-			<key code="41" output=";"/><!--⌃;-->
+			<key code="41" output=":"/><!--⌃;-->
 			<key code="42" output="&#x001C;"/><!--⌃\-->
 			<key code="43" output=","/><!--⌃,-->
 			<key code="44" output="/"/><!--⌃/-->
@@ -1236,7 +1236,7 @@
 			<key code="24" output="^"/>
 			<key code="30" output="["/>
 			<key code="33" output="@"/>
-			<key code="39" output=":"/>
+			<key code="39" output=";"/>
 			<key code="42" output="]"/>
 			<key code="93" action="\"/>
 			<key code="94" output="_"/>
@@ -1268,7 +1268,7 @@
 			<key code="24" output="^"/>
 			<key code="30" output="["/>
 			<key code="33" output="@"/>
-			<key code="39" output=":"/>
+			<key code="39" output=";"/>
 			<key code="42" output="]"/>
 			<key code="93" action="\"/>
 			<key code="94" output="_"/>
@@ -1907,7 +1907,7 @@
 			<when state="⎄" next="⎄;;"/>
 			<when state="⎄;_" next="⎄;_;;"/>
 			<when state="⌥" output="…"/>
-			<when state="none" output=";"/>
+			<when state="none" output=":"/>
 		</action><!--क-->
 		<action id="\">
 			<when state="⎄" next="⎄;\"/>
@@ -2220,7 +2220,7 @@
 			<when state="⌥" output="Ú"/>
 			<when state="№" output="ː"/>
 			<when state="⇪⌥" next="№"/>
-			<when state="none" output=":"/>
+			<when state="none" output=";"/>
 			<when state="stroke;⇪⌥" next="stroke;№"/>
 		</action><!--क-->
 		<action id="|"><!--⇧\-->
@@ -2454,7 +2454,7 @@
 			<when state="⌥" output="⌥"/>
 			<when state="⇪⌥" output="⌥"/>
 			<when state="⇪]" output="]"/>
-			<when state="⇪;" output=";"/>
+			<when state="⇪;" output=":"/>
 			<when state="⇪," output=","/>
 			<when state="⇪`" output="`"/>
 			<when state="№" output="№"/>
@@ -3512,7 +3512,7 @@
 			<when state="⌥u" output="Ä"/>
 			<when state="⇪]" output="Á"/>
 			<when state="⇪;" output="Ä"/>
-			<when state="⇪`" output="À"/>
+			<when state="⇪`" output="Ä"/>
 			<when state="⇪," output="Â"/>
 			<when state="⇪⌥" output="̄"/>
 		<!--क-->
@@ -3925,8 +3925,8 @@
 			<when state="⌥i" output="Ê"/>
 			<when state="⌥u" output="Ë"/>
 			<when state="⇪]" output="É"/>
-			<when state="⇪;" output="Ë"/>
-			<when state="⇪`" output="È"/>
+			<when state="⇪;" output="É"/>
+			<when state="⇪`" output="É"/>
 			<when state="⇪," output="Ê"/>
 			<when state="⇪⌥" output="́"/>
 		<!--क-->
@@ -4266,7 +4266,7 @@
 			<when state="⌥i" output="Î"/>
 			<when state="⌥u" output="Ï"/>
 			<when state="⇪]" output="Í"/>
-			<when state="⇪;" output="Ï"/>
+			<when state="⇪;" output="Ì"/>
 			<when state="⇪`" output="Ì"/>
 			<when state="⇪," output="Î"/>
 			<when state="⇪⌥" output="̛"/>
@@ -4761,7 +4761,7 @@
 			<when state="⌥u" output="Ö"/>
 			<when state="⇪]" output="Ó"/>
 			<when state="⇪;" output="Ö"/>
-			<when state="⇪`" output="Ò"/>
+			<when state="⇪`" output="Ö"/>
 			<when state="⇪," output="Ô"/>
 				<when state="⎄;&#x0027;;⇪⌥" output="Ǿ"/>
 				<when state="⇪⌥" output="Ø"/>
@@ -5783,7 +5783,7 @@
 			<when state="ʔ" output="Ƴ"/>
 			<when state="⌥u" output="Ÿ"/>
 			<when state="⇪]" output="Ý"/>
-			<when state="⇪;" output="Ÿ"/>
+			<when state="⇪;" output="Ỳ"/>
 			<when state="⇪`" output="Ỳ"/>
 			<when state="⇪," output="Ŷ"/>
 			<when state="⇪⌥" next="double_grave"/>
@@ -5964,7 +5964,7 @@
 			<when state="⌥u" output="ä"/>
 			<when state="⇪]" output="á"/>
 			<when state="⇪;" output="ä"/>
-			<when state="⇪`" output="à"/>
+			<when state="⇪`" output="ä"/>
 			<when state="⇪," output="â"/>
 			<when state="⇪⌥" next="macron"/>
 			<when state="mod²;⇪⌥" output="ͣ"/>
@@ -6407,8 +6407,8 @@
 			<when state="⌥i" output="ê"/>
 			<when state="⌥u" output="ë"/>
 			<when state="⇪]" output="é"/>
-			<when state="⇪;" output="ë"/>
-			<when state="⇪`" output="è"/>
+			<when state="⇪;" output="é"/>
+			<when state="⇪`" output="é"/>
 			<when state="⇪," output="ê"/>
 			<when state="⇪⌥" next="acute"/>
 			<when state="mod²;⇪⌥" output="ͤ"/>
@@ -6837,7 +6837,7 @@
 			<when state="⌥i" output="î"/>
 			<when state="⌥u" output="ï"/>
 			<when state="⇪]" output="í"/>
-			<when state="⇪;" output="ï"/>
+			<when state="⇪;" output="ì"/>
 			<when state="⇪`" output="ì"/>
 			<when state="⇪," output="î"/>
 			<when state="⇪⌥" next="horn"/>
@@ -7370,7 +7370,7 @@
 			<when state="⌥u" output="ö"/>
 			<when state="⇪]" output="ó"/>
 			<when state="⇪;" output="ö"/>
-			<when state="⇪`" output="ò"/>
+			<when state="⇪`" output="ö"/>
 			<when state="⇪," output="ô"/>
 			<when state="mod²;⇪⌥" output="ͦ"/>
 				<when state="⎄;&#x0027;;⇪⌥" output="ǿ"/>
@@ -8512,7 +8512,7 @@
 			<when state="ʔ" output="ƴ"/>
 			<when state="⌥u" output="ÿ"/>
 			<when state="⇪]" output="ý"/>
-			<when state="⇪;" output="ÿ"/>
+			<when state="⇪;" output="ỳ"/>
 			<when state="⇪`" output="ỳ"/>
 			<when state="⇪," output="ŷ"/>
 			<when state="⇪⌥" output="¥"/>
@@ -8705,7 +8705,7 @@
 			<when state="⎄;-" output="-"/>
 				<when state="⎄;-;-" output="--"/>
 			<when state="⎄;=" output="="/>
-			<when state="⎄;;" output=";"/>
+			<when state="⎄;;" output=":"/>
 			<when state="⎄;&#x0027;" output="&#x0027;"/>
 				<when state="⎄;&#x0027;;⇪⌥" output="&#x0027;⌥"/>
 				<when state="⎄;&#x0027;;/" output="&#x0027;/"/>
@@ -8852,7 +8852,7 @@
 				<when state="⎄;_;quot" output="_&#x0022;"/>
 			<when state="⎄;+" output="+"/>
 			<when state="⎄;{" output="{"/>
-			<when state="⎄;:" output=":"/>
+			<when state="⎄;:" output=";"/>
 			<when state="⎄;quot" output="&#x0022;"/>
 				<when state="⎄;quot;_" output="&#x0022;_"/>
 				<when state="⎄;quot;~" output="&#x0022;~"/>
@@ -8933,7 +8933,7 @@
 		<when state="⌥n" output="˜"/>
 		<when state="⌥u" output="¨"/>
 		<when state="⇪]" output="]"/>
-		<when state="⇪;" output=";"/>
+		<when state="⇪;" output=":"/>
 		<when state="⇪`" output="`"/>
 		<when state="⇪," output=","/>
 		<when state="acute" output="´"/>
