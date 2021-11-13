@@ -7752,6 +7752,7 @@
 			<when state="⎄;C" output="₢"/>
 			<when state="⎄;F" output="₣"/>
 			<when state="⎄;O" output="®"/>
+			<when state="⎄;e" output="ɚ"/>
 			<when state="⎄;o" output="®"/>
 			<when state="⌥" output="®"/>
 			<when state="№" output="ʀ"/>
